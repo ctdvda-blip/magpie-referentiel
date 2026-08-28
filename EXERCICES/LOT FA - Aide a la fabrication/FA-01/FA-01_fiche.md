@@ -39,7 +39,7 @@ Les 20 longueurs et les 20 hauteurs, en millimètres, et les dimensions du panne
 
 ### Ce qui est attendu
 
-Le nombre minimal théorique de panneaux, arrondi au supérieur.
+4 — le nombre minimal théorique de panneaux. La surface exige 3,10 panneaux, et l'on n'en commande pas un dixième.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
 
@@ -84,7 +84,7 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 ### Pourquoi ce jeu de données
 
-Vingt pièces de dimensions réalistes pour du mobilier, dont la surface totale tombe volontairement peu après un nombre entier de panneaux : arrondir au plus proche donnerait un panneau de moins, et le débit serait incomplet.
+Vingt pièces de dimensions réalistes pour du mobilier, dont la surface totale vaut 3,10 panneaux : arrondir au plus proche donnerait 3, et il manquerait de quoi débiter un dixième du lot. Arrondir au supérieur donne 4.
 
 ### Limite de la correction automatique
 

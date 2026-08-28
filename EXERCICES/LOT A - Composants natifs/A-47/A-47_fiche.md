@@ -14,7 +14,7 @@
 | **Mode de validation** | NumericTolerance — tolérance 0,5 % |
 | **Solution de référence** | 7 composants |
 | **Gamification associée** | G-29 Défi quotidien |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

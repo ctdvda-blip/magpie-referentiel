@@ -14,7 +14,7 @@
 | **Prérequis** | A-02 |
 | **Mode de validation** | — (non notée) |
 | **Gamification associée** | G-19 Le composant mystère |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -34,12 +34,12 @@ Un fond de plan doit être transmis à un confrère sans la chaîne de calcul qu
 ## LA QUESTION
 
 Vous figez un point dans un paramètre autonome, puis vous supprimez toute la chaîne qui l'avait produit. Le point reste affiché. Pourquoi ?
-a) Grasshopper garde en mémoire le dernier calcul effectué.
-b) La donnée a été recopiée dans le paramètre, qui ne dépend plus de rien. ← réponse
+a) La donnée a été recopiée dans le paramètre, qui ne dépend plus de rien. ← réponse
+b) Grasshopper garde en mémoire le dernier calcul effectué.
 c) Le paramètre reconstruit le point à chaque ouverture du fichier.
 d) L'affichage est un reste à l'écran, il disparaîtra au prochain recalcul.
 
-Valeur diagnostique : (a) et (d) révèlent qu'on confond persistance et cache d'affichage ; (c) qu'on croit le paramètre encore lié à sa source. Aucune de ces confusions ne se verrait dans un exercice où le montage fonctionne.
+Valeur diagnostique : (b) et (d) révèlent qu'on confond persistance et cache d'affichage ; (c) qu'on croit le paramètre encore lié à sa source. Aucune de ces confusions ne se verrait dans un exercice où le montage fonctionne.
 
 ## COMMENT L'EMPLOYER
 

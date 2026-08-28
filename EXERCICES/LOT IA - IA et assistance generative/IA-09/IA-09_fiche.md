@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **Thématique** | IA4 · Apprentissage automatique |
-| **Référence au référentiel** | REF-129, REF-131 |
+| **Référence au référentiel** | REF-129, REF-131, REF-132 |
 | **Compétence visée** | Ajuster un modèle sur des mesures existantes et l'employer pour prédire un cas non mesuré. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |
 | **Niveau** | Perfectionnement |
@@ -14,7 +14,7 @@
 | **Mode de validation** | NumericTolerance — tolérance 10 |
 | **Solution de référence** | 6 composants |
 | **Gamification associée** | G-06 Cible et précision |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

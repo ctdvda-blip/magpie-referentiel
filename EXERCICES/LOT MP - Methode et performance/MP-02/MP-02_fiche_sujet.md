@@ -39,7 +39,7 @@ Les 20 temps mesurés, en millisecondes, dans l'ordre du profil affiché par Gra
 
 ### Ce qui est attendu
 
-La part des trois composants les plus coûteux, en pourcentage entier.
+97 — la part des trois composants les plus coûteux, en pourcentage entier.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
 

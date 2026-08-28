@@ -39,7 +39,7 @@ Les 20 temps mesurés, en millisecondes, dans l'ordre du profil affiché par Gra
 
 ### Ce qui est attendu
 
-La part des trois composants les plus coûteux, en pourcentage entier.
+97 — la part des trois composants les plus coûteux, en pourcentage entier.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
 
@@ -84,7 +84,7 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 ### Pourquoi ce jeu de données
 
-Le relevé est volontairement très déséquilibré : trois composants au-dessus de 1 800 ms, dix-sept sous 15 ms. C'est la répartition réelle d'une définition lente, et c'est ce qui rend la mesure indispensable.
+Le relevé est volontairement très déséquilibré : trois composants au-dessus de 1 800 ms, dix-sept sous 30 ms. C'est la répartition réelle d'une définition lente, et c'est ce qui rend la mesure indispensable.
 
 ### Pour aller plus loin
 

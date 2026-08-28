@@ -14,7 +14,7 @@
 | **Prérequis** | A-01 |
 | **Mode de validation** | — (non notée) |
 | **Gamification associée** | G-17 Quiz éclair |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -34,8 +34,8 @@ Reprise d'une définition écrite par un tiers, dont on ignore ce que transporte
 ## LA QUESTION
 
 Une liaison transporte une donnée que vous n'avez pas produite. Sans rien modifier, où lisez-vous d'un coup d'œil le nombre d'éléments qu'elle transporte, leur type et leur structure ?
-a) En survolant la sortie du composant amont. ← réponse
-b) En ouvrant les propriétés du composant aval.
+a) En ouvrant les propriétés du composant aval.
+b) En survolant la sortie du composant amont. ← réponse
 c) En branchant obligatoirement un afficheur.
 d) Cette information n'est pas accessible sans calcul.
 

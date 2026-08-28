@@ -35,11 +35,11 @@ Une poignée de meuble doit être dessinée en forme libre, puis usinée.
 
 Vous devez dessiner une poignée de forme libre, qui sera ensuite usinée à partir d'un modèle exact. Par quoi commencez-vous ?
 a) Directement en NURBS, puisque c'est ce qu'il faut à la fin.
-b) En SubD pour la recherche de forme, converti en NURBS pour l'usinage. ← réponse
-c) En maillage, plus simple à déformer.
-d) Peu importe, les trois sont équivalents.
+b) En maillage, plus simple à déformer.
+c) Peu importe, les trois sont équivalents.
+d) En SubD pour la recherche de forme, converti en NURBS pour l'usinage. ← réponse
 
-Valeur diagnostique : (a) est le réflexe de qui connaît la contrainte de sortie et pas les outils de forme — on y passe un temps considérable à recaler des points de contrôle. (c) donne une forme facile à modeler et impossible à usiner proprement. La bonne réponse tient à ce que SubD et NURBS ne s'opposent pas : l'un sert la conception, l'autre la fabrication, et la conversion est prévue pour.
+Valeur diagnostique : (a) est le réflexe de qui connaît la contrainte de sortie et pas les outils de forme — on y passe un temps considérable à recaler des points de contrôle. (b) donne une forme facile à modeler et impossible à usiner proprement. La bonne réponse tient à ce que SubD et NURBS ne s'opposent pas : l'un sert la conception, l'autre la fabrication, et la conversion est prévue pour.
 
 ## COMMENT L'EMPLOYER
 

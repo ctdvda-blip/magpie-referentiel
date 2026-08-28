@@ -14,7 +14,7 @@
 | **Mode de validation** | NumericTolerance — tolérance 0,1 |
 | **Solution de référence** | 0 composants |
 | **Gamification associée** | G-28 Pilotage à distance |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Un serveur d'outils relié à Rhino et Grasshopper, en service, et la courbe de 
 
 ### Ce qui est attendu
 
-7 110,8 mm — la longueur de la polyligne inscrite, à 0,1 près.
+Une valeur décimale : la longueur cumulée, en millimètres.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 0,1.
 
@@ -58,6 +58,12 @@ Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de l
 ## CORRIGÉ
 
 > À ne consulter qu'après avoir cherché. Dans le fichier `IA-12_complet.gh`, le corrigé occupe la zone basse du canvas, chaque étape formant un groupe distinct. Il est **autonome** : les données fournies y sont recopiées, aucun câble ne le relie à la zone sujet. Il ne produit rien tant que l'interrupteur **AFFICHER LE CORRIGÉ** n'est pas basculé sur vrai — remettez-le sur faux pour faire disparaître le résultat.
+
+### La valeur attendue
+
+> 7 110,8 mm — la longueur de la polyligne inscrite, à 0,1 près.
+
+*Cette valeur ne figure pas sur la fiche remise à l'apprenant : elle y écrirait la réponse.*
 
 ### Marche à suivre
 

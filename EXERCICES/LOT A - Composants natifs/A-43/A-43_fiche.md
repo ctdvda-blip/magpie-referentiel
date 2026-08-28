@@ -11,10 +11,10 @@
 | **Niveau** | Débutant |
 | **Durée cible** | 7 min |
 | **Prérequis** | A-41 |
-| **Mode de validation** | SingleValue — tolérance — |
+| **Mode de validation** | NumericTolerance — tolérance 1 |
 | **Solution de référence** | 4 composants |
 | **Gamification associée** | G-20 Erreur volontaire à débusquer |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,9 +39,9 @@ Une polysurface ouverte internalisée.
 
 ### Ce qui est attendu
 
-Une valeur numérique attestant le caractère fermé, et un volume non nul.
+Le volume du solide refermé, non nul — c'est lui qui prouve la fermeture : une enveloppe ouverte n'a pas de volume.
 
-Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
+Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 1.
 
 > **La consigne ne nomme aucun composant**, et c'est délibéré : nommer l'outil reviendrait à donner la réponse. Ce lot n'autorise que des composants natifs de Grasshopper pour Rhino 8 — aucun plugin tiers n'est nécessaire.
 
@@ -79,6 +79,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 - Cap Holes ne ferme que les ouvertures planes.
 - Un volume affiché à zéro signale une polysurface encore ouverte.
+
+### Pourquoi ce jeu de données
+
+Le tube fourni est ouvert aux deux extrémités. Son volume vaut zéro tant qu'il ne l'est pas : la preuve du caractère fermé est donc déjà numérique, et il n'y a pas lieu de la traduire en booléen.
 
 ### Pour aller plus loin
 

@@ -14,7 +14,7 @@
 | **Mode de validation** | ExactOrderedList — tolérance — |
 | **Solution de référence** | 6 composants |
 | **Gamification associée** | G-18 Duel de versions |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Le composant d'origine, en place et fonctionnel, et le jeu de données qu'il tra
 
 ### Ce qui est attendu
 
-Les seize sommes cumulées, de 3,42 à 68,92, dans cet ordre — identiques à celles de l'original.
+La liste ordonnée des sommes cumulées, telle que la produit le composant d'origine.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **ExactOrderedList**.
 

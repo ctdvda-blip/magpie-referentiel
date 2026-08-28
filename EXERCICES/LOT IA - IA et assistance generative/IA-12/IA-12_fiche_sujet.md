@@ -14,7 +14,7 @@
 | **Mode de validation** | NumericTolerance — tolérance 0,1 |
 | **Solution de référence** | 0 composants |
 | **Gamification associée** | G-28 Pilotage à distance |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Un serveur d'outils relié à Rhino et Grasshopper, en service, et la courbe de 
 
 ### Ce qui est attendu
 
-7 110,8 mm — la longueur de la polyligne inscrite, à 0,1 près.
+Une valeur décimale : la longueur cumulée, en millimètres.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 0,1.
 

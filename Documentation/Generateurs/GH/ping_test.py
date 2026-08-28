@@ -1,1 +1,0 @@
-print('pont actif')

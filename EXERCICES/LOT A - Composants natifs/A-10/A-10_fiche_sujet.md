@@ -14,7 +14,7 @@
 | **Mode de validation** | ExactOrderedList — tolérance 0 |
 | **Solution de référence** | 5 composants |
 | **Gamification associée** | G-07 Étoiles de performance |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Canvas vide.
 
 ### Ce qui est attendu
 
-0, 5400, 10800, 16200, 21600, 27000, 32400.
+La liste ordonnée des abscisses des axes, en millimètres, du premier au dernier.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **ExactOrderedList**.
 

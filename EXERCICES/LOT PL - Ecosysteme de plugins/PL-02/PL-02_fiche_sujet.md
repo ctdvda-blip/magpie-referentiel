@@ -34,12 +34,12 @@ Une définition reçue affiche des composants manquants.
 ## LA QUESTION
 
 Vous ouvrez une définition et plusieurs composants apparaissent en rouge, marqués manquants. Par où commencez-vous ?
-a) Reconstruire les parties manquantes à la main.
-b) Lire le nom du composant manquant, qui porte celui du plugin, et l'installer par le gestionnaire de paquets. ← réponse
+a) Lire le nom du composant manquant, qui porte celui du plugin, et l'installer par le gestionnaire de paquets. ← réponse
+b) Reconstruire les parties manquantes à la main.
 c) Demander à l'auteur de refaire la définition sans plugin.
 d) Réinstaller Rhino.
 
-Valeur diagnostique : (a) est le réflexe coûteux — on reconstruit parfois des heures ce qu'une installation d'une minute aurait résolu. Le point à faire passer : Grasshopper dit toujours ce qui manque, et le gestionnaire de paquets intégré est à préférer au téléchargement manuel, parce qu'il gère les versions et les mises à jour.
+Valeur diagnostique : (b) est le réflexe coûteux — on reconstruit parfois des heures ce qu'une installation d'une minute aurait résolu. Le point à faire passer : Grasshopper dit toujours ce qui manque, et le gestionnaire de paquets intégré est à préférer au téléchargement manuel, parce qu'il gère les versions et les mises à jour.
 
 ## COMMENT L'EMPLOYER
 

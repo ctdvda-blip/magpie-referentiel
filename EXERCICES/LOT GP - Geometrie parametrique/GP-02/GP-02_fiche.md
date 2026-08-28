@@ -31,7 +31,7 @@ Un escalier droit doit être chiffré en volume de béton avant que sa hauteur d
 
 ### Énoncé
 
-> L'escalier fait 1 100 mm de large, avec un giron de 280 mm et une paillasse de 150 mm d'épaisseur. Pour une hauteur d'étage de 2 700 mm et des marches de 175 mm, produisez le volume de béton, en mètres cubes.
+> L'escalier est massif, 1 100 mm de large, giron de 280 mm. Pour une hauteur d'étage de 2 700 mm et une hauteur de marche visée de 175 mm, produisez le volume de béton, en mètres cubes.
 
 ### Ce qui vous est fourni
 
@@ -39,7 +39,7 @@ Trois valeurs réglables : hauteur d'étage, hauteur de marche visée et giron.
 
 ### Ce qui est attendu
 
-Le volume de béton, en mètres cubes, à 0,001 près.
+6,653 m³ — le volume de béton de l'escalier massif, à 0,001 près.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 0,001.
 
@@ -67,7 +67,7 @@ Grille : nombre de marches juste (1), hauteur réelle recalculée (1), volume ju
 
 **Étape 3.** Répartir les marches par une suite régulière.
 
-**Étape 4.** Construire la paillasse et les marches, les réunir en un solide unique.
+**Étape 4.** Chaque marche est un bloc de giron × largeur × sa hauteur cumulée : la première monte d'une hauteur, la quinzième de quinze.
 
 **Étape 5.** Mesurer le volume et convertir en mètres cubes.
 
@@ -75,11 +75,11 @@ Grille : nombre de marches juste (1), hauteur réelle recalculée (1), volume ju
 
 C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit ce que l'apprenant a mal compris, là où un simple « faux » ne dirait rien.
 
-> Prendre 2 700 ÷ 175 = 15,43 marches et arrondir au plus proche. Un escalier a un nombre entier de contremarches, et c'est la hauteur de marche qui s'ajuste, pas la hauteur d'étage. Arrondir la marche au lieu du compte donne un escalier qui n'arrive pas au niveau.
+> Garder 175 mm comme hauteur de marche réelle. 2 700 ÷ 175 vaut 15,43 : le nombre de contremarches s'arrondit à 15, et c'est alors la HAUTEUR qui se recale, à 180 mm. Conserver 175 mm donne un escalier de 2 625 mm qui n'atteint pas l'étage — de trois quarts de marche.
 
 ### Pièges fréquents
 
-- Réunir les volumes sans booléenne : les recouvrements sont comptés deux fois.
+- Prendre la hauteur de marche comme hauteur de chaque bloc : on obtient le volume d'une seule assise, pas de l'escalier.
 - Oublier que la dernière contremarche arrive au niveau fini, et poser une marche de trop.
 
 ### Pourquoi ce jeu de données

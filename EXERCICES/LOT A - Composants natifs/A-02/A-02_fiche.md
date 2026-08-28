@@ -14,7 +14,7 @@
 | **Mode de validation** | GeometryTolerance — tolérance 0,01 mm |
 | **Solution de référence** | 4 composants |
 | **Gamification associée** | G-26 Feedback visuel immédiat |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

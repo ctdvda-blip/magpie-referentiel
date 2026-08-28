@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **Thématique** | IA5 · Modèles de langage et IA générative |
-| **Référence au référentiel** | REF-133, REF-134 |
+| **Référence au référentiel** | REF-133, REF-134, REF-135 |
 | **Compétence visée** | Extraire d'un texte de prescription les valeurs exploitables par une définition, et les contrôler. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |
 | **Niveau** | Perfectionnement |
@@ -14,7 +14,7 @@
 | **Mode de validation** | SingleValue — tolérance 0 |
 | **Solution de référence** | 6 composants |
 | **Gamification associée** | G-16 Enquête documentaire |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

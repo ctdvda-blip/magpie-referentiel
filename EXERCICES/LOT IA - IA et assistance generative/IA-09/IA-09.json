@@ -25,7 +25,7 @@
   "fiche_sujet": "IA-09_fiche_sujet.md", 
   "mode_validation": "NumericTolerance", 
   "bareme": "1 point si l'estimation tombe à 10 W près de la valeur de référence.", 
-  "reference_referentiel": "REF-129, REF-131", 
+  "reference_referentiel": "REF-129, REF-131, REF-132", 
   "parametre_reponse": "REPONSE", 
   "reglages_manuels": [], 
   "prerequis": "IA-04", 

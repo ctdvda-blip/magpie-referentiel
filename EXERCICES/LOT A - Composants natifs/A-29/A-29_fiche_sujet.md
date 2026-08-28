@@ -14,7 +14,7 @@
 | **Prérequis** | A-08 |
 | **Mode de validation** | — (non notée) |
 | **Gamification associée** | G-18 Vrai / Faux à élimination |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -35,9 +35,9 @@ Deux cotes calculées par des chemins différents devraient coïncider.
 
 Vous comparez 0,1 + 0,2 à 0,3 par un test d'égalité stricte. Le résultat est faux. Pourquoi ?
 a) Grasshopper arrondit les affichages à trois décimales.
-b) Les nombres à virgule sont codés en binaire : la somme vaut 0,30000000000000004. ← réponse
-c) Le test d'égalité ne fonctionne pas sur les décimaux.
-d) Il faut convertir en entiers avant de comparer.
+b) Le test d'égalité ne fonctionne pas sur les décimaux.
+c) Il faut convertir en entiers avant de comparer.
+d) Les nombres à virgule sont codés en binaire : la somme vaut 0,30000000000000004. ← réponse
 
 Valeur diagnostique : c'est la connaissance qui, non transmise, produit des heures de débogage sur des géométries « qui devraient se toucher ». Elle explique aussi pourquoi le mode de validation tolérant existe.
 

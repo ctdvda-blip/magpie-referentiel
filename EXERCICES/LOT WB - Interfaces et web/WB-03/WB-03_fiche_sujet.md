@@ -34,12 +34,12 @@ Une application métier doit exploiter la géométrie de Rhino sans que l'utilis
 ## LA QUESTION
 
 Vous voulez faire tourner une définition Grasshopper depuis une application web, sans interface Rhino. Que cherchez-vous ?
-a) Rhino.Inside, qui charge Rhino dans un autre logiciel hôte.
-b) Rhino.Compute, qui expose le moteur de calcul comme un service appelable à distance. ← réponse
+a) Rhino.Compute, qui expose le moteur de calcul comme un service appelable à distance. ← réponse
+b) Rhino.Inside, qui charge Rhino dans un autre logiciel hôte.
 c) Un export en maillage, qui suffit toujours.
 d) Les deux font la même chose.
 
-Valeur diagnostique : (a) et (d) confondent deux réponses à deux besoins différents — Rhino.Inside fait cohabiter Rhino avec Revit ou AutoCAD sur le même poste ; Rhino.Compute met le moteur au bout d'un appel réseau. Se tromper de l'un pour l'autre fait partir sur une architecture entière qu'il faudra défaire.
+Valeur diagnostique : (b) et (d) confondent deux réponses à deux besoins différents — Rhino.Inside fait cohabiter Rhino avec Revit ou AutoCAD sur le même poste ; Rhino.Compute met le moteur au bout d'un appel réseau. Se tromper de l'un pour l'autre fait partir sur une architecture entière qu'il faudra défaire.
 
 ## COMMENT L'EMPLOYER
 

@@ -14,7 +14,7 @@
 | **Mode de validation** | ExactOrderedList — tolérance — |
 | **Solution de référence** | 3 composants |
 | **Gamification associée** | G-11 Mots croisés de composants |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Les longueurs des cinq lames de chêne et des cinq lames de noyer, dans deux lis
 
 ### Ce qui est attendu
 
-1245, 1418, 1268, 1463, 1231, 1437, 1287, 1409, 1252, 1481.
+La liste ordonnée des longueurs, dans l'ordre de pose du plateau.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **ExactOrderedList**.
 

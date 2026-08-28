@@ -35,8 +35,8 @@ On voudrait qu'une définition réagisse à une touche ou à un clic dans la vue
 
 Grasshopper recalcule quand une donnée change. Comment lui faire prendre en compte un évènement clavier ou souris ?
 a) C'est impossible, Grasshopper n'écoute rien.
-b) Par un composant qui expose l'évènement comme une donnée, laquelle déclenche alors le recalcul habituel. ← réponse
-c) En relançant la définition à la main.
+b) En relançant la définition à la main.
+c) Par un composant qui expose l'évènement comme une donnée, laquelle déclenche alors le recalcul habituel. ← réponse
 d) En écrivant un plugin, il n'y a pas d'autre voie.
 
 Valeur diagnostique : (a) et (d) sont deux façons de renoncer trop tôt. Le point à faire passer est conceptuel : le modèle de Grasshopper reste le même — une donnée change, l'aval se recalcule. L'évènement n'est pas une exception au modèle, c'est une donnée de plus.

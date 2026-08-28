@@ -14,7 +14,7 @@
 | **Mode de validation** | SingleValue — tolérance 0 |
 | **Solution de référence** | 4 composants |
 | **Gamification associée** | G-07 Indice progressif |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Les 28 niveaux relevés, en millimètres, positifs et négatifs.
 
 ### Ce qui est attendu
 
-48 — l'écart entre le point le plus haut (+25) et le plus bas (−23).
+Un nombre : l'amplitude du relevé, en millimètres.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
 

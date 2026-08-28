@@ -39,7 +39,7 @@ Un fichier Rhino contenant la platine pleine.
 
 ### Ce qui est attendu
 
-15 268 mm³ environ — quatre cylindres de 18 mm de diamètre sur 15 mm d'épaisseur.
+Une valeur : le volume de matière retirée, en millimètres cubes.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 1.
 

@@ -35,11 +35,11 @@ Un même module de façade est répété quarante fois ; le client demande d'en 
 
 Un module se répète quarante fois et devra être modifié d'un coup. Groupe ou bloc ?
 a) Un groupe : il rassemble les objets, c'est fait pour ça.
-b) Un bloc : modifier sa définition met à jour les quarante instances. ← réponse
-c) Les deux se valent, c'est une affaire d'habitude.
-d) Ni l'un ni l'autre, il faut un calque par module.
+b) Les deux se valent, c'est une affaire d'habitude.
+c) Ni l'un ni l'autre, il faut un calque par module.
+d) Un bloc : modifier sa définition met à jour les quarante instances. ← réponse
 
-Valeur diagnostique : (a) et (c) sont la représentation la plus coûteuse du lot. Un groupe ne fait que rassembler une sélection ; il faut alors reprendre les quarante copies une à une. Le bloc porte une définition unique. La différence ne se voit pas au moment où l'on modélise — elle se paie au moment où l'on modifie.
+Valeur diagnostique : (a) et (b) sont la représentation la plus coûteuse du lot. Un groupe ne fait que rassembler une sélection ; il faut alors reprendre les quarante copies une à une. Le bloc porte une définition unique. La différence ne se voit pas au moment où l'on modélise — elle se paie au moment où l'on modifie.
 
 ## COMMENT L'EMPLOYER
 

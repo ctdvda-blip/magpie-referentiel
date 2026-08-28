@@ -35,11 +35,11 @@ Un besoin de géométrie de calcul — enveloppe convexe, triangulation — se p
 
 Vous avez besoin d'une triangulation dans un composant scripté. Par où commencez-vous ?
 a) L'écrire : c'est un bon exercice.
-b) Chercher si RhinoCommon la fournit déjà, puis une librairie éprouvée. ← réponse
-c) La demander à un assistant, qui l'écrira vite.
-d) Changer d'approche pour éviter d'en avoir besoin.
+b) La demander à un assistant, qui l'écrira vite.
+c) Changer d'approche pour éviter d'en avoir besoin.
+d) Chercher si RhinoCommon la fournit déjà, puis une librairie éprouvée. ← réponse
 
-Valeur diagnostique : (c) est devenu le réflexe majoritaire et c'est le plus trompeur — un assistant produit vite une triangulation qui marche sur le cas d'essai et échoue sur les cas dégénérés, que trente ans de bibliothèque ont, eux, déjà rencontrés. La question ne porte pas sur la difficulté d'écrire, mais sur le coût de valider.
+Valeur diagnostique : (b) est devenu le réflexe majoritaire et c'est le plus trompeur — un assistant produit vite une triangulation qui marche sur le cas d'essai et échoue sur les cas dégénérés, que trente ans de bibliothèque ont, eux, déjà rencontrés. La question ne porte pas sur la difficulté d'écrire, mais sur le coût de valider.
 
 ## COMMENT L'EMPLOYER
 

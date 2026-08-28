@@ -39,7 +39,7 @@ Les 20 longueurs et les 20 hauteurs, en millimètres, et les dimensions du panne
 
 ### Ce qui est attendu
 
-Le nombre minimal théorique de panneaux, arrondi au supérieur.
+4 — le nombre minimal théorique de panneaux. La surface exige 3,10 panneaux, et l'on n'en commande pas un dixième.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
 

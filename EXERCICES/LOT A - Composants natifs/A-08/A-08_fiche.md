@@ -14,7 +14,7 @@
 | **Mode de validation** | SingleValue — tolérance 0 |
 | **Solution de référence** | 4 composants |
 | **Gamification associée** | G-01 Score visible |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Les 28 cotes relevées sur le lot, en millimètres, ainsi que la cote nominale d
 
 ### Ce qui est attendu
 
-11 — le nombre de traverses dont l'écart à 1 200 mm dépasse 5 mm.
+Un nombre entier : combien de traverses sortent de la tolérance.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
 
@@ -58,6 +58,12 @@ Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de l
 ## CORRIGÉ
 
 > À ne consulter qu'après avoir cherché. Dans le fichier `A-08_complet.gh`, le corrigé occupe la zone basse du canvas, chaque étape formant un groupe distinct. Il est **autonome** : les données fournies y sont recopiées, aucun câble ne le relie à la zone sujet. Il ne produit rien tant que l'interrupteur **AFFICHER LE CORRIGÉ** n'est pas basculé sur vrai — remettez-le sur faux pour faire disparaître le résultat.
+
+### La valeur attendue
+
+> 11 — le nombre de traverses dont l'écart à 1 200 mm dépasse 5 mm.
+
+*Cette valeur ne figure pas sur la fiche remise à l'apprenant : elle y écrirait la réponse.*
 
 ### Marche à suivre
 

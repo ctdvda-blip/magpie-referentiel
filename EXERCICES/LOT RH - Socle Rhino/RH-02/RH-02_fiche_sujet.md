@@ -39,7 +39,7 @@ Un fichier Rhino contenant les 18 points sur le calque « IMPLANTATION », et un
 
 ### Ce qui est attendu
 
-12 — le nombre de points sur le calque des porteurs.
+Un nombre entier : combien de points portent le calque des porteurs, une fois le tri fait.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
 

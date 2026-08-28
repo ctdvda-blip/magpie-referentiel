@@ -31,7 +31,7 @@ Un escalier droit doit être chiffré en volume de béton avant que sa hauteur d
 
 ### Énoncé
 
-> L'escalier fait 1 100 mm de large, avec un giron de 280 mm et une paillasse de 150 mm d'épaisseur. Pour une hauteur d'étage de 2 700 mm et des marches de 175 mm, produisez le volume de béton, en mètres cubes.
+> L'escalier est massif, 1 100 mm de large, giron de 280 mm. Pour une hauteur d'étage de 2 700 mm et une hauteur de marche visée de 175 mm, produisez le volume de béton, en mètres cubes.
 
 ### Ce qui vous est fourni
 
@@ -39,7 +39,7 @@ Trois valeurs réglables : hauteur d'étage, hauteur de marche visée et giron.
 
 ### Ce qui est attendu
 
-Le volume de béton, en mètres cubes, à 0,001 près.
+6,653 m³ — le volume de béton de l'escalier massif, à 0,001 près.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 0,001.
 

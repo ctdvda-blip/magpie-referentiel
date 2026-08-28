@@ -34,12 +34,12 @@ Un fichier reçu d'un confrère s'ouvre sur une vue où l'on ne voit rien : le m
 ## LA QUESTION
 
 Vous ouvrez un fichier et la vue est vide, alors que le modèle existe. Quel réflexe vous remet devant la géométrie en une action ?
-a) Zoomer arrière longuement jusqu'à voir quelque chose.
-b) Zoom Étendue — la vue se cadre sur tout ce qui est visible. ← réponse
+a) Zoom Étendue — la vue se cadre sur tout ce qui est visible. ← réponse
+b) Zoomer arrière longuement jusqu'à voir quelque chose.
 c) Recréer une vue depuis le menu.
 d) Fermer et rouvrir le fichier.
 
-Valeur diagnostique : (a) est ce que fait spontanément un débutant, et cela peut durer longtemps — un objet égaré à 10 km de l'origine ne se rattrape pas à la molette. Cette question vaut surtout pour son prolongement : si le zoom étendue ne montre toujours rien, c'est que les objets sont sur un calque masqué ou hors du plan de coupe — et l'on cherche alors du bon côté.
+Valeur diagnostique : (b) est ce que fait spontanément un débutant, et cela peut durer longtemps — un objet égaré à 10 km de l'origine ne se rattrape pas à la molette. Cette question vaut surtout pour son prolongement : si le zoom étendue ne montre toujours rien, c'est que les objets sont sur un calque masqué ou hors du plan de coupe — et l'on cherche alors du bon côté.
 
 ## COMMENT L'EMPLOYER
 

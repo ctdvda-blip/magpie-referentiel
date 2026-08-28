@@ -39,7 +39,7 @@ La longueur de façade, la largeur maximale de panneau, et un moteur de recherch
 
 ### Ce qui est attendu
 
-8 — le nombre minimal de panneaux.
+Un nombre entier : combien de panneaux au minimum.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
 

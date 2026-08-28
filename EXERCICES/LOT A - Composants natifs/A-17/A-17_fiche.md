@@ -14,7 +14,7 @@
 | **Mode de validation** | ExactOrderedList — tolérance — |
 | **Solution de référence** | 3 composants |
 | **Gamification associée** | G-11 Mots croisés de composants |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Les longueurs des cinq lames de chêne et des cinq lames de noyer, dans deux lis
 
 ### Ce qui est attendu
 
-1245, 1418, 1268, 1463, 1231, 1437, 1287, 1409, 1252, 1481.
+La liste ordonnée des longueurs, dans l'ordre de pose du plateau.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **ExactOrderedList**.
 
@@ -58,6 +58,12 @@ Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de l
 ## CORRIGÉ
 
 > À ne consulter qu'après avoir cherché. Dans le fichier `A-17_complet.gh`, le corrigé occupe la zone basse du canvas, chaque étape formant un groupe distinct. Il est **autonome** : les données fournies y sont recopiées, aucun câble ne le relie à la zone sujet. Il ne produit rien tant que l'interrupteur **AFFICHER LE CORRIGÉ** n'est pas basculé sur vrai — remettez-le sur faux pour faire disparaître le résultat.
+
+### La valeur attendue
+
+> 1245, 1418, 1268, 1463, 1231, 1437, 1287, 1409, 1252, 1481.
+
+*Cette valeur ne figure pas sur la fiche remise à l'apprenant : elle y écrirait la réponse.*
 
 ### Marche à suivre
 

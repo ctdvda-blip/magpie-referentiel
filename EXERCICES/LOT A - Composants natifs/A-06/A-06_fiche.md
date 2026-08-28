@@ -14,7 +14,7 @@
 | **Prérequis** | A-01 |
 | **Mode de validation** | — (non notée) |
 | **Gamification associée** | G-18 Vrai / Faux à élimination |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -35,11 +35,11 @@ Un nombre de travées calculé produit une valeur décimale, alors que le compos
 
 Une valeur décimale de 4,6 alimente une entrée qui n'accepte que des entiers. Que vaut l'entier réellement utilisé ?
 a) 4 — la partie entière est conservée.
-b) 5 — la valeur est arrondie au plus proche. ← réponse
-c) 5 — la valeur est toujours arrondie au supérieur.
-d) Le composant se met en erreur.
+b) 5 — la valeur est toujours arrondie au supérieur.
+c) Le composant se met en erreur.
+d) 5 — la valeur est arrondie au plus proche. ← réponse
 
-Valeur diagnostique : c'est la question la plus utile du lot, parce que (a) et (c) donnent tous deux la bonne réponse pour 4,6 et se trompent pour 4,4. Un apprenant qui coche (c) « réussit » et garde une règle fausse. Sur un approvisionnement — où il faut au moins autant de pièces — c'est bien un arrondi au supérieur qu'il faut, et il doit être posé explicitement : la conversion implicite ne le fera pas.
+Valeur diagnostique : c'est la question la plus utile du lot, parce que (a) et (d) donnent tous deux la bonne réponse pour 4,6 et se trompent pour 4,4. Un apprenant qui coche (d) « réussit » et garde une règle fausse. Sur un approvisionnement — où il faut au moins autant de pièces — c'est bien un arrondi au supérieur qu'il faut, et il doit être posé explicitement : la conversion implicite ne le fera pas.
 
 ## COMMENT L'EMPLOYER
 

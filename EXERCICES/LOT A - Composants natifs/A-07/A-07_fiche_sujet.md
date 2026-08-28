@@ -14,7 +14,7 @@
 | **Prérequis** | A-06 |
 | **Mode de validation** | — (non notée) |
 | **Gamification associée** | G-20 Erreur volontaire à débusquer |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -34,12 +34,12 @@ Une donnée saisie en toutes lettres remonte d'un tableur mal rempli.
 ## LA QUESTION
 
 Un composant passe en orange et sa sortie est vide. Que faites-vous en premier ?
-a) Vous le supprimez et le reposez.
-b) Vous survolez la pastille pour lire le message, qui nomme l'entrée fautive. ← réponse
+a) Vous survolez la pastille pour lire le message, qui nomme l'entrée fautive. ← réponse
+b) Vous le supprimez et le reposez.
 c) Vous rebranchez toutes les entrées.
 d) Vous relancez le recalcul du document.
 
-Valeur diagnostique : (a) et (c) sont le réflexe de l'apprenant qui ne sait pas que Grasshopper dit précisément ce qui ne va pas ; l'orange signale un avertissement, pas une panne.
+Valeur diagnostique : (b) et (c) sont le réflexe de l'apprenant qui ne sait pas que Grasshopper dit précisément ce qui ne va pas ; l'orange signale un avertissement, pas une panne.
 
 ## COMMENT L'EMPLOYER
 

@@ -14,7 +14,7 @@
 | **Mode de validation** | GeometryTolerance — tolérance 0,1 mm |
 | **Solution de référence** | 3 composants |
 | **Gamification associée** | G-22 Boss de fin de chapitre |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

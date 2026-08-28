@@ -14,7 +14,7 @@
 | **Mode de validation** | NumericTolerance — tolérance 0,01 |
 | **Solution de référence** | 5 composants |
 | **Gamification associée** | G-11 Chasse à l'erreur |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ L'assemblage, et un composant scripté qui en annonce le volume.
 
 ### Ce qui est attendu
 
-40 800 000 mm³, soit 0,0408 m³ — à comparer aux 40,8 m³ annoncés par le composant fourni.
+Une valeur décimale : le volume exact de l'assemblage, dans l'unité du modèle. Le composant fourni en annonce un autre.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 0,01.
 

@@ -14,7 +14,7 @@
 | **Mode de validation** | ExactOrderedList — tolérance — |
 | **Solution de référence** | 6 composants |
 | **Gamification associée** | G-18 Duel de versions |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Le composant d'origine, en place et fonctionnel, et le jeu de données qu'il tra
 
 ### Ce qui est attendu
 
-Les seize sommes cumulées, de 3,42 à 68,92, dans cet ordre — identiques à celles de l'original.
+La liste ordonnée des sommes cumulées, telle que la produit le composant d'origine.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **ExactOrderedList**.
 
@@ -58,6 +58,12 @@ Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de l
 ## CORRIGÉ
 
 > À ne consulter qu'après avoir cherché. Dans le fichier `IA-06_complet.gh`, le corrigé occupe la zone basse du canvas, chaque étape formant un groupe distinct. Il est **autonome** : les données fournies y sont recopiées, aucun câble ne le relie à la zone sujet. Il ne produit rien tant que l'interrupteur **AFFICHER LE CORRIGÉ** n'est pas basculé sur vrai — remettez-le sur faux pour faire disparaître le résultat.
+
+### La valeur attendue
+
+> Les seize sommes cumulées, de 3,42 à 68,92, dans cet ordre — identiques à celles de l'original.
+
+*Cette valeur ne figure pas sur la fiche remise à l'apprenant : elle y écrirait la réponse.*
 
 ### Marche à suivre
 

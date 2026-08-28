@@ -14,7 +14,7 @@
 | **Mode de validation** | ExactOrderedList — tolérance — |
 | **Solution de référence** | 4 composants |
 | **Gamification associée** | G-08 Combo / série |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Les six numéros de repère et les six longueurs correspondantes, dans deux list
 
 ### Ce qui est attendu
 
-4256, 4207, 4229, 4198, 4183, 4171.
+La liste ordonnée des numéros de repère, du plus long débit au plus court.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **ExactOrderedList**.
 

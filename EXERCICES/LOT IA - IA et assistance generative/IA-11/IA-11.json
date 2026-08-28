@@ -25,7 +25,7 @@
   "fiche_sujet": "IA-11_fiche_sujet.md", 
   "mode_validation": "SingleValue", 
   "bareme": "1 point si le nombre de montants est juste et si chaque valeur extraite est justifiée par sa phrase source.", 
-  "reference_referentiel": "REF-133, REF-134", 
+  "reference_referentiel": "REF-133, REF-134, REF-135", 
   "parametre_reponse": "REPONSE", 
   "reglages_manuels": [], 
   "prerequis": "IA-03", 

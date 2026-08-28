@@ -39,7 +39,7 @@ Un fichier Rhino avec l'emprise tracée et un plot modèle à l'origine.
 
 ### Ce qui est attendu
 
-48 — huit rangées de six plots.
+Un nombre entier : combien de plots compte la trame.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
 

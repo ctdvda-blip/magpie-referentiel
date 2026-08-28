@@ -14,7 +14,7 @@
 | **Mode de validation** | NumericTolerance — tolérance 0,01 |
 | **Solution de référence** | 5 composants |
 | **Gamification associée** | G-02 Barre de progression |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Les 16 longueurs en mètres et les 16 diamètres en millimètres, dans deux list
 
 ### Ce qui est attendu
 
-58,03 m² — la surface développée totale, à 0,01 près.
+Une valeur décimale : la surface développée totale, en mètres carrés.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 0,01.
 

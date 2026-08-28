@@ -39,7 +39,7 @@ La fonction de flèche, l'intervalle de départ et le critère d'arrêt.
 
 ### Ce qui est attendu
 
-12 — le nombre de bissections pour ramener 3 000 mm sous 1 mm.
+Un nombre entier : combien de bissections ont été nécessaires pour atteindre le critère.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
 

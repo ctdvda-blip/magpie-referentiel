@@ -34,12 +34,12 @@ Une pièce parfaitement lisse dans Rhino ressort facettée de l'imprimante.
 ## LA QUESTION
 
 Votre cylindre est parfait dans Rhino, et il sort facetté de l'imprimante. Pourquoi ?
-a) L'imprimante n'est pas assez précise.
-b) Le format STL ne connaît que des triangles : la conversion a échantillonné la surface, et la finesse de cet échantillonnage est un réglage. ← réponse
+a) Le format STL ne connaît que des triangles : la conversion a échantillonné la surface, et la finesse de cet échantillonnage est un réglage. ← réponse
+b) L'imprimante n'est pas assez précise.
 c) Le fichier a été enregistré en basse résolution.
 d) Il fallait exporter en OBJ.
 
-Valeur diagnostique : (a) fait accuser la machine et acheter du matériel qui ne changera rien. (d) est faux pour la même raison — l'OBJ maille aussi. La bonne réponse déplace l'attention vers le seul endroit où l'on peut agir : les réglages de maillage au moment de l'export.
+Valeur diagnostique : (b) fait accuser la machine et acheter du matériel qui ne changera rien. (d) est faux pour la même raison — l'OBJ maille aussi. La bonne réponse déplace l'attention vers le seul endroit où l'on peut agir : les réglages de maillage au moment de l'export.
 
 ## COMMENT L'EMPLOYER
 

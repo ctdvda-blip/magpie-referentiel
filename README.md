@@ -37,32 +37,44 @@ JavaScript, quelle que soit la qualité du chiffrement de l'écran d'entrée.
 | | |
 |---|---|
 | Référentiel | **142 notions**, 11 domaines — **100 % couvertes** |
-| Exercices | **99**, répartis en 11 lots |
-| Définitions | **124 fichiers `.gh`**, sujet et corrigé |
+| Exercices | **99**, en 11 lots : 77 notés, 22 questions charnières |
+| Définitions Grasshopper | **164 fichiers `.gh`** — 82 exercices, sujet et corrigé |
 | Fiches | Markdown et Word illustrées, sujet seul et sujet + corrigé |
 
 ### Les onze lots
 
-| Lot | Domaine | Items |
-|---|---|---:|
-| A | Découverte des composants natifs | 49 |
-| RH | Socle Rhino | 10 |
-| PL | Écosystème de plugins | 4 |
-| GP | Géométrie paramétrique appliquée | 4 |
-| QT | Quantitatifs, chiffrage et export | 3 |
-| MP | Méthode, performance et évènements | 3 |
-| AV | Algorithmique avancée | 3 |
-| DV | Développement, scripting et API | 4 |
-| WB | Interfaces, web et interopérabilité | 3 |
-| FA | Aide à la fabrication | 2 |
-| IA | IA et assistance générative | 14 |
+| Lot | Domaine | Items | dont charnières |
+|---|---|---:|---:|
+| A | Découverte des composants natifs | 49 | 7 |
+| IA | IA et assistance générative | 14 | 3 |
+| RH | Socle Rhino | 10 | 4 |
+| PL | Écosystème de plugins | 4 | 3 |
+| GP | Géométrie paramétrique appliquée | 4 | 1 |
+| DV | Développement, scripting et API | 4 | 2 |
+| QT | Quantitatifs, chiffrage et export | 3 | 0 |
+| MP | Méthode, performance et évènements | 3 | 1 |
+| AV | Algorithmique avancée | 3 | 0 |
+| WB | Interfaces, web et interopérabilité | 3 | 1 |
+| FA | Aide à la fabrication | 2 | 0 |
 
-Sur ces 99 items, **77 sont des exercices notés** et **22 des questions
-charnières** — des connaissances que la skill interdit de monter en exercice,
-parce que la réponse s'y obtiendrait en sachant plutôt qu'en construisant.
+Les **22 questions charnières** ne sont pas des exercices notés : ce sont des
+connaissances que la skill interdit de monter en exercice, parce que la réponse
+s'y obtiendrait en sachant plutôt qu'en construisant. Chacune est construite
+pour que sa mauvaise réponse soit *diagnostique*.
 
 Les lots B (algorithmes combinés), C (projets appliqués) et G (exercices
 gamifiés) sont spécifiés au cahier des charges mais pas encore produits.
+
+### Ce qui n'a pas encore de définition Grasshopper
+
+17 exercices sur 99, pour trois raisons distinctes :
+
+- une géométrie Rhino reste à fabriquer : RH-02 à RH-05, RH-08, RH-09, GP-03 ;
+- un plugin d'itération, de simulation ou de déroulé est requis : AV-01, AV-02,
+  FA-02 ;
+- le livrable n'est pas un graphe — un plugin compilé, une définition
+  interfacée, un configurateur en ligne : IA-07, DV-02, DV-04, MP-01, PL-03,
+  WB-01, WB-02.
 
 ---
 

@@ -14,7 +14,7 @@
 | **Mode de validation** | SingleValue — tolérance 0 |
 | **Solution de référence** | 4 composants |
 | **Gamification associée** | G-01 Score visible |
-| **Version** | v0.3-260826 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
@@ -39,7 +39,7 @@ Les 28 cotes relevées sur le lot, en millimètres, ainsi que la cote nominale d
 
 ### Ce qui est attendu
 
-11 — le nombre de traverses dont l'écart à 1 200 mm dépasse 5 mm.
+Un nombre entier : combien de traverses sortent de la tolérance.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **SingleValue**.
 

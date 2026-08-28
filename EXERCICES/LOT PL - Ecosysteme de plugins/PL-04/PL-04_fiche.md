@@ -35,11 +35,11 @@ Un besoin nouveau — imbriquer des pièces — a sûrement déjà un plugin.
 
 Avant d'adopter un plugin fonctionnel dans une définition livrée à un client, qu'est-ce qui compte le plus ?
 a) Le nombre de composants qu'il apporte.
-b) Sa licence, son entretien et ce qui se passe pour le client s'il disparaît. ← réponse
-c) Sa popularité sur les forums.
-d) Qu'il soit gratuit.
+b) Sa popularité sur les forums.
+c) Qu'il soit gratuit.
+d) Sa licence, son entretien et ce qui se passe pour le client s'il disparaît. ← réponse
 
-Valeur diagnostique : (d) est le critère le plus souvent appliqué et le plus dangereux — gratuit ne dit rien du droit d'usage commercial, ni de la survie du projet. Une définition livrée qui dépend d'un plugin abandonné devient inexploitable à la première mise à jour de Rhino, et c'est le client qui le découvre.
+Valeur diagnostique : (c) est le critère le plus souvent appliqué et le plus dangereux — gratuit ne dit rien du droit d'usage commercial, ni de la survie du projet. Une définition livrée qui dépend d'un plugin abandonné devient inexploitable à la première mise à jour de Rhino, et c'est le client qui le découvre.
 
 ## COMMENT L'EMPLOYER
 
