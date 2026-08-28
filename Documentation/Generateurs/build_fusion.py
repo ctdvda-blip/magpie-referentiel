@@ -64,16 +64,9 @@ def nature_des_notions():
     """Retourne {ID de notion: (nature, exercices)} d'apres le lot A produit."""
     import re as _re
     try:
-        from exos_a import LOT_A as _BRUT
-        from skill_a import fusionner as _f
+        from lots import TOUS as corpus
     except Exception:
         return {}
-    corpus = [_f(_e) for _e in _BRUT]
-    try:
-        from domaine_ia import LOT_IA
-        corpus += list(LOT_IA)      # deja conformes a la skill
-    except Exception:
-        pass
     par_ref = {}
     for ex in corpus:
         for rid in _re.findall(u"REF-[0-9]+", ex.get("ref", u"")):

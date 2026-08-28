@@ -16,9 +16,9 @@ import sys
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 PROJET = os.path.abspath(os.path.join(ICI, "..", ".."))
-SORTIES = [os.path.join(PROJET, "EXERCICES", "LOT A - Composants natifs"),
-           os.path.join(PROJET, "EXERCICES",
-                        "LOT IA - IA et assistance generative")]
+from lots import LOTS as _REGISTRE
+SORTIES = [os.path.join(PROJET, d.replace("/", os.sep))
+        for _c, _n, d, _l in _REGISTRE]
 SORTIE = SORTIES[0]
 
 WD_FORMAT_PDF = 17
@@ -64,22 +64,45 @@ def main():
                 if verrouille(src):
                     ignores.append(f)
                     continue
-                docs.append((src, os.path.join(dd, f[:-5] + ".pdf")))
+                dst = os.path.join(dd, f[:-5] + ".pdf")
+                # Reprise : on saute ce qui est deja a jour. Sans cela, une
+                # execution interrompue recommence tout depuis le debut et
+                # n'arrive jamais au bout.
+                if (os.path.exists(dst)
+                        and os.path.getmtime(dst) >= os.path.getmtime(src)):
+                    continue
+                docs.append((src, dst))
 
     if not docs:
         print("Aucune fiche Word trouvee.")
         return 1
 
     pythoncom.CoInitialize()
-    # DispatchEx : instance Word NEUVE et isolee. Surtout pas Dispatch, qui se
-    # rattacherait a la session ouverte de l'utilisateur.
-    app = w32.DispatchEx("Word.Application")
-    app.Visible = False
-    app.DisplayAlerts = 0
 
+    # L'automatisation Word se degrade au fil des conversions : passe une
+    # douzaine de documents, l'appel COM finit par ne plus rendre la main, sans
+    # message ni erreur. On renouvelle donc l'instance regulierement.
+    PAR_INSTANCE = 8
+
+    def neuve():
+        """Instance Word NEUVE et isolee. Surtout pas Dispatch, qui se
+        rattacherait a la session ouverte de l'utilisateur."""
+        a = w32.DispatchEx("Word.Application")
+        a.Visible = False
+        a.DisplayAlerts = 0
+        return a
+
+    app = neuve()
     faits, echecs = 0, []
     try:
-        for src, dst in docs:
+        for i, (src, dst) in enumerate(docs):
+            if i and i % PAR_INSTANCE == 0:
+                try:
+                    app.Quit()
+                except Exception:
+                    pass
+                app = neuve()
+                print("  ... %d/%d" % (i, len(docs)))
             try:
                 doc = app.Documents.Open(src, ReadOnly=True,
                                          AddToRecentFiles=False,

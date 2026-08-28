@@ -597,7 +597,7 @@ dict(id=u"IA-08", titre=u"Le GUID que l'on ne régénère pas",
 
 dict(id=u"IA-09", titre=u"Prédire une déperdition sur une baie nouvelle",
      them=u"IA4 · Apprentissage automatique",
-     ref=u"REF-129, REF-131", niv=u"Perfectionnement", duree=30, prereq=u"IA-04",
+     ref=u"REF-129, REF-131, REF-132", niv=u"Perfectionnement", duree=30, prereq=u"IA-04",
      competence=u"Ajuster un modèle sur des mesures existantes et l'employer "
                 u"pour prédire un cas non mesuré.",
      bloom=u"Appliquer × procédurale",
@@ -689,7 +689,7 @@ dict(id=u"IA-10", titre=u"Regrouper un débit pour rationaliser la commande",
 
 dict(id=u"IA-11", titre=u"Un cahier des charges qui devient des paramètres",
      them=u"IA5 · Modèles de langage et IA générative",
-     ref=u"REF-133, REF-134", niv=u"Perfectionnement", duree=25, prereq=u"IA-03",
+     ref=u"REF-133, REF-134, REF-135", niv=u"Perfectionnement", duree=25, prereq=u"IA-03",
      competence=u"Extraire d'un texte de prescription les valeurs "
                 u"exploitables par une définition, et les contrôler.",
      bloom=u"Appliquer × procédurale",

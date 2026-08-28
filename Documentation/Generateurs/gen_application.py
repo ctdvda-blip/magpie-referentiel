@@ -22,16 +22,10 @@ for p in (ICI, os.path.join(ICI, "GH")):
         sys.path.insert(0, p)
 
 import openpyxl
-from exos_a import LOT_A as _LOT_A_BRUT
-from skill_a import fusionner, SKILL
-LOT_A = [fusionner(_e) for _e in _LOT_A_BRUT]
-try:
-    from domaine_ia import LOT_IA as _LOT_IA
-    LOT_A = LOT_A + [dict(_e) for _e in _LOT_IA]
-except Exception as _ex:
-    print("  (lot IA non repris : %s)" % _ex)
-for _i, _b in enumerate(_LOT_A_BRUT):
-    LOT_A[_i][u"enonce_origine"] = _b["enonce"]
+from lots import TOUS as LOT_A, dossier_de
+from skill_a import SKILL
+# enonce_origine est deja pose par le registre pour le lot A ; les autres lots
+# n'ont pas d'enonce anterieur a conserver.
 
 PROJET = os.path.abspath(os.path.join(ICI, "..", ".."))
 CLASSEUR = os.path.join(PROJET, "Fondamentaux Grasshopper - IndB - 26-08-2026.xlsx")
@@ -41,6 +35,40 @@ SORTIE = os.path.join(PROJET, "MAGPIE - Application.html")
 # GitHub Pages sert « index.html » a la racine : on ecrit les deux noms
 # depuis la meme source, pour qu'ils ne puissent pas diverger.
 SORTIE_INDEX = os.path.join(PROJET, "index.html")
+
+# --plat <chemin> : dossiers d'exercice nommes par leur seul identifiant,
+# et sortie ecrite a l'endroit indique. Sert a la publication.
+PLAT = "--plat" in sys.argv
+# --livrables <racine> : sonder la presence des fichiers dans CETTE arborescence
+# plutot que dans le projet local. Sans cela, une publication qui n'embarque pas
+# encore les PDF proposerait quand meme le bouton — et le lien serait mort.
+RACINE_LIVRABLES = None
+if "--livrables" in sys.argv:
+    _k = sys.argv.index("--livrables")
+    if _k + 1 < len(sys.argv):
+        RACINE_LIVRABLES = os.path.abspath(sys.argv[_k + 1])
+# --protege LOGIN:MOTDEPASSE  ajoute un ecran d'entree devant l'application.
+# Le mot de passe n'est JAMAIS ecrit dans la page : on n'y met qu'un sel
+# aleatoire et l'empreinte PBKDF2 du mot de passe. La page ne peut donc pas
+# reveler le secret — elle peut seulement verifier celui qu'on lui presente.
+PROTEGE = None
+if "--protege" in sys.argv:
+    import hashlib, binascii, os as _os
+    _j = sys.argv.index("--protege")
+    if _j + 1 < len(sys.argv):
+        _login, _mdp = sys.argv[_j + 1].split(":", 1)
+        _sel = _os.urandom(16)
+        _emp = hashlib.pbkdf2_hmac("sha256", _mdp.encode("utf-8"), _sel,
+                                   200000, 32)
+        PROTEGE = (_login,
+                   binascii.hexlify(_sel).decode(),
+                   binascii.hexlify(_emp).decode())
+        del _mdp
+if PLAT:
+    _i = sys.argv.index("--plat")
+    if _i + 1 < len(sys.argv):
+        SORTIE_INDEX = os.path.abspath(sys.argv[_i + 1])
+        SORTIE = SORTIE_INDEX
 
 LOGOS = [
     r"C:\Users\charl\Documents\PROJETS\IA\IMAGES\LOGO-RHINOFORYOU-XXL-300x300.png",
@@ -68,6 +96,88 @@ COULEURS = {
     u"10 – Aide à la fabrication": "#9a9a5e",
     u"11 – IA et assistance générative": "#7f5fc9",
 }
+
+
+PORTAIL = u"""
+
+/* ------------------------------------------------------------------ portail
+   Ecran d'entree. ATTENTION, ET C'EST ECRIT AUSSI DANS LE README :
+   le mot de passe n'est PAS dans cette page — on n'y trouve que son empreinte
+   PBKDF2 et un sel, d'ou l'on ne peut pas le remonter. En revanche, ce portail
+   ne protege pas les FICHIERS : le depot est public, et chaque definition,
+   fiche ou corrige reste accessible par son adresse directe, portail ou pas.
+   Il garde le hall, pas les portes.
+------------------------------------------------------------------------- */
+(function(){
+  const LOGIN = %s, SEL = %s, EMPREINTE = %s, TOURS = 200000;
+
+  const octets = h => Uint8Array.from(h.match(/../g).map(x => parseInt(x, 16)));
+  const hexa = b => [...new Uint8Array(b)]
+    .map(x => x.toString(16).padStart(2, '0')).join('');
+
+  async function verifier(mdp){
+    const k = await crypto.subtle.importKey(
+      'raw', new TextEncoder().encode(mdp), 'PBKDF2', false, ['deriveBits']);
+    const bits = await crypto.subtle.deriveBits(
+      {name:'PBKDF2', salt: octets(SEL), iterations: TOURS, hash:'SHA-256'},
+      k, 256);
+    return hexa(bits) === EMPREINTE;
+  }
+  const CLE = 'magpie-entree';
+  const ok = () => { try { return sessionStorage.getItem(CLE) === '1'; }
+                     catch(e){ return false; } };
+  if (ok()) return;
+
+  const v = document.createElement('div');
+  v.id = 'portail';
+  v.innerHTML = `<form id="pf">
+      <h1>MAGPIE</h1>
+      <p>Référentiel et exercices Grasshopper — accès réservé.</p>
+      <label>Identifiant<input id="pl" autocomplete="username" autofocus></label>
+      <label>Mot de passe<input id="pm" type="password" autocomplete="current-password"></label>
+      <button type="submit">Entrer</button>
+      <div id="pe"></div>
+    </form>`;
+  document.body.appendChild(v);
+  document.body.style.overflow = 'hidden';
+
+  document.getElementById('pf').onsubmit = async ev => {
+    ev.preventDefault();
+    const l = document.getElementById('pl').value.trim();
+    const m = document.getElementById('pm').value;
+    document.getElementById('pe').textContent = 'Vérification…';
+    if (l === LOGIN && await verifier(m)){
+      try { sessionStorage.setItem(CLE, '1'); } catch(e){}
+      v.remove();
+      document.body.style.overflow = '';
+    } else {
+      document.getElementById('pe').textContent =
+        'Identifiant ou mot de passe incorrect.';
+      document.getElementById('pm').value = '';
+      document.getElementById('pm').focus();
+    }
+  };
+})();
+"""
+
+PORTAIL_CSS = u"""
+#portail{position:fixed;inset:0;z-index:9999;background:var(--fond);
+ display:flex;align-items:center;justify-content:center;padding:24px}
+#portail form{background:var(--carte);border:1px solid var(--trait);
+ border-radius:14px;box-shadow:var(--ombre);padding:34px 32px;width:min(380px,100%);
+ display:flex;flex-direction:column;gap:14px}
+#portail h1{margin:0;font-size:30px;letter-spacing:.16em;color:var(--bleu);text-align:center}
+#portail p{margin:0 0 6px;color:var(--doux);font-size:13.5px;text-align:center}
+#portail label{display:flex;flex-direction:column;gap:5px;font-size:13px;
+ font-weight:600;color:var(--doux)}
+#portail input{padding:9px 11px;border:1px solid var(--trait);border-radius:8px;
+ font:15px "Segoe UI",Calibri,sans-serif;color:var(--texte);background:#fff}
+#portail input:focus{outline:2px solid var(--bleu);outline-offset:1px;border-color:var(--bleu)}
+#portail button{margin-top:6px;padding:10px;border:0;border-radius:8px;
+ background:var(--bleu);color:#fff;font:600 15px "Segoe UI",Calibri,sans-serif;cursor:pointer}
+#portail button:hover{background:#24486b}
+#portail #pe{min-height:18px;color:var(--rouge);font-size:13px;text-align:center}
+"""
 
 MANUELS = {}
 try:
@@ -122,12 +232,22 @@ def exercices(corr, ref):
     par_id = dict((r[u"ID"], r) for r in ref)
     out = []
     for e in LOT_A:
-        dossier = u"%s %s" % (e["id"], e["titre"])
+        # En mode publication, les dossiers portent le seul identifiant : sur
+        # Windows, « A-02 Construire un point par coordonnées/Illustrations/... »
+        # depasse la limite de 260 caracteres des qu'on clone dans un chemin un
+        # peu profond, et le clone echoue.
+        dossier = e["id"] if PLAT else u"%s %s" % (e["id"], e["titre"])
         # Chaque lot a son dossier : le chemin ne peut pas etre suppose.
-        racine = DOSSIER_IA if e["id"].startswith(u"IA-") else DOSSIER_EX
+        racine = dossier_de(e["id"])
         # On ne propose au telechargement que ce qui existe : un lot dont les
         # livrables restent a produire ne doit pas afficher de liens morts.
-        base = os.path.join(PROJET, racine, dossier)
+        if RACINE_LIVRABLES:
+            base = os.path.join(RACINE_LIVRABLES, racine, dossier)
+        else:
+            base = os.path.join(PROJET, racine,
+                                u"%s %s" % (e["id"], e["titre"]))
+            if not os.path.isdir(base):
+                base = os.path.join(PROJET, racine, e["id"])
         dispo = {}
         for cle, nom in ((u"pdf", u"%s_fiche.pdf"),
                          (u"docx", u"%s_fiche.docx"),
@@ -829,7 +949,16 @@ function fermer(){
   window.scrollTo(0,0);
 }
 </script></body></html>
-""" % (favicon, CSS, logo_html, VERSION, INDICE, DATE, js)
+""" % (favicon,
+       CSS + (PORTAIL_CSS if PROTEGE else u""),
+       logo_html, VERSION, INDICE, DATE, js)
+
+    if PROTEGE:
+        html = html.replace(
+            u"</script></body></html>",
+            (PORTAIL % (json.dumps(PROTEGE[0]), json.dumps(PROTEGE[1]),
+                        json.dumps(PROTEGE[2])))
+            + u"</script></body></html>")
 
     io.open(SORTIE, "w", encoding="utf-8").write(html)
     io.open(SORTIE_INDEX, "w", encoding="utf-8").write(html)

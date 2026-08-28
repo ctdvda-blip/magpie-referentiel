@@ -22,23 +22,12 @@ ICI = os.path.dirname(os.path.abspath(__file__))
 if ICI not in sys.path:
     sys.path.insert(0, ICI)
 
-from exos_a import LOT_A
-from skill_a import fusionner, SKILL
+from lots import LOTS as _LOTS
+from skill_a import SKILL
 
 PROJET = os.path.abspath(os.path.join(ICI, "..", ".."))
-SORTIE = os.path.join(PROJET, "EXERCICES", "LOT A - Composants natifs")
 
-# Le lot IA vit dans son propre dossier. Ses exercices sont deja conformes a la
-# skill : ils ne passent pas par fusionner().
-try:
-    from domaine_ia import LOT_IA
-    SORTIE_IA = os.path.join(PROJET, "EXERCICES",
-                             "LOT IA - IA et assistance generative")
-except Exception as _ex:
-    LOT_IA, SORTIE_IA = [], None
-    print("  (lot IA non repris : %s)" % _ex)
-
-VERSION = "v0.3-260826"
+VERSION = "v0.4-260828"
 INDICE = "Ind. B"
 DATE = "26/08/2026"
 LOT = "A — Découverte des composants natifs"
@@ -345,19 +334,26 @@ def produire(corpus, sortie, lot, fusion=True):
 def main():
     global LOT
     total = [0, 0]
-    for corpus, sortie, lot, fusion, titre in (
-            (LOT_A, SORTIE, "A", True, "A — Découverte des composants natifs"),
-            (LOT_IA, SORTIE_IA, "IA", False, "IA — IA et assistance générative")):
-        if not corpus:
-            continue
-        LOT = titre
-        f, c, absents = produire(corpus, sortie, lot, fusion)
+    for code, libelle, dossier, corpus in _LOTS:
+        sortie = os.path.join(PROJET, dossier.replace("/", os.sep))
+        if not os.path.isdir(sortie):
+            os.makedirs(sortie)
+        # Le lot A nomme ses dossiers « A-01 Titre » : ne pas en creer un
+        # second, nu, a cote. On ne cree que ce qui manque vraiment.
+        presents = set()
+        for d in os.listdir(sortie):
+            if os.path.isdir(os.path.join(sortie, d)):
+                presents.add(d.split(" ")[0])
+        for e in corpus:
+            if e["id"] not in presents:
+                os.makedirs(os.path.join(sortie, e["id"]))
+        LOT = u"%s — %s" % (code, libelle)
+        f, c, absents = produire(corpus, sortie, code, fusion=False)
         total[0] += f
         total[1] += c
-        print("Lot %-3s : %d fiches d'exercice, %d questions charnière%s"
-              % (lot, f, c,
-                 (", sans dossier : " + ", ".join(absents)) if absents else ""))
-    print("Fichiers écrits : %d" % (2 * (total[0] + total[1])))
+        print(u"  lot %-3s %-40s %2d exercices, %d charnières"
+              % (code, libelle[:40], f, c))
+    print(u"Fichiers écrits : %d" % (2 * (total[0] + total[1])))
 
 
 if __name__ == "__main__":

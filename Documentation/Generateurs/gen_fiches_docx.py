@@ -18,16 +18,8 @@ for p in (ICI, os.path.join(ICI, "GH")):
     if p not in sys.path:
         sys.path.insert(0, p)
 
-from exos_a import LOT_A as _LOT_A_BRUT
-from skill_a import fusionner, SKILL
-LOT_A = [fusionner(_e) for _e in _LOT_A_BRUT]
-try:
-    from domaine_ia import LOT_IA as _LOT_IA
-    LOT_A = LOT_A + [dict(_e) for _e in _LOT_IA]
-except Exception as _ex:
-    print("  (lot IA non repris : %s)" % _ex)
-for _i, _b in enumerate(_LOT_A_BRUT):
-    LOT_A[_i][u"enonce_origine"] = _b["enonce"]
+from lots import TOUS as LOT_A, LOTS as _REGISTRE
+from skill_a import SKILL
 
 from docx import Document
 from docx.shared import Pt, Cm, RGBColor
@@ -38,9 +30,8 @@ from docx.oxml import OxmlElement
 from PIL import Image
 
 PROJET = os.path.abspath(os.path.join(ICI, "..", ".."))
-SORTIES = [os.path.join(PROJET, "EXERCICES", "LOT A - Composants natifs"),
-           os.path.join(PROJET, "EXERCICES",
-                        "LOT IA - IA et assistance generative")]
+SORTIES = [os.path.join(PROJET, d.replace("/", os.sep))
+           for _c, _n, d, _l in _REGISTRE]
 SORTIE = SORTIES[0]
 
 VERSION = "v0.3-260826"

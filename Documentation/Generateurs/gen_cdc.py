@@ -5,16 +5,10 @@ from collections import OrderedDict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from exos_a import LOT_A as _LOT_A_BRUT
-from skill_a import fusionner, SKILL, CONNAISSANCES
-LOT_A = [fusionner(_e) for _e in _LOT_A_BRUT]
-try:
-    from domaine_ia import LOT_IA
-except Exception as _ex:
-    LOT_IA = []
-    print("  (lot IA non repris : %s)" % _ex)
-for _i, _b in enumerate(_LOT_A_BRUT):
-    LOT_A[_i][u"enonce_origine"] = _b["enonce"]
+from lots import LOTS as _REGISTRE, TOUS as _TOUS
+# LOT_A reste employe plus bas pour le jalonnement des tests.
+LOT_A = [e for c, n, d, lot in _REGISTRE if c == "A" for e in lot]
+from skill_a import SKILL, CONNAISSANCES
 from exos_b import LOT_B, LOT_C
 from exos_g import LOT_G
 
@@ -28,30 +22,54 @@ VERSION = "v0.3-260826"
 INDICE = "Ind. B"
 DATE = "26/08/2026"
 
-LOTS = [
-    ("A", "Découverte des composants natifs", "Débutant", LOT_A,
-     "Un exercice par famille de composants natifs de Grasshopper pour Rhino 8. "
-     "Objectif : savoir ce que fait le composant, quelles entrées il attend et quelle donnée il produit. "
-     "Aucun plugin tiers n'est autorisé dans ce lot."),
+# Les lots produits viennent du registre ; les lots encore a produire (B, C, G)
+# restent decrits ici, a partir de leurs fiches d'origine.
+_NIV = {"A": "Débutant", "IA": "Débutant à perfectionnement",
+        "RH": "Débutant", "GP": "Débutant à perfectionnement",
+        "QT": "Intermédiaire", "FA": "Perfectionnement",
+        "PL": "Débutant à intermédiaire",
+        "MP": "Intermédiaire à perfectionnement",
+        "AV": "Perfectionnement", "DV": "Expert",
+        "WB": "Perfectionnement à expert"}
+_DESC = {
+ "A": "Un exercice par famille de composants natifs de Grasshopper pour Rhino 8. "
+      "Aucun plugin tiers n'est autorisé dans ce lot.",
+ "IA": "L'intelligence artificielle appliquée à Grasshopper : formuler une demande "
+       "exploitable, faire produire un composant scripté, conduire un plugin avec un "
+       "agent de code, apprendre d'un jeu de mesures, appeler un modèle de langage, "
+       "piloter par un protocole d'agent, et vérifier ce qui revient.",
+ "RH": "Le socle Rhino, prérequis de tout le reste. Ce qui produit une géométrie se "
+       "valide en la référençant dans Grasshopper et en la mesurant ; ce qui relève de "
+       "l'interface ne produit rien de mesurable et devient une question charnière.",
+ "GP": "Géométrie paramétrique appliquée : plan coté qui suit ses paramètres, modèle 3D "
+       "complet, maillages et SubD.",
+ "QT": "Métré, chiffrage et export de données — les gestes que le métier demande le plus "
+       "souvent, tous à réponse numérique.",
+ "FA": "Aide à la fabrication : estimation d'imbrication et mise à plat.",
+ "PL": "L'écosystème de plugins. Presque tout y est connaissance — installer, choisir, "
+       "juger — et devient donc question charnière. Un seul exercice, sur l'ergonomie "
+       "réellement mise à l'épreuve.",
+ "MP": "Méthode et performance : rendre une définition reprenable par un tiers, trouver "
+       "ce qui coûte réellement le temps de calcul, comprendre le modèle évènementiel.",
+ "AV": "Algorithmique avancée : converger par itérations sur un critère, conduire une "
+       "simulation jusqu'à l'équilibre, poser un problème de recherche de forme.",
+ "DV": "Développement : quand scripter plutôt que câbler, employer l'interface de "
+       "programmation de Rhino, et passer du composant scripté au plugin installé.",
+ "WB": "Interfaces et web : rendre une définition utilisable par un tiers, la publier en "
+       "ligne, et distinguer ce que Rhino.Inside et Rhino.Compute font respectivement.",
+}
+LOTS = [(c, n, _NIV.get(c, "—"), lot, _DESC.get(c, ""))
+        for c, n, _d, lot in _REGISTRE]
+LOTS += [
     ("B", "Algorithmes combinés", "Intermédiaire", LOT_B,
-     "Un exercice par situation de conception réaliste, résolue en combinant plusieurs composants ou groupes de composants "
-     "pour aboutir à un algorithme solution. Les plugins d'usage courant sont autorisés lorsqu'ils sont nommés dans l'énoncé."),
+     "Un exercice par situation de conception réaliste, résolue en combinant plusieurs "
+     "composants. Spécifié, pas encore produit."),
     ("C", "Projets appliqués", "Expérimenté", LOT_C,
-     "Un projet complet par domaine métier — architecture, mobilier, joaillerie, fabrication. "
-     "L'apprenant doit choisir sa méthode, structurer sa définition et produire un livrable exploitable, "
-     "avec vérification d'au moins un indicateur de performance."),
-    ("IA", "IA et assistance générative", "Débutant à perfectionnement", LOT_IA,
-     "Un exercice par usage de l'intelligence artificielle dans la pratique de Grasshopper : "
-     "formuler une demande exploitable, faire produire un composant scripté, conduire le développement "
-     "d'un plugin avec un agent de code, employer l'apprentissage automatique, appeler un modèle de langage, "
-     "piloter Grasshopper par un protocole d'agent, et vérifier ce que l'outil renvoie. "
-     "Ce lot est le seul dont une partie des livrables n'est pas auto-corrigeable : lorsque le livrable est "
-     "du code, un plugin ou une conversation, l'exercice le déclare et prévoit une validation visuelle, "
-     "plutôt que d'être ramené de force à un nombre."),
+     "Un projet complet par domaine métier — architecture, mobilier, joaillerie, "
+     "fabrication. Spécifié, pas encore produit."),
     ("G", "Exercices gamifiés", "Tous niveaux", LOT_G,
-     "Un exercice par technique de gamification. Chaque fiche décrit la technique, sa mise en œuvre dans Magpie "
-     "et l'exercice qui la porte. Ce lot est transverse : il rejoue des notions déjà traitées dans les lots A, B et C "
-     "sous une forme ludique."),
+     "Un exercice par technique de gamification, transverse aux autres lots. "
+     "Spécifié, pas encore produit."),
 ]
 
 
@@ -658,12 +676,14 @@ A("|---|---|---|---|")
 # Le lot IA est estime plus haut que le lot A : la moitie de ses
 # exercices demande un environnement (agent, plugin d'apprentissage,
 # acces a un modele) a mettre en place et a documenter.
-est = {"A": 1.5, "B": 4.0, "C": 8.0, "G": 2.5, "IA": 3.5}
+est = {"A": 1.5, "B": 4.0, "C": 8.0, "G": 2.5, "IA": 3.5,
+       "RH": 2.0, "GP": 3.0, "QT": 2.5, "FA": 3.0, "PL": 2.0,
+       "MP": 2.5, "AV": 4.0, "DV": 5.0, "WB": 5.0}
 tot_h = 0
 for code, nom, niv, lst, desc in LOTS:
-    h = est[code] * len(lst)
+    h = est.get(code, 3.0) * len(lst)
     tot_h += h
-    A("| %s | %d | %s h | %s h |" % (code, len(lst), est[code], round(h, 1)))
+    A("| %s | %d | %s h | %s h |" % (code, len(lst), est.get(code, 3.0), round(h, 1)))
 A("| | **%d** | | **%s h** |" % (nb_tot, round(tot_h, 1)))
 A("")
 A("Ce volume dépasse largement l'enveloppe initiale de dix heures de contribution. "

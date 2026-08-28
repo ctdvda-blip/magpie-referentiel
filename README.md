@@ -36,11 +36,30 @@ JavaScript, quelle que soit la qualité du chiffrement de l'écran d'entrée.
 
 | | |
 |---|---|
-| Référentiel | **142 notions**, 11 domaines |
-| Lot A | **49 exercices** — découverte des composants natifs |
-| Lot IA | **14 exercices** — IA appliquée à Grasshopper |
+| Référentiel | **142 notions**, 11 domaines — **100 % couvertes** |
+| Exercices | **99**, répartis en 11 lots |
 | Définitions | **124 fichiers `.gh`**, sujet et corrigé |
 | Fiches | Markdown et Word illustrées, sujet seul et sujet + corrigé |
+
+### Les onze lots
+
+| Lot | Domaine | Items |
+|---|---|---:|
+| A | Découverte des composants natifs | 49 |
+| RH | Socle Rhino | 10 |
+| PL | Écosystème de plugins | 4 |
+| GP | Géométrie paramétrique appliquée | 4 |
+| QT | Quantitatifs, chiffrage et export | 3 |
+| MP | Méthode, performance et évènements | 3 |
+| AV | Algorithmique avancée | 3 |
+| DV | Développement, scripting et API | 4 |
+| WB | Interfaces, web et interopérabilité | 3 |
+| FA | Aide à la fabrication | 2 |
+| IA | IA et assistance générative | 14 |
+
+Sur ces 99 items, **77 sont des exercices notés** et **22 des questions
+charnières** — des connaissances que la skill interdit de monter en exercice,
+parce que la réponse s'y obtiendrait en sachant plutôt qu'en construisant.
 
 Les lots B (algorithmes combinés), C (projets appliqués) et G (exercices
 gamifiés) sont spécifiés au cahier des charges mais pas encore produits.

@@ -19,9 +19,9 @@ import sys
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 PROJET = os.path.abspath(os.path.join(ICI, "..", ".."))
-LOTS = [os.path.join(PROJET, "EXERCICES", "LOT A - Composants natifs"),
-        os.path.join(PROJET, "EXERCICES",
-                     "LOT IA - IA et assistance generative")]
+from lots import LOTS as _REGISTRE
+LOTS = [os.path.join(PROJET, d.replace("/", os.sep))
+        for _c, _n, d, _l in _REGISTRE]
 LOT = LOTS[0]
 
 # Chaque lot a ses propres sources : dater le lot A d'apres domaine_ia.py le
