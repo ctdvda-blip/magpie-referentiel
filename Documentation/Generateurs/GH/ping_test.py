@@ -1,0 +1,1 @@
+print('pont actif')
