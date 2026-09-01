@@ -14,7 +14,7 @@
 | **Prérequis** | A-01 |
 | **Mode de validation** | — (non notée) |
 | **Gamification associée** | G-18 Vrai / Faux à élimination |
-| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260901 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

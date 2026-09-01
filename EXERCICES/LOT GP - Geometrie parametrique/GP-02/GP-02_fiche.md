@@ -14,7 +14,7 @@
 | **Mode de validation** | NumericTolerance — tolérance 0,001 |
 | **Solution de référence** | 9 composants |
 | **Gamification associée** | G-25 Projet jalonné |
-| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260901 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

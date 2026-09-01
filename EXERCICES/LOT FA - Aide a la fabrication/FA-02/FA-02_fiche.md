@@ -14,7 +14,7 @@
 | **Mode de validation** | NumericTolerance — tolérance 0,0001 |
 | **Solution de référence** | 8 composants |
 | **Gamification associée** | G-06 Cible et précision |
-| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260901 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

@@ -14,7 +14,7 @@
 | **Prérequis** | DV-02 |
 | **Mode de validation** | — (non notée) |
 | **Gamification associée** | G-14 Question éclair |
-| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260901 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

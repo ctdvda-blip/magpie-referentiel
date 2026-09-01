@@ -14,7 +14,7 @@
 | **Mode de validation** | SetEquality — tolérance — |
 | **Solution de référence** | 7 composants |
 | **Gamification associée** | G-01 Score visible |
-| **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260901 — Ind. B — 26/08/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
