@@ -6,7 +6,7 @@ autocorrigés pour le plugin **Magpie**, édité par RhinoForYou.
 👉 **[Consulter l'application](https://ctdvda-blip.github.io/magpie-referentiel/)**
 — accès réservé, identifiant et mot de passe communiqués séparément.
 
-Version `v0.4-260901` · référentiel Ind. B
+Version `v0.4-260901` · référentiel Ind. C
 
 ---
 
@@ -14,30 +14,31 @@ Version `v0.4-260901` · référentiel Ind. B
 
 | | |
 |---|---|
-| Référentiel | **142 notions**, 11 domaines, 41 catégories |
-| Exercices | **149**, en onze lots |
-| Définitions Grasshopper | **284** fichiers `.gh` — sujet et corrigé pour 142 exercices |
+| Référentiel | **160 notions**, 11 domaines, 41 catégories |
+| Exercices | **167**, en onze lots |
+| Définitions Grasshopper | **320** fichiers `.gh` — sujet et corrigé pour 160 exercices |
 | Fiches | Markdown, Word illustrées et PDF, sujet seul et sujet + corrigé |
-| Durée cible cumulée | 44,7 h |
+| Durée cible cumulée | 51,0 h |
 
-Chaque notion du référentiel est couverte, et **aucune catégorie n'a moins
-d'exercices qu'elle n'a de notions**.
+Chaque notion du référentiel est couverte, **aucune catégorie ne porte moins
+de trois notions**, et **aucune n'a moins d'exercices qu'elle n'a de
+notions**.
 
 ### Les onze lots
 
 | Lot | | Exercices |
 |---|---|---|
-| **A** | Découverte des composants natifs | 49 |
+| **A** | Découverte des composants natifs | 51 |
 | **IA** | IA et assistance générative | 25 |
-| **RH** | Socle Rhino | 22 |
+| **RH** | Socle Rhino | 23 |
+| **GP** | Géométrie paramétrique appliquée | 12 |
 | **PL** | Écosystème de plugins | 12 |
+| **AV** | Algorithmique avancée | 9 |
 | **DV** | Développement, scripting et API | 9 |
-| **GP** | Géométrie paramétrique appliquée | 8 |
-| **WB** | Interfaces, web et interopérabilité | 7 |
+| **WB** | Interfaces, web et interopérabilité | 9 |
 | **QT** | Quantitatifs, chiffrage et export | 6 |
-| **FA** | Aide à la fabrication | 4 |
-| **MP** | Méthode, performance et évènements | 4 |
-| **AV** | Algorithmique avancée | 3 |
+| **FA** | Aide à la fabrication | 6 |
+| **MP** | Méthode, performance et évènements | 5 |
 
 Les lots B (algorithmes combinés), C (projets appliqués) et G (exercices
 gamifiés) sont spécifiés au cahier des charges mais pas encore produits.
@@ -50,11 +51,11 @@ Tous les exercices suivent la skill **magpie-conception-exercices**
 (`SKILL.md`), qui s'appuie sur la recherche en sciences de l'apprentissage. En
 pratique :
 
-- **Un exercice teste une compétence, pas une connaissance.** Trente items dont
-  la réponse s'obtient en *sachant* plutôt qu'en *construisant* sont des
-  **questions charnières** : chacune de leurs mauvaises réponses est
+- **Un exercice teste une compétence, pas une connaissance.** Trente-quatre
+  items dont la réponse s'obtient en *sachant* plutôt qu'en *construisant*
+  sont des **questions charnières** : chacune de leurs mauvaises réponses est
   diagnostique. Leur bonne réponse est répartie sur les quatre positions —
-  8 en a, 8 en b, 6 en c, 8 en d — pour qu'un apprenant qui coche toujours la
+  9 en a, 8 en b, 8 en c, 9 en d — pour qu'un apprenant qui coche toujours la
   même lettre n'obtienne rien.
 - **Aucune consigne ne nomme de composant.** Nommer l'outil, c'est donner la
   réponse ; la liste des composants figure côté corrigé uniquement.
@@ -97,6 +98,7 @@ python Documentation/Generateurs/verifier_fraicheur.py   # cohérence des livrab
 python Documentation/Generateurs/couverture.py           # couverture du référentiel
 python Documentation/Generateurs/verifier_vague1.py      # réponses recalculées
 python Documentation/Generateurs/verifier_vague2.py      # réponses recalculées
+python Documentation/Generateurs/verifier_vague3.py      # réponses recalculées
 python Documentation/Generateurs/verifier_liens.py <dossier>   # liens de la page
 ```
 
@@ -139,7 +141,7 @@ VERSION                          le numéro logique de la version courante
 EXERCICES/                       les onze lots produits
 Documentation/                   cahier des charges, guide, planning, générateurs
 Journal des modifications/       ce qui a été fait, jour par jour
-Fondamentaux Grasshopper - IndB  le référentiel au format Excel
+Fondamentaux Grasshopper - IndC  le référentiel au format Excel
 SKILL.md                         la skill de conception des exercices
 REPRISE_SESSION.md               état du projet et décisions prises
 ```
