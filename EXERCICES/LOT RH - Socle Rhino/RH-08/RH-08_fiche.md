@@ -35,11 +35,11 @@ Une pièce partant en impression 3D doit être un volume fermé : une enveloppe 
 
 ### Ce qui vous est fourni
 
-Un fichier Rhino contenant le caisson, extérieur 420 × 260 × 180 mm, parois de 12 mm, présentant des défauts de jonction.
+Un fichier Rhino contenant le caisson, 420 × 260 × 180 mm, auquel il manque deux faces.
 
 ### Ce qui est attendu
 
-Le volume du caisson étanche, à 1 mm³ près.
+19 656 000 mm³ — le volume du caisson une fois refermé. Une enveloppe ouverte n'en a aucun : c'est là toute la preuve.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 1.
 
@@ -84,7 +84,7 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 ### Pourquoi ce jeu de données
 
-Les défauts sont des arêtes nues de faible longueur, invisibles au rendu : c'est le cas réel, et c'est ce qui rend le contrôle numérique indispensable.
+Le caisson s'affiche exactement comme s'il était fermé : rien à l'écran ne distingue une enveloppe ouverte d'un solide. C'est ce qui rend le contrôle numérique indispensable, et non facultatif.
 
 ### Pour aller plus loin
 

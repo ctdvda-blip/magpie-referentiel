@@ -35,11 +35,11 @@ Une pièce partant en impression 3D doit être un volume fermé : une enveloppe 
 
 ### Ce qui vous est fourni
 
-Un fichier Rhino contenant le caisson, extérieur 420 × 260 × 180 mm, parois de 12 mm, présentant des défauts de jonction.
+Un fichier Rhino contenant le caisson, 420 × 260 × 180 mm, auquel il manque deux faces.
 
 ### Ce qui est attendu
 
-Le volume du caisson étanche, à 1 mm³ près.
+19 656 000 mm³ — le volume du caisson une fois refermé. Une enveloppe ouverte n'en a aucun : c'est là toute la preuve.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 1.
 

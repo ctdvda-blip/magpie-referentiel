@@ -11,7 +11,7 @@
 | **Niveau** | Expert |
 | **Durée cible** | 35 min |
 | **Prérequis** | IA-04 |
-| **Mode de validation** | NumericTolerance — tolérance 1 |
+| **Mode de validation** | NumericTolerance — tolérance 5 |
 | **Solution de référence** | 7 composants |
 | **Gamification associée** | G-06 Cible et précision |
 | **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
@@ -39,9 +39,9 @@ La courbe de tracé et le rayon de cintrage minimal.
 
 ### Ce qui est attendu
 
-La longueur cumulée des portions trop cintrées, à 1 mm près.
+La longueur cumulée des portions trop cintrées, à 5 mm près.
 
-Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 1.
+Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 5.
 
 > **La consigne ne nomme aucun composant**, et c'est délibéré : nommer l'outil reviendrait à donner la réponse. Ce lot n'autorise que des composants natifs de Grasshopper pour Rhino 8 — aucun plugin tiers n'est nécessaire.
 

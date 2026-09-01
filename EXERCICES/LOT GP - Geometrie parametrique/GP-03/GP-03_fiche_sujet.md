@@ -39,7 +39,7 @@ Un fichier contenant la surface fermée d'origine.
 
 ### Ce qui est attendu
 
-Le nombre de faces du maillage respectant l'écart demandé.
+1 024 faces avec les réglages par défaut du mailleur — la correction accepte 5 % autour de cette valeur.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 5 %.
 

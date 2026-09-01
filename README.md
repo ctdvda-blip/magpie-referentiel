@@ -3,123 +3,75 @@
 Référentiel des notions Rhino / Grasshopper et bibliothèque d'exercices
 autocorrigés pour le plugin **Magpie**, édité par RhinoForYou.
 
-👉 **[Consulter l'application](https://ctdvda-blip.github.io/magpie-referentiel/)**
+👉 **[Consulter l'application](https://magpie-project.github.io/Magpie/)**
 
 ---
 
-## L'écran d'entrée — ce qu'il fait, ce qu'il ne fait pas
-
-L'application demande un identifiant et un mot de passe. Voici exactement ce
-que cela vaut, pour que personne ne s'y trompe.
-
-**Le mot de passe n'est pas dans la page.** On n'y trouve qu'un sel aléatoire et
-l'empreinte PBKDF2-SHA256 du mot de passe, 200 000 tours. On ne peut pas
-remonter du second au premier : la page sait vérifier un mot de passe, elle ne
-sait pas le révéler.
-
-**Mais l'écran ne protège pas les fichiers.** Ce dépôt est public. Chaque
-définition `.gh`, chaque fiche et chaque corrigé possède une adresse directe, et
-reste téléchargeable sans jamais charger l'application. Le dépôt entier peut
-être cloné. L'écran garde le hall, pas les portes.
-
-Autrement dit : il signale que le contenu n'est pas destiné au tout-venant, et
-il évite qu'on tombe dessus par hasard. Il n'empêche personne de déterminé.
-
-**Pour une vraie restriction d'accès**, il faut un contrôle côté serveur —
-Cloudflare Access, un hébergement avec authentification, ou GitHub Pages sur
-dépôt privé avec un plan payant. Aucun site statique public ne peut l'imiter en
-JavaScript, quelle que soit la qualité du chiffrement de l'écran d'entrée.
-
----
-
-## Contenu
+## Ce que contient ce dépôt
 
 | | |
 |---|---|
-| Référentiel | **142 notions**, 11 domaines — **100 % couvertes** |
-| Exercices | **99**, en 11 lots : 77 notés, 22 questions charnières |
-| Définitions Grasshopper | **164 fichiers `.gh`** — 82 exercices, sujet et corrigé |
+| Référentiel | **142 notions**, 11 domaines, une trentaine de catégories |
+| Exercices | **63** produits, en deux lots |
+| Définitions Grasshopper | **124** fichiers `.gh`, sujet et corrigé |
 | Fiches | Markdown et Word illustrées, sujet seul et sujet + corrigé |
 
-### Les onze lots
+### Les lots
 
-| Lot | Domaine | Items | dont charnières |
-|---|---|---:|---:|
-| A | Découverte des composants natifs | 49 | 7 |
-| IA | IA et assistance générative | 14 | 3 |
-| RH | Socle Rhino | 10 | 4 |
-| PL | Écosystème de plugins | 4 | 3 |
-| GP | Géométrie paramétrique appliquée | 4 | 1 |
-| DV | Développement, scripting et API | 4 | 2 |
-| QT | Quantitatifs, chiffrage et export | 3 | 0 |
-| MP | Méthode, performance et évènements | 3 | 1 |
-| AV | Algorithmique avancée | 3 | 0 |
-| WB | Interfaces, web et interopérabilité | 3 | 1 |
-| FA | Aide à la fabrication | 2 | 0 |
+**Lot A — Découverte des composants natifs** (49 exercices)
+Un exercice par famille de composants natifs de Grasshopper pour Rhino 8.
+Aucun plugin tiers.
 
-Les **22 questions charnières** ne sont pas des exercices notés : ce sont des
-connaissances que la skill interdit de monter en exercice, parce que la réponse
-s'y obtiendrait en sachant plutôt qu'en construisant. Chacune est construite
-pour que sa mauvaise réponse soit *diagnostique*.
+**Lot IA — IA et assistance générative** (14 exercices)
+Formuler une demande exploitable, faire produire un composant scripté,
+conduire le développement d'un plugin avec un agent de code, employer
+l'apprentissage automatique, appeler un modèle de langage, piloter Grasshopper
+par un protocole d'agent, et vérifier ce que l'outil renvoie.
 
 Les lots B (algorithmes combinés), C (projets appliqués) et G (exercices
 gamifiés) sont spécifiés au cahier des charges mais pas encore produits.
 
-### Ce qui n'a pas encore de définition Grasshopper
-
-17 exercices sur 99, pour trois raisons distinctes :
-
-- une géométrie Rhino reste à fabriquer : RH-02 à RH-05, RH-08, RH-09, GP-03 ;
-- un plugin d'itération, de simulation ou de déroulé est requis : AV-01, AV-02,
-  FA-02 ;
-- le livrable n'est pas un graphe — un plugin compilé, une définition
-  interfacée, un configurateur en ligne : IA-07, DV-02, DV-04, MP-01, PL-03,
-  WB-01, WB-02.
-
 ---
 
-## Comment les exercices sont conçus
+## Comment sont conçus les exercices
 
-Tous suivent la skill `SKILL.md`, adossée à la recherche en sciences de
-l'apprentissage :
+Tous les exercices suivent la skill **magpie-conception-exercices** (`SKILL.md`),
+qui s'appuie sur la recherche en sciences de l'apprentissage. En pratique :
 
-- **une compétence, pas une connaissance** — dix items dont la réponse
-  s'obtenait en *sachant* plutôt qu'en *construisant* sont requalifiés en
-  **questions charnières**, non notées, dont chaque mauvaise réponse est
-  diagnostique ;
-- **aucun nom de composant dans la consigne** — nommer l'outil, c'est donner la
-  réponse ; la liste ne figure que côté corrigé ;
-- **un contexte métier en une phrase** par exercice, varié d'un exercice à
-  l'autre ;
-- **des jeux de données longs et non devinables** — 24 à 36 valeurs non
-  ordonnées, plutôt que des listes qui se comptent à l'œil ;
-- **une erreur attendue anticipée**, qui dit ce que l'apprenant a mal compris
-  là où un simple « faux » ne dirait rien.
-
-Un audit mécanisé chiffre l'écart : **124 écarts avant reprise, 7 après**, tous
-documentés.
+- **Un exercice teste une compétence, pas une connaissance.** Dix items dont la
+  réponse s'obtenait en *sachant* plutôt qu'en *construisant* ont été requalifiés
+  en **questions charnières** : ils ne sont pas notés, et chacune de leurs
+  mauvaises réponses est diagnostique.
+- **Aucune consigne ne nomme de composant.** Nommer l'outil, c'est donner la
+  réponse ; la liste des composants figure côté corrigé uniquement.
+- **Chaque exercice porte un contexte métier en une phrase** — réception de lot,
+  calepinage de bardage, débit d'atelier, haubanage, platine d'assemblage.
+- **Les jeux de données sont longs, non ordonnés et non devinables** : 24 à 36
+  valeurs plutôt que des listes lisibles à l'œil.
+- **Chaque exercice anticipe son erreur attendue**, choisie pour dire ce que
+  l'apprenant a mal compris là où un simple « faux » ne dirait rien.
 
 ### Deux règles structurantes des fichiers `.gh`
 
-1. **Aucun câble ne relie la zone sujet à la zone corrigé** : les données
-   fournies sont recopiées, le corrigé est autonome.
+1. **Aucun câble ne relie la zone sujet à la zone corrigé.** Les données
+   fournies sont recopiées dans le corrigé, qui est donc autonome.
 2. **Le corrigé ne produit rien tant qu'un interrupteur n'est pas basculé.**
    Remis sur faux, le résultat disparaît.
 
-Vérifié sur les 124 définitions.
+Les deux règles sont vérifiées automatiquement sur les 124 définitions.
 
 ---
 
 ## Ce qui est vérifié, et comment
 
-Les valeurs attendues ne sont **jamais déduites de tête** : chaque définition
-est ouverte dans Rhino, l'interrupteur basculé, la sortie relevée. Trois
-contrôles rejouables :
+Les valeurs attendues ne sont **jamais déduites de tête** : elles sont relevées
+en ouvrant chaque définition dans Rhino, en basculant l'interrupteur et en
+lisant la sortie. Trois contrôles rejouables :
 
 ```bash
-python Documentation/Generateurs/audit_skill.py --fusion
-python Documentation/Generateurs/controle_reponses.py
-python Documentation/Generateurs/verifier_fraicheur.py
+python Documentation/Generateurs/audit_skill.py --fusion   # conformité à la skill
+python Documentation/Generateurs/controle_reponses.py      # réponses recalculées
+python Documentation/Generateurs/verifier_fraicheur.py     # cohérence des livrables
 ```
 
 ---
@@ -128,18 +80,29 @@ python Documentation/Generateurs/verifier_fraicheur.py
 
 - **Le checker Magpie ne compare que des nombres.** Les exercices dont le
   livrable est un texte, un plugin ou une conversation sont déclarés hors
-  correction automatique et le disent, plutôt que d'être tordus pour entrer
-  dans l'outil.
+  correction automatique et le disent explicitement, plutôt que d'être tordus
+  pour entrer dans l'outil.
 - **IA-07** n'a pas de définition Grasshopper : son livrable est un plugin
   `.gha` compilé.
-- Les dossiers d'exercice portent le seul identifiant, sans le titre : avec le
-  titre complet, les chemins dépassaient la limite de 260 caractères de Windows
-  et le clone échouait.
+- **Les lots B, C et G** n'ont pas encore de recettes de construction.
+
+---
+
+## Organisation
+
+```text
+index.html                       l'application, servie par GitHub Pages
+EXERCICES/                       les deux lots produits
+Documentation/                   cahier des charges, générateurs, journal
+Fondamentaux Grasshopper - IndB  le référentiel au format Excel
+SKILL.md                         la skill de conception des exercices
+REPRISE_SESSION.md               état du projet et décisions prises
+```
 
 ---
 
 ## Auteurs
 
-Prototype et conception d'origine du plugin : **Jérémy CAROLUS** — CJ développement.
+Prototype et conception d'origine : **Jérémy CAROLUS**.
 Référentiel, lots d'exercices et application : **Charles THIERRY DE VILLE D'AVRAY**.
 Édition : **RhinoForYou**.

@@ -39,7 +39,7 @@ Un fichier contenant la surface fermée d'origine.
 
 ### Ce qui est attendu
 
-Le nombre de faces du maillage respectant l'écart demandé.
+1 024 faces avec les réglages par défaut du mailleur — la correction accepte 5 % autour de cette valeur.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 5 %.
 
@@ -88,7 +88,7 @@ La surface présente une zone de forte courbure et une zone plane : un maillage 
 
 ### Limite de la correction automatique
 
-> Le nombre de faces dépend de la version de Rhino et du mailleur : la correction accepte une plage plutôt qu'une valeur unique. C'est le respect du critère d'écart qui est évalué, pas le compte exact.
+> Le corrigé maille avec les réglages PAR DÉFAUT, et rend 1 024 faces. Il ne pilote pas l'écart maximal : ce réglage se pose dans la boîte de dialogue de maillage et ne se transporte pas dans le fichier. Le corrigé sert donc d'ordre de grandeur ; c'est au formateur de vérifier que l'apprenant a bien raisonné en écart et non en densité.
 
 ### Pour aller plus loin
 

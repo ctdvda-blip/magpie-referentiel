@@ -35,11 +35,11 @@ L'imprimante du bureau accepte 220 × 220 × 250 mm et ne tient pas une paroi so
 
 ### Ce qui vous est fourni
 
-Un fichier Rhino contenant la pièce, et les cotes du volume d'impression.
+Un fichier Rhino contenant la pièce — 380 × 260 × 195 mm hors tout — et les cotes du volume d'impression.
 
 ### Ce qui est attendu
 
-Le facteur d'échelle maximal, à 0,01 près, arrondi vers le bas.
+0,57 — le facteur limitant vient de la longueur : 220 ÷ 380 vaut 0,5789, arrondi vers le bas au centième.
 
 Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 0,01.
 
@@ -84,7 +84,7 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 ### Pourquoi ce jeu de données
 
-Les trois dimensions de la pièce ne sont pas proportionnelles à celles du plateau : le facteur limitant n'est pas le même selon l'axe, et il faut retenir le plus petit des trois.
+Les trois rapports valent 0,579, 0,846 et 1,282 : le troisième axe passerait sans réduction, et prendre la moyenne des trois donnerait 0,90 — une pièce qui ne rentre pas. C'est le plus petit qui commande.
 
 ### Pour aller plus loin
 

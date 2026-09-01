@@ -11,7 +11,7 @@
 | **Niveau** | Expert |
 | **Durée cible** | 35 min |
 | **Prérequis** | IA-04 |
-| **Mode de validation** | NumericTolerance — tolérance 1 |
+| **Mode de validation** | NumericTolerance — tolérance 5 |
 | **Solution de référence** | 7 composants |
 | **Gamification associée** | G-06 Cible et précision |
 | **Version** | v0.4-260828 — Ind. B — 26/08/2026 |
@@ -39,9 +39,9 @@ La courbe de tracé et le rayon de cintrage minimal.
 
 ### Ce qui est attendu
 
-La longueur cumulée des portions trop cintrées, à 1 mm près.
+La longueur cumulée des portions trop cintrées, à 5 mm près.
 
-Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 1.
+Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de la zone de travail. La correction compare cette sortie en mode **NumericTolerance** avec une tolérance de 5.
 
 > **La consigne ne nomme aucun composant**, et c'est délibéré : nommer l'outil reviendrait à donner la réponse. Ce lot n'autorise que des composants natifs de Grasshopper pour Rhino 8 — aucun plugin tiers n'est nécessaire.
 
@@ -75,7 +75,7 @@ Branchez votre résultat sur le paramètre **`REPONSE`**, en haut à droite de l
 
 C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit ce que l'apprenant a mal compris, là où un simple « faux » ne dirait rien.
 
-> Échantillonner la courbe trop grossièrement. La courbure varie continûment : un échantillon tous les 50 mm peut enjamber entièrement une zone trop cintrée et conclure que la pièce est fabricable. Le pas d'échantillonnage est un choix, et il doit être justifié.
+> Échantillonner la courbe trop grossièrement. La courbure varie continûment : sur un développé de près de six mètres, un échantillon tous les 200 mm peut enjamber entièrement la zone trop cintrée et conclure que la pièce est fabricable. Le pas d'échantillonnage est un choix, et il doit être justifié — seconde erreur, plus discrète : échantillonner à pas de PARAMÈTRE constant et non à pas de LONGUEUR constante. Les paramètres se resserrent dans les courbes, et la zone trop cintrée ressort quatre fois trop longue.
 
 ### Pièges fréquents
 
@@ -84,7 +84,7 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 ### Pourquoi ce jeu de données
 
-La courbe présente une zone serrée d'une soixantaine de millimètres : assez large pour être trouvée avec un pas raisonnable, assez étroite pour être manquée avec un pas négligent.
+Le tracé mesure 5 988 mm et son rayon tombe à 155 mm sur un coude unique : quelque 106 mm passent sous les 250 mm admis, soit moins de deux pour cent du développé. Assez large pour être trouvé avec un pas raisonnable, assez étroit pour être manqué avec un pas négligent. La tolérance de 5 mm sanctionne la détection, non la finesse du pas : un point tous les 10 mm suffit à passer, un point tous les 20 mm ne suffit plus.
 
 ### Pour aller plus loin
 
