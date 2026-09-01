@@ -14,7 +14,7 @@
 | **Mode de validation** | GeometryTolerance — tolérance 0,1 mm |
 | **Solution de référence** | 4 composants |
 | **Gamification associée** | G-05 Badges et trophées |
-| **Version** | v0.4-260901 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260901 — Ind. C — 01/09/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

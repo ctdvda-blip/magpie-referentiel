@@ -14,7 +14,7 @@
 | **Prérequis** | A-24 |
 | **Mode de validation** | — (non notée) |
 | **Gamification associée** | G-17 Quiz éclair |
-| **Version** | v0.4-260901 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260901 — Ind. C — 01/09/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

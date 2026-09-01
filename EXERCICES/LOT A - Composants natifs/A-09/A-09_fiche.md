@@ -14,7 +14,7 @@
 | **Mode de validation** | SingleValue — tolérance 0 |
 | **Solution de référence** | 3 composants |
 | **Gamification associée** | G-16 Chasse au trésor sur le canvas |
-| **Version** | v0.4-260901 — Ind. B — 26/08/2026 |
+| **Version** | v0.4-260901 — Ind. C — 01/09/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
