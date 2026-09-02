@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-070, REF-082, REF-115, REF-087 |
 | **Compétence visée** | Déduire le nombre d'éléments d'un meuble d'une contrainte d'entraxe maximal, et en tirer la nomenclature. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 90 min |
 | **Prérequis** | B-06, B-12, B-17 |
 | **Mode de validation** | SingleValue — tolérance 0 |

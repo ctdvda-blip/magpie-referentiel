@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-115, REF-095, REF-069 |
 | **Compétence visée** | Dimensionner une partition de surface en tenant compte de ce que les séparations consomment. |
 | **Case Bloom (révisée)** | Analyser × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 80 min |
 | **Prérequis** | B-10, C-08 |
 | **Mode de validation** | SingleValue — tolérance 0 |

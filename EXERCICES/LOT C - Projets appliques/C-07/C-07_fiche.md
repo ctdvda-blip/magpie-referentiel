@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-070, REF-072, REF-082, REF-106 |
 | **Compétence visée** | Établir un prix par composition, en appliquant chaque coefficient sur son assiette. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 80 min |
 | **Prérequis** | B-06, B-07 |
 | **Mode de validation** | NumericTolerance — tolérance 0.01 |

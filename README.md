@@ -15,24 +15,26 @@ Version `v0.4-260901` · référentiel Ind. C
 | | |
 |---|---|
 | Référentiel | **160 notions**, 11 domaines, 41 catégories |
-| Exercices | **167**, en onze lots |
-| Définitions Grasshopper | **320** fichiers `.gh` — sujet et corrigé pour 160 exercices |
+| Exercices | **197**, en treize lots |
+| Définitions Grasshopper | **380** fichiers `.gh` — sujet et corrigé pour 190 exercices |
 | Fiches | Markdown, Word illustrées et PDF, sujet seul et sujet + corrigé |
-| Durée cible cumulée | 51,0 h |
+| Durée cible cumulée | 75,6 h |
 
 Chaque notion du référentiel est couverte, **aucune catégorie ne porte moins
 de trois notions**, et **aucune n'a moins d'exercices qu'elle n'a de
 notions**.
 
-### Les onze lots
+### Les treize lots
 
 | Lot | | Exercices |
 |---|---|---|
 | **A** | Découverte des composants natifs | 51 |
 | **IA** | IA et assistance générative | 25 |
 | **RH** | Socle Rhino | 23 |
+| **B** | Algorithmes combinés | 18 |
 | **GP** | Géométrie paramétrique appliquée | 12 |
 | **PL** | Écosystème de plugins | 12 |
+| **C** | Projets appliqués | 12 |
 | **AV** | Algorithmique avancée | 9 |
 | **DV** | Développement, scripting et API | 9 |
 | **WB** | Interfaces, web et interopérabilité | 9 |
@@ -40,8 +42,8 @@ notions**.
 | **FA** | Aide à la fabrication | 6 |
 | **MP** | Méthode, performance et évènements | 5 |
 
-Les lots B (algorithmes combinés), C (projets appliqués) et G (exercices
-gamifiés) sont spécifiés au cahier des charges mais pas encore produits.
+Le lot **G** (exercices gamifiés) est spécifié au cahier des charges mais pas
+encore produit.
 
 ---
 
@@ -113,6 +115,15 @@ La recette 7 fige la valeur rendue par chaque corrigé et la recompare : c'est
 elle qui attrape le défaut le plus discret, celui d'une définition qui change
 de réponse sans que rien ne le signale.
 
+La recette 8 n'a pas besoin de Rhino : elle vérifie qu'à l'intérieur d'une
+recette, un nom ne désigne qu'un seul objet. Un nom réemployé écrase le
+premier et déplace des fils sans rien signaler — c'est ce qui a fait répondre
+0,0034 m à C-02 au lieu de 695,53.
+
+```bash
+python Documentation/Generateurs/GH/recette_8_noms_uniques.py
+```
+
 ---
 
 ## Limites connues
@@ -129,7 +140,7 @@ de réponse sans que rien ne le signale.
 - **La protection de l'application est une porte, pas un coffre.** Elle garde
   la consultation ; le dépôt est public et chaque fichier reste atteignable par
   son adresse directe.
-- **Les lots B, C et G** n'ont pas encore de recettes de construction.
+- **Le lot G** n'a pas encore de recettes de construction.
 
 ---
 
@@ -138,7 +149,7 @@ de réponse sans que rien ne le signale.
 ```text
 index.html                       l'application, servie par GitHub Pages
 VERSION                          le numéro logique de la version courante
-EXERCICES/                       les onze lots produits
+EXERCICES/                       les treize lots produits
 Documentation/                   cahier des charges, guide, planning, générateurs
 Journal des modifications/       ce qui a été fait, jour par jour
 Fondamentaux Grasshopper - IndC  le référentiel au format Excel

@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-069, REF-068, REF-081, REF-079 |
 | **Compétence visée** | Chiffrer la masse d'une pièce à partir de sa fibre moyenne, et la confronter à une limite de projet. |
 | **Case Bloom (révisée)** | Évaluer × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 85 min |
 | **Prérequis** | B-09, B-10 |
 | **Mode de validation** | NumericTolerance — tolérance 0.05 |

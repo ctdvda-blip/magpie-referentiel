@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-069, REF-094, REF-074, REF-049 |
 | **Compétence visée** | Chiffrer le linéaire d'une structure triangulée en n'oubliant aucune des trois familles de barres. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 90 min |
 | **Prérequis** | B-04, C-01 |
 | **Mode de validation** | NumericTolerance — tolérance 0.01 |

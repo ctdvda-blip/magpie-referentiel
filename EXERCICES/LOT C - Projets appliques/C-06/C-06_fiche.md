@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-069, REF-064, REF-074 |
 | **Compétence visée** | Vérifier qu'une forme voulue respecte une contrainte de matière, en comparant un rayon obtenu à un rayon admissible. |
 | **Case Bloom (révisée)** | Évaluer × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 85 min |
 | **Prérequis** | B-16, B-17 |
 | **Mode de validation** | NumericTolerance — tolérance 0.01 |

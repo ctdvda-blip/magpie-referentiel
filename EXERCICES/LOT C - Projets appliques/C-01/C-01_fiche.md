@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-027, REF-068, REF-095, REF-079 |
 | **Compétence visée** | Dimensionner un dispositif d'ombrage à partir de la course solaire, en distinguant ce qui se divise de ce qui se multiplie. |
 | **Case Bloom (révisée)** | Analyser × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 90 min |
 | **Prérequis** | B-03, B-04 |
 | **Mode de validation** | NumericTolerance — tolérance 0.01 |

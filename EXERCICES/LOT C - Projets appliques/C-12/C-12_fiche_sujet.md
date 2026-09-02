@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-113, REF-114, REF-087 |
 | **Compétence visée** | Chiffrer un débit en tenant compte des espacements et des bords perdus, et en tirer un taux de chute défendable. |
 | **Case Bloom (révisée)** | Analyser × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 75 min |
 | **Prérequis** | B-13, C-05 |
 | **Mode de validation** | NumericTolerance — tolérance 0.01 |

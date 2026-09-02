@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-082, REF-083, REF-084, REF-086 |
 | **Compétence visée** | Structurer un devis par lot avec sous-totaux, et le rendre exact au centime. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 75 min |
 | **Prérequis** | B-12, B-13 |
 | **Mode de validation** | NumericTolerance — tolérance 0.01 |

@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-047, REF-079, REF-046, REF-060 |
 | **Compétence visée** | Construire une progression dont chaque terme dépend du précédent ET de sa position, et en tirer une cote de projet. |
 | **Case Bloom (révisée)** | Analyser × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 80 min |
 | **Prérequis** | B-01, B-08 |
 | **Mode de validation** | NumericTolerance — tolérance 0.01 |

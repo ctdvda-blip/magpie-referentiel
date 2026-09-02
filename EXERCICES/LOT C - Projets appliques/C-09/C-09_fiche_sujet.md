@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-068, REF-101, REF-080, REF-045 |
 | **Compétence visée** | Estimer combien d'éléments circulaires tiennent sur une surface en tenant compte de l'écart imposé entre eux. |
 | **Case Bloom (révisée)** | Analyser × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 85 min |
 | **Prérequis** | B-04, C-08 |
 | **Mode de validation** | SingleValue — tolérance 0 |

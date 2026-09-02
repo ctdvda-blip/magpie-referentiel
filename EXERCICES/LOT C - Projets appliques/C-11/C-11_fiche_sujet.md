@@ -8,7 +8,7 @@
 | **Référence au référentiel** | REF-116, REF-115, REF-082 |
 | **Compétence visée** | Calculer le développé d'une tôle à plis multiples, en comptant le bon nombre de plis par segment. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |
-| **Niveau** | Expérimenté |
+| **Niveau** | Perfectionnement |
 | **Durée cible** | 80 min |
 | **Prérequis** | B-17, C-05 |
 | **Mode de validation** | NumericTolerance — tolérance 0.1 |
