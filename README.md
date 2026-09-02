@@ -15,20 +15,21 @@ Version `v0.4-260901` · référentiel Ind. C
 | | |
 |---|---|
 | Référentiel | **160 notions**, 11 domaines, 41 catégories |
-| Exercices | **197**, en treize lots |
-| Définitions Grasshopper | **380** fichiers `.gh` — sujet et corrigé pour 190 exercices |
+| Exercices | **229**, en quatorze lots |
+| Définitions Grasshopper | **444** fichiers `.gh` — sujet et corrigé pour 222 exercices |
 | Fiches | Markdown, Word illustrées et PDF, sujet seul et sujet + corrigé |
-| Durée cible cumulée | 75,6 h |
+| Durée cible cumulée | 84,3 h |
 
 Chaque notion du référentiel est couverte, **aucune catégorie ne porte moins
 de trois notions**, et **aucune n'a moins d'exercices qu'elle n'a de
 notions**.
 
-### Les treize lots
+### Les quatorze lots
 
 | Lot | | Exercices |
 |---|---|---|
 | **A** | Découverte des composants natifs | 51 |
+| **G** | Exercices gamifiés | 32 |
 | **IA** | IA et assistance générative | 25 |
 | **RH** | Socle Rhino | 23 |
 | **B** | Algorithmes combinés | 18 |
@@ -42,8 +43,8 @@ notions**.
 | **FA** | Aide à la fabrication | 6 |
 | **MP** | Méthode, performance et évènements | 5 |
 
-Le lot **G** (exercices gamifiés) est spécifié au cahier des charges mais pas
-encore produit.
+Les quatorze lots sont produits. Le référentiel spécifié au cahier des
+charges est entièrement construit.
 
 ---
 
@@ -140,7 +141,6 @@ python Documentation/Generateurs/GH/recette_8_noms_uniques.py
 - **La protection de l'application est une porte, pas un coffre.** Elle garde
   la consultation ; le dépôt est public et chaque fichier reste atteignable par
   son adresse directe.
-- **Le lot G** n'a pas encore de recettes de construction.
 
 ---
 
@@ -149,7 +149,7 @@ python Documentation/Generateurs/GH/recette_8_noms_uniques.py
 ```text
 index.html                       l'application, servie par GitHub Pages
 VERSION                          le numéro logique de la version courante
-EXERCICES/                       les treize lots produits
+EXERCICES/                       les quatorze lots produits
 Documentation/                   cahier des charges, guide, planning, générateurs
 Journal des modifications/       ce qui a été fait, jour par jour
 Fondamentaux Grasshopper - IndC  le référentiel au format Excel
