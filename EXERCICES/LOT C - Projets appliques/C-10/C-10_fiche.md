@@ -14,7 +14,7 @@
 | **Mode de validation** | SingleValue — tolérance 0 |
 | **Solution de référence** | 45 composants |
 | **Gamification associée** | G-27 Narration Serengeti + G-09 Récompense cachée |
-| **Version** | v0.4-260901 — Ind. C — 01/09/2026 |
+| **Version** | v0.5-260902 — Ind. C — 01/09/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

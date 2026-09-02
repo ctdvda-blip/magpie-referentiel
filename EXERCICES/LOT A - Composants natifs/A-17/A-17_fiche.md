@@ -14,7 +14,7 @@
 | **Mode de validation** | ExactOrderedList — tolérance — |
 | **Solution de référence** | 3 composants |
 | **Gamification associée** | G-11 Mots croisés de composants |
-| **Version** | v0.4-260901 — Ind. C — 01/09/2026 |
+| **Version** | v0.5-260902 — Ind. C — 01/09/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

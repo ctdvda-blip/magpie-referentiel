@@ -14,7 +14,7 @@
 | **Mode de validation** | NumericTolerance — tolérance 0.0001 |
 | **Solution de référence** | 30 composants |
 | **Gamification associée** | — |
-| **Version** | v0.4-260901 — Ind. C — 01/09/2026 |
+| **Version** | v0.5-260902 — Ind. C — 01/09/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

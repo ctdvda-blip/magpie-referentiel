@@ -6,7 +6,7 @@ autocorrigés pour le plugin **Magpie**, édité par RhinoForYou.
 👉 **[Consulter l'application](https://ctdvda-blip.github.io/magpie-referentiel/)**
 — accès réservé, identifiant et mot de passe communiqués séparément.
 
-Version `v0.4-260901` · référentiel Ind. C
+Version `v0.5-260902` · référentiel Ind. C
 
 ---
 

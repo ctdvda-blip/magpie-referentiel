@@ -14,7 +14,7 @@
 | **Mode de validation** | NumericTolerance — tolérance 0.1 |
 | **Solution de référence** | 18 composants |
 | **Gamification associée** | G-02 Barre de progression + G-26 Feedback visuel |
-| **Version** | v0.4-260901 — Ind. C — 01/09/2026 |
+| **Version** | v0.5-260902 — Ind. C — 01/09/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

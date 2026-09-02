@@ -14,7 +14,7 @@
 | **Mode de validation** | SingleValue — tolérance 0 |
 | **Solution de référence** | 50 composants |
 | **Gamification associée** | G-06 Niveaux et déblocage + G-05 Badges |
-| **Version** | v0.4-260901 — Ind. C — 01/09/2026 |
+| **Version** | v0.5-260902 — Ind. C — 01/09/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

@@ -14,7 +14,7 @@
 | **Mode de validation** | NumericTolerance — tolérance 0,5 % |
 | **Solution de référence** | 6 composants |
 | **Gamification associée** | G-16 Chasse au trésor |
-| **Version** | v0.4-260901 — Ind. C — 01/09/2026 |
+| **Version** | v0.5-260902 — Ind. C — 01/09/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---

@@ -14,7 +14,7 @@
 | **Mode de validation** | GeometryTolerance — tolérance 0,1 mm |
 | **Solution de référence** | 6 composants |
 | **Gamification associée** | G-15 Dessin à compléter |
-| **Version** | v0.4-260901 — Ind. C — 01/09/2026 |
+| **Version** | v0.5-260902 — Ind. C — 01/09/2026 |
 | **Conception** | magpie-conception-exercices v2.3 |
 
 ---
