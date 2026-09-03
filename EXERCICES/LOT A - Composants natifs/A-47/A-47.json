@@ -14,7 +14,7 @@
   "fichier_sujet": "A-47_sujet.gh",
   "id": "A-47",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Linéaire, surface et volume décrivent l'assemblage TEL QU'IL EST MODÉLISÉ. Un assemblage dont les pièces s'interpénètrent compte deux fois la matière commune : les trois valeurs restent cohérentes entre elles et fausses ensemble.",
   "lot": "A",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

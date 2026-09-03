@@ -90,6 +90,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 28 cotes resserrées autour de 1 200 : impossible de compter à l'œil. Les 11 hors-tolérance sont répartis dans les deux sens — 7 trop grandes, 4 trop petites — pour que l'oubli de la valeur absolue donne 7 au lieu de 11 et se voie donc immédiatement.
 
+### Limite de la correction automatique
+
+> Onze traverses sortent de la tolérance ANNONCÉE. La tolérance réelle d'un lot se lit sur le plan et dépend de l'assemblage : 5 mm sur une traverse vissée n'a pas le même sens que sur une traverse encastrée.
+
 ### Pour aller plus loin
 
 - Compter les valeurs comprises entre deux bornes avec Gate And.

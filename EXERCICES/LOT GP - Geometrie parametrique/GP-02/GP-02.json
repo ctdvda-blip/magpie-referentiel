@@ -14,7 +14,7 @@
   "fichier_sujet": "GP-02_sujet.gh",
   "id": "GP-02",
   "justification_donnees": "2 700 n'est pas divisible par 175 : c'est le cas normal, et c'est ce qui oblige à comprendre lequel des deux nombres est la donnée et lequel est le résultat.",
-  "limite_correction": "",
+  "limite_correction": "6,653 m³ est le volume GÉOMÉTRIQUE de l'escalier massif. Le béton réellement commandé s'y ajoute des pertes de coffrage et de reprise — de 3 à 8 % selon l'ouvrage — que ce modèle n'anticipe pas.",
   "lot": "GP",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

@@ -14,7 +14,7 @@
   "fichier_sujet": "GP-08_sujet.gh",
   "id": "GP-08",
   "justification_donnees": "26 faces est la taille d'une cage de mobilier. Les trois réponses possibles — 78, 104 et 1 664 — sont séparées d'un ordre de grandeur, ce qui rend chaque erreur immédiatement lisible.",
-  "limite_correction": "",
+  "limite_correction": "1 664 faces est un compte de TOPOLOGIE, pas de coût. Le poids réel d'une subdivision dépend aussi de ce qui est calculé sur chaque face — aperçu, matériau, analyse — et deux cages de même compte peuvent tenir ou saturer selon ce qui les suit.",
   "lot": "GP",
   "mode_validation": "SingleValue",
   "nature": "competence",

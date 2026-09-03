@@ -90,6 +90,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 24 longueurs, dont une exactement à 500 et une exactement à 1 500. C'est là tout l'intérêt du jeu : bornes incluses la réponse est 16, bornes exclues elle tombe à 14. Un jeu de données sans valeur sur la borne rendrait les deux montages indiscernables.
 
+### Limite de la correction automatique
+
+> Seize chutes repartent en stock, bornes INCLUSES. La convention d'inclusion des bornes est un choix d'atelier : une chute exactement à la longueur minimale se garde ou se jette selon l'usage, et l'écart est ici de deux pièces.
+
 ### Pour aller plus loin
 
 - Exclure une plage avec Gate Not.

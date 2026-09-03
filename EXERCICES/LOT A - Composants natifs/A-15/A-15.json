@@ -14,7 +14,7 @@
   "fichier_sujet": "A-15_sujet.gh",
   "id": "A-15",
   "justification_donnees": "24 surfaces réelles. Aucune ne vaut exactement 2,50 : la plus proche est à 2,49, de sorte que l'exercice ne dépende pas du sens de l'inégalité, qui n'est pas son objet. La somme des deux groupes doit valoir 24, ce qui donne à l'apprenant son propre moyen de contrôle.",
-  "limite_correction": "",
+  "limite_correction": "Onze panneaux dépassent 2,50 m². Le seuil de pose en binôme dépend aussi du POIDS et de l'encombrement, pas de la seule surface : un panneau étroit et long se pose à deux bien avant 2,50 m².",
   "lot": "A",
   "mode_validation": "SingleValue",
   "nature": "competence",

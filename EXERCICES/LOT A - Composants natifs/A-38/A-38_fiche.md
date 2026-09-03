@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Saisir 45 sans conversion : la rotation vaut 45 radians.
 - Le plan de symétrie de Mirror est un plan, pas un axe.
 
+### Limite de la correction automatique
+
+> Le profil tourné et son symétrique sont produits. Une symétrie INVERSE le sens de parcours de la courbe : sans conséquence à l'affichage, elle en a une dès qu'on extrude ou qu'on décale, et c'est un piège classique.
+
 ### Pour aller plus loin
 
 - Enchaîner rotation et symétrie et comparer avec l'ordre inverse.

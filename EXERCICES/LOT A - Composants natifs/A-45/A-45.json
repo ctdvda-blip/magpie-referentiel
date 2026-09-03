@@ -14,7 +14,7 @@
   "fichier_sujet": "A-45_sujet.gh",
   "id": "A-45",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Le linéaire du contour de coupe est juste à mi-hauteur. Une coupe à une autre altitude peut donner un contour de topologie DIFFÉRENTE — deux boucles au lieu d'une — et le linéaire seul ne le signale pas.",
   "lot": "A",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

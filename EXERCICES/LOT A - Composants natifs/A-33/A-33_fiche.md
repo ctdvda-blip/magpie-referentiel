@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Grasshopper travaille en radians : saisir 30 donne 30 radians.
 - Confondre l'origine du plan et le centre du cercle quand on décale ensuite.
 
+### Limite de la correction automatique
+
+> Le cercle est dans le plan demandé. Que ce plan soit celui du PERCEMENT réel dépend de la machine : une inclinaison de 30° se perce en repositionnant la pièce, et l'atelier redéfinit son propre repère.
+
 ### Pour aller plus loin
 
 - Construire le plan directement avec Construct Plane et deux vecteurs.

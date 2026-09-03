@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Area donne le centroïde surfacique, Volume le centroïde volumique : ils diffèrent.
 - Text Tag 3D n'apparaît qu'en aperçu, il ne se cuit qu'avec un Bake explicite.
 
+### Limite de la correction automatique
+
+> Les six étiquettes sont aux centres de gravité GÉOMÉTRIQUES, c'est-à-dire à densité uniforme. Une pièce composite — bois et métal, ou creuse d'un côté — a un centre de masse différent, et c'est lui qui compte à la manutention.
+
 ### Pour aller plus loin
 
 - Trier les pièces par masse en pondérant par la densité.

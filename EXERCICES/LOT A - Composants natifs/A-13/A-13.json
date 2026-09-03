@@ -14,7 +14,7 @@
   "fichier_sujet": "A-13_sujet.gh",
   "id": "A-13",
   "justification_donnees": "Les numéros de repère sont volontairement décorrélés des longueurs : un tri portant sur les repères eux-mêmes donne un ordre différent, donc détectable. La réponse est numérique, comme l'exige le checker.",
-  "limite_correction": "",
+  "limite_correction": "L'ordre de débit est celui de la plus longue d'abord. Il ne tient pas compte des CHUTES réutilisables : un atelier réel intercale les pièces courtes dans les chutes des longues, et l'ordre optimal n'est plus celui-là.",
   "lot": "A",
   "mode_validation": "ExactOrderedList",
   "nature": "competence",

@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-14_sujet.gh",
   "id": "RH-14",
   "justification_donnees": "Huit par six donne un total, 48, qui ne se confond avec aucune des réponses fausses ; et 3 × 2 = 6 se distingue nettement de 3 + 2 = 5, donc 42 de 43.",
-  "limite_correction": "",
+  "limite_correction": "42 plots suppose la trémie ALIGNÉE sur la trame. Une trémie quelconque coupe des plots en deux : le compte devient une question de calepinage — on décale, on recoupe ou on renonce — et non plus une soustraction.",
   "lot": "RH",
   "mode_validation": "SingleValue",
   "nature": "competence",

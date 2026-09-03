@@ -82,6 +82,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Un dénivelé de 1 500 pour 3 200 de projection fait une pente de 25°, courante en appentis. L'écart de 10 % entre les deux réponses est trop petit pour se voir sur un plan, trop grand pour se rattraper sur une commande.
 
+### Limite de la correction automatique
+
+> 29,69 m² est la surface du RAMPANT NU. Une couverture se commande avec ses recouvrements, ses rives et son faîtage : la surface achetée dépasse celle-ci de 10 à 15 % selon le matériau.
+
 ### Pour aller plus loin
 
 - Ajouter un débord de 400 mm et reprendre.

@@ -14,7 +14,7 @@
   "fichier_sujet": "A-16_sujet.gh",
   "id": "A-16",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Le contour fermé prouve que le décalage circulaire est juste. Il ne dit pas que les lisses sont CONSTRUCTIBLES : huit segments qui se rejoignent bout à bout supposent des assemblages d'angle, absents du modèle.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

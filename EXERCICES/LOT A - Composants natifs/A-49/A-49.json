@@ -14,7 +14,7 @@
   "fichier_sujet": "A-49_sujet.gh",
   "id": "A-49",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Les six étiquettes sont aux centres de gravité GÉOMÉTRIQUES, c'est-à-dire à densité uniforme. Une pièce composite — bois et métal, ou creuse d'un côté — a un centre de masse différent, et c'est lui qui compte à la manutention.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

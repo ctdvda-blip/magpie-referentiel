@@ -14,7 +14,7 @@
   "fichier_sujet": "A-14_sujet.gh",
   "id": "A-14",
   "justification_donnees": "36 lames de longueurs voisines mais toutes distinctes : un décalage du motif conserve l'effectif de 12 tout en changeant la réponse. C'est pourquoi la validation porte sur les longueurs et non sur le seul comptage.",
-  "limite_correction": "",
+  "limite_correction": "Douze lames sont posées selon le motif DONNÉ. Que le motif « une sur trois » convienne au calepinage — qu'il tombe juste en rive, qu'il ne crée pas d'alignement disgracieux — est une décision de projet que le comptage ne juge pas.",
   "lot": "A",
   "mode_validation": "ExactOrderedList",
   "nature": "competence",

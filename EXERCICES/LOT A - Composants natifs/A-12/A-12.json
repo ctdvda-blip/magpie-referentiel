@@ -14,7 +14,7 @@
   "fichier_sujet": "A-12_sujet.gh",
   "id": "A-12",
   "justification_donnees": "28 valeurs dispersées entre 51 et 78, sans ordre : les extrêmes ne sautent pas aux yeux et doivent être extraits par construction.",
-  "limite_correction": "",
+  "limite_correction": "Effectif, minimum et maximum décrivent l'ÉTENDUE du lot, pas sa dispersion. Deux lots de mêmes bornes peuvent être l'un centré, l'autre bimodal ; c'est l'écart type qui le dirait, et il n'est pas demandé.",
   "lot": "A",
   "mode_validation": "ExactOrderedList",
   "nature": "competence",

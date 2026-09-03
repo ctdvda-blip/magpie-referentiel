@@ -14,7 +14,7 @@
   "fichier_sujet": "A-38_sujet.gh",
   "id": "A-38",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Le profil tourné et son symétrique sont produits. Une symétrie INVERSE le sens de parcours de la courbe : sans conséquence à l'affichage, elle en a une dès qu'on extrude ou qu'on décale, et c'est un piège classique.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

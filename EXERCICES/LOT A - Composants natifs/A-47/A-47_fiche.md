@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Area sur un Brep fermé renvoie la surface totale : inutile de sommer les faces.
 - Volume nul sur une polysurface ouverte.
 
+### Limite de la correction automatique
+
+> Linéaire, surface et volume décrivent l'assemblage TEL QU'IL EST MODÉLISÉ. Un assemblage dont les pièces s'interpénètrent compte deux fois la matière commune : les trois valeurs restent cohérentes entre elles et fausses ensemble.
+
 ### Pour aller plus loin
 
 - Convertir les unités en m² et m³.

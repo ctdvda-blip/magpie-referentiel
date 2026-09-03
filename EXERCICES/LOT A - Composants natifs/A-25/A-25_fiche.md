@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Cross Reference propose plusieurs variantes (Holistic, Diagonal) dans son menu contextuel.
 - Longest List complète par répétition du dernier élément, pas par des zéros.
 
+### Limite de la correction automatique
+
+> Dix puis quarante montrent la différence entre appariement par file et produit croisé. Ils ne disent pas lequel est ATTENDU : le même graphe rend l'un ou l'autre selon l'intention, et c'est l'intention qui doit être écrite quelque part.
+
 ### Pour aller plus loin
 
 - Obtenir 40 résultats par Graft plutôt que par Cross Reference et comparer les structures.

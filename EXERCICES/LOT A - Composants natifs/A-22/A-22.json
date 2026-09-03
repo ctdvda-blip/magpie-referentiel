@@ -14,7 +14,7 @@
   "fichier_sujet": "A-22_sujet.gh",
   "id": "A-22",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Les trois branches restituent les listes de départ. Cela prouve que rien n'a été PERDU, pas que la structure est la bonne : trois branches ou trois listes séparées se valent ici, et le choix ne se justifie que par ce qui suit.",
   "lot": "A",
   "mode_validation": "SetEquality",
   "nature": "competence",

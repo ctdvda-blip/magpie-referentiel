@@ -14,7 +14,7 @@
   "fichier_sujet": "IA-04_sujet.gh",
   "id": "IA-04",
   "justification_donnees": "Longueurs et diamètres pris dans des séries réelles de gaines circulaires (125 à 400 mm), avec des unités volontairement différentes entre les deux listes : c'est le cas courant en métré, et la spécification doit le dire.",
-  "limite_correction": "",
+  "limite_correction": "58,03 m² est une surface DÉVELOPPÉE de tronçons droits. Les coudes, les brides et les recouvrements de calorifuge s'y ajoutent en atelier : le métré sert à commander, pas à facturer.",
   "lot": "IA",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

@@ -92,6 +92,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Le jeu comprend une valeur limite et une valeur négative, pour que deux implémentations plausibles puissent diverger et que la comparaison ait un sens.
 
+### Limite de la correction automatique
+
+> L'égalité des seize valeurs établit que les deux versions s'accordent SUR CE JEU. Elle ne prouve pas l'équivalence des deux codes : un cas limite absent du jeu — liste vide, valeur négative — peut les séparer, et c'est le défaut classique du portage.
+
 ### Pour aller plus loin
 
 - Comparer aussi les temps de calcul sur un jeu de données plus grand.

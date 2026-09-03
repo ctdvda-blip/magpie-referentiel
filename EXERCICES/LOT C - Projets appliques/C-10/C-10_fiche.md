@@ -93,6 +93,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Une cellule de 1,5 mm² fait 1,22 mm de côté ; avec le filet le pas monte à 1,47 mm, soit une aire de 2,17 mm² par cellule — 45 % de plus. C'est la marge que le filet coûte, et elle est loin d'être négligeable à cette échelle.
 
+### Limite de la correction automatique
+
+> 77 cellules est un compte de SURFACE. Un Voronoï réel n'a pas de cellules égales : les cellules de bord sont plus petites, et le nombre effectivement placé varie de quelques unités selon la répartition des germes.
+
 ### Pour aller plus loin
 
 - Remplacer le Voronoï par un motif hexagonal déformé.

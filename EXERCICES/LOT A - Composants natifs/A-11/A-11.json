@@ -14,7 +14,7 @@
   "fichier_sujet": "A-11_sujet.gh",
   "id": "A-11",
   "justification_donnees": "24 longueurs non ordonnées : ni le rang 4 ni le dernier rang ne se repèrent visuellement.",
-  "limite_correction": "",
+  "limite_correction": "Les deux longueurs valent POUR CE DÉBIT. Celle du dernier rang est prise par index négatif précisément parce que le débit s'allongera : la quatrième, elle, restera la quatrième — ce qui est une convention, pas une propriété.",
   "lot": "A",
   "mode_validation": "ExactOrderedList",
   "nature": "competence",

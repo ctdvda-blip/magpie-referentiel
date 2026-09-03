@@ -93,6 +93,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Taille 54, section 2,0 × 1,3 mm, or 750 à 15,6 g/cm³ : la masse tombe à 3,011 g pour une limite de 3,2. La marge est de 6 % — assez serrée pour que l'erreur de fibre moyenne compte, assez large pour que la pièce reste faisable.
 
+### Limite de la correction automatique
+
+> 3,011 g est la masse de MATIÈRE finie. La fonte à cire perdue consomme davantage — tiges d'alimentation, masselottes, pertes de récupération — couramment 20 à 30 % de plus, que le devis joaillier compte séparément.
+
 ### Pour aller plus loin
 
 - Ajouter un pavage sur le corps de bague.

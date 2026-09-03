@@ -92,6 +92,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Les porteurs forment une trame régulière de 5 400 × 6 200 mm, les cloisons sont décalées à mi-portée. La distinction est lisible à l'œil dans la vue, ce qui rend le tri manuel tentant — et c'est justement le piège.
 
+### Limite de la correction automatique
+
+> Douze prouve que la SÉPARATION est faite. Que les calques portent des noms utilisables par un tiers, et non « calque 01 » et « calque 02 », ne se vérifie pas par un nombre — c'est pourtant ce qui rend le fichier transmissible.
+
 ### Pour aller plus loin
 
 - Ajouter deux porteurs dans Rhino et vérifier que le compte suit tout seul.

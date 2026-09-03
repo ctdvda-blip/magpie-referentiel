@@ -92,6 +92,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Le composant fourni divise par un million au lieu d'un milliard : il annonce 40,8 m³ pour un assemblage qui en fait 0,0408. Un facteur mille, invisible sans contrôle de l'ordre de grandeur.
 
+### Limite de la correction automatique
+
+> Le volume exact tranche la question posée. Il ne dit pas COMMENT l'écart a été trouvé : un facteur mille se repère à l'ordre de grandeur, et c'est ce réflexe — comparer au plausible avant de comparer au juste — que l'exercice travaille et que le nombre seul ne mesure pas.
+
 ### Pour aller plus loin
 
 - Faire produire par l'assistant son propre contrôle indépendant, et juger si le contrôle est réellement indépendant.

@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 La ligne au sol présente une courbure variable : une extrusion suivant la normale donnerait un résultat visuellement proche et numériquement différent.
 
+### Limite de la correction automatique
+
+> La surface est celle du BARDAGE DÉVELOPPÉ. Elle ne déduit ni les baies ni les recouvrements de lames : la commande se fait sur une surface majorée, typiquement de 5 à 10 %.
+
 ### Pour aller plus loin
 
 - Incliner le bardage de 10° et mesurer l'écart de surface.

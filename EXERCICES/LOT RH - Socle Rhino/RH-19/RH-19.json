@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-19_sujet.gh",
   "id": "RH-19",
   "justification_donnees": "Les douze détails sont tous sous la résolution avant agrandissement et six seulement après : les deux réponses, 12 et 6, sont dans un rapport de deux, et la première est aussi le nombre total de détails — ce qui la rend immédiatement suspecte à qui la relit.",
-  "limite_correction": "",
+  "limite_correction": "Six détails passent sous la résolution APRÈS agrandissement. Le compte est géométrique : il ne dit pas si ces détails comptent. Un congé perdu est sans conséquence, un jeu fonctionnel perdu bloque l'assemblage, et c'est le concepteur qui fait la différence.",
   "lot": "RH",
   "mode_validation": "SingleValue",
   "nature": "competence",

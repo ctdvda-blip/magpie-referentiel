@@ -14,7 +14,7 @@
   "fichier_sujet": "A-09_sujet.gh",
   "id": "A-09",
   "justification_donnees": "24 lignes dont 6 non renseignées, dispersées et non groupées en fin de liste, pour que le nettoyage ne puisse pas se deviner. Répondre 24 signale qu'on a mesuré la liste sans la nettoyer.",
-  "limite_correction": "",
+  "limite_correction": "Dix-huit hauteurs sont RENSEIGNÉES. Renseignée ne veut pas dire juste : une valeur saisie par erreur passe le comptage. Distinguer la donnée absente de la donnée fausse demande un contrôle de vraisemblance, que l'exercice n'aborde pas.",
   "lot": "A",
   "mode_validation": "SingleValue",
   "nature": "competence",

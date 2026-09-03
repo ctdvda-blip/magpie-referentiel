@@ -14,7 +14,7 @@
   "fichier_sujet": "IA-09_sujet.gh",
   "id": "IA-09",
   "justification_donnees": "24 couples couvrant 1,10 à 3,60 m², assez dispersés pour qu'un ajustement soit nécessaire, et assez cohérents pour qu'il ait un sens. La baie à estimer tombe en milieu de plage : l'exercice porte sur l'ajustement, pas sur l'extrapolation, qui est un autre sujet.",
-  "limite_correction": "",
+  "limite_correction": "380 W est une estimation par RÉGRESSION sur vingt-quatre points. Elle vaut dans la plage relevée ; extrapoler à une baie de 8 m² sortirait du domaine des données, et le modèle n'en dit rien. La tolérance de 10 W couvre le choix de la méthode d'ajustement, pas la validité du modèle.",
   "lot": "IA",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

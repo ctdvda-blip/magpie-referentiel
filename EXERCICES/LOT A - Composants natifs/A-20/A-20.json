@@ -14,7 +14,7 @@
   "fichier_sujet": "A-20_sujet.gh",
   "id": "A-20",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Neuf segments prouve que le produit croisé est obtenu. Il ne dit pas que neuf haubans sont VOULUS : passer de trois à neuf est un choix de structure, et l'exercice montre le mécanisme sans trancher l'opportunité.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

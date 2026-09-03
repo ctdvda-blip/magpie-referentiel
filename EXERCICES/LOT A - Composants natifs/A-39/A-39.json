@@ -14,7 +14,7 @@
   "fichier_sujet": "A-39_sujet.gh",
   "id": "A-39",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Vingt modules en trame et douze en couronne. Aucun des deux réseaux ne vérifie que les modules ne se RECOUVRENT pas : sur la couronne, un module large et un rayon court se chevauchent sans que le compte bouge.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

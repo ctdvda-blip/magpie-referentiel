@@ -91,6 +91,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 24 lamelles de 420 mm, largeur de 15 à 45 mm : la largeur moyenne vaut 30 mm, exactement le tiers de la somme des extrêmes plus le minimum. Le rapport de 1,5 entre les deux réponses est trop grand pour passer inaperçu sur une commande.
 
+### Limite de la correction automatique
+
+> 0,3024 m² est la surface DÉVELOPPÉE à plat. La lamelle cintrée garde cette surface, mais son flan de découpe doit ajouter les pertes de mise en forme — quelques millimètres par bord, selon le matériau.
+
 ### Pour aller plus loin
 
 - Faire varier aussi l'épaisseur.

@@ -14,7 +14,7 @@
   "fichier_sujet": "A-35_sujet.gh",
   "id": "A-35",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Douze colliers régulièrement espacés le long du tracé. L'espacement réel se décide par la PORTÉE admissible du conduit et par les points durs du bâtiment ; la régularité est une commodité de modèle, pas une règle de pose.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

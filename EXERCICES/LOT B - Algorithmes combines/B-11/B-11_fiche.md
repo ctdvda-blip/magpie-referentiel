@@ -91,6 +91,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 187,5 mm de courbe, maillons de 4 mm recouverts de 1,2 : le pas tombe à 2,8 mm. Les deux réponses, 46 et 66, sont éloignées de moitié — impossible de confondre les deux méthodes.
 
+### Limite de la correction automatique
+
+> 66 maillons suivent la courbe THÉORIQUE. Une chaîne réelle pend : sa ligne est une chaînette, plus longue que la courbe dessinée, et le compte monte. L'exercice traite le cas guidé, pas le cas suspendu.
+
 ### Pour aller plus loin
 
 - Faire varier la taille des maillons selon la position sur la courbe.

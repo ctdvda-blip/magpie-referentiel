@@ -82,6 +82,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Huit par six donne un total, 48, qui ne se confond avec aucune des réponses fausses ; et 3 × 2 = 6 se distingue nettement de 3 + 2 = 5, donc 42 de 43.
 
+### Limite de la correction automatique
+
+> 42 plots suppose la trémie ALIGNÉE sur la trame. Une trémie quelconque coupe des plots en deux : le compte devient une question de calepinage — on décale, on recoupe ou on renonce — et non plus une soustraction.
+
 ### Pour aller plus loin
 
 - Donner la position du dernier plot depuis l'origine.

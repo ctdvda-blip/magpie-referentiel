@@ -91,6 +91,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Quatorze pièces sur trois rangées, saisies dans le désordre. Pour la pièce visée, les trois lectures donnent trois rangs différents : 7 dans l'ordre demandé, 5 en triant par colonne, 4 dans l'ordre de saisie. Aucune confusion possible.
 
+### Limite de la correction automatique
+
+> Le rang dépend de l'ordre des critères, qui est une CONVENTION d'atelier. L'exercice en impose une ; un autre atelier numéroterait autrement, et aurait raison. Ce qui se vérifie est l'application de la convention, pas son bien-fondé.
+
 ### Pour aller plus loin
 
 - Ajouter le repère dans un attribut Rhino via Elefront.

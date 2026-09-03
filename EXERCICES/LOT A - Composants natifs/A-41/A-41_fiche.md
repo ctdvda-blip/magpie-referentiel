@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Profils branchés dans le désordre : le Loft se vrille.
 - Extrude attend un vecteur, pas une distance.
 
+### Limite de la correction automatique
+
+> Les deux surfaces sont produites. Elles n'ont pas la même NATURE : la transition entre deux profils dépend de leur paramétrage et peut se vriller, là où l'extrusion ne le peut pas. Deux surfaces d'apparence proche se comportent différemment en aval.
+
 ### Pour aller plus loin
 
 - Lofter trois profils et observer la continuité.

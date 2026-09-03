@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 2 700 n'est pas divisible par 175 : c'est le cas normal, et c'est ce qui oblige à comprendre lequel des deux nombres est la donnée et lequel est le résultat.
 
+### Limite de la correction automatique
+
+> 6,653 m³ est le volume GÉOMÉTRIQUE de l'escalier massif. Le béton réellement commandé s'y ajoute des pertes de coffrage et de reprise — de 3 à 8 % selon l'ouvrage — que ce modèle n'anticipe pas.
+
 ### Pour aller plus loin
 
 - Faire varier la hauteur d'étage et vérifier que le nombre de marches se recale seul.

@@ -90,6 +90,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Les numéros de repère sont volontairement décorrélés des longueurs : un tri portant sur les repères eux-mêmes donne un ordre différent, donc détectable. La réponse est numérique, comme l'exige le checker.
 
+### Limite de la correction automatique
+
+> L'ordre de débit est celui de la plus longue d'abord. Il ne tient pas compte des CHUTES réutilisables : un atelier réel intercale les pièces courtes dans les chutes des longues, et l'ordre optimal n'est plus celui-là.
+
 ### Pour aller plus loin
 
 - Trier selon deux critères successifs.

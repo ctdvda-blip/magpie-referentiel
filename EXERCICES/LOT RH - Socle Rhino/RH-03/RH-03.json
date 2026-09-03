@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-03_sujet.gh",
   "id": "RH-03",
   "justification_donnees": "L'emprise tombe juste sur la trame dans les deux sens, pour que l'exercice porte sur le décompte et non sur le traitement des rives incomplètes.",
-  "limite_correction": "",
+  "limite_correction": "48 plots suppose la trame COMPLÈTE dans l'emprise. Une terrasse réelle a des rives : le dernier rang tombe rarement juste, et le calepinage décide de le décaler ou de le recouper. L'exercice pose le cas où la trame tombe juste.",
   "lot": "RH",
   "mode_validation": "SingleValue",
   "nature": "competence",

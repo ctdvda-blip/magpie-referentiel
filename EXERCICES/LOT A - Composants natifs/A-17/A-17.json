@@ -14,7 +14,7 @@
   "fichier_sujet": "A-17_sujet.gh",
   "id": "A-17",
   "justification_donnees": "Les deux essences occupent deux plages de longueur distinctes — chêne autour de 1 250, noyer autour de 1 440. L'alternance se contrôle donc à la lecture, et une mise bout à bout se repère au premier coup d'œil. La réponse est numérique, comme l'exige le checker.",
-  "limite_correction": "",
+  "limite_correction": "L'ordre de pose alterne les deux essences. Il ne tient pas compte du SENS DU FIL ni de la teinte réelle des lames : un platelage se calepine aussi à l'œil, en atelier, avant d'être vissé.",
   "lot": "A",
   "mode_validation": "ExactOrderedList",
   "nature": "competence",

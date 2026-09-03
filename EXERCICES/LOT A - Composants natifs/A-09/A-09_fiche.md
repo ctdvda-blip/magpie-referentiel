@@ -90,6 +90,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 24 lignes dont 6 non renseignées, dispersées et non groupées en fin de liste, pour que le nettoyage ne puisse pas se deviner. Répondre 24 signale qu'on a mesuré la liste sans la nettoyer.
 
+### Limite de la correction automatique
+
+> Dix-huit hauteurs sont RENSEIGNÉES. Renseignée ne veut pas dire juste : une valeur saisie par erreur passe le comptage. Distinguer la donnée absente de la donnée fausse demande un contrôle de vraisemblance, que l'exercice n'aborde pas.
+
 ### Note au formateur
 
 > La solution de référence tient en peu de composants : l'exercice mesure surtout la connaissance du composant de nettoyage. En parcours, le fusionner avec un calcul qui exploite le relevé nettoyé.

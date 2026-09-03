@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Range avec Steps = 5 produit 6 valeurs, pas 5.
 - Oublier Construct Domain et saisir le domaine dans un Panel.
 
+### Limite de la correction automatique
+
+> Les sept abscisses supposent le premier portique À L'ORIGINE de la file. Un décalage d'implantation translate toute la liste, et c'est une donnée de projet, pas de calcul : la formule reste juste et le résultat devient faux.
+
 ### Pour aller plus loin
 
 - Produire une suite décroissante avec un pas négatif.

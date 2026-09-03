@@ -14,7 +14,7 @@
   "fichier_sujet": "A-33_sujet.gh",
   "id": "A-33",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Le cercle est dans le plan demandé. Que ce plan soit celui du PERCEMENT réel dépend de la machine : une inclinaison de 30° se perce en repositionnant la pièce, et l'atelier redéfinit son propre repère.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

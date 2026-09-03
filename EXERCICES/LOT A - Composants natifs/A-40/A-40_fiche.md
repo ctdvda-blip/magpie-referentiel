@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Scale utilise par défaut l'origine du repère, pas le centre de l'objet.
 - Scale NU s'applique selon les axes du plan fourni.
 
+### Limite de la correction automatique
+
+> Les deux mises à l'échelle sont justes. Une échelle non uniforme déforme les CONGÉS et les épaisseurs : un profil deux fois plus haut n'a plus les mêmes rayons de raccordement, et n'est plus fabricable avec le même outil.
+
 ### Pour aller plus loin
 
 - Mettre à l'échelle une liste d'objets avec des facteurs différents.

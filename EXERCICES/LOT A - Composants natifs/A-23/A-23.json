@@ -14,7 +14,7 @@
   "fichier_sujet": "A-23_sujet.gh",
   "id": "A-23",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "La permutation des deux niveaux est faite. Qu'elle soit la bonne dépend de ce qu'on veut GROUPER ensuite — par file ou par niveau — et c'est une question de projet, non de structure de données.",
   "lot": "A",
   "mode_validation": "SetEquality",
   "nature": "competence",

@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-02_sujet.gh",
   "id": "RH-02",
   "justification_donnees": "Les porteurs forment une trame régulière de 5 400 × 6 200 mm, les cloisons sont décalées à mi-portée. La distinction est lisible à l'œil dans la vue, ce qui rend le tri manuel tentant — et c'est justement le piège.",
-  "limite_correction": "",
+  "limite_correction": "Douze prouve que la SÉPARATION est faite. Que les calques portent des noms utilisables par un tiers, et non « calque 01 » et « calque 02 », ne se vérifie pas par un nombre — c'est pourtant ce qui rend le fichier transmissible.",
   "lot": "RH",
   "mode_validation": "SingleValue",
   "nature": "competence",

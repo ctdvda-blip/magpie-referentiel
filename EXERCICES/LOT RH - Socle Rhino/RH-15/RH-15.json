@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-15_sujet.gh",
   "id": "RH-15",
   "justification_donnees": "Cinq segments orthogonaux de longueurs différentes, et un écart de 25 % entre la corde et le développé : assez grand pour que l'erreur se voie au chiffrage, assez petit pour qu'elle ne saute pas aux yeux sur le plan.",
-  "limite_correction": "",
+  "limite_correction": "13 400 mm est la longueur du cheminement PROJETÉ. Un cheminement qui monte est plus long que sa projection : sur une pente à 5 %, l'écart est de 0,1 %, sur une rampe à 30 %, de 4 %. L'exercice traite le cas plan.",
   "lot": "RH",
   "mode_validation": "SingleValue",
   "nature": "competence",

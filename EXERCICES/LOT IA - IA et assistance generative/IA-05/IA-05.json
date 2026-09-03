@@ -14,7 +14,7 @@
   "fichier_sujet": "IA-05_sujet.gh",
   "id": "IA-05",
   "justification_donnees": "Les longueurs sont choisies pour qu'une comparaison large et une comparaison stricte donnent le même compte : l'erreur plantée dans le code est ailleurs, ce qui évite de résoudre l'exercice par tâtonnement sur l'inégalité.",
-  "limite_correction": "",
+  "limite_correction": "Neuf tronçons prouve que le défaut est CORRIGÉ, pas qu'il est compris. Un apprenant peut remplacer le code entier par le sien et obtenir la bonne valeur sans avoir jamais vu l'erreur — l'exercice demande de la nommer, et cela se lit.",
   "lot": "IA",
   "mode_validation": "SingleValue",
   "nature": "competence",

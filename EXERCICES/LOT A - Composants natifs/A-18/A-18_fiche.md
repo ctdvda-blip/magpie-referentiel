@@ -84,6 +84,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 28 altitudes non ordonnées : la tranche demandée n'a aucune signature visuelle, il faut la prélever.
 
+### Limite de la correction automatique
+
+> Les huit relevés de la section courante sont EXTRAITS par leur rang. Que les rangs 5 à 12 correspondent bien à la section courante est une donnée du relevé : un point de plus au début décale tout, sans que rien ne le signale.
+
 ### Pour aller plus loin
 
 - Couper la liste en deux avec Split List.

@@ -14,7 +14,7 @@
   "fichier_sujet": "GP-01_sujet.gh",
   "id": "GP-01",
   "justification_donnees": "Le congé de 60 mm est assez grand pour que l'oubli du retranchement se voie au dixième de millimètre, et assez petit pour rester une réservation plausible.",
-  "limite_correction": "",
+  "limite_correction": "Le périmètre valide le TRACÉ, pas la cotation. Qu'un plan porte les bonnes cotes, aux bons endroits et à la bonne échelle ne se vérifie pas par un nombre : c'est le formateur qui ouvre la mise en page.",
   "lot": "GP",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

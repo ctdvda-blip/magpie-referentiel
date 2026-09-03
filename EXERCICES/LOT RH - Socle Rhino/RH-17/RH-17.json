@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-17_sujet.gh",
   "id": "RH-17",
   "justification_donnees": "Le recouvrement représente 14 % de la réunion : assez pour que l'écart se voie sur une commande, assez peu pour qu'on l'oublie. Les trois volumes sont donnés, de sorte que l'exercice porte sur le raisonnement et non sur la construction géométrique.",
-  "limite_correction": "",
+  "limite_correction": "La réunion suppose UN SEUL recouvrement, entièrement contenu dans les deux massifs. Trois volumes qui se recoupent deux à deux demandent l'inclusion-exclusion complète — retrancher les paires puis rajouter le triple — et la formule de l'exercice ne s'y étend pas.",
   "lot": "RH",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

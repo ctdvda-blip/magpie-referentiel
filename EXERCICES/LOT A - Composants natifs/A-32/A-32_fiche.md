@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Confondre Amplitude (impose une longueur) et Multiplication (multiplie la longueur).
 - Oublier d'activer Unitize sur Vector 2Pt quand on veut une direction pure.
 
+### Limite de la correction automatique
+
+> Les deux vecteurs ont la bonne longueur et la bonne direction. Un vecteur n'a pas de POINT D'APPLICATION : que le second tirant parte du même endroit que le premier est une décision de construction, pas une propriété du vecteur.
+
 ### Pour aller plus loin
 
 - Construire le vecteur normal d'un plan.

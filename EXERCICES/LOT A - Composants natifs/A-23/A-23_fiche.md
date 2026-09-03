@@ -87,6 +87,10 @@ Ces réglages ne peuvent pas être enregistrés dans le fichier : ils sont à po
 - Path Mapper : double-cliquer, saisir {A;B} en source et {B;A} en cible.
 - Ne pas oublier les accolades, et réutiliser les mêmes lettres de part et d'autre.
 
+### Limite de la correction automatique
+
+> La permutation des deux niveaux est faite. Qu'elle soit la bonne dépend de ce qu'on veut GROUPER ensuite — par file ou par niveau — et c'est une question de projet, non de structure de données.
+
 ### Note au formateur
 
 > Le composant de réécriture des chemins est à lui seul la solution. Le maintenir comme exercice n'a de sens que si l'appariement qui suit est réellement demandé.

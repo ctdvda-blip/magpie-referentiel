@@ -84,6 +84,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 28 valeurs dispersées entre 51 et 78, sans ordre : les extrêmes ne sautent pas aux yeux et doivent être extraits par construction.
 
+### Limite de la correction automatique
+
+> Effectif, minimum et maximum décrivent l'ÉTENDUE du lot, pas sa dispersion. Deux lots de mêmes bornes peuvent être l'un centré, l'autre bimodal ; c'est l'écart type qui le dirait, et il n'est pas demandé.
+
 ### Pour aller plus loin
 
 - Ajouter la moyenne avec Average.

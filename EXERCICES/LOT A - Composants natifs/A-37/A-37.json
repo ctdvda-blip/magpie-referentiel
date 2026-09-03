@@ -14,7 +14,7 @@
   "fichier_sujet": "A-37_sujet.gh",
   "id": "A-37",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Six entretoises au bon espacement. Le premier décalage de 120 mm et le pas de 24 mm sont des DONNÉES : leur cumul doit tomber sous la hauteur disponible, ce que l'exercice ne vérifie pas.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

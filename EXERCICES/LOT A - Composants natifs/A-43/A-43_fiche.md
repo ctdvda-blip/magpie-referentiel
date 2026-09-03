@@ -84,6 +84,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Le tube fourni est ouvert aux deux extrémités. Son volume vaut zéro tant qu'il ne l'est pas : la preuve du caractère fermé est donc déjà numérique, et il n'y a pas lieu de la traduire en booléen.
 
+### Limite de la correction automatique
+
+> Un volume non nul prouve la FERMETURE. Il ne prouve pas la propreté : faces retournées, arêtes dupliquées ou auto-intersections peuvent subsister et se manifester seulement à l'export ou à l'impression.
+
 ### Pour aller plus loin
 
 - Réparer une ouverture non plane avec un Loft complémentaire puis Brep Join.

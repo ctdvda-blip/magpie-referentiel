@@ -83,6 +83,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Un angle de 68° donne un recul de 727 mm et un fuyant de 1 941 mm : les deux sont du même ordre que les cotes du meuble, donc tous deux crédibles. C'est ce qui rend la confusion durable.
 
+### Limite de la correction automatique
+
+> La petite base se déduit d'un fuyant RECTILIGNE. Un fuyant courbe, cas fréquent en menuiserie de comble, ne se traite pas par un recul horizontal : il demande une intersection, et l'exercice ne l'aborde pas.
+
 ### Pour aller plus loin
 
 - Faire varier l'angle et vérifier que la petite base suit.

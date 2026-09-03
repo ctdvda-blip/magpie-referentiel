@@ -91,6 +91,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Caisson de 800 mm en panneaux de 19 : intérieur 762 mm, moins deux fois 13 = 736. Les deux réponses, 736 et 749, ne diffèrent que de 13 mm — assez peu pour n'être vues qu'au montage.
 
+### Limite de la correction automatique
+
+> 736 mm est la largeur du CAISSON de tiroir. La façade, elle, suit un jeu différent — celui du rainurage entre façades, typiquement 3 mm — et ne se déduit pas de ce calcul.
+
 ### Pour aller plus loin
 
 - Ajouter une façade en applique avec débord.

@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Le relevé est volontairement très déséquilibré : trois composants au-dessus de 1 800 ms, dix-sept sous 30 ms. C'est la répartition réelle d'une définition lente, et c'est ce qui rend la mesure indispensable.
 
+### Limite de la correction automatique
+
+> 97 % dit OÙ est le temps, pas ce qu'on peut en récupérer. Un composant lent peut l'être irréductiblement — un maillage, une intersection — et le profilage désigne la cible sans promettre le gain.
+
 ### Pour aller plus loin
 
 - Chiffrer le gain si l'un des trois passait à 100 ms.

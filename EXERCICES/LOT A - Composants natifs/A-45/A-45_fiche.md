@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Plan de coupe placé hors du solide : aucune courbe produite.
 - Plusieurs contours produits : additionner toutes les longueurs.
 
+### Limite de la correction automatique
+
+> Le linéaire du contour de coupe est juste à mi-hauteur. Une coupe à une autre altitude peut donner un contour de topologie DIFFÉRENTE — deux boucles au lieu d'une — et le linéaire seul ne le signale pas.
+
 ### Pour aller plus loin
 
 - Produire une série de coupes régulières pour un plan de fabrication.

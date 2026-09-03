@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Inverser A et B : on obtient les cylindres percés par le bloc.
 - Cylindres tangents à la face : l'opération échoue.
 
+### Limite de la correction automatique
+
+> Le volume retiré est celui des quatre cylindres. Il ne dit rien de la TENUE de la platine percée, ni de la faisabilité du perçage : quatre trous de 20 mm dans une platine mince l'affaiblissent, et c'est un calcul de résistance.
+
 ### Pour aller plus loin
 
 - Additionner les volumes des cylindres et comparer au volume retiré.

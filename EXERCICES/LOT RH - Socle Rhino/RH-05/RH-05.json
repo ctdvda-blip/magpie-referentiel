@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-05_sujet.gh",
   "id": "RH-05",
   "justification_donnees": "L'épaisseur de 15 mm et le diamètre de 18 mm sont ceux d'une platine courante pour boulons M16 : les valeurs parlent à qui connaît le métier.",
-  "limite_correction": "",
+  "limite_correction": "Le volume retiré est GÉOMÉTRIQUE. Le perçage réel enlève un peu plus — ébavurage et jeu du foret — et surtout ne dit rien de la tenue de la platine : quatre trous à 40 mm des bords affaiblissent une pièce de 15 mm, ce qui est un calcul de résistance.",
   "lot": "RH",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

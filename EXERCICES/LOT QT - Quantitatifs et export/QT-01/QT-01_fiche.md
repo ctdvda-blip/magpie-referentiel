@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Cinq sections courantes de charpente, réparties de façon que la corrélation entre section et longueur soit positive : la moyenne sous-estime alors le volume, toujours dans le même sens.
 
+### Limite de la correction automatique
+
+> Le volume est celui du BOIS FINI. Le débit part de sections brutes plus grandes — rabotage, tolérance de sciage — et le volume commandé au scieur dépasse celui-ci de 8 à 15 % selon l'essence et le corroyage.
+
 ### Pour aller plus loin
 
 - Ajouter 10 % de chutes et refaire le chiffrage.

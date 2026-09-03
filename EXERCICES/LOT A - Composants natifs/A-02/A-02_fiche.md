@@ -82,6 +82,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Slider borné à 0-100 : impossible d'atteindre -15.
 - Confondre Construct Point et Deconstruct Point.
 
+### Limite de la correction automatique
+
+> Le point est au bon endroit dans le REPÈRE DU MODÈLE. Que ce repère coïncide avec celui du géomètre — origine, orientation, système de projection — est une convention de projet que rien ici ne vérifie, et c'est la première cause de calages faux.
+
 ### Pour aller plus loin
 
 - Ajouter un second point et tracer la Line entre les deux.

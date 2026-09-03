@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Les longueurs du débit du lot A sont réemployées ici dans un autre métier et une autre finalité : c'est la variation de contexte que la recherche sur le transfert recommande, à données constantes.
 
+### Limite de la correction automatique
+
+> L'effectif du groupe le plus fourni valide le REGROUPEMENT, pas son intérêt économique. Trois longueurs de commande peuvent coûter plus cher que quatre selon le barème du fournisseur et la chute engendrée — l'arbitrage est un calcul de coût, pas de comptage.
+
 ### Pour aller plus loin
 
 - Passer à quatre longueurs et comparer la chute totale.

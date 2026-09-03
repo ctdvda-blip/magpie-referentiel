@@ -14,7 +14,7 @@
   "fichier_sujet": "B-02_sujet.gh",
   "id": "B-02",
   "justification_donnees": "3 240 mm de main courante, barreaux de 16 mm, 110 mm de libre admis : le calcul juste donne 25 barreaux et 108 mm de libre — juste sous la limite, ce qui est le cas réel d'un garde-corps optimisé. Le calcul faux en donne 30, soit 20 % de matière en trop.",
-  "limite_correction": "",
+  "limite_correction": "Le compte suppose des barreaux de section CONSTANTE et une main courante droite. Un garde-corps rampant — le long d'un escalier — ne se calcule pas ainsi : l'espacement libre s'y mesure perpendiculairement à la pente, et le compte change.",
   "lot": "B",
   "mode_validation": "SingleValue",
   "nature": "competence",

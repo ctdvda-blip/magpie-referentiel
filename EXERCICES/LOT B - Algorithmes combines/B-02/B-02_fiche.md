@@ -91,6 +91,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 3 240 mm de main courante, barreaux de 16 mm, 110 mm de libre admis : le calcul juste donne 25 barreaux et 108 mm de libre — juste sous la limite, ce qui est le cas réel d'un garde-corps optimisé. Le calcul faux en donne 30, soit 20 % de matière en trop.
 
+### Limite de la correction automatique
+
+> Le compte suppose des barreaux de section CONSTANTE et une main courante droite. Un garde-corps rampant — le long d'un escalier — ne se calcule pas ainsi : l'espacement libre s'y mesure perpendiculairement à la pente, et le compte change.
+
 ### Pour aller plus loin
 
 - Suivre une main courante inclinée en gardant les barreaux verticaux.

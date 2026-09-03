@@ -14,7 +14,7 @@
   "fichier_sujet": "B-14_sujet.gh",
   "id": "B-14",
   "justification_donnees": "Quatorze pièces sur trois rangées, saisies dans le désordre. Pour la pièce visée, les trois lectures donnent trois rangs différents : 7 dans l'ordre demandé, 5 en triant par colonne, 4 dans l'ordre de saisie. Aucune confusion possible.",
-  "limite_correction": "",
+  "limite_correction": "Le rang dépend de l'ordre des critères, qui est une CONVENTION d'atelier. L'exercice en impose une ; un autre atelier numéroterait autrement, et aurait raison. Ce qui se vérifie est l'application de la convention, pas son bien-fondé.",
   "lot": "B",
   "mode_validation": "SingleValue",
   "nature": "competence",

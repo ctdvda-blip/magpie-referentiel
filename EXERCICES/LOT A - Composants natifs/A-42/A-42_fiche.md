@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Profil non perpendiculaire au rail : le balayage se déforme.
 - Domaine de révolution incomplet : le vase reste ouvert.
 
+### Limite de la correction automatique
+
+> Le tube et la surface de révolution sont engendrés. Le balayage le long d'un guide courbe peut PINCER la surface quand le rayon du guide approche celui du profil — l'exercice reste dans le cas sain, et rien ne signale l'autre.
+
 ### Pour aller plus loin
 
 - Balayer avec deux rails (Sweep 2).

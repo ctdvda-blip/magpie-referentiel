@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Le réseau rectangulaire produit un arbre, pas une liste plate.
 - Polar Array attend un angle en radians.
 
+### Limite de la correction automatique
+
+> Vingt modules en trame et douze en couronne. Aucun des deux réseaux ne vérifie que les modules ne se RECOUVRENT pas : sur la couronne, un module large et un rayon court se chevauchent sans que le compte bouge.
+
 ### Pour aller plus loin
 
 - Faire varier la taille des modules selon leur position.

@@ -14,7 +14,7 @@
   "fichier_sujet": "A-44_sujet.gh",
   "id": "A-44",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Le volume retiré est celui des quatre cylindres. Il ne dit rien de la TENUE de la platine percée, ni de la faisabilité du perçage : quatre trous de 20 mm dans une platine mince l'affaiblissent, et c'est un calcul de résistance.",
   "lot": "A",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

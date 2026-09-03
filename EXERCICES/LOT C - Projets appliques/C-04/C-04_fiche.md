@@ -93,6 +93,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Neuf lignes en trois lots, avec des unités différentes — m³, tonne, unité, m² — pour que la somme des quantités n'ait aucun sens et que l'erreur se voie. Les trois sous-totaux sont de tailles très différentes : 9 353, 23 790, 21 956.
 
+### Limite de la correction automatique
+
+> Le total est un montant de TRAVAUX, hors taxes et hors aléas. Un devis remis au client y ajoute la TVA, les frais généraux et une provision d'imprévus — de 5 à 10 % selon la maturité du projet. Le chiffre juste n'est pas encore le prix.
+
 ### Pour aller plus loin
 
 - Ajouter un coefficient de perte par lot.

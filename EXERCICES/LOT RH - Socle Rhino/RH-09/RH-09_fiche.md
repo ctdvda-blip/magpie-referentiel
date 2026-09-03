@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Les trois rapports valent 0,579, 0,846 et 1,282 : le troisième axe passerait sans réduction, et prendre la moyenne des trois donnerait 0,90 — une pièce qui ne rentre pas. C'est le plus petit qui commande.
 
+### Limite de la correction automatique
+
+> 0,57 est le facteur GÉOMÉTRIQUE. Une impression réelle réserve en plus la place des supports et du bord de plateau, et une pièce à 0,57 exactement touche les parois : on descend en pratique un ou deux centièmes plus bas.
+
 ### Pour aller plus loin
 
 - Faire pivoter la pièce de 90° et voir si le facteur s'améliore.

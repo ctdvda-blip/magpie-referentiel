@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Divide Curve avec N divisions produit N+1 points quand la courbe est ouverte.
 - Sur une courbe fermée, N divisions produisent N points.
 
+### Limite de la correction automatique
+
+> Douze colliers régulièrement espacés le long du tracé. L'espacement réel se décide par la PORTÉE admissible du conduit et par les points durs du bâtiment ; la régularité est une commodité de modèle, pas une règle de pose.
+
 ### Pour aller plus loin
 
 - Remplacer Divide Curve par Divide Length pour un pas fixe.

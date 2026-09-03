@@ -14,7 +14,7 @@
   "fichier_sujet": "B-08_sujet.gh",
   "id": "B-08",
   "justification_donnees": "Six tablettes de 22 mm laissent 1 868 mm libres à répartir en sept entre-deux, le plus petit valant 180 mm. La raison de la progression tombe sur 28,95 mm — jamais un compte rond, donc jamais devinable.",
-  "limite_correction": "",
+  "limite_correction": "Le plus grand entre-deux dit que la répartition est correcte. Il ne dit pas qu'elle est UTILISABLE : une étagère dont le plus grand espace dépasse 400 mm fléchit sous charge, et c'est une vérification de résistance, pas de géométrie.",
   "lot": "B",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

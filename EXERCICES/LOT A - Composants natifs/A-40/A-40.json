@@ -14,7 +14,7 @@
   "fichier_sujet": "A-40_sujet.gh",
   "id": "A-40",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Les deux mises à l'échelle sont justes. Une échelle non uniforme déforme les CONGÉS et les épaisseurs : un profil deux fois plus haut n'a plus les mêmes rayons de raccordement, et n'est plus fabricable avec le même outil.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

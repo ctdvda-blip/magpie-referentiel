@@ -14,7 +14,7 @@
   "fichier_sujet": "IA-06_sujet.gh",
   "id": "IA-06",
   "justification_donnees": "Le jeu comprend une valeur limite et une valeur négative, pour que deux implémentations plausibles puissent diverger et que la comparaison ait un sens.",
-  "limite_correction": "",
+  "limite_correction": "L'égalité des seize valeurs établit que les deux versions s'accordent SUR CE JEU. Elle ne prouve pas l'équivalence des deux codes : un cas limite absent du jeu — liste vide, valeur négative — peut les séparer, et c'est le défaut classique du portage.",
   "lot": "IA",
   "mode_validation": "ExactOrderedList",
   "nature": "competence",

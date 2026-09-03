@@ -84,6 +84,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Le graphe fait trois niveaux de profondeur et comporte un paquet exigé par DEUX autres — Noyau — qu'il ne faut compter qu'une fois. Les réponses fausses plausibles sont 3 (les directes) et 7 (Noyau compté deux fois) : toutes deux distinctes de 6. Les noms sont neutres à dessein — ce qui est évalué est le parcours du graphe, pas la mémoire d'un catalogue.
 
+### Limite de la correction automatique
+
+> Six paquets, c'est ce que déclare le graphe de dépendances. Un plugin peut en exiger d'autres au premier lancement — licence, runtime, redistribuable — que sa déclaration ne mentionne pas. Le compte est un minorant.
+
 ### Pour aller plus loin
 
 - Faire la même liste pour Cadran, et mesurer ce que les deux installations partagent.

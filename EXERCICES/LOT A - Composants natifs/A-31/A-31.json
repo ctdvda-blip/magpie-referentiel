@@ -14,7 +14,7 @@
   "fichier_sujet": "A-31_sujet.gh",
   "id": "A-31",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "L'interrupteur bascule bien l'affichage. Il ne DÉSACTIVE pas la branche masquée : les deux variantes continuent de se calculer, ce qui est sans conséquence ici et devient coûteux sur une définition lourde — c'est l'objet du lot MP.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

@@ -92,6 +92,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 28 niveaux répartis de part et d'autre du zéro, de −23 à +25. Sur un relevé positif, la valeur absolue maximale et l'amplitude coïncideraient et l'exercice n'aurait plus d'objet.
 
+### Limite de la correction automatique
+
+> L'amplitude juste prouve que la reprise a abouti, pas qu'elle était BIEN formulée. Deux apprenants peuvent obtenir 48 en deux échanges ou en douze — l'écart est tout le sujet de l'exercice, et il ne se mesure pas automatiquement.
+
 ### Pour aller plus loin
 
 - Demander en plus la position du point le plus bas, et constater que la question du rang se pose exactement comme en A-11.

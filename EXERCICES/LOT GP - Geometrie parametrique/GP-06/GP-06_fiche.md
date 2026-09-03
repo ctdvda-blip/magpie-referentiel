@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 48 et 30 sont des divisions courantes pour une nappe d'étude. Les deux réponses — 1 440 et 1 519 — sont assez proches pour qu'on ne les distingue pas à vue, assez différentes pour que le calcul ne soit pas le même.
 
+### Limite de la correction automatique
+
+> 1 519 sommets vaut pour une nappe OUVERTE. Refermer la nappe sur elle-même — un cylindre, un tore — soude une rangée de sommets à une autre, et le compte tombe. La formule (n+1)(m+1) suppose que rien ne se recolle.
+
 ### Pour aller plus loin
 
 - Donner le nombre d'arêtes.

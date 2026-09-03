@@ -14,7 +14,7 @@
   "fichier_sujet": "A-32_sujet.gh",
   "id": "A-32",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Les deux vecteurs ont la bonne longueur et la bonne direction. Un vecteur n'a pas de POINT D'APPLICATION : que le second tirant parte du même endroit que le premier est une décision de construction, pas une propriété du vecteur.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

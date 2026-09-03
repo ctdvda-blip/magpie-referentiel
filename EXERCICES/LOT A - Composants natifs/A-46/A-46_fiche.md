@@ -90,6 +90,10 @@ Ces réglages ne peuvent pas être enregistrés dans le fichier : ils sont à po
 
 - Colour Swatch : régler la couleur sur rouge par double-clic.
 
+### Limite de la correction automatique
+
+> Le nombre de blocs en interférence est établi GÉOMÉTRIQUEMENT. Un gabarit de passage réel intègre des jeux de sécurité et de pose : un bloc qui affleure sans pénétrer est compté conforme ici, et refusé sur chantier.
+
 ### Pour aller plus loin
 
 - Compter les collisions avec Mass Addition.

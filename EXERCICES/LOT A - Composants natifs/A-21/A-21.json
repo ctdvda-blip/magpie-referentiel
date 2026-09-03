@@ -14,7 +14,7 @@
   "fichier_sujet": "A-21_sujet.gh",
   "id": "A-21",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Quatre chemins simplifiés valident le NETTOYAGE. La lisibilité d'un arbre tient aussi aux noms des groupes en amont : un chemin court mais opaque ne vaut pas mieux qu'un chemin long, et cela ne se mesure pas.",
   "lot": "A",
   "mode_validation": "SetEquality",
   "nature": "competence",

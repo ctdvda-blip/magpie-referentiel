@@ -14,7 +14,7 @@
   "fichier_sujet": "A-18_sujet.gh",
   "id": "A-18",
   "justification_donnees": "28 altitudes non ordonnées : la tranche demandée n'a aucune signature visuelle, il faut la prélever.",
-  "limite_correction": "",
+  "limite_correction": "Les huit relevés de la section courante sont EXTRAITS par leur rang. Que les rangs 5 à 12 correspondent bien à la section courante est une donnée du relevé : un point de plus au début décale tout, sans que rien ne le signale.",
   "lot": "A",
   "mode_validation": "ExactOrderedList",
   "nature": "competence",

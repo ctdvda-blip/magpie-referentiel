@@ -14,7 +14,7 @@
   "fichier_sujet": "IA-03_sujet.gh",
   "id": "IA-03",
   "justification_donnees": "28 niveaux répartis de part et d'autre du zéro, de −23 à +25. Sur un relevé positif, la valeur absolue maximale et l'amplitude coïncideraient et l'exercice n'aurait plus d'objet.",
-  "limite_correction": "",
+  "limite_correction": "L'amplitude juste prouve que la reprise a abouti, pas qu'elle était BIEN formulée. Deux apprenants peuvent obtenir 48 en deux échanges ou en douze — l'écart est tout le sujet de l'exercice, et il ne se mesure pas automatiquement.",
   "lot": "IA",
   "mode_validation": "SingleValue",
   "nature": "competence",

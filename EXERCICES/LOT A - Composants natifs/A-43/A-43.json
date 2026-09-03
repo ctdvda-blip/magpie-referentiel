@@ -14,7 +14,7 @@
   "fichier_sujet": "A-43_sujet.gh",
   "id": "A-43",
   "justification_donnees": "Le tube fourni est ouvert aux deux extrémités. Son volume vaut zéro tant qu'il ne l'est pas : la preuve du caractère fermé est donc déjà numérique, et il n'y a pas lieu de la traduire en booléen.",
-  "limite_correction": "",
+  "limite_correction": "Un volume non nul prouve la FERMETURE. Il ne prouve pas la propreté : faces retournées, arêtes dupliquées ou auto-intersections peuvent subsister et se manifester seulement à l'export ou à l'impression.",
   "lot": "A",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

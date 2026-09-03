@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Stream Filter attend un entier : le booléen est converti en 0 ou 1.
 - Confondre Stream Filter (choisit une entrée) et Stream Gate (aiguille vers une sortie).
 
+### Limite de la correction automatique
+
+> L'interrupteur bascule bien l'affichage. Il ne DÉSACTIVE pas la branche masquée : les deux variantes continuent de se calculer, ce qui est sans conséquence ici et devient coûteux sur une définition lourde — c'est l'objet du lot MP.
+
 ### Pour aller plus loin
 
 - Piloter trois géométries avec un slider entier.

@@ -91,6 +91,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Un caisson de 800 × 720 × 400 en 19 mm, rainure de 6 mm : l'écart entre les deux calculs vaut 0,33 dm³, soit 1 %. Invisible sur un devis, fatal au montage.
 
+### Limite de la correction automatique
+
+> Le volume est celui du PANNEAU débité, pas celui de la matière achetée : le débit se fait dans des plaques de format imposé, et la chute de découpe s'y ajoute — de 15 à 30 % selon l'imbrication. C'est l'objet de B-13.
+
 ### Pour aller plus loin
 
 - Passer d'un assemblage rainuré à un assemblage par tourillons.

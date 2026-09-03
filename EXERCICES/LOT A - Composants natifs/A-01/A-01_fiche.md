@@ -82,6 +82,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Relier deux câbles sur la même entrée A : Grasshopper additionne alors les deux valeurs sur A et laisse B vide.
 - Slider réglé en entier alors que la cible demande une décimale.
 
+### Limite de la correction automatique
+
+> La somme vaut 2 400, ce qui ne dit pas que la répartition est CONSTRUCTIBLE : une imposte de 200 mm ou un châssis de 2 200 mm satisfont l'égalité et ne se fabriquent pas. Les plages admissibles ne sont pas dans l'exercice.
+
 ### Pour aller plus loin
 
 - Remplacer Addition par Subtraction et viser -42.

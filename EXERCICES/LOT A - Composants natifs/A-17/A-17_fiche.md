@@ -90,6 +90,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Les deux essences occupent deux plages de longueur distinctes — chêne autour de 1 250, noyer autour de 1 440. L'alternance se contrôle donc à la lecture, et une mise bout à bout se repère au premier coup d'œil. La réponse est numérique, comme l'exige le checker.
 
+### Limite de la correction automatique
+
+> L'ordre de pose alterne les deux essences. Il ne tient pas compte du SENS DU FIL ni de la teinte réelle des lames : un platelage se calepine aussi à l'œil, en atelier, avant d'être vissé.
+
 ### Note au formateur
 
 > Un seul composant suffit. La compétence réelle — choisir entre mettre bout à bout et entrelacer — gagnerait à être posée en question charnière avant l'exercice.

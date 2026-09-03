@@ -14,7 +14,7 @@
   "fichier_sujet": "A-04_sujet.gh",
   "id": "A-04",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Trois cercles décalés prouvent que le référencement PAR CALQUE fonctionne. Il ne prouve pas qu'il tiendra : un cercle ajouté au calque demain entrera dans le flux sans prévenir, ce qui est l'intérêt du procédé et son risque.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

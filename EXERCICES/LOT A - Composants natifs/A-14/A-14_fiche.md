@@ -90,6 +90,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 36 lames de longueurs voisines mais toutes distinctes : un décalage du motif conserve l'effectif de 12 tout en changeant la réponse. C'est pourquoi la validation porte sur les longueurs et non sur le seul comptage.
 
+### Limite de la correction automatique
+
+> Douze lames sont posées selon le motif DONNÉ. Que le motif « une sur trois » convienne au calepinage — qu'il tombe juste en rive, qu'il ne crée pas d'alignement disgracieux — est une décision de projet que le comptage ne juge pas.
+
 ### Note au formateur
 
 > Un seul composant fait le travail. À terme, mieux vaut l'absorber dans un exercice de calepinage complet que le maintenir isolé.

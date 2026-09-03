@@ -14,7 +14,7 @@
   "fichier_sujet": "B-12_sujet.gh",
   "id": "B-12",
   "justification_donnees": "Quatorze pièces : les trois réponses possibles — 14, 15 et le nombre de lignes du modèle source — sont distinctes. C'est le même contrôle que QT-05, appliqué à un assemblage plutôt qu'à un débit : la répétition espacée est intentionnelle.",
-  "limite_correction": "",
+  "limite_correction": "Quinze lignes valident la STRUCTURE du fichier, pas son encodage. Un CSV français ouvert par un tableur anglo-saxon perd ses séparateurs décimaux — défaut classique que le comptage de lignes ne voit pas.",
   "lot": "B",
   "mode_validation": "SingleValue",
   "nature": "competence",

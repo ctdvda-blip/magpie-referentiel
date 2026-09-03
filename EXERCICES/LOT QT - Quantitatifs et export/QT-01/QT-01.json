@@ -14,7 +14,7 @@
   "fichier_sujet": "QT-01_sujet.gh",
   "id": "QT-01",
   "justification_donnees": "Cinq sections courantes de charpente, réparties de façon que la corrélation entre section et longueur soit positive : la moyenne sous-estime alors le volume, toujours dans le même sens.",
-  "limite_correction": "",
+  "limite_correction": "Le volume est celui du BOIS FINI. Le débit part de sections brutes plus grandes — rabotage, tolérance de sciage — et le volume commandé au scieur dépasse celui-ci de 8 à 15 % selon l'essence et le corroyage.",
   "lot": "QT",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

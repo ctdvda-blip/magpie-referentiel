@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-21_sujet.gh",
   "id": "RH-21",
   "justification_donnees": "Cinq faces sous le millième de millimètre carré, dont une à 0,0012 qui passe JUSTE au-dessus de la tolérance : la réponse est 4, et non 5. C'est la tolérance qui tranche, pas l'intuition.",
-  "limite_correction": "",
+  "limite_correction": "Quatre faces sont dégénérées AU REGARD de la tolérance du document. Changer cette tolérance change le compte : c'est une propriété du fichier, pas de la géométrie, et deux ouvertures du même modèle peuvent ne pas s'accorder.",
   "lot": "RH",
   "mode_validation": "SingleValue",
   "nature": "competence",

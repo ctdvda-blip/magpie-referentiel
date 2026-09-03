@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Utiliser Flatten : la structure disparaît complètement.
 - Trim Tree avec une profondeur trop grande fusionne des branches utiles.
 
+### Limite de la correction automatique
+
+> Quatre chemins simplifiés valident le NETTOYAGE. La lisibilité d'un arbre tient aussi aux noms des groupes en amont : un chemin court mais opaque ne vaut pas mieux qu'un chemin long, et cela ne se mesure pas.
+
 ### Pour aller plus loin
 
 - Comparer Simplify et Trim Tree sur le même arbre.

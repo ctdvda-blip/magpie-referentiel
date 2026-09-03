@@ -91,6 +91,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Côté de 400 mm : pas horizontal 692,8 mm, pas vertical 600 mm. Sur 9 600 × 6 400 mm cela fait 13 × 10 = 130 hexagones. Aucun des deux pas n'est un compte rond, et aucun ne vaut le côté : l'erreur ne peut pas passer pour un arrondi.
 
+### Limite de la correction automatique
+
+> 130 est le nombre d'hexagones qui TIENNENT dans l'emprise, pas celui des hexagones entiers : les rangs de bord sont coupés. Un calepinage réel distingue les modules pleins des chutes de rive, et l'exercice ne le fait pas.
+
 ### Pour aller plus loin
 
 - Faire varier la hauteur d'extrusion selon la courbure locale.

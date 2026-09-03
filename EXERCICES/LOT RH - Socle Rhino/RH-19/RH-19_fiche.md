@@ -82,6 +82,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Les douze détails sont tous sous la résolution avant agrandissement et six seulement après : les deux réponses, 12 et 6, sont dans un rapport de deux, et la première est aussi le nombre total de détails — ce qui la rend immédiatement suspecte à qui la relit.
 
+### Limite de la correction automatique
+
+> Six détails passent sous la résolution APRÈS agrandissement. Le compte est géométrique : il ne dit pas si ces détails comptent. Un congé perdu est sans conséquence, un jeu fonctionnel perdu bloque l'assemblage, et c'est le concepteur qui fait la différence.
+
 ### Pour aller plus loin
 
 - Trouver le facteur minimal qui sauve tous les détails.

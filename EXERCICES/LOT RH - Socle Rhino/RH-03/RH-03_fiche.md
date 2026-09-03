@@ -92,6 +92,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 L'emprise tombe juste sur la trame dans les deux sens, pour que l'exercice porte sur le décompte et non sur le traitement des rives incomplètes.
 
+### Limite de la correction automatique
+
+> 48 plots suppose la trame COMPLÈTE dans l'emprise. Une terrasse réelle a des rives : le dernier rang tombe rarement juste, et le calepinage décide de le décaler ou de le recouper. L'exercice pose le cas où la trame tombe juste.
+
 ### Pour aller plus loin
 
 - Porter l'emprise à 4 500 mm et traiter la rive incomplète.

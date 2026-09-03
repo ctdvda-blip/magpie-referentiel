@@ -14,7 +14,7 @@
   "fichier_sujet": "QT-04_sujet.gh",
   "id": "QT-04",
   "justification_donnees": "Vingt-quatre lignes pour huit références, réparties de façon que la référence la plus FRÉQUENTE (quatre lignes) ne soit pas celle qui porte la plus grosse ligne unitaire : compter les occurrences donne une autre réponse que cumuler les quantités. Les deux suivantes sont à 15, assez proches pour qu'un cumul approximatif se trompe de référence.",
-  "limite_correction": "",
+  "limite_correction": "Le cumul dit ce qu'il faut COMMANDER, pas ce qu'il faut payer : les fournisseurs vendent par conditionnement, et dix-sept pièces se commandent souvent par vingt. Le passage du besoin au bon de commande n'est pas traité ici.",
   "lot": "QT",
   "mode_validation": "SingleValue",
   "nature": "competence",

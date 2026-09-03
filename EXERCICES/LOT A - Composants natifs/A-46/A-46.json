@@ -14,7 +14,7 @@
   "fichier_sujet": "A-46_sujet.gh",
   "id": "A-46",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Le nombre de blocs en interférence est établi GÉOMÉTRIQUEMENT. Un gabarit de passage réel intègre des jeux de sécurité et de pose : un bloc qui affleure sans pénétrer est compté conforme ici, et refusé sur chantier.",
   "lot": "A",
   "mode_validation": "SetEquality",
   "nature": "competence",

@@ -14,7 +14,7 @@
   "fichier_sujet": "A-25_sujet.gh",
   "id": "A-25",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Dix puis quarante montrent la différence entre appariement par file et produit croisé. Ils ne disent pas lequel est ATTENDU : le même graphe rend l'un ou l'autre selon l'intention, et c'est l'intention qui doit être écrite quelque part.",
   "lot": "A",
   "mode_validation": "ExactOrderedList",
   "nature": "competence",

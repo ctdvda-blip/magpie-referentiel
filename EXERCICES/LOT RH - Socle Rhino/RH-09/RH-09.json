@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-09_sujet.gh",
   "id": "RH-09",
   "justification_donnees": "Les trois rapports valent 0,579, 0,846 et 1,282 : le troisième axe passerait sans réduction, et prendre la moyenne des trois donnerait 0,90 — une pièce qui ne rentre pas. C'est le plus petit qui commande.",
-  "limite_correction": "",
+  "limite_correction": "0,57 est le facteur GÉOMÉTRIQUE. Une impression réelle réserve en plus la place des supports et du bord de plateau, et une pièce à 0,57 exactement touche les parois : on descend en pratique un ou deux centièmes plus bas.",
   "lot": "RH",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

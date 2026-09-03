@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Le congé de 60 mm est assez grand pour que l'oubli du retranchement se voie au dixième de millimètre, et assez petit pour rester une réservation plausible.
 
+### Limite de la correction automatique
+
+> Le périmètre valide le TRACÉ, pas la cotation. Qu'un plan porte les bonnes cotes, aux bons endroits et à la bonne échelle ne se vérifie pas par un nombre : c'est le formateur qui ouvre la mise en page.
+
 ### Pour aller plus loin
 
 - Ajouter une cotation automatique de la largeur et vérifier qu'elle suit la valeur réglable.

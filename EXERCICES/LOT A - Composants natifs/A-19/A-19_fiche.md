@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Confondre nombre de branches et nombre total d'éléments.
 - Compter les branches à partir de 1.
 
+### Limite de la correction automatique
+
+> Quatre branches décrit la STRUCTURE du flux, pas son sens. Deux flux à quatre branches peuvent ranger par file et par niveau ou l'inverse : c'est le chemin, pas le compte, qui porte l'information — d'où A-23.
+
 ### Pour aller plus loin
 
 - Afficher le nombre d'éléments par branche avec la sortie C.

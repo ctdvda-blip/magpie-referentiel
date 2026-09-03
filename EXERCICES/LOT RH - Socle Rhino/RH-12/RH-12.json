@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-12_sujet.gh",
   "id": "RH-12",
   "justification_donnees": "Un objet exactement à 2 800, douze autres entre 2 788 et 2 820 : la frontière est peuplée, de sorte qu'un comptage à l'œil se trompe, et que le choix entre strict et large change la réponse d'exactement un.",
-  "limite_correction": "",
+  "limite_correction": "Dix-sept objets dépassent STRICTEMENT. Un objet posé exactement à 2 800 mm ne compte pas ici — c'est une convention, et sur un relevé réel, entaché de tolérance, cette convention doit être écrite avant de compter.",
   "lot": "RH",
   "mode_validation": "SingleValue",
   "nature": "competence",

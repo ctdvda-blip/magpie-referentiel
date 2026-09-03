@@ -91,6 +91,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Six tablettes de 22 mm laissent 1 868 mm libres à répartir en sept entre-deux, le plus petit valant 180 mm. La raison de la progression tombe sur 28,95 mm — jamais un compte rond, donc jamais devinable.
 
+### Limite de la correction automatique
+
+> Le plus grand entre-deux dit que la répartition est correcte. Il ne dit pas qu'elle est UTILISABLE : une étagère dont le plus grand espace dépasse 400 mm fléchit sous charge, et c'est une vérification de résistance, pas de géométrie.
+
 ### Pour aller plus loin
 
 - Inverser la progression du haut vers le bas.

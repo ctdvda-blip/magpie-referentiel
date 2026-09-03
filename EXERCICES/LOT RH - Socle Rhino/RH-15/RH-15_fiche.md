@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Cinq segments orthogonaux de longueurs différentes, et un écart de 25 % entre la corde et le développé : assez grand pour que l'erreur se voie au chiffrage, assez petit pour qu'elle ne saute pas aux yeux sur le plan.
 
+### Limite de la correction automatique
+
+> 13 400 mm est la longueur du cheminement PROJETÉ. Un cheminement qui monte est plus long que sa projection : sur une pente à 5 %, l'écart est de 0,1 %, sur une rampe à 30 %, de 4 %. L'exercice traite le cas plan.
+
 ### Pour aller plus loin
 
 - Donner la longueur de chaque segment, pour le débit.

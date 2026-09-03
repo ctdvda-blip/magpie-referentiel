@@ -14,7 +14,7 @@
   "fichier_sujet": "A-34_sujet.gh",
   "id": "A-34",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "L'hexagone inscrit et le carré circonscrit encadrent le fourreau. L'exercice suppose un fourreau CIRCULAIRE : sur un fourreau ovalisé — cas courant après cintrage — ni l'inscrit ni le circonscrit ne se construisent ainsi.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

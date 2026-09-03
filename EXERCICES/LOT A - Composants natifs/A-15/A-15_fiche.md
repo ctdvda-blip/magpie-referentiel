@@ -90,6 +90,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 24 surfaces réelles. Aucune ne vaut exactement 2,50 : la plus proche est à 2,49, de sorte que l'exercice ne dépende pas du sens de l'inégalité, qui n'est pas son objet. La somme des deux groupes doit valoir 24, ce qui donne à l'apprenant son propre moyen de contrôle.
 
+### Limite de la correction automatique
+
+> Onze panneaux dépassent 2,50 m². Le seuil de pose en binôme dépend aussi du POIDS et de l'encombrement, pas de la seule surface : un panneau étroit et long se pose à deux bien avant 2,50 m².
+
 ### Pour aller plus loin
 
 - Répartir des points selon leur coordonnée Z.

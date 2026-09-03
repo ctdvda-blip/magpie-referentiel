@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Vingt solives pour cinq sections : le déséquilibre est volontaire, c'est lui qui rend l'erreur d'appariement possible et détectable.
 
+### Limite de la correction automatique
+
+> Le montant est celui de la FOURNITURE. La pose, les connecteurs et le levage se chiffrent à part, et représentent couramment autant que le bois lui-même sur un plancher.
+
 ### Pour aller plus loin
 
 - Appliquer une remise de 8 % au-delà de 100 mètres linéaires.

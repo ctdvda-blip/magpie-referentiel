@@ -14,7 +14,7 @@
   "fichier_sujet": "A-02_sujet.gh",
   "id": "A-02",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Le point est au bon endroit dans le REPÈRE DU MODÈLE. Que ce repère coïncide avec celui du géomètre — origine, orientation, système de projection — est une convention de projet que rien ici ne vérifie, et c'est la première cause de calages faux.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

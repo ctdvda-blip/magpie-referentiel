@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Le tracé mesure 5 988 mm et son rayon tombe à 155 mm sur un coude unique : quelque 106 mm passent sous les 250 mm admis, soit moins de deux pour cent du développé. Assez large pour être trouvé avec un pas raisonnable, assez étroit pour être manqué avec un pas négligent. La tolérance de 5 mm sanctionne la détection, non la finesse du pas : un point tous les 10 mm suffit à passer, un point tous les 20 mm ne suffit plus.
 
+### Limite de la correction automatique
+
+> La longueur cumulée dépend du PAS d'échantillonnage : plus il est fin, plus les extrémités des portions se précisent. La tolérance de 5 mm en tient compte. Une mesure exacte demanderait de résoudre l'égalité rayon = 250, ce que l'exercice ne demande pas.
+
 ### Pour aller plus loin
 
 - Rendre le pas adaptatif : plus fin là où la courbure varie vite.

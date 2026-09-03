@@ -14,7 +14,7 @@
   "fichier_sujet": "A-10_sujet.gh",
   "id": "A-10",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Les sept abscisses supposent le premier portique À L'ORIGINE de la file. Un décalage d'implantation translate toute la liste, et c'est une donnée de projet, pas de calcul : la formule reste juste et le résultat devient faux.",
   "lot": "A",
   "mode_validation": "ExactOrderedList",
   "nature": "competence",

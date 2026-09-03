@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Attendre que Nurbs Curve passe par les points.
 - Degré supérieur au nombre de points moins un : la courbe échoue.
 
+### Limite de la correction automatique
+
+> Les deux courbes s'appuient sur les mêmes points. Laquelle convient dépend de la NATURE des points : des points relevés, entachés d'erreur, appellent l'approximation ; des points de conception appellent l'interpolation. Le modèle ne le sait pas.
+
 ### Pour aller plus loin
 
 - Fermer les deux courbes et comparer la continuité.

@@ -14,7 +14,7 @@
   "fichier_sujet": "MP-02_sujet.gh",
   "id": "MP-02",
   "justification_donnees": "Le relevé est volontairement très déséquilibré : trois composants au-dessus de 1 800 ms, dix-sept sous 30 ms. C'est la répartition réelle d'une définition lente, et c'est ce qui rend la mesure indispensable.",
-  "limite_correction": "",
+  "limite_correction": "97 % dit OÙ est le temps, pas ce qu'on peut en récupérer. Un composant lent peut l'être irréductiblement — un maillage, une intersection — et le profilage désigne la cible sans promettre le gain.",
   "lot": "MP",
   "mode_validation": "SingleValue",
   "nature": "competence",

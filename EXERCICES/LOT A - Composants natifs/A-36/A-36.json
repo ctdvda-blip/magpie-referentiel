@@ -14,7 +14,7 @@
   "fichier_sujet": "A-36_sujet.gh",
   "id": "A-36",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Les deux courbes s'appuient sur les mêmes points. Laquelle convient dépend de la NATURE des points : des points relevés, entachés d'erreur, appellent l'approximation ; des points de conception appellent l'interpolation. Le modèle ne le sait pas.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

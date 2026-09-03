@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Merge à la place d'Entwine : les trois listes fusionnent en une seule.
 - Explode Tree n'affiche ses sorties qu'après un zoom suffisant.
 
+### Limite de la correction automatique
+
+> Les trois branches restituent les listes de départ. Cela prouve que rien n'a été PERDU, pas que la structure est la bonne : trois branches ou trois listes séparées se valent ici, et le choix ne se justifie que par ce qui suit.
+
 ### Note au formateur
 
 > Assembler puis redécomposer reste un aller-retour scolaire. En parcours, lui donner une finalité : trois lots qui doivent rester distincts jusqu'à l'export.

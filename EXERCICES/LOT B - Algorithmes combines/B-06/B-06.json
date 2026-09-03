@@ -14,7 +14,7 @@
   "fichier_sujet": "B-06_sujet.gh",
   "id": "B-06",
   "justification_donnees": "Un caisson de 800 × 720 × 400 en 19 mm, rainure de 6 mm : l'écart entre les deux calculs vaut 0,33 dm³, soit 1 %. Invisible sur un devis, fatal au montage.",
-  "limite_correction": "",
+  "limite_correction": "Le volume est celui du PANNEAU débité, pas celui de la matière achetée : le débit se fait dans des plaques de format imposé, et la chute de découpe s'y ajoute — de 15 à 30 % selon l'imbrication. C'est l'objet de B-13.",
   "lot": "B",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

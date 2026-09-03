@@ -14,7 +14,7 @@
   "fichier_sujet": "B-11_sujet.gh",
   "id": "B-11",
   "justification_donnees": "187,5 mm de courbe, maillons de 4 mm recouverts de 1,2 : le pas tombe à 2,8 mm. Les deux réponses, 46 et 66, sont éloignées de moitié — impossible de confondre les deux méthodes.",
-  "limite_correction": "",
+  "limite_correction": "66 maillons suivent la courbe THÉORIQUE. Une chaîne réelle pend : sa ligne est une chaînette, plus longue que la courbe dessinée, et le compte monte. L'exercice traite le cas guidé, pas le cas suspendu.",
   "lot": "B",
   "mode_validation": "SingleValue",
   "nature": "competence",

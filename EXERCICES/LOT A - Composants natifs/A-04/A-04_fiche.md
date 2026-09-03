@@ -89,6 +89,10 @@ Ces réglages ne peuvent pas être enregistrés dans le fichier : ils sont à po
 - Geometry Pipeline : saisir CERCLES dans le champ Layer (sensible à la casse).
 - Bake du composant Move : choisir le calque COPIES.
 
+### Limite de la correction automatique
+
+> Trois cercles décalés prouvent que le référencement PAR CALQUE fonctionne. Il ne prouve pas qu'il tiendra : un cercle ajouté au calque demain entrera dans le flux sans prévenir, ce qui est l'intérêt du procédé et son risque.
+
 ### Pour aller plus loin
 
 - Filtrer le Pipeline par type de géométrie plutôt que par calque.

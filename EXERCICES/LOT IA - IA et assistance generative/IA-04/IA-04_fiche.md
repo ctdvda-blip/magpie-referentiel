@@ -92,6 +92,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Longueurs et diamètres pris dans des séries réelles de gaines circulaires (125 à 400 mm), avec des unités volontairement différentes entre les deux listes : c'est le cas courant en métré, et la spécification doit le dire.
 
+### Limite de la correction automatique
+
+> 58,03 m² est une surface DÉVELOPPÉE de tronçons droits. Les coudes, les brides et les recouvrements de calorifuge s'y ajoutent en atelier : le métré sert à commander, pas à facturer.
+
 ### Pour aller plus loin
 
 - Ajouter une épaisseur d'isolant et demander le volume.

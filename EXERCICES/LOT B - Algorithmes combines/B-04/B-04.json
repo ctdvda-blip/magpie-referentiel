@@ -14,7 +14,7 @@
   "fichier_sujet": "B-04_sujet.gh",
   "id": "B-04",
   "justification_donnees": "Côté de 400 mm : pas horizontal 692,8 mm, pas vertical 600 mm. Sur 9 600 × 6 400 mm cela fait 13 × 10 = 130 hexagones. Aucun des deux pas n'est un compte rond, et aucun ne vaut le côté : l'erreur ne peut pas passer pour un arrondi.",
-  "limite_correction": "",
+  "limite_correction": "130 est le nombre d'hexagones qui TIENNENT dans l'emprise, pas celui des hexagones entiers : les rangs de bord sont coupés. Un calepinage réel distingue les modules pleins des chutes de rive, et l'exercice ne le fait pas.",
   "lot": "B",
   "mode_validation": "SingleValue",
   "nature": "competence",

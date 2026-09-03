@@ -91,6 +91,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Une flèche de 700 pour 3 200 de corde donne un rayon de 2 179 mm : une coque franchement courbe, où l'écart entre arc et corde est net sans être caricatural.
 
+### Limite de la correction automatique
+
+> 32,34 m est le linéaire des nervures SUR LA SURFACE. Une nervure a une épaisseur : son développé réel, celui qui part en découpe, se mesure sur sa fibre neutre et dépasse cette valeur d'autant que la coque est courbe.
+
 ### Pour aller plus loin
 
 - Ajouter des encoches d'assemblage aux croisements avec des longerons.

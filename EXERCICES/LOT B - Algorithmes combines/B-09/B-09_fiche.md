@@ -91,6 +91,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Quatre griffes de 3,6 mm inclinées à 12° : l'écart avec la hauteur droite vaut 0,32 mm au total. À l'échelle de la joaillerie, c'est un tiers de diamètre de fil.
 
+### Limite de la correction automatique
+
+> 14,72 mm est la longueur de fil DÉVELOPPÉE. Le sertissage écrase la griffe sur la pierre et la raccourcit de quelques dixièmes : un joaillier ajoute une surlongueur d'atelier que ce calcul n'anticipe pas.
+
 ### Pour aller plus loin
 
 - Passer à 6 griffes et vérifier la non-collision.

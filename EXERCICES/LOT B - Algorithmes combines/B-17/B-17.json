@@ -14,7 +14,7 @@
   "fichier_sujet": "B-17_sujet.gh",
   "id": "B-17",
   "justification_donnees": "Une flèche de 700 pour 3 200 de corde donne un rayon de 2 179 mm : une coque franchement courbe, où l'écart entre arc et corde est net sans être caricatural.",
-  "limite_correction": "",
+  "limite_correction": "32,34 m est le linéaire des nervures SUR LA SURFACE. Une nervure a une épaisseur : son développé réel, celui qui part en découpe, se mesure sur sa fibre neutre et dépasse cette valeur d'autant que la coque est courbe.",
   "lot": "B",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

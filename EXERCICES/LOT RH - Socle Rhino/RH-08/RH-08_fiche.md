@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Le caisson s'affiche exactement comme s'il était fermé : rien à l'écran ne distingue une enveloppe ouverte d'un solide. C'est ce qui rend le contrôle numérique indispensable, et non facultatif.
 
+### Limite de la correction automatique
+
+> Un volume non nul prouve que l'enveloppe est FERMÉE, pas qu'elle est propre : des faces retournées, des arêtes dupliquées ou une auto-intersection peuvent subsister sans empêcher le calcul. Les commandes de vérification les diraient ; le volume seul, non.
+
 ### Pour aller plus loin
 
 - Mesurer le volume avant réparation et chiffrer l'écart.

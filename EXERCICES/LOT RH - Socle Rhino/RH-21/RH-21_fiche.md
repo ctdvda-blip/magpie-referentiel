@@ -82,6 +82,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Cinq faces sous le millième de millimètre carré, dont une à 0,0012 qui passe JUSTE au-dessus de la tolérance : la réponse est 4, et non 5. C'est la tolérance qui tranche, pas l'intuition.
 
+### Limite de la correction automatique
+
+> Quatre faces sont dégénérées AU REGARD de la tolérance du document. Changer cette tolérance change le compte : c'est une propriété du fichier, pas de la géométrie, et deux ouvertures du même modèle peuvent ne pas s'accorder.
+
 ### Pour aller plus loin
 
 - Reprendre avec une tolérance de 0,01 mm².

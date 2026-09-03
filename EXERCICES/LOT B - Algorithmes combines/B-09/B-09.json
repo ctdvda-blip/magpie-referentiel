@@ -14,7 +14,7 @@
   "fichier_sujet": "B-09_sujet.gh",
   "id": "B-09",
   "justification_donnees": "Quatre griffes de 3,6 mm inclinées à 12° : l'écart avec la hauteur droite vaut 0,32 mm au total. À l'échelle de la joaillerie, c'est un tiers de diamètre de fil.",
-  "limite_correction": "",
+  "limite_correction": "14,72 mm est la longueur de fil DÉVELOPPÉE. Le sertissage écrase la griffe sur la pierre et la raccourcit de quelques dixièmes : un joaillier ajoute une surlongueur d'atelier que ce calcul n'anticipe pas.",
   "lot": "B",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

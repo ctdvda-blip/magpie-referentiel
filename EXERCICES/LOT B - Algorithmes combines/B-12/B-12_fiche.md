@@ -93,6 +93,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Quatorze pièces : les trois réponses possibles — 14, 15 et le nombre de lignes du modèle source — sont distinctes. C'est le même contrôle que QT-05, appliqué à un assemblage plutôt qu'à un débit : la répétition espacée est intentionnelle.
 
+### Limite de la correction automatique
+
+> Quinze lignes valident la STRUCTURE du fichier, pas son encodage. Un CSV français ouvert par un tableur anglo-saxon perd ses séparateurs décimaux — défaut classique que le comptage de lignes ne voit pas.
+
 ### Pour aller plus loin
 
 - Ajouter une colonne matériau lue depuis les calques Rhino.

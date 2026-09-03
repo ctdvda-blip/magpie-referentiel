@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Polygon attend un nombre de côtés, pas un nombre de sommets à calculer.
 - Rectangle attend des domaines centrés, pas une largeur et une hauteur.
 
+### Limite de la correction automatique
+
+> L'hexagone inscrit et le carré circonscrit encadrent le fourreau. L'exercice suppose un fourreau CIRCULAIRE : sur un fourreau ovalisé — cas courant après cintrage — ni l'inscrit ni le circonscrit ne se construisent ainsi.
+
 ### Pour aller plus loin
 
 - Ajouter un congé aux angles du rectangle (entrée R).

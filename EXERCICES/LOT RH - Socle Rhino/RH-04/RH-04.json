@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-04_sujet.gh",
   "id": "RH-04",
   "justification_donnees": "La ligne au sol présente une courbure variable : une extrusion suivant la normale donnerait un résultat visuellement proche et numériquement différent.",
-  "limite_correction": "",
+  "limite_correction": "La surface est celle du BARDAGE DÉVELOPPÉ. Elle ne déduit ni les baies ni les recouvrements de lames : la commande se fait sur une surface majorée, typiquement de 5 à 10 %.",
   "lot": "RH",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

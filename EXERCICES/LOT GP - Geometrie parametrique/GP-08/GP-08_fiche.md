@@ -82,6 +82,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 26 faces est la taille d'une cage de mobilier. Les trois réponses possibles — 78, 104 et 1 664 — sont séparées d'un ordre de grandeur, ce qui rend chaque erreur immédiatement lisible.
 
+### Limite de la correction automatique
+
+> 1 664 faces est un compte de TOPOLOGIE, pas de coût. Le poids réel d'une subdivision dépend aussi de ce qui est calculé sur chaque face — aperçu, matériau, analyse — et deux cages de même compte peuvent tenir ou saturer selon ce qui les suit.
+
 ### Pour aller plus loin
 
 - Trouver le nombre de passes qui dépasse cent mille faces.

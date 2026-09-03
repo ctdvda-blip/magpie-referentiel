@@ -14,7 +14,7 @@
   "fichier_sujet": "A-41_sujet.gh",
   "id": "A-41",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Les deux surfaces sont produites. Elles n'ont pas la même NATURE : la transition entre deux profils dépend de leur paramétrage et peut se vriller, là où l'extrusion ne le peut pas. Deux surfaces d'apparence proche se comportent différemment en aval.",
   "lot": "A",
   "mode_validation": "GeometryTolerance",
   "nature": "competence",

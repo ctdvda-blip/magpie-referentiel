@@ -84,6 +84,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 24 longueurs non ordonnées : ni le rang 4 ni le dernier rang ne se repèrent visuellement.
 
+### Limite de la correction automatique
+
+> Les deux longueurs valent POUR CE DÉBIT. Celle du dernier rang est prise par index négatif précisément parce que le débit s'allongera : la quatrième, elle, restera la quatrième — ce qui est une convention, pas une propriété.
+
 ### Pour aller plus loin
 
 - Extraire simultanément les index 0, 4 et 9 en branchant une liste d'index.

@@ -14,7 +14,7 @@
   "fichier_sujet": "A-19_sujet.gh",
   "id": "A-19",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Quatre branches décrit la STRUCTURE du flux, pas son sens. Deux flux à quatre branches peuvent ranger par file et par niveau ou l'inverse : c'est le chemin, pas le compte, qui porte l'information — d'où A-23.",
   "lot": "A",
   "mode_validation": "SingleValue",
   "nature": "competence",

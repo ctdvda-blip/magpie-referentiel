@@ -84,6 +84,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Vingt-quatre lignes pour huit références, réparties de façon que la référence la plus FRÉQUENTE (quatre lignes) ne soit pas celle qui porte la plus grosse ligne unitaire : compter les occurrences donne une autre réponse que cumuler les quantités. Les deux suivantes sont à 15, assez proches pour qu'un cumul approximatif se trompe de référence.
 
+### Limite de la correction automatique
+
+> Le cumul dit ce qu'il faut COMMANDER, pas ce qu'il faut payer : les fournisseurs vendent par conditionnement, et dix-sept pièces se commandent souvent par vingt. Le passage du besoin au bon de commande n'est pas traité ici.
+
 ### Pour aller plus loin
 
 - Rendre la table complète, une ligne par référence, triée par quantité décroissante.

@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Wrap désactivé : le polygone reste ouvert.
 - Utiliser Polyline avec l'option Closed masque le mécanisme visé par l'exercice.
 
+### Limite de la correction automatique
+
+> Le contour fermé prouve que le décalage circulaire est juste. Il ne dit pas que les lisses sont CONSTRUCTIBLES : huit segments qui se rejoignent bout à bout supposent des assemblages d'angle, absents du modèle.
+
 ### Note au formateur
 
 > Le décalage circulaire est un vrai geste de conception, mais la solution reste courte : le rapprocher d'un exercice de contour fermé.

@@ -93,6 +93,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 28 entraxes réels resserrés autour de 250, dont les hors-tolérance sont répartis dans les deux sens — 5 trop grands, 5 trop petits — de sorte qu'une spécification incomplète donne un résultat plausible mais faux, et non une erreur visible.
 
+### Limite de la correction automatique
+
+> La réponse valide la SORTIE du composant produit, pas son code. Un script juste par accident — qui compterait autre chose et tomberait sur dix — passerait. C'est pourquoi l'énoncé interdit de corriger le code à la main : ce qui s'apprend est la spécification, et elle se juge à la lecture.
+
 ### Pour aller plus loin
 
 - Refaire la demande dans un second langage et vérifier que les deux composants renvoient le même nombre.

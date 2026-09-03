@@ -14,7 +14,7 @@
   "fichier_sujet": "C-04_sujet.gh",
   "id": "C-04",
   "justification_donnees": "Neuf lignes en trois lots, avec des unités différentes — m³, tonne, unité, m² — pour que la somme des quantités n'ait aucun sens et que l'erreur se voie. Les trois sous-totaux sont de tailles très différentes : 9 353, 23 790, 21 956.",
-  "limite_correction": "",
+  "limite_correction": "Le total est un montant de TRAVAUX, hors taxes et hors aléas. Un devis remis au client y ajoute la TVA, les frais généraux et une provision d'imprévus — de 5 à 10 % selon la maturité du projet. Le chiffre juste n'est pas encore le prix.",
   "lot": "C",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

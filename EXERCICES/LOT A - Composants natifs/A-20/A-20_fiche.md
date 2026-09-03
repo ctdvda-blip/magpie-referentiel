@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Grafter les deux entrées : on retombe à 3 segments.
 - Confondre Graft (éclate en branches) et Flatten (aplatit).
 
+### Limite de la correction automatique
+
+> Neuf segments prouve que le produit croisé est obtenu. Il ne dit pas que neuf haubans sont VOULUS : passer de trois à neuf est un choix de structure, et l'exercice montre le mécanisme sans trancher l'opportunité.
+
 ### Note au formateur
 
 > Le geste tient en une option de menu contextuel. L'intérêt est dans la conséquence sur le résultat, ce que l'énoncé exploite déjà ; surveiller qu'il ne se réduise pas à « savoir où cliquer ».

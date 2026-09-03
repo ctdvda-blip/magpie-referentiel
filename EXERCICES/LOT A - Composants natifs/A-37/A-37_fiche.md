@@ -80,6 +80,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 - Brancher un seul vecteur et attendre plusieurs copies.
 - Oublier que la géométrie d'origine reste visible en plus des copies.
 
+### Limite de la correction automatique
+
+> Six entretoises au bon espacement. Le premier décalage de 120 mm et le pas de 24 mm sont des DONNÉES : leur cumul doit tomber sous la hauteur disponible, ce que l'exercice ne vérifie pas.
+
 ### Pour aller plus loin
 
 - Décaler selon un vecteur oblique.

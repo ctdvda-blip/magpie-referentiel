@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 24 couples couvrant 1,10 à 3,60 m², assez dispersés pour qu'un ajustement soit nécessaire, et assez cohérents pour qu'il ait un sens. La baie à estimer tombe en milieu de plage : l'exercice porte sur l'ajustement, pas sur l'extrapolation, qui est un autre sujet.
 
+### Limite de la correction automatique
+
+> 380 W est une estimation par RÉGRESSION sur vingt-quatre points. Elle vaut dans la plage relevée ; extrapoler à une baie de 8 m² sortirait du domaine des données, et le modèle n'en dit rien. La tolérance de 10 W couvre le choix de la méthode d'ajustement, pas la validité du modèle.
+
 ### Pour aller plus loin
 
 - Retirer les quatre plus grandes baies de l'ajustement et estimer l'une d'elles : mesurer ce que coûte l'extrapolation.

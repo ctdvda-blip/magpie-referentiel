@@ -93,6 +93,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Corde de 420 et flèche de 65 donnent 371,7 mm de rayon, contre 200 admissibles pour une lamelle de 8 mm au rapport 25. La marge est confortable, à dessein : l'exercice porte sur la façon de CONCLURE, pas sur un cas limite.
 
+### Limite de la correction automatique
+
+> Le rayon vérifie la faisabilité du CINTRAGE. Il ne dit rien du retour élastique : une lamelle relâchée s'ouvre de quelques degrés, et le gabarit se creuse en conséquence. C'est un réglage d'atelier, pas un calcul.
+
 ### Pour aller plus loin
 
 - Ajouter le piètement et vérifier la stabilité par le centre de gravité.

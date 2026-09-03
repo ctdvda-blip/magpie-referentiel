@@ -92,6 +92,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Les longueurs sont choisies pour qu'une comparaison large et une comparaison stricte donnent le même compte : l'erreur plantée dans le code est ailleurs, ce qui évite de résoudre l'exercice par tâtonnement sur l'inégalité.
 
+### Limite de la correction automatique
+
+> Neuf tronçons prouve que le défaut est CORRIGÉ, pas qu'il est compris. Un apprenant peut remplacer le code entier par le sien et obtenir la bonne valeur sans avoir jamais vu l'erreur — l'exercice demande de la nommer, et cela se lit.
+
 ### Pour aller plus loin
 
 - Injecter une seconde erreur et refaire le diagnostic.

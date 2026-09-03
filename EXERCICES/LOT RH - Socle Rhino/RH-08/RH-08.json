@@ -14,7 +14,7 @@
   "fichier_sujet": "RH-08_sujet.gh",
   "id": "RH-08",
   "justification_donnees": "Le caisson s'affiche exactement comme s'il était fermé : rien à l'écran ne distingue une enveloppe ouverte d'un solide. C'est ce qui rend le contrôle numérique indispensable, et non facultatif.",
-  "limite_correction": "",
+  "limite_correction": "Un volume non nul prouve que l'enveloppe est FERMÉE, pas qu'elle est propre : des faces retournées, des arêtes dupliquées ou une auto-intersection peuvent subsister sans empêcher le calcul. Les commandes de vérification les diraient ; le volume seul, non.",
   "lot": "RH",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

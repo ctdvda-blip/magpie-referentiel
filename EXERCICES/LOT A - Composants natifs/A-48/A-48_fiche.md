@@ -86,6 +86,10 @@ Ces réglages ne peuvent pas être enregistrés dans le fichier : ils sont à po
 
 - Remplacer le second Bounds par un Deconstruct Domain si le nom diffère : on cherche la borne haute du domaine des courbures.
 
+### Limite de la correction automatique
+
+> Le rayon au point le plus serré est le minimum SUR LES POINTS ÉCHANTILLONNÉS. La courbure varie continûment : un pas trop large manque le vrai minimum, et le résultat reste stable, plausible et faux — c'est ce que DV-02 traite en grand.
+
 ### Pour aller plus loin
 
 - Colorer la courbe selon sa courbure avec Gradient.

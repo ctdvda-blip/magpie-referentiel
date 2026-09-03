@@ -82,6 +82,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Un objet exactement à 2 800, douze autres entre 2 788 et 2 820 : la frontière est peuplée, de sorte qu'un comptage à l'œil se trompe, et que le choix entre strict et large change la réponse d'exactement un.
 
+### Limite de la correction automatique
+
+> Dix-sept objets dépassent STRICTEMENT. Un objet posé exactement à 2 800 mm ne compte pas ici — c'est une convention, et sur un relevé réel, entaché de tolérance, cette convention doit être écrite avant de compter.
+
 ### Pour aller plus loin
 
 - Donner aussi le compte de ce qui affleure, à 5 mm près.

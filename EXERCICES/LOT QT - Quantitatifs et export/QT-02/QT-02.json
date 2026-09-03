@@ -14,7 +14,7 @@
   "fichier_sujet": "QT-02_sujet.gh",
   "id": "QT-02",
   "justification_donnees": "Vingt solives pour cinq sections : le déséquilibre est volontaire, c'est lui qui rend l'erreur d'appariement possible et détectable.",
-  "limite_correction": "",
+  "limite_correction": "Le montant est celui de la FOURNITURE. La pose, les connecteurs et le levage se chiffrent à part, et représentent couramment autant que le bois lui-même sur un plancher.",
   "lot": "QT",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

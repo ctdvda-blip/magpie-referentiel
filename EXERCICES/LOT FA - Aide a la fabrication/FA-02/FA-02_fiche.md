@@ -86,6 +86,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 L'écart des rayons, 85 mm pour 340 de hauteur, place la génératrice juste assez loin de la hauteur pour que la confusion soit détectable au dixième de millimètre carré, sans être grossière.
 
+### Limite de la correction automatique
+
+> La surface développée est celle de la TÔLE NUE. Un flan de découpe y ajoute les recouvrements de soudure et les pertes d'imbrication : la commande matière se fait sur le flan, pas sur le développé.
+
 ### Pour aller plus loin
 
 - Ajouter un recouvrement de 15 mm pour la soudure.

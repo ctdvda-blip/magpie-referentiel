@@ -14,7 +14,7 @@
   "fichier_sujet": "A-48_sujet.gh",
   "id": "A-48",
   "justification_donnees": "",
-  "limite_correction": "",
+  "limite_correction": "Le rayon au point le plus serré est le minimum SUR LES POINTS ÉCHANTILLONNÉS. La courbure varie continûment : un pas trop large manque le vrai minimum, et le résultat reste stable, plausible et faux — c'est ce que DV-02 traite en grand.",
   "lot": "A",
   "mode_validation": "NumericTolerance",
   "nature": "competence",

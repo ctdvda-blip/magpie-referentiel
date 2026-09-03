@@ -92,6 +92,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 L'épaisseur de 15 mm et le diamètre de 18 mm sont ceux d'une platine courante pour boulons M16 : les valeurs parlent à qui connaît le métier.
 
+### Limite de la correction automatique
+
+> Le volume retiré est GÉOMÉTRIQUE. Le perçage réel enlève un peu plus — ébavurage et jeu du foret — et surtout ne dit rien de la tenue de la platine : quatre trous à 40 mm des bords affaiblissent une pièce de 15 mm, ce qui est un calcul de résistance.
+
 ### Pour aller plus loin
 
 - Passer les trous en oblongs et refaire le calcul.

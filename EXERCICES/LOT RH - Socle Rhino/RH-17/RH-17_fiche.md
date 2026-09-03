@@ -84,6 +84,10 @@ C'est l'erreur qu'il faut guetter, parce qu'elle est *diagnostique* : elle dit c
 
 Le recouvrement représente 14 % de la réunion : assez pour que l'écart se voie sur une commande, assez peu pour qu'on l'oublie. Les trois volumes sont donnés, de sorte que l'exercice porte sur le raisonnement et non sur la construction géométrique.
 
+### Limite de la correction automatique
+
+> La réunion suppose UN SEUL recouvrement, entièrement contenu dans les deux massifs. Trois volumes qui se recoupent deux à deux demandent l'inclusion-exclusion complète — retrancher les paires puis rajouter le triple — et la formule de l'exercice ne s'y étend pas.
+
 ### Pour aller plus loin
 
 - Traiter trois massifs dont deux recouvrements.
