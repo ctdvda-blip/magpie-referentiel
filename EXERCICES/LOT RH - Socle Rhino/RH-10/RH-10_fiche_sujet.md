@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH5 · Préparation à l'impression 3D |
+| **Thématique** | RH4 · Préparation à l'impression 3D |
 | **Référence au référentiel** | REF-024 |
 | **Case Bloom (révisée)** | Comprendre × conceptuelle |
 | **Niveau** | Débutant |

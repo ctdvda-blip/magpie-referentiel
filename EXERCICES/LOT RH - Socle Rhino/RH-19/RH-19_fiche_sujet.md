@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH3 · Préparation à l'impression 3D |
+| **Thématique** | RH4 · Préparation à l'impression 3D |
 | **Référence au référentiel** | REF-017, REF-018 |
 | **Compétence visée** | Juger la finesse d'un modèle À L'ÉCHELLE OÙ IL SERA IMPRIMÉ, et non à celle où il a été dessiné. |
 | **Case Bloom (révisée)** | Analyser × procédurale |

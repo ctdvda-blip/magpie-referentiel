@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | IA5 · Apprentissage automatique |
+| **Thématique** | IA4 · Apprentissage automatique |
 | **Référence au référentiel** | REF-130 |
 | **Compétence visée** | Regrouper des éléments sur plusieurs critères à la fois et lire l'effectif du groupe dominant. |
 | **Case Bloom (révisée)** | Analyser × procédurale |

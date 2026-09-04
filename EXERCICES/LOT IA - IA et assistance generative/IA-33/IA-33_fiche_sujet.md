@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | IA5 · Modèles de langage et IA générative |
+| **Thématique** | IA6 · Modèles de langage et IA générative |
 | **Référence au référentiel** | REF-134 |
 | **Compétence visée** | Tirer d'un texte de programme les paramètres qui pilotent une définition, en distinguant ce qui est donné de ce qui se déduit. |
 | **Case Bloom (révisée)** | Analyser × procédurale |

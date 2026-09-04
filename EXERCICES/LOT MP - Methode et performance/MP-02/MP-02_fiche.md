@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | MP2 · Performance d'exécution |
+| **Thématique** | MP2 · Organisation et performance |
 | **Référence au référentiel** | REF-089 |
 | **Compétence visée** | Localiser le composant qui coûte le temps de recalcul, plutôt que d'optimiser au hasard. |
 | **Case Bloom (révisée)** | Analyser × procédurale |

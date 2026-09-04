@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | MP1 · Organisation et lisibilité |
+| **Thématique** | MP2 · Organisation et performance |
 | **Référence au référentiel** | REF-088 |
 | **Compétence visée** | Organiser une définition pour qu'un tiers la reprenne sans explication orale. |
 | **Case Bloom (révisée)** | Créer × procédurale |

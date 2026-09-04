@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | GP3 · Maillages et SubD |
+| **Thématique** | GP4 · Maillages et SubD |
 | **Référence au référentiel** | REF-074, REF-075, REF-076 |
 | **Compétence visée** | Produire un maillage à partir d'une surface, en maîtriser la finesse, et le rendre exploitable. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

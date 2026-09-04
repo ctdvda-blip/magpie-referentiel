@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | IA6 · Agents et protocoles |
+| **Thématique** | IA7 · Agents et protocoles |
 | **Référence au référentiel** | REF-136, REF-137, REF-138 |
 | **Compétence visée** | Faire construire une définition par un agent connecté à Grasshopper, et relever le résultat produit. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

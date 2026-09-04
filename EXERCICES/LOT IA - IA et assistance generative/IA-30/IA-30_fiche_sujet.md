@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | IA7 · Vérification, licences et limites |
+| **Thématique** | IA5 · Vérification, licences et limites |
 | **Référence au référentiel** | REF-142 |
 | **Compétence visée** | Chiffrer le coût d'un service distant appelé depuis une définition qui recalcule à chaque manipulation. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Thématique** | GP3 · Maillages et SubD |
+| **Thématique** | GP4 · Maillages et SubD |
 | **Référence au référentiel** | REF-077, REF-078 |
 | **Case Bloom (révisée)** | Évaluer × conceptuelle |
 | **Niveau** | Perfectionnement |

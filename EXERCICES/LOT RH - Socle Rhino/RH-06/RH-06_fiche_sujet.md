@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH2 · Organisation du document |
+| **Thématique** | RH3 · Organisation du document Rhino |
 | **Référence au référentiel** | REF-005 |
 | **Case Bloom (révisée)** | Comprendre × conceptuelle |
 | **Niveau** | Débutant |

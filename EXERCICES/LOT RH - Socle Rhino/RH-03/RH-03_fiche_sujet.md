@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH3 · Modélisation Rhino |
+| **Thématique** | RH2 · Modélisation Rhino |
 | **Référence au référentiel** | REF-007, REF-008, REF-013 |
 | **Compétence visée** | Produire dans Rhino une répétition régulière d'objets à partir d'un original et d'un pas, et la faire mesurer. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

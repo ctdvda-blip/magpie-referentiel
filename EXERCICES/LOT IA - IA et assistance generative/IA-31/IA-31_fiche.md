@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | IA6 · Agents et protocoles |
+| **Thématique** | IA7 · Agents et protocoles |
 | **Référence au référentiel** | REF-136, REF-137, REF-138 |
 | **Compétence visée** | Distinguer, dans le journal d'un agent, les opérations qui ont modifié le document de celles qui l'ont seulement lu. |
 | **Case Bloom (révisée)** | Analyser × conceptuelle |

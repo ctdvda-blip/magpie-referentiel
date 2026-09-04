@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | IA7 · Vérification, licences et limites |
+| **Thématique** | IA5 · Vérification, licences et limites |
 | **Référence au référentiel** | REF-139, REF-142 |
 | **Compétence visée** | Contrôler un résultat produit par une IA par un moyen indépendant de la manière dont il a été obtenu. |
 | **Case Bloom (révisée)** | Évaluer × procédurale |

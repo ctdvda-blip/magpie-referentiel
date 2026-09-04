@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH3 · Préparation à l'impression 3D |
+| **Thématique** | RH4 · Préparation à l'impression 3D |
 | **Référence au référentiel** | REF-022, REF-023 |
 | **Compétence visée** | Repérer les faces dégénérées d'un maillage avant de le réparer, en s'appuyant sur la tolérance du document. |
 | **Case Bloom (révisée)** | Analyser × procédurale |

@@ -28,7 +28,7 @@
   "reglages_manuels": [],
   "ressource_3dm": null,
   "resultat_attendu": "Un Panel affichant 5 (arrondi au plus proche).",
-  "thematique": "A2 · Types, conversion et valeurs",
+  "thematique": "A2 · Types et conversion implicite",
   "titre": "Conversion implicite Number vers Integer",
   "tolerance": "0",
   "version": "v0.5-260902"

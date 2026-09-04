@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH3 · Modélisation Rhino |
+| **Thématique** | RH2 · Modélisation Rhino |
 | **Référence au référentiel** | REF-012 |
 | **Compétence visée** | Combiner des solides par soustraction dans Rhino et quantifier la matière retirée. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

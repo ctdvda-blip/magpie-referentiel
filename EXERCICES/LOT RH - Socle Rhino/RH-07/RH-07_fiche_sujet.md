@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH4 · Précision et unités |
+| **Thématique** | RH5 · Précision et unités |
 | **Référence au référentiel** | REF-015, REF-017 |
 | **Case Bloom (révisée)** | Comprendre × conceptuelle |
 | **Niveau** | Débutant |

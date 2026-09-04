@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH5 · Préparation à l'impression 3D |
+| **Thématique** | RH4 · Préparation à l'impression 3D |
 | **Référence au référentiel** | REF-016, REF-017, REF-018 |
 | **Compétence visée** | Confronter un relevé d'épaisseurs à la contrainte machine APRÈS mise à l'échelle, et non avant. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

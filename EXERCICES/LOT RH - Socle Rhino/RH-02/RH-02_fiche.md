@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH2 · Organisation du document |
+| **Thématique** | RH3 · Organisation du document Rhino |
 | **Référence au référentiel** | REF-004, REF-006, REF-014 |
 | **Compétence visée** | Organiser un document Rhino par calques de sorte qu'une définition puisse en reprendre une partie sans sélection manuelle. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

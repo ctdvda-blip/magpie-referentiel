@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | QT3 · Export de données |
+| **Thématique** | QT2 · Export de données |
 | **Référence au référentiel** | REF-086, REF-087 |
 | **Compétence visée** | Produire un fichier d'échange dont la structure est celle qu'attend le destinataire, en-tête comprise, et savoir combien de lignes il doit contenir avant de l'ouvrir. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

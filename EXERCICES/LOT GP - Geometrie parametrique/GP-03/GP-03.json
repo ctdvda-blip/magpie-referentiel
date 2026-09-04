@@ -28,7 +28,7 @@
   "reglages_manuels": [],
   "ressource_3dm": null,
   "resultat_attendu": "1 024 faces avec les réglages par défaut du mailleur — la correction accepte 5 % autour de cette valeur.",
-  "thematique": "GP3 · Maillages et SubD",
+  "thematique": "GP4 · Maillages et SubD",
   "titre": "Un maillage qu'on peut imprimer",
   "tolerance": "5 %",
   "version": "v0.5-260902"

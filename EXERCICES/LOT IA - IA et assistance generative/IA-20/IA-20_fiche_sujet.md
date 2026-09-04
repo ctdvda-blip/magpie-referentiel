@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | IA5 · Apprentissage automatique |
+| **Thématique** | IA4 · Apprentissage automatique |
 | **Référence au référentiel** | REF-131, REF-132 |
 | **Compétence visée** | Dimensionner une campagne d'évaluations à partir du temps disponible, et mesurer l'écart avec ce qu'exigerait l'exploration exhaustive. |
 | **Case Bloom (révisée)** | Analyser × procédurale |

@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Thématique** | IA7 · Vérification, licences et limites |
+| **Thématique** | IA5 · Vérification, licences et limites |
 | **Référence au référentiel** | REF-140, REF-141 |
 | **Case Bloom (révisée)** | Comprendre × conceptuelle |
 | **Niveau** | Débutant |

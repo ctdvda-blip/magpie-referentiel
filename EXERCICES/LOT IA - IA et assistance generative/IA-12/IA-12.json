@@ -28,7 +28,7 @@
   "reglages_manuels": [],
   "ressource_3dm": null,
   "resultat_attendu": "7 110,8 mm — la longueur de la polyligne inscrite, à 0,1 près.",
-  "thematique": "IA6 · Agents et protocoles",
+  "thematique": "IA7 · Agents et protocoles",
   "titre": "Faire construire un graphe par un agent",
   "tolerance": "0,1",
   "version": "v0.5-260902"

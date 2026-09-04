@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH3 · Préparation à l'impression 3D |
+| **Thématique** | RH4 · Préparation à l'impression 3D |
 | **Référence au référentiel** | REF-019, REF-020, REF-021 |
 | **Compétence visée** | Établir l'étanchéité d'une polysurface en tenant compte des arêtes non-manifold autant que des arêtes nues. |
 | **Case Bloom (révisée)** | Analyser × conceptuelle |

@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH2 · Organisation du document Rhino |
+| **Thématique** | RH3 · Organisation du document Rhino |
 | **Référence au référentiel** | REF-014, REF-015, REF-143 |
 | **Compétence visée** | Prévoir quels objets suivront un changement de calque, selon que leur couleur est héritée ou forcée. |
 | **Case Bloom (révisée)** | Analyser × conceptuelle |

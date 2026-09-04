@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | IA5 · Modèles de langage et IA générative |
+| **Thématique** | IA6 · Modèles de langage et IA générative |
 | **Référence au référentiel** | REF-133, REF-134, REF-135 |
 | **Compétence visée** | Extraire d'un texte de prescription les valeurs exploitables par une définition, et les contrôler. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

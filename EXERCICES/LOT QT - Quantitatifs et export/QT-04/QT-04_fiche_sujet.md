@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | QT3 · Export de données |
+| **Thématique** | QT2 · Export de données |
 | **Référence au référentiel** | REF-085 |
 | **Compétence visée** | Regrouper un relevé ligne à ligne en une table par référence, de sorte que chaque référence n'apparaisse qu'une fois avec sa quantité cumulée. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

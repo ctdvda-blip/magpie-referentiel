@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | GP5 · Synthèse géométrie |
+| **Thématique** | GP2 · Synthèse géométrie |
 | **Référence au référentiel** | REF-148 |
 | **Compétence visée** | Établir qu'une suite d'opérations géométriques ne commute pas, et chiffrer ce que l'ordre change. |
 | **Case Bloom (révisée)** | Analyser × procédurale |

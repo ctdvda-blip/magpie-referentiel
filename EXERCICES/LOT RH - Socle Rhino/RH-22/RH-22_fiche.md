@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH3 · Préparation à l'impression 3D |
+| **Thématique** | RH4 · Préparation à l'impression 3D |
 | **Référence au référentiel** | REF-024 |
 | **Compétence visée** | Régler la finesse d'un maillage d'export à partir de l'écart admissible à la surface, et non au jugé. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

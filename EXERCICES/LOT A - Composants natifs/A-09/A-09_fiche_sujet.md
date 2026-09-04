@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | A2 · Types, conversion et valeurs |
+| **Thématique** | A2 · Types et conversion implicite |
 | **Référence au référentiel** | REF-055 |
 | **Compétence visée** | Écarter les valeurs manquantes d'un relevé et dénombrer ce qui reste exploitable. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |
