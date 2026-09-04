@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH2 · Organisation du document Rhino |
+| **Thématique** | RH3 · Organisation du document Rhino |
 | **Référence au référentiel** | REF-143 |
 | **Compétence visée** | Retrouver des objets par le croisement de leurs propriétés, plutôt que par ce qu'on voit à l'écran. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

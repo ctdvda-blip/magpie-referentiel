@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | QT2 · Quantitatifs et chiffrage |
+| **Thématique** | QT1 · Quantitatifs et chiffrage |
 | **Référence au référentiel** | REF-083 |
 | **Compétence visée** | Enchaîner les coefficients d'un devis dans le bon ordre, en sachant sur quelle assiette chacun s'applique. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

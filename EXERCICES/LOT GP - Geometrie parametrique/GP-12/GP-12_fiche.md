@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | GP2 · Transformations et réseaux |
+| **Thématique** | GP3 · Transformations et réseaux |
 | **Référence au référentiel** | REF-149 |
 | **Compétence visée** | Composer deux transformations en sachant que leur ordre décide du résultat. |
 | **Case Bloom (révisée)** | Analyser × procédurale |

@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | AV3 · Design génératif |
+| **Thématique** | AV2 · Design génératif |
 | **Référence au référentiel** | REF-095 |
 | **Compétence visée** | Poser un problème de recherche de forme — variables, objectif, contraintes — et juger l'optimum obtenu. |
 | **Case Bloom (révisée)** | Créer × procédurale |

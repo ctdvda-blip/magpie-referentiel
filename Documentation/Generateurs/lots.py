@@ -66,6 +66,67 @@ def _vagues():
     return par_lot
 
 
+# ---------------------------------------------------------------------------
+# Normalisation des thematiques
+# ---------------------------------------------------------------------------
+
+#: Cinq libelles disaient la meme chose de deux facons. Le vocabulaire retenu
+#: est celui du REFERENTIEL : c'est lui qui fait autorite, et l'application
+#: groupe par thematique — deux libelles pour un sujet coupaient un groupe en
+#: deux sans raison.
+ALIAS_THEMES = {
+    u"Types, conversion et valeurs": u"Types et conversion implicite",
+    u"Organisation du document": u"Organisation du document Rhino",
+    u"Organisation et lisibilité": u"Organisation et performance",
+    u"Performance d'exécution": u"Organisation et performance",
+    u"Principes": u"Écosystème de plugins",
+}
+
+
+def _normaliser_themes(exercices):
+    """Donne a chaque thematique un numero unique DANS SON LOT.
+
+    Huit lots portaient des numeros contradictoires : le meme numero pour deux
+    sujets, et le meme sujet sous deux numeros. L'application groupe par cette
+    clef, et un groupe se coupait donc en deux sans raison visible.
+
+    La numerotation est DEDUITE et non ecrite : les libelles sont ranges par
+    le plus petit numero qu'ils portaient, puis par ordre alphabetique pour
+    departager. Ce choix preserve la numerotation existante partout ou elle
+    etait deja coherente, et ne bouge que ce qui se contredisait.
+    """
+    par_lot = {}
+    for e in exercices:
+        lot = e["id"].split("-")[0]
+        brut = u"%s" % (e.get(u"them") or u"")
+        if u" · " not in brut:
+            continue
+        numero, libelle = brut.split(u" · ", 1)
+        libelle = ALIAS_THEMES.get(libelle, libelle)
+        try:
+            n = int(numero[len(lot):])
+        except ValueError:
+            n = 99
+        connus = par_lot.setdefault(lot, {})
+        connus[libelle] = min(connus.get(libelle, 99), n)
+
+    rang = {}
+    for lot, libelles in par_lot.items():
+        ordre = sorted(libelles.items(), key=lambda kv: (kv[1], kv[0]))
+        for i, (libelle, _ancien) in enumerate(ordre, 1):
+            rang[(lot, libelle)] = i
+
+    for e in exercices:
+        brut = u"%s" % (e.get(u"them") or u"")
+        if u" · " not in brut:
+            continue
+        lot = e["id"].split("-")[0]
+        libelle = ALIAS_THEMES.get(brut.split(u" · ", 1)[1],
+                                   brut.split(u" · ", 1)[1])
+        e[u"them"] = u"%s%d · %s" % (lot, rang[(lot, libelle)], libelle)
+    return exercices
+
+
 VAGUES = _vagues()
 
 
@@ -193,7 +254,7 @@ def _charger():
 LOTS = _charger()
 
 #: tous les exercices, tous lots confondus
-TOUS = [e for _c, _n, _d, lot in LOTS for e in lot]
+TOUS = _normaliser_themes([e for _c, _n, _d, lot in LOTS for e in lot])
 
 #: identifiant d'exercice -> dossier du lot auquel il appartient
 DOSSIER = {}

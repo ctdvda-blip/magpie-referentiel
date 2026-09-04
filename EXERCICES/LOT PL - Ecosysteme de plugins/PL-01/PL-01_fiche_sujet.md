@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Thématique** | PL1 · Principes |
+| **Thématique** | PL1 · Écosystème de plugins |
 | **Référence au référentiel** | REF-025 |
 | **Case Bloom (révisée)** | Comprendre × conceptuelle |
 | **Niveau** | Débutant |

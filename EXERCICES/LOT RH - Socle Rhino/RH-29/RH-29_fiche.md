@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH3 · Modélisation Rhino |
+| **Thématique** | RH2 · Modélisation Rhino |
 | **Référence au référentiel** | REF-012, REF-013 |
 | **Compétence visée** | Chiffrer la matière restante après un réseau de percements, en distinguant rayon et diamètre. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

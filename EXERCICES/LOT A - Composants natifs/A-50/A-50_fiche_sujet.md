@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | A7 · Outils de texte |
+| **Thématique** | A6 · Outils de texte |
 | **Référence au référentiel** | REF-144 |
 | **Compétence visée** | Ramener des libellés saisis à la main à une forme comparable, avant tout regroupement. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

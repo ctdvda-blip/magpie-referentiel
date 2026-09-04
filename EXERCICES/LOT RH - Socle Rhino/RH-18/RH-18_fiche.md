@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH3 · Préparation à l'impression 3D |
+| **Thématique** | RH4 · Préparation à l'impression 3D |
 | **Référence au référentiel** | REF-016 |
 | **Compétence visée** | Confronter une pièce aux contraintes de la machine avant de lancer une impression. |
 | **Case Bloom (révisée)** | Analyser × procédurale |

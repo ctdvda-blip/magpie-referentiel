@@ -28,7 +28,7 @@
   "reglages_manuels": [],
   "ressource_3dm": null,
   "resultat_attendu": "6 polysurfaces sur 12 sont réellement étanches.",
-  "thematique": "RH3 · Préparation à l'impression 3D",
+  "thematique": "RH4 · Préparation à l'impression 3D",
   "titre": "Les volumes réellement étanches",
   "tolerance": "0",
   "version": "v0.5-260902"

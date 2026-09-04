@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH5 · Préparation à l'impression 3D |
+| **Thématique** | RH4 · Préparation à l'impression 3D |
 | **Référence au référentiel** | REF-022, REF-023, REF-024 |
 | **Compétence visée** | Prévoir le poids d'un export maillé à partir du nombre de triangles et du format retenu. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH5 · Préparation à l'impression 3D |
+| **Thématique** | RH4 · Préparation à l'impression 3D |
 | **Référence au référentiel** | REF-019, REF-020, REF-021, REF-022, REF-023 |
 | **Compétence visée** | Établir qu'un solide est réellement étanche, et le réparer quand il ne l'est pas. |
 | **Case Bloom (révisée)** | Analyser × procédurale |

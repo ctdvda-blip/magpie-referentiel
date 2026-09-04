@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | GP3 · Plan paramétrique |
+| **Thématique** | GP1 · Plan paramétrique |
 | **Référence au référentiel** | REF-146 |
 | **Compétence visée** | Déduire d'un jeu de contraintes la dimension qui n'est pas donnée, plutôt que de la mesurer sur le dessin. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

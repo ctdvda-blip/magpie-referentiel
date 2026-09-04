@@ -28,7 +28,7 @@
   "reglages_manuels": [],
   "ressource_3dm": null,
   "resultat_attendu": "La surface du bardage, en mètres carrés, à 0,01 près.",
-  "thematique": "RH3 · Modélisation Rhino",
+  "thematique": "RH2 · Modélisation Rhino",
   "titre": "Du profil à la surface",
   "tolerance": "0,01",
   "version": "v0.5-260902"

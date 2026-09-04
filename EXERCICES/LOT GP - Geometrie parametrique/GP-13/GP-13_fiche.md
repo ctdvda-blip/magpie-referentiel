@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | GP5 · Synthèse géométrie |
+| **Thématique** | GP2 · Synthèse géométrie |
 | **Référence au référentiel** | REF-073, REF-147, REF-148 |
 | **Compétence visée** | Ordonner congé, perçage et épaississement de sorte que chaque opération reçoive ce dont elle a besoin. |
 | **Case Bloom (révisée)** | Créer × procédurale |

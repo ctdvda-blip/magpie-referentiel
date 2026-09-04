@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | GP3 · Plan paramétrique |
+| **Thématique** | GP1 · Plan paramétrique |
 | **Référence au référentiel** | REF-065, REF-066 |
 | **Compétence visée** | Produire une cotation en chaîne qui se recalcule avec le modèle, en distinguant ce qui se mesure d'un voisin à l'autre de ce qui se repère depuis une origine unique. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

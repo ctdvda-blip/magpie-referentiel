@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH3 · Modélisation Rhino |
+| **Thématique** | RH2 · Modélisation Rhino |
 | **Référence au référentiel** | REF-009, REF-010, REF-011 |
 | **Compétence visée** | Passer d'une courbe tracée dans Rhino à une surface, et contrôler la grandeur obtenue. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

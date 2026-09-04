@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | A2 · Types, conversion et valeurs |
+| **Thématique** | A2 · Types et conversion implicite |
 | **Référence au référentiel** | REF-040, REF-059 |
 | **Compétence visée** | Dénombrer les éléments d'un lot qui satisfont une condition, en exploitant l'équivalence entre vrai et 1. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

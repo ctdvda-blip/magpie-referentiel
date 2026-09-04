@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Thématique** | GP5 · Synthèse géométrie |
+| **Thématique** | GP2 · Synthèse géométrie |
 | **Référence au référentiel** | REF-147 |
 | **Case Bloom (révisée)** | Évaluer × conceptuelle |
 | **Niveau** | Perfectionnement |

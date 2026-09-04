@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Thématique** | A2 · Types, conversion et valeurs |
+| **Thématique** | A2 · Types et conversion implicite |
 | **Référence au référentiel** | REF-041 |
 | **Case Bloom (révisée)** | Comprendre × factuelle |
 | **Niveau** | Débutant |

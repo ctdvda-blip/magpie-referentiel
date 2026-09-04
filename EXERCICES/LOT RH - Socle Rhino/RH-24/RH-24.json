@@ -28,7 +28,7 @@
   "reglages_manuels": [],
   "ressource_3dm": null,
   "resultat_attendu": "12 parois passent sous le minimum après réduction.",
-  "thematique": "RH5 · Préparation à l'impression 3D",
+  "thematique": "RH4 · Préparation à l'impression 3D",
   "titre": "Les parois trop minces après mise à l'échelle",
   "tolerance": "0",
   "version": "v0.5-260902"

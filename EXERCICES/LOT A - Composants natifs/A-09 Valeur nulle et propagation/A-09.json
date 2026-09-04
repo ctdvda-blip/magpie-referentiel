@@ -28,7 +28,7 @@
   "reglages_manuels": [],
   "ressource_3dm": null,
   "resultat_attendu": "18 — le nombre de hauteurs réellement renseignées.",
-  "thematique": "A2 · Types, conversion et valeurs",
+  "thematique": "A2 · Types et conversion implicite",
   "titre": "Valeur nulle et propagation",
   "tolerance": "0",
   "version": "v0.5-260902"

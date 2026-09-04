@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Thématique** | MP3 · Chronologie et évènements |
+| **Thématique** | MP1 · Chronologie et évènements |
 | **Référence au référentiel** | REF-091, REF-092 |
 | **Case Bloom (révisée)** | Comprendre × conceptuelle |
 | **Niveau** | Perfectionnement |

@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | RH5 · Préparation à l'impression 3D |
+| **Thématique** | RH4 · Préparation à l'impression 3D |
 | **Référence au référentiel** | REF-016, REF-018 |
 | **Compétence visée** | Vérifier qu'une pièce respecte les contraintes dimensionnelles d'une machine avant de la lancer. |
 | **Case Bloom (révisée)** | Évaluer × procédurale |

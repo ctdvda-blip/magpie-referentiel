@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | IA4 · Vérification, licences et limites |
+| **Thématique** | IA5 · Vérification, licences et limites |
 | **Référence au référentiel** | REF-142 |
 | **Compétence visée** | Chiffrer le coût d'usage d'un service d'IA à partir de sa consommation réelle, en distinguant ce qui entre de ce qui sort. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |

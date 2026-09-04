@@ -829,8 +829,13 @@ porte qu'une empreinte PBKDF2.
   portée englobante et l'écrase. Le piège s'est refermé trois fois :
   « str is not callable », « int is not callable », « bool is not
   callable ». Les noms courts sont réservés aux variables de boucle.
-- `audit_skill.py --tous` audite les 229 exercices ; sans `--tous`, il ne
+- `audit_skill.py --tous` audite les 253 exercices ; sans `--tous`, il ne
   voit que le lot A.
+- **Les thématiques sont normalisées au CHARGEMENT**, par
+  `lots._normaliser_themes`. Un libellé nouveau reçoit son numéro tout
+  seul ; ne jamais réécrire un numéro à la main dans un module de
+  domaine, il serait ignoré. Les fusions de libellés se déclarent dans
+  `ALIAS_THEMES`, sur le vocabulaire du référentiel.
 - **Reconstruire par `GH/build_tout.py`**, jamais par un pilote de lot : il
   découvre les recettes et rejoint le dossier EXISTANT de chaque exercice.
   Les lots A et IA ont des dossiers à TITRE LONG ; un constructeur qui

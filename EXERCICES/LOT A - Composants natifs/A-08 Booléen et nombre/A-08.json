@@ -28,7 +28,7 @@
   "reglages_manuels": [],
   "ressource_3dm": null,
   "resultat_attendu": "11 — le nombre de traverses dont l'écart à 1 200 mm dépasse 5 mm.",
-  "thematique": "A2 · Types, conversion et valeurs",
+  "thematique": "A2 · Types et conversion implicite",
   "titre": "Booléen et nombre",
   "tolerance": "0",
   "version": "v0.5-260902"

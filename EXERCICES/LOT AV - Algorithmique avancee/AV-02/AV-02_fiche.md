@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Thématique** | AV2 · Simulation physique |
+| **Thématique** | AV3 · Simulation physique |
 | **Référence au référentiel** | REF-094 |
 | **Compétence visée** | Conduire une simulation jusqu'à l'équilibre et relever une grandeur sur l'état stabilisé. |
 | **Case Bloom (révisée)** | Appliquer × procédurale |
