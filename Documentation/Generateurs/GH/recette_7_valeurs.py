@@ -34,11 +34,28 @@ l'equivalent d'un carre de 0,31 mm, tres en deca des 0,5 mm que l'exercice
 declare lui-meme : la geometrie n'a pas change de sens, seul son ajustement
 a change de contexte.
 
+LES DIX EXERCICES EXPOSES
+Recenses le 04/09/2026 sur les 257 recettes, ce sont les SEULS a employer
+un composant dont la geometrie est ajustee plutot que construite :
+
+    A-35, A-48, AV-02, DV-02, IA-12   Divide Curve
+    A-41                              Loft
+    A-42                              Revolution, Sweep1
+    A-44, RH-05                       Solid Difference
+    GP-03                             Mesh Brep, Deconstruct Mesh
+
+Les dix ont ete reconstruits et relus : A CONTEXTE CONSTANT, aucun ne
+bouge. L'exposition ne se manifeste donc qu'au CHANGEMENT de document,
+ce qui est exactement ce qui est arrive a A-42 entre deux sessions.
+Les 247 autres exercices sont des chaines arithmetiques ou des
+constructions exactes : pour eux, 1e-6 est large.
+
 La recette AFFICHE donc la tolerance du document. Devant un ecart de
-quelques ppm sur un exercice a surface ajustee, comparer les deux
-tolerances avant de conclure a une regression — et refiger si elles
-different. Le seuil reste a 1e-6 a dessein : mieux vaut un signal a
-expliquer qu'un seuil si large qu'il ne dit plus rien.
+quelques ppm sur l'un de ces dix, comparer les deux contextes avant de
+conclure a une regression — et refiger s'ils different. Sur les 247
+autres, un ecart est un vrai defaut. Le seuil reste a 1e-6 a dessein :
+mieux vaut un signal a expliquer qu'un seuil si large qu'il ne dit plus
+rien.
 """
 import io
 import json
