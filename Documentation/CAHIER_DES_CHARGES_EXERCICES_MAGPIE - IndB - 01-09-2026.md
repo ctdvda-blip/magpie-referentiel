@@ -13,7 +13,7 @@
 | Documents de référence | *Fondamentaux Grasshopper – Ind. B – 26-08-2026.xlsx*, *Compte rendu de session du 11/08/2026*, *Trame de suivi projet Magpie.xlsx*, programmes de formation du catalogue RhinoForYou |
 | Statut | Pour revue |
 
-Ce document décrit **291 exercices** répartis en 4 lots et 82 thématiques. Chaque exercice est décrit selon une trame identique en 10 rubriques, afin que la production puisse être répartie entre plusieurs contributeurs sans perte d'homogénéité.
+Ce document décrit **315 exercices** répartis en 4 lots et 82 thématiques. Chaque exercice est décrit selon une trame identique en 10 rubriques, afin que la production puisse être répartie entre plusieurs contributeurs sans perte d'homogénéité.
 
 ---
 
@@ -31,16 +31,16 @@ Ce document décrit **291 exercices** répartis en 4 lots et 82 thématiques. Ch
     - [Lot B — Algorithmes combinés](#lot-b--algorithmes-combinés) — 18 exercices
     - [Lot C — Projets appliqués](#lot-c--projets-appliqués) — 12 exercices
     - [Lot G — Exercices gamifiés](#lot-g--exercices-gamifiés) — 32 exercices
-    - [Lot IA — IA et assistance générative](#lot-ia--ia-et-assistance-générative) — 25 exercices
-    - [Lot RH — Socle Rhino](#lot-rh--socle-rhino) — 23 exercices
-    - [Lot GP — Géométrie paramétrique appliquée](#lot-gp--géométrie-paramétrique-appliquée) — 12 exercices
+    - [Lot IA — IA et assistance générative](#lot-ia--ia-et-assistance-générative) — 33 exercices
+    - [Lot RH — Socle Rhino](#lot-rh--socle-rhino) — 32 exercices
+    - [Lot GP — Géométrie paramétrique appliquée](#lot-gp--géométrie-paramétrique-appliquée) — 13 exercices
     - [Lot QT — Quantitatifs, chiffrage et export](#lot-qt--quantitatifs,-chiffrage-et-export) — 6 exercices
     - [Lot FA — Aide à la fabrication](#lot-fa--aide-à-la-fabrication) — 6 exercices
-    - [Lot PL — Écosystème de plugins](#lot-pl--écosystème-de-plugins) — 12 exercices
+    - [Lot PL — Écosystème de plugins](#lot-pl--écosystème-de-plugins) — 16 exercices
     - [Lot MP — Méthode, performance et évènements](#lot-mp--méthode,-performance-et-évènements) — 5 exercices
     - [Lot AV — Algorithmique avancée](#lot-av--algorithmique-avancée) — 9 exercices
     - [Lot DV — Développement, scripting et API](#lot-dv--développement,-scripting-et-api) — 9 exercices
-    - [Lot WB — Interfaces, web et interopérabilité](#lot-wb--interfaces,-web-et-interopérabilité) — 9 exercices
+    - [Lot WB — Interfaces, web et interopérabilité](#lot-wb--interfaces,-web-et-interopérabilité) — 11 exercices
     - [Lot B — Algorithmes combinés](#lot-b--algorithmes-combinés) — 18 exercices
     - [Lot C — Projets appliqués](#lot-c--projets-appliqués) — 12 exercices
     - [Lot G — Exercices gamifiés](#lot-g--exercices-gamifiés) — 32 exercices
@@ -314,20 +314,20 @@ Chaque exercice porte une version au format `v0.1-AAMMJJ` affichée dans le band
 | **B** | Algorithmes combinés | — | 18 | 7 h 59 |
 | **C** | Projets appliqués | — | 12 | 16 h 35 |
 | **G** | Exercices gamifiés | — | 32 | 8 h 41 |
-| **IA** | IA et assistance générative | Débutant à perfectionnement | 25 | 9 h 46 |
-| **RH** | Socle Rhino | Débutant | 23 | 6 h 41 |
-| **GP** | Géométrie paramétrique appliquée | Débutant à perfectionnement | 12 | 4 h 45 |
+| **IA** | IA et assistance générative | Débutant à perfectionnement | 33 | 12 h 02 |
+| **RH** | Socle Rhino | Débutant | 32 | 8 h 42 |
+| **GP** | Géométrie paramétrique appliquée | Débutant à perfectionnement | 13 | 5 h 07 |
 | **QT** | Quantitatifs, chiffrage et export | Intermédiaire | 6 | 2 h 45 |
 | **FA** | Aide à la fabrication | Perfectionnement | 6 | 2 h 43 |
-| **PL** | Écosystème de plugins | Débutant à intermédiaire | 12 | 2 h 43 |
+| **PL** | Écosystème de plugins | Débutant à intermédiaire | 16 | 3 h 43 |
 | **MP** | Méthode, performance et évènements | Intermédiaire à perfectionnement | 5 | 1 h 53 |
 | **AV** | Algorithmique avancée | Perfectionnement | 9 | 3 h 51 |
 | **DV** | Développement, scripting et API | Expert | 9 | 4 h 47 |
-| **WB** | Interfaces, web et interopérabilité | Perfectionnement à expert | 9 | 4 h 53 |
+| **WB** | Interfaces, web et interopérabilité | Perfectionnement à expert | 11 | 5 h 24 |
 | **B** | Algorithmes combinés | Intermédiaire | 18 | 7 h 59 |
 | **C** | Projets appliqués | Expérimenté | 12 | 16 h 35 |
 | **G** | Exercices gamifiés | Tous niveaux | 32 | 8 h 41 |
-| | **Total** | | **291** | **117 h 33** |
+| | **Total** | | **315** | **123 h 43** |
 
 ---
 
@@ -7509,7 +7509,7 @@ Quatre clusters anonymes transforment les données. Identifie le composant natif
 
 ## Lot IA — IA et assistance générative
 
-**Niveau** : Débutant à perfectionnement · **25 exercices** · **9 h 46 cumulées**
+**Niveau** : Débutant à perfectionnement · **33 exercices** · **12 h 02 cumulées**
 
 L'intelligence artificielle appliquée à Grasshopper : formuler une demande exploitable, faire produire un composant scripté, conduire un plugin avec un agent de code, apprendre d'un jeu de mesures, appeler un modèle de langage, piloter par un protocole d'agent, et vérifier ce qui revient.
 
@@ -7540,10 +7540,18 @@ L'intelligence artificielle appliquée à Grasshopper : formuler une demande exp
 | IA-23 | Combien de tours avant que tout passe | IA3 · Développement de plugins assisté | Perfectionnement | 25 min | SingleValue |
 | IA-24 | Le composant qui n'apparaît pas | IA3 · Développement de plugins assisté | Perfectionnement | 8 min | — |
 | IA-25 | Ce que le service coûte par mois | IA4 · Vérification, licences et limites | Perfectionnement | 25 min | NumericTolerance |
+| IA-26 | Transposer, et le prouver sur un second jeu | IA2 · Composants scriptés assistés | Intermédiaire | 18 min | ExactOrderedList |
+| IA-27 | Le script qui tourne et compte mal | IA2 · Composants scriptés assistés | Intermédiaire | 16 min | SingleValue |
+| IA-28 | Regrouper des pièces par similarité | IA5 · Apprentissage automatique | Perfectionnement | 20 min | SingleValue |
+| IA-29 | Les GUID qui cassent les définitions | IA3 · Développement de plugins assisté | Perfectionnement | 18 min | SingleValue |
+| IA-30 | Ce qu'un appel coûte dans une définition qui recalcule | IA7 · Vérification, licences et limites | Perfectionnement | 15 min | NumericTolerance |
+| IA-31 | Ce que l'agent a modifié | IA6 · Agents et protocoles | Perfectionnement | 16 min | SingleValue |
+| IA-32 | Ce qu'une demande floue laisse passer | IA1 · Formuler et cadrer une demande | Débutant | 15 min | ExactOrderedList |
+| IA-33 | Du texte aux paramètres | IA5 · Modèles de langage et IA générative | Perfectionnement | 18 min | NumericTolerance |
 
 ### IA1 · Formuler et cadrer une demande
 
-*3 exercices — IA-01, IA-02, IA-03*
+*4 exercices — IA-01, IA-02, IA-03, IA-32*
 
 #### IA-01 — Spécifier un composant plutôt que le décrire
 
@@ -7718,9 +7726,70 @@ Valeur diagnostique : (d) est la conclusion qu'en tire l'apprenant découragé, 
 
 **10. Barème** — 1 point si la sortie vaut 48 après une seule reformulation.
 
+#### IA-32 — Ce qu'une demande floue laisse passer
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | IA — IA et assistance générative |
+| **Thématique** | IA1 · Formuler et cadrer une demande |
+| **Réf. référentiel** | REF-117, REF-119 |
+| **Niveau** | Débutant |
+| **Durée cible** | 15 min |
+| **Prérequis** | IA-01 |
+| **Compétence visée** | Mesurer l'écart entre plusieurs lectures défendables d'une même consigne, pour comprendre ce qu'une spécification doit trancher. |
+| **Case Bloom (révisée)** | Analyser × conceptuelle |
+| **Mode de validation** | ExactOrderedList — tolérance 0 |
+| **Solution de référence** | 12 composants |
+| **Gamification associée** | G-17 Le quiz éclair |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Mesurer l'écart entre plusieurs lectures défendables d'une même consigne, pour comprendre ce qu'une spécification doit trancher.
+
+**1 bis. Contexte métier** — « Compte les grandes valeurs » se lit de quatre façons. L'assistant en choisit une, silencieusement, et le résultat est juste au regard de sa lecture.
+
+**2. Composants mobilisés** — Data, Larger Than, Average, Sort List, List Item, Cull Pattern, List Length, Merge, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> La consigne dit « compte les grandes valeurs » sur les seize relevés fournis. Appliquez-lui quatre lectures : strictement au-dessus de 500, au moins 500, au-dessus de la moyenne, au-dessus de la médiane. Donnez les quatre comptes, dans cet ordre.
+
+**4. Données de départ fournies** — Les seize relevés et les quatre lectures à appliquer.
+
+**5. Résultat attendu** — Les quatre comptes, dans l'ordre : 7, 8, 9, 8.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Compter les valeurs strictement au-dessus de 500.
+2. Recommencer avec la comparaison large.
+3. Calculer la moyenne, puis compter au-dessus.
+4. Trier pour obtenir la médiane, puis compter au-dessus.
+5. Assembler les quatre comptes dans l'ordre.
+
+**6 bis. Erreur attendue** — Croire que la question du seuil strict est théorique. Un relevé vaut EXACTEMENT 500 : c'est lui qui sépare les deux premières lectures, et c'est le cas limite qu'une spécification doit nommer explicitement.
+
+**6 ter. Justification du jeu de données** — Seize relevés de 100 à 999, dont un posé exactement au seuil. La moyenne, 472,81, et la médiane, 491,50, encadrent le seuil de 500 sans coïncider avec lui : les quatre lectures donnent trois comptes différents, et aucune n'est plus légitime que les autres.
+
+**6 quater. Limite de la correction automatique** — Quatre lectures ne sont pas toutes les lectures. « Grande » peut aussi vouloir dire au-dessus du troisième quartile, ou au-dessus d'un seuil métier absent des données : l'exercice montre le problème, il n'en épuise pas les cas.
+
+**7. Pièges fréquents**
+
+- Confondre moyenne et médiane.
+- Employer la même comparaison pour les deux premières lectures.
+
+**8. Variantes et extensions**
+
+- Ajouter un second relevé à 500 et refaire les quatre comptes.
+- Rédiger la spécification qui lèverait l'ambiguïté.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode ExactOrderedList.
+
+**10. Barème** — 1 point si les quatre comptes concordent dans l'ordre.
+
 ### IA2 · Composants scriptés assistés
 
-*5 exercices — IA-04, IA-05, IA-06, IA-21, IA-22*
+*7 exercices — IA-04, IA-05, IA-06, IA-21, IA-22, IA-26, IA-27*
 
 #### IA-04 — Un composant scripté qui somme un métré
 
@@ -8023,9 +8092,129 @@ Valeur diagnostique : (d) est la conclusion qu'en tire l'apprenant découragé, 
 
 **10. Barème** — 1 point si la somme selon la règle du métier est juste.
 
+#### IA-26 — Transposer, et le prouver sur un second jeu
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | IA — IA et assistance générative |
+| **Thématique** | IA2 · Composants scriptés assistés |
+| **Réf. référentiel** | REF-122, REF-123 |
+| **Niveau** | Intermédiaire |
+| **Durée cible** | 18 min |
+| **Prérequis** | IA-06 |
+| **Compétence visée** | Établir qu'un script porté vers un autre langage produit exactement la même chose, sur un jeu qu'il n'a pas servi à écrire. |
+| **Case Bloom (révisée)** | Analyser × procédurale |
+| **Mode de validation** | ExactOrderedList — tolérance 0 |
+| **Solution de référence** | 5 composants |
+| **Gamification associée** | G-19 Le composant mystère |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Établir qu'un script porté vers un autre langage produit exactement la même chose, sur un jeu qu'il n'a pas servi à écrire.
+
+**1 bis. Contexte métier** — Reprendre une définition ancienne maintenue en VB.NET, c'est la porter sans changer un résultat dont personne ne se souvient de la règle exacte.
+
+**2. Composants mobilisés** — Data, Mass Addition, Partial Results, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le composant existant produit les sommes cumulées d'une liste. Faites-le porter vers un autre langage, puis appliquez les deux versions au jeu de preuve fourni et donnez les quatorze valeurs obtenues.
+
+**4. Données de départ fournies** — Le composant d'origine et le jeu de preuve de quatorze valeurs.
+
+**5. Résultat attendu** — Les quatorze cumuls : 213, 230, 656, 1 011, 1 306, 1 560, 1 711, 1 801, 2 150, 2 234, 2 390, 2 524, 2 989, 3 141.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Lire ce que fait le composant d'origine sur un petit jeu.
+2. Faire produire la version dans l'autre langage.
+3. Appliquer les deux au jeu de preuve.
+4. Comparer élément par élément, dans l'ordre.
+
+**6 bis. Erreur attendue** — Vérifier le portage sur le jeu qui a servi à l'écrire. Les deux versions s'y accordent forcément — c'est ce jeu-là que l'assistant avait sous les yeux. La preuve n'a de valeur que sur des données qu'il n'a pas vues.
+
+**6 ter. Justification du jeu de données** — Quatorze valeurs de 15 à 480, sans ordre. Le cumul est strictement croissant : un décalage d'un rang se voit immédiatement, et une somme oubliée décale tout ce qui suit. C'est ce qui rend la comparaison sévère.
+
+**6 quater. Limite de la correction automatique** — L'égalité sur quatorze valeurs établit que les deux versions s'accordent SUR CE JEU. Un cas limite absent — liste vide, valeur négative, dépassement de capacité — peut encore les séparer, et c'est le défaut classique du portage.
+
+**7. Pièges fréquents**
+
+- Comparer des ensembles au lieu de listes ordonnées.
+- Prouver le portage sur le jeu d'origine.
+
+**8. Variantes et extensions**
+
+- Ajouter une valeur négative au jeu et voir si l'accord tient.
+- Porter vers un troisième langage.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode ExactOrderedList.
+
+**10. Barème** — 1 point si les quatorze valeurs concordent dans l'ordre.
+
+#### IA-27 — Le script qui tourne et compte mal
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | IA — IA et assistance générative |
+| **Thématique** | IA2 · Composants scriptés assistés |
+| **Réf. référentiel** | REF-124 |
+| **Niveau** | Intermédiaire |
+| **Durée cible** | 16 min |
+| **Prérequis** | IA-05 |
+| **Compétence visée** | Localiser une erreur de bornes dans un code qui s'exécute sans planter et rend un résultat crédible. |
+| **Case Bloom (révisée)** | Analyser × procédurale |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 6 composants |
+| **Gamification associée** | G-20 La chasse aux bugs |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Localiser une erreur de bornes dans un code qui s'exécute sans planter et rend un résultat crédible.
+
+**1 bis. Contexte métier** — Un script qui plante se répare. Un script qui rend quatorze au lieu de quinze se livre, et l'écart se découvre trois semaines plus tard sur un autre jeu.
+
+**2. Composants mobilisés** — Data, Larger Than, Cull Pattern, List Length, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le composant fourni doit compter les longueurs qui dépassent 1 500 mm parmi les trente relevées. Il rend un résultat faux. Corrigez-le et donnez le compte exact.
+
+**4. Données de départ fournies** — Le composant fautif et les trente longueurs relevées.
+
+**5. Résultat attendu** — 15 longueurs dépassent 1 500 mm.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Comparer le résultat du composant à un comptage natif.
+2. Chercher où les deux divergent : la dernière valeur.
+3. Corriger la borne de la boucle.
+4. Vérifier que les deux comptes coïncident.
+
+**6 bis. Erreur attendue** — Accepter le quatorze que rend le composant. Sa boucle s'arrête un cran trop tôt et ne teste jamais le dernier élément — qui vaut ici 2 592 mm et dépasse largement. L'erreur ne se voit que si la dernière valeur est justement concernée.
+
+**6 ter. Justification du jeu de données** — Trente longueurs de 200 à 3 200 mm, et la DERNIÈRE dépasse le seuil : le jeu est choisi pour que le défaut de bornes se manifeste. Sur les deux tiers des jeux possibles, le même code faux rendrait la bonne réponse.
+
+**6 quater. Limite de la correction automatique** — Le compte exact prouve que le défaut est corrigé, pas qu'il est COMPRIS. Remplacer la boucle par un composant natif donne la bonne valeur sans avoir jamais vu l'erreur — l'exercice demande de la nommer, et cela se lit sur le canvas.
+
+**7. Pièges fréquents**
+
+- Corriger le seuil au lieu de la borne.
+- Conclure que le composant est juste parce qu'il ne plante pas.
+
+**8. Variantes et extensions**
+
+- Chercher un jeu sur lequel le code faux rend la bonne réponse.
+- Faire produire un test qui attrape ce défaut.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le compte corrigé est exact.
+
 ### IA3 · Développement de plugins assisté
 
-*4 exercices — IA-07, IA-08, IA-23, IA-24*
+*5 exercices — IA-07, IA-08, IA-23, IA-24, IA-29*
 
 #### IA-07 — Un plugin .gha conduit par un agent
 
@@ -8250,6 +8439,65 @@ Valeur diagnostique : l'absence de MESSAGE est l'information. Un composant mal �
 
 **10. Barème** — —
 
+#### IA-29 — Les GUID qui cassent les définitions
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | IA — IA et assistance générative |
+| **Thématique** | IA3 · Développement de plugins assisté |
+| **Réf. référentiel** | REF-128 |
+| **Niveau** | Perfectionnement |
+| **Durée cible** | 18 min |
+| **Prérequis** | IA-08 |
+| **Compétence visée** | Mesurer l'effet d'un GUID régénéré sur le parc de définitions existantes. |
+| **Case Bloom (révisée)** | Analyser × conceptuelle |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 7 composants |
+| **Gamification associée** | G-29 Le défi du jour |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Mesurer l'effet d'un GUID régénéré sur le parc de définitions existantes.
+
+**1 bis. Contexte métier** — Publier la version suivante d'un plugin ne doit pas casser les définitions déjà écrites. Un GUID régénéré rend un composant introuvable, et la définition s'ouvre avec un trou.
+
+**2. Composants mobilisés** — Data, Gate Not, Cull Pattern, Mass Addition, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le tableau donne, pour huit composants du plugin, si leur GUID a été conservé d'une version à l'autre et combien de définitions les emploient. Donnez le nombre de définitions cassées par la mise à jour.
+
+**4. Données de départ fournies** — Le tableau des huit composants, de leurs GUID et de leur usage.
+
+**5. Résultat attendu** — 16 définitions sont cassées par la mise à jour.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Isoler les composants dont le GUID a changé.
+2. Récupérer le nombre de définitions correspondantes.
+3. En faire la somme.
+
+**6 bis. Erreur attendue** — Compter les COMPOSANTS dont le GUID a changé — quatre — au lieu des définitions qui les emploient. Un composant régénéré casse autant de définitions qu'il en sert : le préjudice se mesure chez les utilisateurs, pas dans le code.
+
+**6 ter. Justification du jeu de données** — Huit composants, quatre GUID régénérés, et des usages de 1 à 9 définitions. Les composants les plus employés ne sont pas ceux dont le GUID a changé : le total, 16, ne se déduit ni du nombre de composants ni de l'usage moyen.
+
+**6 quater. Limite de la correction automatique** — Le compte suppose qu'une définition cassée l'est ENTIÈREMENT. En pratique elle s'ouvre, le composant manquant apparaît en substitut rouge, et le reste continue de fonctionner — le préjudice est réel mais gradué, ce que ce chiffre n'exprime pas.
+
+**7. Pièges fréquents**
+
+- Compter les composants au lieu des définitions.
+- Sommer tout le parc sans filtrer.
+
+**8. Variantes et extensions**
+
+- Chercher le composant dont la régénération coûte le plus cher.
+- Estimer le gain d'une table de correspondance des anciens GUID.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le compte est exact.
+
 ### IA4 · Apprentissage automatique
 
 *2 exercices — IA-09, IA-10*
@@ -8378,7 +8626,7 @@ Valeur diagnostique : l'absence de MESSAGE est l'information. Un composant mal �
 
 ### IA5 · Modèles de langage et IA générative
 
-*1 exercices — IA-11*
+*2 exercices — IA-11, IA-33*
 
 #### IA-11 — Un cahier des charges qui devient des paramètres
 
@@ -8441,9 +8689,69 @@ Valeur diagnostique : l'absence de MESSAGE est l'information. Un composant mal �
 
 **10. Barème** — 1 point si le nombre de montants est juste et si chaque valeur extraite est justifiée par sa phrase source.
 
+#### IA-33 — Du texte aux paramètres
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | IA — IA et assistance générative |
+| **Thématique** | IA5 · Modèles de langage et IA générative |
+| **Réf. référentiel** | REF-134 |
+| **Niveau** | Perfectionnement |
+| **Durée cible** | 18 min |
+| **Prérequis** | IA-11 |
+| **Compétence visée** | Tirer d'un texte de programme les paramètres qui pilotent une définition, en distinguant ce qui est donné de ce qui se déduit. |
+| **Case Bloom (révisée)** | Analyser × procédurale |
+| **Mode de validation** | NumericTolerance — tolérance 0.0001 |
+| **Solution de référence** | 8 composants |
+| **Gamification associée** | G-19 Le composant mystère |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Tirer d'un texte de programme les paramètres qui pilotent une définition, en distinguant ce qui est donné de ce qui se déduit.
+
+**1 bis. Contexte métier** — Un cahier des charges décrit une verrière en toutes lettres. La définition, elle, a besoin d'une largeur de travée et d'une hauteur vitrée, qu'aucune phrase ne donne directement.
+
+**2. Composants mobilisés** — Slider, Subtraction, Multiplication, Division, Merge, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> L'extrait décrit une verrière de 3 200 mm de large et 2 450 mm de haut, à 6 travées égales séparées par des montants de 60 mm, avec une imposte de 380 mm en partie haute. Donnez la largeur d'une travée puis la hauteur vitrée, en millimètres.
+
+**4. Données de départ fournies** — L'extrait de programme, en toutes lettres.
+
+**5. Résultat attendu** — 483,3333 mm de largeur de travée, puis 2 070 mm de hauteur vitrée.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Compter les montants : un de moins que les travées.
+2. Retrancher leur largeur cumulée à la largeur totale.
+3. Diviser par le nombre de travées.
+4. Retrancher l'imposte à la hauteur totale.
+
+**6 bis. Erreur attendue** — Diviser la largeur par le nombre de travées : 533,33 mm. Les cinq montants intérieurs occupent 300 mm qu'aucune travée ne reçoit — la verrière posée sur ce chiffre déborde de 300 mm, et l'erreur ne se voit qu'au montage.
+
+**6 ter. Justification du jeu de données** — Six travées et cinq montants : c'est l'écart d'une unité qui fait tout le piège, et il est le même que celui des barreaux de garde-corps en B-02. La largeur obtenue n'est pas ronde, ce qui interdit de la deviner.
+
+**6 quater. Limite de la correction automatique** — Les deux paramètres se déduisent du TEXTE. Ils ne disent pas si la verrière est constructible : une travée de 483 mm en simple vitrage tient, en double vitrage sur 2 070 mm de haut elle demande un calcul de raidissement que le texte ignore.
+
+**7. Pièges fréquents**
+
+- Compter autant de montants que de travées.
+- Diviser avant de retrancher.
+
+**8. Variantes et extensions**
+
+- Refaire le calcul pour sept travées.
+- Chercher le nombre de travées qui donne une largeur ronde.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode NumericTolerance.
+
+**10. Barème** — 1 point si les deux valeurs sont justes à 0,0001 mm.
+
 ### IA6 · Agents et protocoles
 
-*1 exercices — IA-12*
+*2 exercices — IA-12, IA-31*
 
 #### IA-12 — Faire construire un graphe par un agent
 
@@ -8507,9 +8815,68 @@ Valeur diagnostique : l'absence de MESSAGE est l'information. Un composant mal �
 
 **10. Barème** — 1 point si la longueur est juste à 0,1 près et si le travail a été mené sur une copie.
 
+#### IA-31 — Ce que l'agent a modifié
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | IA — IA et assistance générative |
+| **Thématique** | IA6 · Agents et protocoles |
+| **Réf. référentiel** | REF-136, REF-137, REF-138 |
+| **Niveau** | Perfectionnement |
+| **Durée cible** | 16 min |
+| **Prérequis** | IA-12 |
+| **Compétence visée** | Distinguer, dans le journal d'un agent, les opérations qui ont modifié le document de celles qui l'ont seulement lu. |
+| **Case Bloom (révisée)** | Analyser × conceptuelle |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 7 composants |
+| **Gamification associée** | G-16 La chasse au trésor |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Distinguer, dans le journal d'un agent, les opérations qui ont modifié le document de celles qui l'ont seulement lu.
+
+**1 bis. Contexte métier** — Avant de laisser un agent travailler sur une définition, on veut savoir ce qu'il a touché. Le journal le dit, à condition de trier les lectures des écritures.
+
+**2. Composants mobilisés** — Data, Member Index, Larger Than, Cull Pattern, List Length, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le journal donne les vingt-deux opérations menées par l'agent. Donnez le nombre d'opérations qui ont MODIFIÉ le document.
+
+**4. Données de départ fournies** — Le journal des vingt-deux opérations.
+
+**5. Résultat attendu** — 10 opérations ont modifié le document.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Poser la liste des verbes d'écriture.
+2. Pour chaque opération du journal, chercher si son verbe y figure.
+3. Compter les correspondances.
+
+**6 bis. Erreur attendue** — Ne compter que les ajouts et les suppressions — cinq. Câbler, déplacer et renommer modifient le document tout autant : un fil rebranché change le résultat sans que rien n'apparaisse ni ne disparaisse, et c'est la modification la plus difficile à retrouver après coup.
+
+**6 ter. Justification du jeu de données** — Vingt-deux opérations dont douze lectures. Les cinq verbes d'écriture se répartissent en trois familles — création, destruction, altération — et seule la troisième est oubliée par le compte naïf.
+
+**6 quater. Limite de la correction automatique** — Le journal dit ce que l'agent a FAIT, pas ce qu'il a cassé. Dix modifications peuvent être toutes justes, ou une seule peut avoir rompu la chaîne : c'est la raison pour laquelle on travaille sur une copie et qu'on versionne avant d'agir.
+
+**7. Pièges fréquents**
+
+- Réduire l'écriture à l'ajout et à la suppression.
+- Compter les lectures.
+
+**8. Variantes et extensions**
+
+- Donner le nombre d'opérations irréversibles.
+- Reconstituer l'état du document après les dix modifications.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le compte est exact.
+
 ### IA7 · Vérification, licences et limites
 
-*2 exercices — IA-13, IA-14*
+*3 exercices — IA-13, IA-14, IA-30*
 
 #### IA-13 — Ce qui quitte le poste
 
@@ -8622,6 +8989,64 @@ Valeur diagnostique : (b) est la représentation la plus répandue et la plus ri
 **9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode NumericTolerance.
 
 **10. Barème** — 1 point si le volume exact est donné et si l'écart du composant fourni est expliqué.
+
+#### IA-30 — Ce qu'un appel coûte dans une définition qui recalcule
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | IA — IA et assistance générative |
+| **Thématique** | IA7 · Vérification, licences et limites |
+| **Réf. référentiel** | REF-142 |
+| **Niveau** | Perfectionnement |
+| **Durée cible** | 15 min |
+| **Prérequis** | IA-13 |
+| **Compétence visée** | Chiffrer le coût d'un service distant appelé depuis une définition qui recalcule à chaque manipulation. |
+| **Case Bloom (révisée)** | Appliquer × procédurale |
+| **Mode de validation** | NumericTolerance — tolérance 0.01 |
+| **Solution de référence** | 5 composants |
+| **Gamification associée** | G-03 Contre la montre |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Chiffrer le coût d'un service distant appelé depuis une définition qui recalcule à chaque manipulation.
+
+**1 bis. Contexte métier** — Un composant qui interroge un modèle de langage se paie à l'appel. Dans une définition qui recalcule à chaque déplacement de curseur, la facture ne suit pas le nombre de réponses utiles.
+
+**2. Composants mobilisés** — Slider, Multiplication, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> La définition émet trois appels par recalcul, et la séance en a compté 240. Chaque appel coûte 0,004 € et prend 1,8 s. Donnez le coût de la séance, en euros.
+
+**4. Données de départ fournies** — Le nombre d'appels par recalcul, le nombre de recalculs, le prix et la latence unitaires.
+
+**5. Résultat attendu** — 2,88 € pour la séance.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Multiplier les recalculs par les appels de chacun.
+2. Multiplier par le prix unitaire.
+
+**6 bis. Erreur attendue** — Compter un appel par recalcul : 0,96 €, trois fois moins. La définition en émet trois — un par branche du graphe — et c'est le genre de multiplication qu'on ne découvre qu'à la facture.
+
+**6 ter. Justification du jeu de données** — 720 appels pour une séance de travail ordinaire, et 1 296 s d'attente cumulée, soit vingt-deux minutes. Les deux nombres disent la même chose de deux façons : le coût se voit sur la facture, la latence se subit tout de suite.
+
+**6 quater. Limite de la correction automatique** — Le calcul suppose le prix et la latence CONSTANTS. Les deux varient avec la taille de la demande et la charge du service, et un modèle plus grand peut coûter dix fois plus pour la même question.
+
+**7. Pièges fréquents**
+
+- Oublier les trois appels par recalcul.
+- Confondre le coût et la latence.
+
+**8. Variantes et extensions**
+
+- Donner l'attente cumulée en minutes.
+- Chercher le nombre de recalculs qui tient dans un budget de 1 €.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode NumericTolerance.
+
+**10. Barème** — 1 point si le coût est juste au centime.
 
 ### IA7 · Agents et protocoles
 
@@ -8858,7 +9283,7 @@ Valeur diagnostique : (b) est l'erreur coûteuse — les outils de reconstructio
 
 ### IA5 · Apprentissage automatique
 
-*2 exercices — IA-19, IA-20*
+*3 exercices — IA-19, IA-20, IA-28*
 
 #### IA-19 — Regrouper un débit en trois familles
 
@@ -8981,6 +9406,66 @@ Valeur diagnostique : (b) est l'erreur coûteuse — les outils de reconstructio
 
 **10. Barème** — 1 point si le nombre d'évaluations est juste et arrondi à l'inférieur.
 
+#### IA-28 — Regrouper des pièces par similarité
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | IA — IA et assistance générative |
+| **Thématique** | IA5 · Apprentissage automatique |
+| **Réf. référentiel** | REF-130 |
+| **Niveau** | Perfectionnement |
+| **Durée cible** | 20 min |
+| **Prérequis** | IA-10 |
+| **Compétence visée** | Regrouper des éléments sur plusieurs critères à la fois et lire l'effectif du groupe dominant. |
+| **Case Bloom (révisée)** | Analyser × procédurale |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 10 composants |
+| **Gamification associée** | G-12 Le memory des composants |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Regrouper des éléments sur plusieurs critères à la fois et lire l'effectif du groupe dominant.
+
+**1 bis. Contexte métier** — Rationaliser un débit, c'est ramener des pièces toutes différentes à quelques familles. La famille la plus fournie décide du réglage de la machine.
+
+**2. Composants mobilisés** — Data, Larger Than, Gate And, Gate Not, Cull Pattern, List Length, Bounds, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Les vingt pièces vous sont données par leur longueur et leur épaisseur. Regroupez-les selon qu'elles dépassent ou non 900 mm de long et 34 mm d'épaisseur. Donnez l'effectif du groupe le plus fourni.
+
+**4. Données de départ fournies** — Les vingt couples longueur-épaisseur et les deux seuils.
+
+**5. Résultat attendu** — 10 pièces dans le groupe le plus fourni.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Tester chaque pièce sur les deux seuils.
+2. Former les quatre combinaisons de vrai et de faux.
+3. Compter chaque famille.
+4. Prendre le plus grand des quatre effectifs.
+
+**6 bis. Erreur attendue** — Regrouper sur un seul critère. La longueur seule donne deux groupes de dix ; c'est le CROISEMENT des deux critères qui produit quatre familles d'effectifs 10, 4, 4 et 2 — et seul le croisement dit quoi régler sur la machine.
+
+**6 ter. Justification du jeu de données** — Vingt pièces, quatre familles d'effectifs 10, 4, 4 et 2. Deux familles sont à égalité : le maximum, lui, est unique. Le groupe dominant rassemble la moitié des pièces, ce qui rend le regroupement utile plutôt que décoratif.
+
+**6 quater. Limite de la correction automatique** — Les seuils sont DONNÉS. Un vrai regroupement les cherche — c'est ce que fait un algorithme de partitionnement — et le nombre de familles devient lui-même un résultat, pas une hypothèse.
+
+**7. Pièges fréquents**
+
+- Ne croiser qu'un critère.
+- Rendre le nombre de familles au lieu de l'effectif.
+
+**8. Variantes et extensions**
+
+- Faire varier le seuil de longueur et suivre le groupe dominant.
+- Chercher les seuils qui équilibrent les quatre familles.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si l'effectif est exact.
+
 ### IA4 · Vérification, licences et limites
 
 *1 exercices — IA-25*
@@ -9049,7 +9534,7 @@ Valeur diagnostique : (b) est l'erreur coûteuse — les outils de reconstructio
 
 ## Lot RH — Socle Rhino
 
-**Niveau** : Débutant · **23 exercices** · **6 h 41 cumulées**
+**Niveau** : Débutant · **32 exercices** · **8 h 42 cumulées**
 
 Le socle Rhino, prérequis de tout le reste. Ce qui produit une géométrie se valide en la référençant dans Grasshopper et en la mesurant ; ce qui relève de l'interface ne produit rien de mesurable et devient une question charnière.
 
@@ -9078,10 +9563,19 @@ Le socle Rhino, prérequis de tout le reste. Ce qui produit une géométrie se v
 | RH-21 | Les faces qui ne mesurent rien | RH3 · Préparation à l'impression 3D | Débutant | 20 min | SingleValue |
 | RH-22 | La finesse du maillage à l'export | RH3 · Préparation à l'impression 3D | Débutant | 25 min | SingleValue |
 | RH-23 | Sélectionner sur ce que les objets sont | RH2 · Organisation du document Rhino | Débutant | 20 min | SingleValue |
+| RH-24 | Les parois trop minces après mise à l'échelle | RH5 · Préparation à l'impression 3D | Débutant | 15 min | SingleValue |
+| RH-25 | Les volumes réellement étanches | RH3 · Préparation à l'impression 3D | Débutant | 14 min | SingleValue |
+| RH-26 | Le poids du fichier à envoyer | RH5 · Préparation à l'impression 3D | Débutant | 12 min | SingleValue |
+| RH-27 | Le volume d'un assemblage de primitives | RH2 · Modélisation Rhino | Débutant | 16 min | NumericTolerance |
+| RH-28 | La surface d'une extrusion | RH2 · Modélisation Rhino | Débutant | 14 min | NumericTolerance |
+| RH-29 | La platine percée en réseau | RH3 · Modélisation Rhino | Débutant | 14 min | NumericTolerance |
+| RH-30 | Ce que le filtre de sélection retient | RH1 · Interface et navigation Rhino | Débutant | 12 min | SingleValue |
+| RH-31 | Ce qui reste visible | RH1 · Interface et navigation Rhino | Débutant | 12 min | SingleValue |
+| RH-32 | Ce qui suivra le calque | RH2 · Organisation du document Rhino | Débutant | 12 min | SingleValue |
 
 ### RH1 · Interface et navigation Rhino
 
-*4 exercices — RH-01, RH-11, RH-12, RH-13*
+*6 exercices — RH-01, RH-11, RH-12, RH-13, RH-30, RH-31*
 
 #### RH-01 — Retrouver un objet perdu de vue
 
@@ -9313,6 +9807,125 @@ Valeur diagnostique : (a) est ce que fait spontanément un débutant, et cela pe
 
 **10. Barème** — 1 point si le compte des objets visibles est juste.
 
+#### RH-30 — Ce que le filtre de sélection retient
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | RH — Socle Rhino |
+| **Thématique** | RH1 · Interface et navigation Rhino |
+| **Réf. référentiel** | REF-003, REF-004 |
+| **Niveau** | Débutant |
+| **Durée cible** | 12 min |
+| **Prérequis** | RH-01 |
+| **Compétence visée** | Prévoir le résultat d'une sélection filtrée en tenant compte de ce qui est verrouillé. |
+| **Case Bloom (révisée)** | Analyser × conceptuelle |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 9 composants |
+| **Gamification associée** | G-16 La chasse au trésor |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Prévoir le résultat d'une sélection filtrée en tenant compte de ce qui est verrouillé.
+
+**1 bis. Contexte métier** — Sélectionner par type et par calque est le geste de base d'un fichier bien rangé. Ce qui est verrouillé n'entre pas dans la sélection, et l'oublier fait croire à un fichier incomplet.
+
+**2. Composants mobilisés** — Data, Equality, Gate Not, Gate And, Cull Pattern, List Length, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> L'inventaire donne, pour seize objets, leur type, leur calque et leur état de verrouillage. Donnez le nombre d'objets que retient une sélection des courbes du calque 10-Porteurs.
+
+**4. Données de départ fournies** — L'inventaire des seize objets et de leurs trois attributs.
+
+**5. Résultat attendu** — 3 objets sont retenus par la sélection.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Tester l'égalité du type à « Courbe ».
+2. Tester l'égalité du calque à « 10-Porteurs ».
+3. Prendre la négation du verrouillage.
+4. Combiner les trois par des ET, puis compter.
+
+**6 bis. Erreur attendue** — Ignorer le verrouillage : cinq. Deux courbes du bon calque sont verrouillées et n'entreront jamais dans la sélection — l'apprenant cherche alors pourquoi son compte ne tombe pas, sans penser au cadenas.
+
+**6 ter. Justification du jeu de données** — Seize objets répartis sur trois calques et quatre types. Cinq courbes sont sur 10-Porteurs, dont deux verrouillées : les deux réponses sont proches et toutes deux crédibles devant un fichier qu'on découvre.
+
+**6 quater. Limite de la correction automatique** — Le compte suppose que le verrouillage vient de l'OBJET. Un objet peut aussi être inaccessible parce que son calque est verrouillé, ce que l'inventaire ne distingue pas ici et qui produit le même symptôme.
+
+**7. Pièges fréquents**
+
+- Oublier la troisième condition.
+- Employer un OU entre le type et le calque.
+
+**8. Variantes et extensions**
+
+- Compter ce que retiendrait le même filtre après déverrouillage.
+- Donner le calque le mieux fourni en courbes.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le compte est exact.
+
+#### RH-31 — Ce qui reste visible
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | RH — Socle Rhino |
+| **Thématique** | RH1 · Interface et navigation Rhino |
+| **Réf. référentiel** | REF-005, REF-006 |
+| **Niveau** | Débutant |
+| **Durée cible** | 12 min |
+| **Prérequis** | RH-06 |
+| **Compétence visée** | Distinguer la visibilité d'un objet de celle de son calque, deux mécanismes qui produisent le même symptôme. |
+| **Case Bloom (révisée)** | Analyser × conceptuelle |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 8 composants |
+| **Gamification associée** | G-26 Le retour visuel immédiat |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Distinguer la visibilité d'un objet de celle de son calque, deux mécanismes qui produisent le même symptôme.
+
+**1 bis. Contexte métier** — Un objet qui n'apparaît pas peut être masqué, ou reposer sur un calque éteint. Le remède n'est pas le même, et « Montrer tout » ne règle que le premier cas.
+
+**2. Composants mobilisés** — Data, Gate Not, Gate And, Cull Pattern, List Length, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> L'inventaire donne, pour dix-huit objets, leur groupe, la visibilité de leur calque et leur propre état de masquage. Donnez le nombre d'objets réellement visibles à l'écran.
+
+**4. Données de départ fournies** — L'inventaire des dix-huit objets et de leurs trois attributs.
+
+**5. Résultat attendu** — 10 objets sont réellement visibles.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Prendre la colonne de visibilité de calque.
+2. Prendre la négation du masquage d'objet.
+3. Combiner par un ET, puis compter.
+
+**6 bis. Erreur attendue** — Ne regarder que le masquage d'objet : treize. Trois objets non masqués reposent sur un calque éteint — « Montrer tout » ne les fera pas revenir, et c'est le motif d'appel le plus fréquent en formation.
+
+**6 ter. Justification du jeu de données** — Dix-huit objets, dont cinq masqués individuellement et quatre sur calque éteint, avec un recouvrement d'un objet cumulant les deux. Les deux causes se distinguent donc, et le total ne s'obtient par aucune soustraction simple.
+
+**6 quater. Limite de la correction automatique** — L'inventaire ignore l'ISOLATION, troisième mécanisme : isoler une sélection masque tout le reste sans toucher aux calques ni aux objets, et se défait par une commande encore différente.
+
+**7. Pièges fréquents**
+
+- Ne tester qu'un des deux mécanismes.
+- Additionner les deux causes en croyant qu'elles s'excluent.
+
+**8. Variantes et extensions**
+
+- Compter les objets qu'un « Montrer tout » ferait réapparaître.
+- Donner le groupe le plus affecté.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le compte est exact.
+
 ### RH2 · Organisation du document
 
 *2 exercices — RH-02, RH-06*
@@ -9431,7 +10044,7 @@ Valeur diagnostique : (a) et (c) sont la représentation la plus coûteuse du lo
 
 ### RH3 · Modélisation Rhino
 
-*3 exercices — RH-03, RH-04, RH-05*
+*4 exercices — RH-03, RH-04, RH-05, RH-29*
 
 #### RH-03 — Une trame de plots posée dans Rhino
 
@@ -9616,6 +10229,66 @@ Valeur diagnostique : (a) et (c) sont la représentation la plus coûteuse du lo
 
 **10. Barème** — 1 point si le volume retiré est juste à 1 mm³ près.
 
+#### RH-29 — La platine percée en réseau
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | RH — Socle Rhino |
+| **Thématique** | RH3 · Modélisation Rhino |
+| **Réf. référentiel** | REF-012, REF-013 |
+| **Niveau** | Débutant |
+| **Durée cible** | 14 min |
+| **Prérequis** | RH-05 |
+| **Compétence visée** | Chiffrer la matière restante après un réseau de percements, en distinguant rayon et diamètre. |
+| **Case Bloom (révisée)** | Appliquer × procédurale |
+| **Mode de validation** | NumericTolerance — tolérance 0.0001 |
+| **Solution de référence** | 10 composants |
+| **Gamification associée** | G-20 La chasse aux bugs |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Chiffrer la matière restante après un réseau de percements, en distinguant rayon et diamètre.
+
+**1 bis. Contexte métier** — Une platine percée se pèse pour le transport et se chiffre au kilo. Vingt-quatre trous enlèvent une matière qui compte.
+
+**2. Composants mobilisés** — Slider, Multiplication, Division, Pi, Subtraction, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> La platine mesure 900 × 600 × 12 mm. Elle reçoit un réseau de 6 par 4 trous traversants de 22 mm de diamètre. Donnez le volume de matière restante, en décimètres cubes.
+
+**4. Données de départ fournies** — Les cotes de la platine, la trame et le diamètre des trous.
+
+**5. Résultat attendu** — 6,3705 dm³ de matière restante, à 0,0001 près.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Calculer le volume plein de la platine.
+2. Diviser le diamètre par deux pour obtenir le rayon.
+3. Calculer le volume d'un trou, puis des vingt-quatre.
+4. Retrancher.
+
+**6 bis. Erreur attendue** — Prendre le diamètre pour le rayon dans l'aire du disque : 6,0421 dm³. L'aire va comme le CARRÉ du rayon — l'erreur quadruple le volume percé, et la platine est annoncée 5 % plus légère qu'elle n'est.
+
+**6 ter. Justification du jeu de données** — Vingt-quatre trous de 22 mm dans 12 mm d'épaisseur retirent 109 500 mm³, soit 1,7 % de la platine. L'erreur de rayon en retire quatre fois plus : 6,8 %. Les deux réponses restent plausibles pour une platine d'acier.
+
+**6 quater. Limite de la correction automatique** — Le volume suppose des trous CYLINDRIQUES et traversants. Un perçage fraisé ou taraudé enlève davantage, et la tolérance de perçage — un dixième sur le diamètre — pèse plus que la précision affichée ici.
+
+**7. Pièges fréquents**
+
+- Employer le diamètre comme rayon.
+- Oublier de multiplier par le nombre de trous.
+
+**8. Variantes et extensions**
+
+- Donner la masse en acier à 7,85 g/cm³.
+- Chercher le diamètre qui allège la platine de 10 %.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode NumericTolerance.
+
+**10. Barème** — 1 point si le volume est juste à 0,0001 dm³.
+
 ### RH4 · Précision et unités
 
 *1 exercices — RH-07*
@@ -9673,7 +10346,7 @@ Valeur diagnostique : (a) « marche » et laisse une tolérance absolue devenue 
 
 ### RH5 · Préparation à l'impression 3D
 
-*3 exercices — RH-08, RH-09, RH-10*
+*5 exercices — RH-08, RH-09, RH-10, RH-24, RH-26*
 
 #### RH-08 — Un caisson vraiment fermé
 
@@ -9848,9 +10521,127 @@ Valeur diagnostique : (a) fait accuser la machine et acheter du matériel qui ne
 
 **10. Barème** — —
 
+#### RH-24 — Les parois trop minces après mise à l'échelle
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | RH — Socle Rhino |
+| **Thématique** | RH5 · Préparation à l'impression 3D |
+| **Réf. référentiel** | REF-016, REF-017, REF-018 |
+| **Niveau** | Débutant |
+| **Durée cible** | 15 min |
+| **Prérequis** | RH-10 |
+| **Compétence visée** | Confronter un relevé d'épaisseurs à la contrainte machine APRÈS mise à l'échelle, et non avant. |
+| **Case Bloom (révisée)** | Appliquer × procédurale |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 8 composants |
+| **Gamification associée** | G-26 Le retour visuel immédiat |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Confronter un relevé d'épaisseurs à la contrainte machine APRÈS mise à l'échelle, et non avant.
+
+**1 bis. Contexte métier** — Une maquette se réduit pour tenir dans le volume d'impression. Les parois se réduisent avec elle, et celles qui passaient au 1/1 ne passent plus.
+
+**2. Composants mobilisés** — Data, Division, Multiplication, Smaller Than, Cull Pattern, List Length, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le relevé donne dix-huit épaisseurs de paroi, en centièmes de millimètre. La pièce sera imprimée à 62 % de sa taille, et la machine ne tient pas sous 1,20 mm. Donnez le nombre de parois qui ne passeront pas.
+
+**4. Données de départ fournies** — Les dix-huit épaisseurs relevées, le facteur d'échelle et le minimum machine.
+
+**5. Résultat attendu** — 12 parois passent sous le minimum après réduction.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Ramener les centièmes en millimètres.
+2. Appliquer le facteur d'échelle.
+3. Comparer au minimum machine.
+4. Compter les parois retenues.
+
+**6 bis. Erreur attendue** — Juger les épaisseurs AVANT la mise à l'échelle : cinq seulement. Sept parois franchissent le seuil pendant la réduction — elles sortiront de la machine en dentelle, et rien dans le modèle au 1/1 ne le laissait voir.
+
+**6 ter. Justification du jeu de données** — Dix-huit épaisseurs de 0,40 à 3,40 mm. Le facteur 0,62 place le seuil effectif à 1,94 mm au 1/1 : sept parois tombent entre 1,20 et 1,94, et ce sont elles qui font toute la différence entre les deux réponses.
+
+**6 quater. Limite de la correction automatique** — Le compte suppose une réduction UNIFORME. Une mise à l'échelle non uniforme — pour tenir dans un plateau étroit — réduit différemment selon l'axe, et l'épaisseur d'une paroi dépend alors de son orientation.
+
+**7. Pièges fréquents**
+
+- Comparer avant la mise à l'échelle.
+- Oublier la conversion des centièmes.
+
+**8. Variantes et extensions**
+
+- Chercher le facteur maximal qui ne sacrifie aucune paroi.
+- Refaire le compte pour une machine à 0,8 mm.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le compte est exact.
+
+#### RH-26 — Le poids du fichier à envoyer
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | RH — Socle Rhino |
+| **Thématique** | RH5 · Préparation à l'impression 3D |
+| **Réf. référentiel** | REF-022, REF-023, REF-024 |
+| **Niveau** | Débutant |
+| **Durée cible** | 12 min |
+| **Prérequis** | RH-22 |
+| **Compétence visée** | Prévoir le poids d'un export maillé à partir du nombre de triangles et du format retenu. |
+| **Case Bloom (révisée)** | Appliquer × procédurale |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 5 composants |
+| **Gamification associée** | G-05 La collection de badges |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Prévoir le poids d'un export maillé à partir du nombre de triangles et du format retenu.
+
+**1 bis. Contexte métier** — Un STL s'envoie à un prestataire. Savoir avant l'export s'il fera sept mégaoctets ou trente-cinq décide du format et du moyen de transmission.
+
+**2. Composants mobilisés** — Slider, Multiplication, Addition, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le maillage compte 148 520 triangles. Un STL binaire pèse 84 octets d'en-tête plus 50 octets par triangle. Donnez le poids du fichier, en octets.
+
+**4. Données de départ fournies** — Le nombre de triangles du maillage et la structure du format.
+
+**5. Résultat attendu** — 7 426 084 octets, soit 7,08 Mo.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Multiplier le nombre de triangles par cinquante.
+2. Ajouter les quatre-vingt-quatre octets d'en-tête.
+
+**6 bis. Erreur attendue** — Exporter en STL ASCII sans y penser : environ 35 Mo pour le même maillage, cinq fois plus lourd, pour une géométrie strictement identique. Le format par défaut de la boîte de dialogue n'est pas toujours le binaire.
+
+**6 ter. Justification du jeu de données** — 148 520 triangles est un maillage de pièce courante, ni trivial ni monstrueux. La structure du binaire est FIXE — 84 + 50 n —, ce qui rend le calcul exact et vérifiable à l'octet près, là où l'ASCII ne peut s'estimer.
+
+**6 quater. Limite de la correction automatique** — La formule vaut pour le STL BINAIRE, dont chaque triangle occupe exactement cinquante octets. L'OBJ, le 3MF et le PLY ont des structures différentes, et le 3MF est compressé : son poids dépend de la géométrie elle-même.
+
+**7. Pièges fréquents**
+
+- Oublier l'en-tête.
+- Confondre octets et bits, ou mégaoctets et mébioctets.
+
+**8. Variantes et extensions**
+
+- Donner le nombre de triangles tenant dans une pièce jointe de 10 Mo.
+- Comparer au poids du même maillage en 3MF.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le poids est exact à l'octet.
+
 ### RH2 · Modélisation Rhino
 
-*4 exercices — RH-14, RH-15, RH-16, RH-17*
+*6 exercices — RH-14, RH-15, RH-16, RH-17, RH-27, RH-28*
 
 #### RH-14 — La trame percée d'une trémie
 
@@ -10088,9 +10879,129 @@ Valeur diagnostique : (a) fait accuser la machine et acheter du matériel qui ne
 
 **10. Barème** — 1 point si le volume de la réunion est juste.
 
+#### RH-27 — Le volume d'un assemblage de primitives
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | RH — Socle Rhino |
+| **Thématique** | RH2 · Modélisation Rhino |
+| **Réf. référentiel** | REF-007, REF-008 |
+| **Niveau** | Débutant |
+| **Durée cible** | 16 min |
+| **Prérequis** | RH-05 |
+| **Compétence visée** | Chiffrer la matière d'un assemblage de primitives en déduisant ce qu'elles ont en commun. |
+| **Case Bloom (révisée)** | Appliquer × procédurale |
+| **Mode de validation** | NumericTolerance — tolérance 0.0001 |
+| **Solution de référence** | 9 composants |
+| **Gamification associée** | G-14 Le puzzle de câblage |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Chiffrer la matière d'un assemblage de primitives en déduisant ce qu'elles ont en commun.
+
+**1 bis. Contexte métier** — Un socle et son fût se commandent au volume de matière. Les deux se recouvrent là où le second s'encastre dans le premier, et cette matière-là n'existe qu'une fois.
+
+**2. Composants mobilisés** — Slider, Multiplication, Pi, Subtraction, Division, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le socle mesure 240 × 160 × 40 mm. Le fût cylindrique fait 45 mm de rayon et 120 mm de haut, et s'encastre de 15 mm dans le socle. Donnez le volume de matière, en décimètres cubes.
+
+**4. Données de départ fournies** — Les cotes du socle, celles du fût et la profondeur d'encastrement.
+
+**5. Résultat attendu** — 2,2040 dm³ de matière, à 0,0001 près.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Calculer le volume du socle.
+2. Calculer celui du fût entier.
+3. Calculer le volume encastré : le disque du fût sur 15 mm.
+4. Additionner les deux premiers et retrancher le troisième.
+
+**6 bis. Erreur attendue** — Additionner les deux volumes : 2,2994 dm³. Les 15 mm d'encastrement sont comptés deux fois — une fois dans le socle, une fois dans le fût. L'écart est de 4 %, assez pour fausser un devis de fonderie, trop peu pour se voir.
+
+**6 ter. Justification du jeu de données** — Le recouvrement vaut 95 426 mm³, soit 4,3 % du total. C'est l'ordre de grandeur d'une erreur qui passe : au-delà de 20 % on la cherche, en dessous de 1 % elle ne coûte rien.
+
+**6 quater. Limite de la correction automatique** — Le volume est celui de la GÉOMÉTRIE. Une pièce fondue y ajoute les dépouilles, les congés de raccordement et la surépaisseur d'usinage, que ce calcul ignore.
+
+**7. Pièges fréquents**
+
+- Additionner sans déduire.
+- Retrancher le volume du fût entier au lieu de la seule partie encastrée.
+
+**8. Variantes et extensions**
+
+- Faire varier l'encastrement et suivre le volume.
+- Chercher l'encastrement qui ramène le volume à 2,15 dm³.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode NumericTolerance.
+
+**10. Barème** — 1 point si le volume est juste à 0,0001 dm³.
+
+#### RH-28 — La surface d'une extrusion
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | RH — Socle Rhino |
+| **Thématique** | RH2 · Modélisation Rhino |
+| **Réf. référentiel** | REF-009, REF-010, REF-011 |
+| **Niveau** | Débutant |
+| **Durée cible** | 14 min |
+| **Prérequis** | RH-04 |
+| **Compétence visée** | Établir la surface développée d'une extrusion à partir du périmètre de son contour, refermé. |
+| **Case Bloom (révisée)** | Appliquer × procédurale |
+| **Mode de validation** | NumericTolerance — tolérance 0.0001 |
+| **Solution de référence** | 8 composants |
+| **Gamification associée** | G-14 Le puzzle de câblage |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Établir la surface développée d'une extrusion à partir du périmètre de son contour, refermé.
+
+**1 bis. Contexte métier** — Le bardage d'un local technique se commande au mètre carré. Sa surface est celle du contour au sol, développé sur la hauteur.
+
+**2. Composants mobilisés** — Data, Construct Point, PolyLine, Length, Multiplication, Division, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le contour au sol vous est donné par ses cinq sommets, en millimètres. Le bardage monte à 2 600 mm. Donnez sa surface, en mètres carrés.
+
+**4. Données de départ fournies** — Les cinq sommets du contour et la hauteur de bardage.
+
+**5. Résultat attendu** — 15,7566 m² de bardage, à 0,0001 près.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Construire les cinq points depuis leurs coordonnées.
+2. Tracer la polyligne en la refermant.
+3. Mesurer sa longueur.
+4. Multiplier par la hauteur, puis convertir en mètres carrés.
+
+**6 bis. Erreur attendue** — Laisser le contour OUVERT : 12,1166 m², soit 3,64 m² de moins. Le segment de fermeture mesure 1 400 mm — c'est un mur entier, et l'aperçu d'une polyligne ouverte ressemble à celui d'une polyligne fermée.
+
+**6 ter. Justification du jeu de données** — Cinq sommets, dont un pan coupé oblique qui interdit de retrouver le périmètre par une somme de cotes lues sur le plan. Le segment de fermeture pèse 23 % du total : l'oubli ne se rattrape pas au jugé.
+
+**6 quater. Limite de la correction automatique** — La surface est celle de l'ENVELOPPE. Elle ne déduit ni les portes ni les grilles de ventilation, et n'ajoute pas les recouvrements de lames : la commande se fait sur une surface majorée.
+
+**7. Pièges fréquents**
+
+- Laisser la polyligne ouverte.
+- Convertir une seule fois au lieu de deux : les millimètres carrés font un million par mètre carré.
+
+**8. Variantes et extensions**
+
+- Déduire une porte de 900 × 2 100.
+- Refaire le calcul pour une hauteur variable.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode NumericTolerance.
+
+**10. Barème** — 1 point si la surface est juste à 0,0001 m².
+
 ### RH3 · Préparation à l'impression 3D
 
-*5 exercices — RH-18, RH-19, RH-20, RH-21, RH-22*
+*6 exercices — RH-18, RH-19, RH-20, RH-21, RH-22, RH-25*
 
 #### RH-18 — Les parois que la machine ne saura pas faire
 
@@ -10389,9 +11300,69 @@ Valeur diagnostique : (a) fait accuser la machine et acheter du matériel qui ne
 
 **10. Barème** — 1 point si le nombre de facettes est juste et arrondi au supérieur.
 
+#### RH-25 — Les volumes réellement étanches
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | RH — Socle Rhino |
+| **Thématique** | RH3 · Préparation à l'impression 3D |
+| **Réf. référentiel** | REF-019, REF-020, REF-021 |
+| **Niveau** | Débutant |
+| **Durée cible** | 14 min |
+| **Prérequis** | RH-08 |
+| **Compétence visée** | Établir l'étanchéité d'une polysurface en tenant compte des arêtes non-manifold autant que des arêtes nues. |
+| **Case Bloom (révisée)** | Analyser × conceptuelle |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 8 composants |
+| **Gamification associée** | G-20 La chasse aux bugs |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Établir l'étanchéité d'une polysurface en tenant compte des arêtes non-manifold autant que des arêtes nues.
+
+**1 bis. Contexte métier** — Un solide qui n'est pas étanche ne s'imprime pas. Le diagnostic se lit sur deux compteurs, et le second est régulièrement ignoré.
+
+**2. Composants mobilisés** — Data, Equality, Gate And, Cull Pattern, List Length, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le rapport d'analyse donne, pour douze polysurfaces, le nombre d'arêtes nues et le nombre d'arêtes non-manifold. Donnez le nombre de polysurfaces réellement étanches.
+
+**4. Données de départ fournies** — Le rapport des douze polysurfaces et de leurs deux compteurs.
+
+**5. Résultat attendu** — 6 polysurfaces sur 12 sont réellement étanches.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Tester l'égalité à zéro sur les arêtes nues.
+2. Faire de même sur les arêtes non-manifold.
+3. Combiner par un ET.
+4. Compter les vrais.
+
+**6 bis. Erreur attendue** — Ne regarder que les arêtes nues : huit. Deux polysurfaces sans aucune arête nue portent des arêtes NON-MANIFOLD — trois faces partagent la même arête. Elles sont fermées et invalides : aucun trancheur n'en tirera un parcours d'outil.
+
+**6 ter. Justification du jeu de données** — Douze polysurfaces, dont deux à zéro arête nue mais avec des non-manifold, et une qui cumule les deux défauts. L'écart entre les deux réponses tient à ces deux cas — les seuls que le compteur d'arêtes nues déclare bons.
+
+**6 quater. Limite de la correction automatique** — Les deux compteurs à zéro rendent une polysurface FERMÉE. Ils ne disent rien des faces retournées ni des auto-intersections : un solide étanche peut encore être impossible à imprimer, et c'est l'objet de RH-08.
+
+**7. Pièges fréquents**
+
+- Ne tester qu'un des deux compteurs.
+- Employer un OU au lieu d'un ET.
+
+**8. Variantes et extensions**
+
+- Donner le nombre de polysurfaces à corriger en priorité.
+- Distinguer les défauts réparables des autres.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le compte est exact.
+
 ### RH2 · Organisation du document Rhino
 
-*1 exercices — RH-23*
+*2 exercices — RH-23, RH-32*
 
 #### RH-23 — Sélectionner sur ce que les objets sont
 
@@ -10454,11 +11425,69 @@ Valeur diagnostique : (a) fait accuser la machine et acheter du matériel qui ne
 
 **10. Barème** — 1 point si le croisement est juste.
 
+#### RH-32 — Ce qui suivra le calque
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | RH — Socle Rhino |
+| **Thématique** | RH2 · Organisation du document Rhino |
+| **Réf. référentiel** | REF-014, REF-015, REF-143 |
+| **Niveau** | Débutant |
+| **Durée cible** | 12 min |
+| **Prérequis** | RH-07 |
+| **Compétence visée** | Prévoir quels objets suivront un changement de calque, selon que leur couleur est héritée ou forcée. |
+| **Case Bloom (révisée)** | Analyser × conceptuelle |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 6 composants |
+| **Gamification associée** | G-01 Le tableau des scores |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Prévoir quels objets suivront un changement de calque, selon que leur couleur est héritée ou forcée.
+
+**1 bis. Contexte métier** — Changer la couleur d'un calque doit changer celle de ses objets. Ceux dont la couleur a été forcée à la main ne bougeront pas, et le plan ressort en deux teintes.
+
+**2. Composants mobilisés** — Data, Equality, Cull Pattern, List Length, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> L'inventaire donne la couleur de vingt objets : « ParCalque » ou une couleur propre. Le calque va changer de couleur. Donnez le nombre d'objets qui suivront.
+
+**4. Données de départ fournies** — L'inventaire des couleurs des vingt objets.
+
+**5. Résultat attendu** — 13 objets suivront le calque.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Tester l'égalité de la couleur à « ParCalque ».
+2. Compter les vrais.
+
+**6 bis. Erreur attendue** — Compter les couleurs PROPRES — sept — en croyant répondre à la question. Ce sont justement celles qui ne suivront pas : l'inventaire se lit dans le sens de la question, et les deux comptes se complètent à vingt.
+
+**6 ter. Justification du jeu de données** — Vingt objets, treize hérités et sept forcés en quatre couleurs différentes. Ni la majorité écrasante ni la moitié : les deux réponses sont distinctes, et aucune ne se devine.
+
+**6 quater. Limite de la correction automatique** — La couleur n'est qu'une des propriétés héritées. Type de ligne, épaisseur d'impression et matériau suivent la même logique et peuvent être forcés séparément : un objet peut suivre son calque en couleur et pas en matériau.
+
+**7. Pièges fréquents**
+
+- Compter les couleurs forcées.
+- Confondre la couleur d'affichage et la couleur d'impression.
+
+**8. Variantes et extensions**
+
+- Donner le nombre d'objets à repasser en ParCalque.
+- Compter les couleurs propres distinctes.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le compte est exact.
+
 ---
 
 ## Lot GP — Géométrie paramétrique appliquée
 
-**Niveau** : Débutant à perfectionnement · **12 exercices** · **4 h 45 cumulées**
+**Niveau** : Débutant à perfectionnement · **13 exercices** · **5 h 07 cumulées**
 
 Géométrie paramétrique appliquée : plan coté qui suit ses paramètres, modèle 3D complet, maillages et SubD.
 
@@ -10476,6 +11505,7 @@ Géométrie paramétrique appliquée : plan coté qui suit ses paramètres, mod�
 | GP-10 | Courbe, surface, solide ou maillage | GP5 · Synthèse géométrie | Perfectionnement | 8 min | — |
 | GP-11 | L'ordre des opérations | GP5 · Synthèse géométrie | Perfectionnement | 30 min | NumericTolerance |
 | GP-12 | Tourner puis déplacer, ou l'inverse | GP2 · Transformations et réseaux | Intermédiaire | 25 min | NumericTolerance |
+| GP-13 | La pièce qui enchaîne trois opérations | GP5 · Synthèse géométrie | Intermédiaire | 22 min | NumericTolerance |
 
 ### GP1 · Plan paramétrique
 
@@ -11030,7 +12060,7 @@ Valeur diagnostique : (a) est le réflexe de qui connaît la contrainte de sorti
 
 ### GP5 · Synthèse géométrie
 
-*2 exercices — GP-10, GP-11*
+*3 exercices — GP-10, GP-11, GP-13*
 
 #### GP-10 — Courbe, surface, solide ou maillage
 
@@ -11141,6 +12171,66 @@ Valeur diagnostique : (a) est la réponse la plus fréquente et elle n'est pas a
 **9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode NumericTolerance.
 
 **10. Barème** — 1 point si l'écart est juste à 0,01 mm près.
+
+#### GP-13 — La pièce qui enchaîne trois opérations
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | GP — Géométrie paramétrique appliquée |
+| **Thématique** | GP5 · Synthèse géométrie |
+| **Réf. référentiel** | REF-073, REF-147, REF-148 |
+| **Niveau** | Intermédiaire |
+| **Durée cible** | 22 min |
+| **Prérequis** | GP-11 |
+| **Compétence visée** | Ordonner congé, perçage et épaississement de sorte que chaque opération reçoive ce dont elle a besoin. |
+| **Case Bloom (révisée)** | Créer × procédurale |
+| **Mode de validation** | NumericTolerance — tolérance 0.0001 |
+| **Solution de référence** | 11 composants |
+| **Gamification associée** | G-21 Le golf de composants |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Ordonner congé, perçage et épaississement de sorte que chaque opération reçoive ce dont elle a besoin.
+
+**1 bis. Contexte métier** — Une platine de fixation se dessine à plat, se congé, se perce, puis s'épaissit. L'ordre n'est pas indifférent : épaissir d'abord oblige à percer un solide.
+
+**2. Composants mobilisés** — Slider, Multiplication, Pi, Subtraction, Division, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> La platine mesure 420 × 260 mm, ses quatre angles portent un congé de 35 mm de rayon, et elle reçoit sept perçages de 26 mm de diamètre. Elle fait 18 mm d'épaisseur. Donnez son volume, en décimètres cubes.
+
+**4. Données de départ fournies** — Les cotes de la platine, le rayon de congé, le diamètre et le nombre de perçages, l'épaisseur.
+
+**5. Résultat attendu** — 1,8798 dm³, à 0,0001 près.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Calculer l'aire du rectangle plein.
+2. Retrancher ce que les quatre congés enlèvent : (4 − π) r².
+3. Retrancher l'aire des sept perçages.
+4. Multiplier par l'épaisseur, puis convertir.
+
+**6 bis. Erreur attendue** — Oublier les congés : 1,8987 dm³. Un congé de rayon r retire à chaque angle la différence entre le carré de côté r et le quart de disque, soit (4 − π)r² pour les quatre — ici 1 052 mm², un demi-pour-cent du volume. C'est peu, et c'est précisément pourquoi on ne le voit pas.
+
+**6 ter. Justification du jeu de données** — Les congés retirent 1 052 mm² et les perçages 3 717 mm² : les seconds pèsent trois fois plus, ce qui rend l'oubli des premiers d'autant plus facile. Sept perçages, nombre impair, interdisent de retrouver l'aire par symétrie.
+
+**6 quater. Limite de la correction automatique** — Le volume suppose que les perçages ne rencontrent PAS les congés. Un huitième perçage placé dans un angle recouperait la matière déjà retirée, et la soustraction cesserait d'être une simple somme.
+
+**7. Pièges fréquents**
+
+- Oublier les congés.
+- Retrancher quatre quarts de disque au lieu de la différence.
+
+**8. Variantes et extensions**
+
+- Faire varier le rayon de congé jusqu'à ce qu'il rencontre un perçage.
+- Chercher l'épaisseur qui donne exactement 2 dm³.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode NumericTolerance.
+
+**10. Barème** — 1 point si le volume est juste à 0,0001 dm³.
 
 ### GP2 · Transformations et réseaux
 
@@ -11987,7 +13077,7 @@ Valeur diagnostique : (a) prend l'absence de message pour une validation — or 
 
 ## Lot PL — Écosystème de plugins
 
-**Niveau** : Débutant à intermédiaire · **12 exercices** · **2 h 43 cumulées**
+**Niveau** : Débutant à intermédiaire · **16 exercices** · **3 h 43 cumulées**
 
 L'écosystème de plugins. Presque tout y est connaissance — installer, choisir, juger — et devient donc question charnière. Un seul exercice, sur l'ergonomie réellement mise à l'épreuve.
 
@@ -12005,6 +13095,10 @@ L'écosystème de plugins. Presque tout y est connaissance — installer, choisi
 | PL-10 | Où chercher un plugin | PL1 · Écosystème de plugins | Intermédiaire | 8 min | — |
 | PL-11 | Deux familles de plugins | PL1 · Écosystème de plugins | Intermédiaire | 8 min | — |
 | PL-12 | Le plugin qui n'est plus maintenu | PL1 · Écosystème de plugins | Intermédiaire | 8 min | — |
+| PL-13 | Où trouver chaque plugin | PL2 · Installation de plugins | Intermédiaire | 12 min | SingleValue |
+| PL-14 | Ce que l'ergonomie coûte au démarrage | PL3 · Plugins d'ergonomie | Intermédiaire | 14 min | SingleValue |
+| PL-15 | Combien de plugins pour douze composants | PL4 · Plugins fonctionnels | Perfectionnement | 22 min | SingleValue |
+| PL-16 | Ce qui tourne encore sous Rhino 8 | PL1 · Écosystème de plugins | Intermédiaire | 12 min | SingleValue |
 
 ### PL1 · Principes
 
@@ -12063,7 +13157,7 @@ Valeur diagnostique : (a) est faux et c'est important de le dire — une défini
 
 ### PL2 · Installation de plugins
 
-*1 exercices — PL-02*
+*2 exercices — PL-02, PL-13*
 
 #### PL-02 — Où trouver un plugin, et lequel
 
@@ -12116,9 +13210,69 @@ Valeur diagnostique : (a) est le réflexe coûteux — on reconstruit parfois de
 
 **10. Barème** — —
 
+#### PL-13 — Où trouver chaque plugin
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | PL — Écosystème de plugins |
+| **Thématique** | PL2 · Installation de plugins |
+| **Réf. référentiel** | REF-029, REF-030 |
+| **Niveau** | Intermédiaire |
+| **Durée cible** | 12 min |
+| **Prérequis** | PL-02 |
+| **Compétence visée** | Distinguer les deux canaux de distribution d'un plugin, et savoir lesquels imposent une installation manuelle. |
+| **Case Bloom (révisée)** | Analyser × factuelle |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 6 composants |
+| **Gamification associée** | G-06 Le déblocage progressif |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Distinguer les deux canaux de distribution d'un plugin, et savoir lesquels imposent une installation manuelle.
+
+**1 bis. Contexte métier** — Préparer un poste de formation, c'est savoir ce qui s'installe en une commande et ce qui demande un téléchargement, un déblocage de fichier et un redémarrage.
+
+**2. Composants mobilisés** — Data, Gate Not, Gate And, Cull Pattern, List Length, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le tableau vous donne, pour quatorze plugins, leur présence sur le gestionnaire de paquets et sur Food4Rhino. Donnez le nombre de plugins qui ne sont disponibles QUE sur Food4Rhino.
+
+**4. Données de départ fournies** — Le tableau des quatorze plugins et de leurs deux canaux.
+
+**5. Résultat attendu** — 6 plugins ne sont disponibles que sur Food4Rhino.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Isoler la colonne « présent sur le gestionnaire ».
+2. En prendre la négation.
+3. La croiser par un ET avec la colonne Food4Rhino.
+4. Compter les vrais.
+
+**6 bis. Erreur attendue** — Compter les plugins PRÉSENTS sur Food4Rhino — treize sur quatorze. La question porte sur l'exclusivité : ce sont les six absents du gestionnaire qui imposeront un téléchargement, un déblocage du fichier et un redémarrage sur chaque poste.
+
+**6 ter. Justification du jeu de données** — Treize plugins sur quatorze sont sur Food4Rhino et huit sur le gestionnaire : les deux comptes sont proches, et seul le croisement donne six. Un seul plugin — Kangaroo — n'est que sur le gestionnaire, ce qui empêche de raisonner par symétrie.
+
+**6 quater. Limite de la correction automatique** — Le tableau décrit une situation DATÉE. Les canaux changent : un plugin publié sur le gestionnaire six mois plus tard fait tomber le compte, et c'est pourquoi une liste d'installation se revérifie à chaque session de formation.
+
+**7. Pièges fréquents**
+
+- Compter la colonne Food4Rhino seule.
+- Oublier la négation et compter les plugins présents partout.
+
+**8. Variantes et extensions**
+
+- Compter ceux qui ne sont sur aucun des deux canaux.
+- Donner la liste des noms plutôt que le compte.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le compte est exact.
+
 ### PL3 · Plugins d'ergonomie
 
-*1 exercices — PL-03*
+*2 exercices — PL-03, PL-14*
 
 #### PL-03 — Les plugins qui ne servent qu'à travailler mieux
 
@@ -12181,9 +13335,69 @@ Valeur diagnostique : (a) est le réflexe coûteux — on reconstruit parfois de
 
 **10. Barème** — Grille : plugins installés et réglés (2), jugement motivé sur chacun (2), définition lisible sans eux (1).
 
+#### PL-14 — Ce que l'ergonomie coûte au démarrage
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | PL — Écosystème de plugins |
+| **Thématique** | PL3 · Plugins d'ergonomie |
+| **Réf. référentiel** | REF-031, REF-032, REF-033, REF-034, REF-035, REF-036, REF-037 |
+| **Niveau** | Intermédiaire |
+| **Durée cible** | 14 min |
+| **Prérequis** | PL-06 |
+| **Compétence visée** | Chiffrer le coût d'une panoplie d'ergonomie sans compter deux fois ce qui est déjà installé. |
+| **Case Bloom (révisée)** | Appliquer × procédurale |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 6 composants |
+| **Gamification associée** | G-05 La collection de badges |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Chiffrer le coût d'une panoplie d'ergonomie sans compter deux fois ce qui est déjà installé.
+
+**1 bis. Contexte métier** — Chaque plugin allonge le démarrage de Rhino. Sur un poste de formation ouvert et fermé dix fois par jour, la panoplie d'ergonomie se paie en secondes d'attente.
+
+**2. Composants mobilisés** — Data, Gate Not, Cull Pattern, Mass Addition, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le relevé donne le temps de chargement de sept plugins, et signale ceux qu'un autre plugin déjà installé exige de toute façon. Donnez le temps AJOUTÉ par la panoplie d'ergonomie, en millisecondes.
+
+**4. Données de départ fournies** — Le relevé des sept temps de chargement, et la colonne des dépendances déjà satisfaites.
+
+**5. Résultat attendu** — 1 220 ms ajoutés au démarrage.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Isoler la colonne des dépendances déjà satisfaites.
+2. En prendre la négation.
+3. Écarter les temps correspondants.
+4. Sommer ce qui reste.
+
+**6 bis. Erreur attendue** — Tout additionner, Metahopper compris : 1 395 ms. Metahopper est déjà exigé par un plugin fonctionnel installé sur le poste — son chargement n'est pas imputable à l'ergonomie, et le compter revient à facturer deux fois la même seconde.
+
+**6 ter. Justification du jeu de données** — Sept plugins de 95 à 380 ms. L'écart entre les deux réponses est de 175 ms, soit 14 % : assez pour fausser une décision d'équipement, trop peu pour sauter aux yeux.
+
+**6 quater. Limite de la correction automatique** — Les temps sont des MESURES sur un poste. Ils dépendent du disque, de la version de Rhino et de ce qui est déjà chargé — le classement des plugins entre eux est stable, les valeurs absolues non.
+
+**7. Pièges fréquents**
+
+- Sommer les sept temps sans filtrer.
+- Écarter les mauvais, en oubliant la négation.
+
+**8. Variantes et extensions**
+
+- Chiffrer le coût sur dix démarrages quotidiens.
+- Chercher le plugin dont le retrait gagne le plus.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le total est exact.
+
 ### PL4 · Plugins fonctionnels
 
-*1 exercices — PL-04*
+*2 exercices — PL-04, PL-15*
 
 #### PL-04 — Choisir un plugin fonctionnel
 
@@ -12236,9 +13450,69 @@ Valeur diagnostique : (d) est le critère le plus souvent appliqué et le plus d
 
 **10. Barème** — —
 
+#### PL-15 — Combien de plugins pour douze composants
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | PL — Écosystème de plugins |
+| **Thématique** | PL4 · Plugins fonctionnels |
+| **Réf. référentiel** | REF-038, REF-039 |
+| **Niveau** | Perfectionnement |
+| **Durée cible** | 22 min |
+| **Prérequis** | PL-07 |
+| **Compétence visée** | Couvrir un besoin en composants par le plus petit nombre de plugins, en exploitant leurs recouvrements. |
+| **Case Bloom (révisée)** | Analyser × procédurale |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 9 composants |
+| **Gamification associée** | G-21 Le golf de composants |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Couvrir un besoin en composants par le plus petit nombre de plugins, en exploitant leurs recouvrements.
+
+**1 bis. Contexte métier** — Chaque plugin installé est une dépendance de plus à maintenir, à faire installer par l'apprenant et à revérifier à chaque version de Rhino. On en installe le moins possible.
+
+**2. Composants mobilisés** — Data, Create Set, Set Union, Set Difference, List Length, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> La définition à reprendre emploie douze composants non natifs. Le tableau donne ce qu'apporte chacun des six plugins candidats. Donnez le nombre MINIMAL de plugins à installer pour couvrir les douze.
+
+**4. Données de départ fournies** — La liste des douze composants requis et le tableau des six plugins avec leurs apports.
+
+**5. Résultat attendu** — 4 plugins suffisent à couvrir les douze composants.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Poser les six ensembles d'apports.
+2. Écarter d'emblée les plugins dont l'apport est déjà couvert.
+3. Chercher la plus petite réunion qui contienne les douze.
+4. Vérifier qu'aucun trio n'y parvient.
+
+**6 bis. Erreur attendue** — Installer un plugin par composant manquant — douze, ou les six disponibles « pour être tranquille ». Les plugins se RECOUVRENT : `Mesh Thicken` vient de deux d'entre eux, `Catmull-Clark` aussi, et c'est ce recouvrement qui fait descendre le compte de six à quatre.
+
+**6 ter. Justification du jeu de données** — Six plugins, douze composants, quatre suffisent — et deux quartets différents y parviennent. C'est le NOMBRE qui est demandé, précisément parce qu'il est unique là où la solution ne l'est pas. Aucun trio ne couvre le besoin : la réponse ne s'obtient pas au jugé.
+
+**6 quater. Limite de la correction automatique** — Le minimum porte sur les COMPOSANTS. Il ignore le poids des plugins, leur stabilité et leur licence : quatre plugins abandonnés valent moins que cinq maintenus, et cet arbitrage-là ne se calcule pas.
+
+**7. Pièges fréquents**
+
+- Compter un plugin par composant.
+- Croire la solution unique et rendre une liste de noms.
+
+**8. Variantes et extensions**
+
+- Donner le quartet le plus léger en temps de chargement.
+- Refaire le calcul en retirant LunchBox du catalogue.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le minimum est exact.
+
 ### PL1 · Écosystème de plugins
 
-*8 exercices — PL-05, PL-06, PL-07, PL-08, PL-09, PL-10, PL-11, PL-12*
+*9 exercices — PL-05, PL-06, PL-07, PL-08, PL-09, PL-10, PL-11, PL-12, PL-16*
 
 #### PL-05 — Ce qu'un plugin traîne derrière lui
 
@@ -12688,6 +13962,66 @@ Valeur diagnostique : (c) est la réaction la plus répandue, et c'est un report
 **9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode —.
 
 **10. Barème** — —
+
+#### PL-16 — Ce qui tourne encore sous Rhino 8
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | PL — Écosystème de plugins |
+| **Thématique** | PL1 · Écosystème de plugins |
+| **Réf. référentiel** | REF-029, REF-038, REF-039 |
+| **Niveau** | Intermédiaire |
+| **Durée cible** | 12 min |
+| **Prérequis** | PL-09 |
+| **Compétence visée** | Vérifier la compatibilité d'un parc de plugins avec une version cible, en tenant les DEUX bornes. |
+| **Case Bloom (révisée)** | Appliquer × procédurale |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 8 composants |
+| **Gamification associée** | G-18 Vrai ou faux à élimination |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Vérifier la compatibilité d'un parc de plugins avec une version cible, en tenant les DEUX bornes.
+
+**1 bis. Contexte métier** — Migrer une salle de formation vers une nouvelle version de Rhino se prépare : un plugin abandonné à la version 7 ne chargera pas, et la définition qui l'emploie s'ouvrira en rouge devant les apprenants.
+
+**2. Composants mobilisés** — Data, Smaller Than, Larger Than, Gate And, Cull Pattern, List Length, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le tableau donne, pour quatorze plugins, la version de Rhino minimale et la version maximale supportée. Donnez le nombre de plugins compatibles avec Rhino 8.
+
+**4. Données de départ fournies** — Le tableau des quatorze plugins et de leurs deux bornes.
+
+**5. Résultat attendu** — 10 plugins sur 14 sont compatibles avec Rhino 8.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Tester la borne minimale : au plus 8.
+2. Tester la borne maximale : au moins 8.
+3. Combiner les deux par un ET.
+4. Compter les vrais.
+
+**6 bis. Erreur attendue** — Ne regarder que la version MINIMALE : quatorze sur quatorze, puisque aucun n'exige mieux que Rhino 8. Un intervalle a deux bornes, et ce sont les quatre plugins abandonnés en 6 ou en 7 qui feront échouer la migration.
+
+**6 ter. Justification du jeu de données** — Quatorze plugins, dont quatre s'arrêtent avant la version 8. La borne minimale ne rejette personne : le test naïf donne donc le score parfait, ce qui est exactement ce qui le rend crédible.
+
+**6 quater. Limite de la correction automatique** — La compatibilité DÉCLARÉE n'est pas la compatibilité observée. Un plugin annoncé pour Rhino 8 peut échouer sur une fonction précise, et un plugin annoncé pour Rhino 7 fonctionner parfaitement. Le tableau donne une présomption, pas un test.
+
+**7. Pièges fréquents**
+
+- N'appliquer qu'une des deux bornes.
+- Employer une comparaison stricte là où la version 8 est elle-même admise.
+
+**8. Variantes et extensions**
+
+- Refaire le compte pour Rhino 9.
+- Donner la liste des plugins qui bloquent la migration.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le compte est exact.
 
 ---
 
@@ -14126,7 +15460,7 @@ Valeur diagnostique : (a) confond « chargé par Rhino » et « exposé dans Rhi
 
 ## Lot WB — Interfaces, web et interopérabilité
 
-**Niveau** : Perfectionnement à expert · **9 exercices** · **4 h 53 cumulées**
+**Niveau** : Perfectionnement à expert · **11 exercices** · **5 h 24 cumulées**
 
 Interfaces et web : rendre une définition utilisable par un tiers, la publier en ligne, et distinguer ce que Rhino.Inside et Rhino.Compute font respectivement.
 
@@ -14141,6 +15475,8 @@ Interfaces et web : rendre une définition utilisable par un tiers, la publier e
 | WB-07 | Le plan qui tient sur la feuille | WB2 · Publication web | Perfectionnement | 25 min | SingleValue |
 | WB-08 | Les bornes qui empêchent l'infabricable | WB1 · Interfaces utilisateur | Perfectionnement | 25 min | SingleValue |
 | WB-09 | Ce que le format transporte, et ce qu'il perd | WB3 · Interopérabilité | Perfectionnement | 25 min | SingleValue |
+| WB-10 | Ce qu'un format d'échange laisse en route | WB3 · Interopérabilité | Perfectionnement | 15 min | SingleValue |
+| WB-11 | Le temps de calcul, une fois en ligne | WB2 · Publication web | Perfectionnement | 16 min | NumericTolerance |
 
 ### WB1 · Interfaces utilisateur
 
@@ -14329,7 +15665,7 @@ Interfaces et web : rendre une définition utilisable par un tiers, la publier e
 
 ### WB2 · Publication web
 
-*3 exercices — WB-02, WB-06, WB-07*
+*4 exercices — WB-02, WB-06, WB-07, WB-11*
 
 #### WB-02 — Publier un configurateur
 
@@ -14515,9 +15851,68 @@ Interfaces et web : rendre une définition utilisable par un tiers, la publier e
 
 **10. Barème** — 1 point si le dénominateur est juste.
 
+#### WB-11 — Le temps de calcul, une fois en ligne
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | WB — Interfaces, web et interopérabilité |
+| **Thématique** | WB2 · Publication web |
+| **Réf. référentiel** | REF-108, REF-109, REF-110 |
+| **Niveau** | Perfectionnement |
+| **Durée cible** | 16 min |
+| **Prérequis** | WB-06 |
+| **Compétence visée** | Estimer le temps de réponse d'une définition publiée en ligne, en tenant compte de l'écart entre le poste et le serveur. |
+| **Case Bloom (révisée)** | Appliquer × procédurale |
+| **Mode de validation** | NumericTolerance — tolérance 0.0001 |
+| **Solution de référence** | 6 composants |
+| **Gamification associée** | G-03 Contre la montre |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Estimer le temps de réponse d'une définition publiée en ligne, en tenant compte de l'écart entre le poste et le serveur.
+
+**1 bis. Contexte métier** — Un configurateur publié doit répondre en quelques secondes. Ce qui tourne en dix secondes sur le poste du concepteur peut dépasser la limite du service une fois en ligne.
+
+**2. Composants mobilisés** — Data, Mass Addition, Multiplication, Division, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le profilage donne le temps de recalcul des vingt-quatre composants sur votre poste, en millisecondes. Le serveur est 2,4 fois plus lent. Donnez le temps de réponse en ligne, en secondes.
+
+**4. Données de départ fournies** — Le relevé des vingt-quatre temps et le facteur serveur.
+
+**5. Résultat attendu** — 25,1736 s de temps de réponse en ligne, à 0,0001 près.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Sommer les vingt-quatre temps locaux.
+2. Multiplier par le facteur serveur.
+3. Convertir en secondes.
+
+**6 bis. Erreur attendue** — Oublier le facteur serveur : 10,489 s, sous la limite de vingt secondes. La définition est alors publiée, et c'est le premier visiteur qui découvre qu'elle dépasse — le profilage local donne toujours le résultat rassurant.
+
+**6 ter. Justification du jeu de données** — Vingt-quatre composants de 20 à 900 ms. Le total local passe sous la limite, le total en ligne la dépasse de cinq secondes : c'est le cas qui décide, et il est invisible tant qu'on ne multiplie pas.
+
+**6 quater. Limite de la correction automatique** — Le facteur 2,4 est une MOYENNE mesurée. Il varie avec le type d'opération — un maillage et une intersection ne se dégradent pas dans le même rapport — et ne dit rien de la latence réseau, qui s'ajoute au temps de calcul.
+
+**7. Pièges fréquents**
+
+- Oublier le facteur.
+- Multiplier chaque temps puis re-multiplier la somme.
+
+**8. Variantes et extensions**
+
+- Chercher les composants à retirer pour tenir sous vingt secondes.
+- Refaire le calcul avec un facteur de 1,8.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode NumericTolerance.
+
+**10. Barème** — 1 point si le temps est juste à 0,0001 s.
+
 ### WB3 · Interopérabilité
 
-*3 exercices — WB-03, WB-05, WB-09*
+*4 exercices — WB-03, WB-05, WB-09, WB-10*
 
 #### WB-03 — Rhino sans Rhino
 
@@ -14690,6 +16085,65 @@ Valeur diagnostique : (a) et (d) confondent deux réponses à deux besoins diff�
 **9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
 
 **10. Barème** — 1 point si le compte des formats convenables est juste.
+
+#### WB-10 — Ce qu'un format d'échange laisse en route
+
+| Rubrique | Valeur |
+|---|---|
+| **Lot** | WB — Interfaces, web et interopérabilité |
+| **Thématique** | WB3 · Interopérabilité |
+| **Réf. référentiel** | REF-111, REF-112, REF-158 |
+| **Niveau** | Perfectionnement |
+| **Durée cible** | 15 min |
+| **Prérequis** | WB-09 |
+| **Compétence visée** | Savoir, avant d'exporter, quelles propriétés du modèle le format retenu ne transportera pas. |
+| **Case Bloom (révisée)** | Analyser × factuelle |
+| **Mode de validation** | SingleValue — tolérance 0 |
+| **Solution de référence** | 7 composants |
+| **Gamification associée** | G-18 Vrai ou faux à élimination |
+| **Statut de production** | À produire |
+
+**1. Compétence visée** — Savoir, avant d'exporter, quelles propriétés du modèle le format retenu ne transportera pas.
+
+**1 bis. Contexte métier** — Transmettre un modèle à un bureau d'études, c'est choisir ce qu'on accepte de perdre. Le choix se fait avant l'export, pas quand le destinataire signale que les calques ont disparu.
+
+**2. Composants mobilisés** — Data, Member Index, Gate Not, Cull Pattern, List Length, Panel
+
+> Cette liste ne figure pas sur la fiche remise à l'apprenant : nommer l'outil reviendrait à donner la réponse.
+
+**3. Zone SUJET — texte du Scribble**
+
+> Le tableau donne, pour huit propriétés du modèle, les formats qui les transportent. Donnez le nombre de propriétés perdues par un export au format STEP.
+
+**4. Données de départ fournies** — Le tableau des huit propriétés et des formats qui les portent.
+
+**5. Résultat attendu** — 5 propriétés sur 8 sont perdues par un export STEP.
+
+**6. Zone CORRIGÉ — explication étape par étape**
+
+1. Pour chaque propriété, chercher si STEP figure dans sa liste.
+2. Prendre la négation.
+3. Compter les propriétés retenues.
+
+**6 bis. Erreur attendue** — Compter ce que STEP CONSERVE — trois — en croyant répondre. La question porte sur la perte, et c'est elle qui décide : un modèle exporté en STEP arrive sans matériaux, sans blocs, sans historique, sans couleurs d'objet et sans maillages.
+
+**6 ter. Justification du jeu de données** — Huit propriétés et cinq formats. Le 3DM les porte toutes, ce qui donne au tableau son point de comparaison ; aucun autre format n'en porte plus de quatre, et les pertes diffèrent d'un format à l'autre — DWG en perd quatre, mais pas les mêmes.
+
+**6 quater. Limite de la correction automatique** — Le tableau raisonne par PROPRIÉTÉ, pas par fidélité. Un STEP transporte la géométrie NURBS, mais un échange réel dégrade aussi les tolérances et peut casser des surfaces trimées : la propriété survit, sa qualité pas toujours.
+
+**7. Pièges fréquents**
+
+- Compter les propriétés conservées.
+- Oublier qu'une propriété peut être portée par plusieurs formats.
+
+**8. Variantes et extensions**
+
+- Refaire le compte pour DWG, puis pour OBJ.
+- Chercher le format qui préserve le plus de propriétés après le 3DM.
+
+**9. Mise en œuvre dans Magpie** — Exercice standard : Magpie charge les composants de départ décrits ci-dessus, affiche l'énoncé dans la zone SUJET et compare la sortie branchée sur le paramètre de réponse en mode SingleValue.
+
+**10. Barème** — 1 point si le compte est exact.
 
 ---
 
@@ -18209,20 +19663,20 @@ Les durées ci-dessous sont des **estimations non mesurées**, à confirmer apr�
 | B | 18 | 4.0 h | 72.0 h |
 | C | 12 | 8.0 h | 96.0 h |
 | G | 32 | 2.5 h | 80.0 h |
-| IA | 25 | 3.5 h | 87.5 h |
-| RH | 23 | 2.0 h | 46.0 h |
-| GP | 12 | 3.0 h | 36.0 h |
+| IA | 33 | 3.5 h | 115.5 h |
+| RH | 32 | 2.0 h | 64.0 h |
+| GP | 13 | 3.0 h | 39.0 h |
 | QT | 6 | 2.5 h | 15.0 h |
 | FA | 6 | 3.0 h | 18.0 h |
-| PL | 12 | 2.0 h | 24.0 h |
+| PL | 16 | 2.0 h | 32.0 h |
 | MP | 5 | 2.5 h | 12.5 h |
 | AV | 9 | 4.0 h | 36.0 h |
 | DV | 9 | 5.0 h | 45.0 h |
-| WB | 9 | 5.0 h | 45.0 h |
+| WB | 11 | 5.0 h | 55.0 h |
 | B | 18 | 4.0 h | 72.0 h |
 | C | 12 | 8.0 h | 96.0 h |
 | G | 32 | 2.5 h | 80.0 h |
-| | **291** | | **937.5 h** |
+| | **315** | | **1004.5 h** |
 
 Ce volume dépasse largement l'enveloppe initiale de dix heures de contribution. Il est donc proposé de traiter en priorité les phases 1 et 2, et de statuer sur la suite au vu des retours des premiers tests.
 
@@ -18423,6 +19877,14 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 | IA-23 | Combien de tours avant que tout passe | IA | IA3 · Développement de plugins assisté | Perfectionnement | 25 min | SingleValue | REF-126 |
 | IA-24 | Le composant qui n'apparaît pas | IA | IA3 · Développement de plugins assisté | Perfectionnement | 8 min | — | REF-127 |
 | IA-25 | Ce que le service coûte par mois | IA | IA4 · Vérification, licences et limites | Perfectionnement | 25 min | NumericTolerance | REF-142 |
+| IA-26 | Transposer, et le prouver sur un second jeu | IA | IA2 · Composants scriptés assistés | Intermédiaire | 18 min | ExactOrderedList | REF-122, REF-123 |
+| IA-27 | Le script qui tourne et compte mal | IA | IA2 · Composants scriptés assistés | Intermédiaire | 16 min | SingleValue | REF-124 |
+| IA-28 | Regrouper des pièces par similarité | IA | IA5 · Apprentissage automatique | Perfectionnement | 20 min | SingleValue | REF-130 |
+| IA-29 | Les GUID qui cassent les définitions | IA | IA3 · Développement de plugins assisté | Perfectionnement | 18 min | SingleValue | REF-128 |
+| IA-30 | Ce qu'un appel coûte dans une définition qui recalcule | IA | IA7 · Vérification, licences et limites | Perfectionnement | 15 min | NumericTolerance | REF-142 |
+| IA-31 | Ce que l'agent a modifié | IA | IA6 · Agents et protocoles | Perfectionnement | 16 min | SingleValue | REF-136, REF-137, REF-138 |
+| IA-32 | Ce qu'une demande floue laisse passer | IA | IA1 · Formuler et cadrer une demande | Débutant | 15 min | ExactOrderedList | REF-117, REF-119 |
+| IA-33 | Du texte aux paramètres | IA | IA5 · Modèles de langage et IA générative | Perfectionnement | 18 min | NumericTolerance | REF-134 |
 | RH-01 | Retrouver un objet perdu de vue | RH | RH1 · Interface et navigation Rhino | Débutant | 6 min | — | REF-001, REF-002, REF-003 |
 | RH-02 | Reprendre une implantation par son calque | RH | RH2 · Organisation du document | Débutant | 15 min | SingleValue | REF-004, REF-006, REF-014 |
 | RH-03 | Une trame de plots posée dans Rhino | RH | RH3 · Modélisation Rhino | Débutant | 20 min | SingleValue | REF-007, REF-008, REF-013 |
@@ -18446,6 +19908,15 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 | RH-21 | Les faces qui ne mesurent rien | RH | RH3 · Préparation à l'impression 3D | Débutant | 20 min | SingleValue | REF-022, REF-023 |
 | RH-22 | La finesse du maillage à l'export | RH | RH3 · Préparation à l'impression 3D | Débutant | 25 min | SingleValue | REF-024 |
 | RH-23 | Sélectionner sur ce que les objets sont | RH | RH2 · Organisation du document Rhino | Débutant | 20 min | SingleValue | REF-143 |
+| RH-24 | Les parois trop minces après mise à l'échelle | RH | RH5 · Préparation à l'impression 3D | Débutant | 15 min | SingleValue | REF-016, REF-017, REF-018 |
+| RH-25 | Les volumes réellement étanches | RH | RH3 · Préparation à l'impression 3D | Débutant | 14 min | SingleValue | REF-019, REF-020, REF-021 |
+| RH-26 | Le poids du fichier à envoyer | RH | RH5 · Préparation à l'impression 3D | Débutant | 12 min | SingleValue | REF-022, REF-023, REF-024 |
+| RH-27 | Le volume d'un assemblage de primitives | RH | RH2 · Modélisation Rhino | Débutant | 16 min | NumericTolerance | REF-007, REF-008 |
+| RH-28 | La surface d'une extrusion | RH | RH2 · Modélisation Rhino | Débutant | 14 min | NumericTolerance | REF-009, REF-010, REF-011 |
+| RH-29 | La platine percée en réseau | RH | RH3 · Modélisation Rhino | Débutant | 14 min | NumericTolerance | REF-012, REF-013 |
+| RH-30 | Ce que le filtre de sélection retient | RH | RH1 · Interface et navigation Rhino | Débutant | 12 min | SingleValue | REF-003, REF-004 |
+| RH-31 | Ce qui reste visible | RH | RH1 · Interface et navigation Rhino | Débutant | 12 min | SingleValue | REF-005, REF-006 |
+| RH-32 | Ce qui suivra le calque | RH | RH2 · Organisation du document Rhino | Débutant | 12 min | SingleValue | REF-014, REF-015, REF-143 |
 | GP-01 | Un plan coté qui suit ses paramètres | GP | GP1 · Plan paramétrique | Débutant | 25 min | NumericTolerance | REF-065, REF-066 |
 | GP-02 | Un modèle paramétrique de bout en bout | GP | GP2 · Synthèse géométrie | Intermédiaire | 45 min | NumericTolerance | REF-073 |
 | GP-03 | Un maillage qu'on peut imprimer | GP | GP3 · Maillages et SubD | Perfectionnement | 30 min | NumericTolerance | REF-074, REF-075, REF-076 |
@@ -18458,6 +19929,7 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 | GP-10 | Courbe, surface, solide ou maillage | GP | GP5 · Synthèse géométrie | Perfectionnement | 8 min | — | REF-147 |
 | GP-11 | L'ordre des opérations | GP | GP5 · Synthèse géométrie | Perfectionnement | 30 min | NumericTolerance | REF-148 |
 | GP-12 | Tourner puis déplacer, ou l'inverse | GP | GP2 · Transformations et réseaux | Intermédiaire | 25 min | NumericTolerance | REF-149 |
+| GP-13 | La pièce qui enchaîne trois opérations | GP | GP5 · Synthèse géométrie | Intermédiaire | 22 min | NumericTolerance | REF-073, REF-147, REF-148 |
 | QT-01 | Le métré d'un plancher bois | QT | QT1 · Quantitatifs et chiffrage | Intermédiaire | 25 min | NumericTolerance | REF-082, REF-084 |
 | QT-02 | Du métré au prix | QT | QT1 · Quantitatifs et chiffrage | Intermédiaire | 25 min | NumericTolerance | REF-083 |
 | QT-03 | Une nomenclature exportable | QT | QT2 · Export de données | Intermédiaire | 30 min | NumericTolerance | REF-085, REF-086, REF-087 |
@@ -18482,6 +19954,10 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 | PL-10 | Où chercher un plugin | PL | PL1 · Écosystème de plugins | Intermédiaire | 8 min | — | REF-029, REF-030 |
 | PL-11 | Deux familles de plugins | PL | PL1 · Écosystème de plugins | Intermédiaire | 8 min | — | REF-031, REF-034, REF-035, REF-036, REF-037 |
 | PL-12 | Le plugin qui n'est plus maintenu | PL | PL1 · Écosystème de plugins | Intermédiaire | 8 min | — | REF-039 |
+| PL-13 | Où trouver chaque plugin | PL | PL2 · Installation de plugins | Intermédiaire | 12 min | SingleValue | REF-029, REF-030 |
+| PL-14 | Ce que l'ergonomie coûte au démarrage | PL | PL3 · Plugins d'ergonomie | Intermédiaire | 14 min | SingleValue | REF-031, REF-032, REF-033, REF-034, REF-035, REF-036, REF-037 |
+| PL-15 | Combien de plugins pour douze composants | PL | PL4 · Plugins fonctionnels | Perfectionnement | 22 min | SingleValue | REF-038, REF-039 |
+| PL-16 | Ce qui tourne encore sous Rhino 8 | PL | PL1 · Écosystème de plugins | Intermédiaire | 12 min | SingleValue | REF-029, REF-038, REF-039 |
 | MP-01 | Une définition qu'un autre peut reprendre | MP | MP1 · Organisation et lisibilité | Intermédiaire | 30 min | Visuel | REF-088 |
 | MP-02 | Trouver ce qui coûte le temps de calcul | MP | MP2 · Performance d'exécution | Perfectionnement | 25 min | SingleValue | REF-089 |
 | MP-03 | Une définition qui réagit | MP | MP3 · Chronologie et évènements | Perfectionnement | 8 min | — | REF-091, REF-092 |
@@ -18514,6 +19990,8 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 | WB-07 | Le plan qui tient sur la feuille | WB | WB2 · Publication web | Perfectionnement | 25 min | SingleValue | REF-110 |
 | WB-08 | Les bornes qui empêchent l'infabricable | WB | WB1 · Interfaces utilisateur | Perfectionnement | 25 min | SingleValue | REF-157 |
 | WB-09 | Ce que le format transporte, et ce qu'il perd | WB | WB3 · Interopérabilité | Perfectionnement | 25 min | SingleValue | REF-158 |
+| WB-10 | Ce qu'un format d'échange laisse en route | WB | WB3 · Interopérabilité | Perfectionnement | 15 min | SingleValue | REF-111, REF-112, REF-158 |
+| WB-11 | Le temps de calcul, une fois en ligne | WB | WB2 · Publication web | Perfectionnement | 16 min | NumericTolerance | REF-108, REF-109, REF-110 |
 | B-01 | Escalier droit paramétrique | B | B1 · Architecture et construction | Intermédiaire | 25 min | NumericTolerance | REF-067, REF-068, REF-047, REF-043 |
 | B-02 | Garde-corps à barreaudage régulier | B | B1 · Architecture et construction | Intermédiaire | 20 min | NumericTolerance | REF-064, REF-047, REF-043 |
 | B-03 | Façade à trame variable pilotée par un attracteur | B | B1 · Architecture et construction | Intermédiaire | 30 min | GeometryTolerance | REF-068, REF-053, REF-054 |
@@ -18585,43 +20063,43 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 |---|---|
 | REF-001 | RH-01, RH-11 |
 | REF-002 | RH-01, RH-11, RH-12 |
-| REF-003 | RH-01, RH-11 |
-| REF-004 | RH-02, RH-13 |
-| REF-005 | RH-06 |
-| REF-006 | RH-02, RH-13 |
-| REF-007 | RH-03 |
-| REF-008 | RH-03, RH-14 |
-| REF-009 | RH-04, RH-15 |
-| REF-010 | RH-04, RH-16 |
-| REF-011 | RH-04, RH-16 |
-| REF-012 | RH-05, RH-17 |
-| REF-013 | RH-03, RH-14 |
-| REF-014 | RH-02 |
-| REF-015 | RH-07 |
-| REF-016 | RH-09, RH-18 |
-| REF-017 | RH-07, RH-19 |
-| REF-018 | RH-09, RH-19 |
-| REF-019 | RH-08, RH-20 |
-| REF-020 | RH-08, RH-20 |
-| REF-021 | RH-08, RH-20 |
-| REF-022 | RH-08, RH-21 |
-| REF-023 | RH-08, RH-21 |
-| REF-024 | RH-10, RH-22 |
+| REF-003 | RH-01, RH-11, RH-30 |
+| REF-004 | RH-02, RH-13, RH-30 |
+| REF-005 | RH-06, RH-31 |
+| REF-006 | RH-02, RH-13, RH-31 |
+| REF-007 | RH-03, RH-27 |
+| REF-008 | RH-03, RH-14, RH-27 |
+| REF-009 | RH-04, RH-15, RH-28 |
+| REF-010 | RH-04, RH-16, RH-28 |
+| REF-011 | RH-04, RH-16, RH-28 |
+| REF-012 | RH-05, RH-17, RH-29 |
+| REF-013 | RH-03, RH-14, RH-29 |
+| REF-014 | RH-02, RH-32 |
+| REF-015 | RH-07, RH-32 |
+| REF-016 | RH-09, RH-18, RH-24 |
+| REF-017 | RH-07, RH-19, RH-24 |
+| REF-018 | RH-09, RH-19, RH-24 |
+| REF-019 | RH-08, RH-20, RH-25 |
+| REF-020 | RH-08, RH-20, RH-25 |
+| REF-021 | RH-08, RH-20, RH-25 |
+| REF-022 | RH-08, RH-21, RH-26 |
+| REF-023 | RH-08, RH-21, RH-26 |
+| REF-024 | RH-10, RH-22, RH-26 |
 | REF-025 | PL-01 |
 | REF-026 | A-04, G-26, G-26 |
 | REF-027 | A-01, A-03, A-05, C-01, G-14, G-24, C-01, G-14, G-24 |
 | REF-028 | A-01, A-05, G-09, G-19, G-09, G-19 |
-| REF-029 | PL-02, PL-05, PL-10 |
-| REF-030 | PL-02, PL-05, PL-09, PL-10 |
-| REF-031 | PL-03, PL-08, PL-11 |
-| REF-032 | PL-03, PL-08 |
-| REF-033 | PL-03, PL-08 |
-| REF-034 | PL-03, PL-11 |
-| REF-035 | PL-03, PL-11 |
-| REF-036 | PL-03, PL-11 |
-| REF-037 | PL-03, PL-11 |
-| REF-038 | PL-04, PL-06, PL-07 |
-| REF-039 | PL-04, PL-06, PL-07, PL-12 |
+| REF-029 | PL-02, PL-05, PL-10, PL-13, PL-16 |
+| REF-030 | PL-02, PL-05, PL-09, PL-10, PL-13 |
+| REF-031 | PL-03, PL-08, PL-11, PL-14 |
+| REF-032 | PL-03, PL-08, PL-14 |
+| REF-033 | PL-03, PL-08, PL-14 |
+| REF-034 | PL-03, PL-11, PL-14 |
+| REF-035 | PL-03, PL-11, PL-14 |
+| REF-036 | PL-03, PL-11, PL-14 |
+| REF-037 | PL-03, PL-11, PL-14 |
+| REF-038 | PL-04, PL-06, PL-07, PL-15, PL-16 |
+| REF-039 | PL-04, PL-06, PL-07, PL-12, PL-15, PL-16 |
 | REF-040 | A-06, A-08, G-17, G-18, G-17, G-18 |
 | REF-041 | A-07, G-18, G-20, G-18, G-20 |
 | REF-042 | A-11, A-17, A-18, G-03, G-19, G-03, G-19 |
@@ -18655,7 +20133,7 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 | REF-070 | A-43, B-06, B-07, C-05, C-07, B-06, B-07, C-05, C-07 |
 | REF-071 | A-44, A-45, B-06, B-06 |
 | REF-072 | A-46, B-07, C-07, B-07, C-07 |
-| REF-073 | GP-02 |
+| REF-073 | GP-02, GP-13 |
 | REF-074 | C-02, C-06, GP-03, GP-06, C-02, C-06 |
 | REF-075 | GP-03 |
 | REF-076 | GP-03, GP-07 |
@@ -18690,47 +20168,47 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 | REF-105 | DV-03, DV-08 |
 | REF-106 | C-07, G-28, WB-01, C-07, G-28 |
 | REF-107 | WB-01, WB-04 |
-| REF-108 | WB-02 |
-| REF-109 | WB-02, WB-06 |
-| REF-110 | WB-02, WB-07 |
-| REF-111 | WB-03 |
-| REF-112 | WB-03, WB-05 |
+| REF-108 | WB-02, WB-11 |
+| REF-109 | WB-02, WB-06, WB-11 |
+| REF-110 | WB-02, WB-07, WB-11 |
+| REF-111 | WB-03, WB-10 |
+| REF-112 | WB-03, WB-05, WB-10 |
 | REF-113 | B-13, C-12, FA-01, B-13, C-12 |
 | REF-114 | C-12, FA-01, FA-04, C-12 |
 | REF-115 | B-10, C-05, C-10, C-11, FA-02, B-10, C-05, C-10, C-11 |
 | REF-116 | C-11, FA-02, FA-03, C-11 |
-| REF-117 | IA-01 |
+| REF-117 | IA-01, IA-32 |
 | REF-118 | IA-02 |
-| REF-119 | IA-03 |
+| REF-119 | IA-03, IA-32 |
 | REF-120 | IA-04 |
 | REF-121 | IA-04, IA-21 |
-| REF-122 | IA-06 |
-| REF-123 | IA-06, IA-22 |
-| REF-124 | IA-05 |
+| REF-122 | IA-06, IA-26 |
+| REF-123 | IA-06, IA-22, IA-26 |
+| REF-124 | IA-05, IA-27 |
 | REF-125 | IA-07 |
 | REF-126 | IA-07, IA-23 |
 | REF-127 | IA-07, IA-24 |
-| REF-128 | IA-08 |
+| REF-128 | IA-08, IA-29 |
 | REF-129 | IA-09 |
-| REF-130 | IA-10, IA-19 |
+| REF-130 | IA-10, IA-19, IA-28 |
 | REF-131 | IA-09, IA-20 |
 | REF-132 | IA-09, IA-20 |
 | REF-133 | IA-11 |
-| REF-134 | IA-11, IA-17 |
+| REF-134 | IA-11, IA-17, IA-33 |
 | REF-135 | IA-11, IA-18 |
-| REF-136 | IA-12 |
-| REF-137 | IA-12, IA-15 |
-| REF-138 | IA-12, IA-16 |
+| REF-136 | IA-12, IA-31 |
+| REF-137 | IA-12, IA-15, IA-31 |
+| REF-138 | IA-12, IA-16, IA-31 |
 | REF-139 | IA-01, IA-14 |
 | REF-140 | IA-13 |
 | REF-141 | IA-13 |
-| REF-142 | IA-14, IA-25 |
-| REF-143 | RH-23 |
+| REF-142 | IA-14, IA-25, IA-30 |
+| REF-143 | RH-23, RH-32 |
 | REF-144 | A-50 |
 | REF-145 | A-51 |
 | REF-146 | GP-09 |
-| REF-147 | GP-10 |
-| REF-148 | GP-11 |
+| REF-147 | GP-10, GP-13 |
+| REF-148 | GP-11, GP-13 |
 | REF-149 | GP-12 |
 | REF-150 | MP-05 |
 | REF-151 | AV-04 |
@@ -18740,7 +20218,7 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 | REF-155 | AV-08 |
 | REF-156 | AV-09 |
 | REF-157 | WB-08 |
-| REF-158 | WB-09 |
+| REF-158 | WB-09, WB-10 |
 | REF-159 | FA-05 |
 | REF-160 | FA-06 |
 
@@ -18748,10 +20226,10 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 
 | Mode | Nombre d'exercices |
 |---|---|
-| SingleValue | 99 |
-| NumericTolerance | 75 |
+| SingleValue | 114 |
+| NumericTolerance | 82 |
 | GeometryTolerance | 34 |
-| ExactOrderedList | 31 |
+| ExactOrderedList | 33 |
 | — | 27 |
 | SetEquality | 15 |
 | Visuel | 9 |
@@ -18761,7 +20239,7 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 
 | Indice | Objet | Date | Auteur |
 |---|---|---|---|
-| Ind. A | Création. Définition de la trame, des conventions de fichier et du catalogue de 291 exercices répartis en 4 lots. | 25/08/2026 | C. THIERRY DE VILLE D'AVRAY |
+| Ind. A | Création. Définition de la trame, des conventions de fichier et du catalogue de 315 exercices répartis en 4 lots. | 25/08/2026 | C. THIERRY DE VILLE D'AVRAY |
 | Ind. B | Référentiel unifié : les références des exercices passent aux identifiants continus `REF-nnn`, sans distinction de provenance. Ajout des règles d'étanchéité entre zones et d'affichage conditionnel du corrigé, et des fiches Word illustrées. | 01/09/2026 | C. THIERRY DE VILLE D'AVRAY |
 
 ---

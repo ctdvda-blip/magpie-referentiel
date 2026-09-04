@@ -1,6 +1,6 @@
 # MAGPIE — Planning et suivi
 
-Version `v0.5-260902` · référentiel Ind. C · mis à jour le 2 septembre 2026
+Version `v0.5-260902` · référentiel Ind. C · mis à jour le 4 septembre 2026
 
 ---
 
@@ -49,6 +49,8 @@ est mesurée et documentée : elle figure au § 4.
 | 02/09/2026 | Audit étendu aux 14 lots | `audit_skill.py --tous`, deux règles resserrées | non mesurée |
 | 02/09/2026 | 88 limites de correction | les 229 exercices portent les huit champs de la skill | non mesurée |
 | 02/09/2026 | Constructeur unique | `GH/build_tout.py`, recettes découvertes, 444 définitions | non mesurée |
+| 02/09/2026 | Dépôt git du projet | 1 253 fichiers suivis, 4,4 Mo, deux pièges de clonage vérifiés | non mesurée |
+| 04/09/2026 | Équilibrage, vague 4 | 24 exercices, les 15 catégories au plancher relevées | non mesurée |
 
 ---
 
@@ -70,7 +72,8 @@ est mesurée et documentée : elle figure au § 4.
 | B | 18 | 18 | 18 | oui | **terminé** |
 | C | 12 | 12 | 12 | oui | **terminé** — un indicateur corrigé, le reste sur grille |
 | G | 32 | 32 | 32 | oui | **terminé** — six corrigés par étalon |
-| | **229** | **229** | **222** | | |
+| Vague 4 | 24 | 24 | 24 | oui | **terminé** — répartis sur RH, IA, PL, WB, GP |
+| | **253** | **253** | **246** | | |
 
 Les sept exercices sans définition sont exactement les sept dont le mode de
 validation est **Visuel**. Ce n'est pas un reste à faire : leur livrable est un
@@ -117,10 +120,11 @@ durée cible, et c'est elle qui sert à bâtir une journée de formation.
 | B | 479 min |
 | C | 995 min |
 | G | 521 min |
-| **Total** | **5 058 min — 84,3 h** |
+| Vague 4 | 370 min |
+| **Total** | **5 428 min — 90,5 h** |
 
-Répartition par niveau : 92 débutant · 63 intermédiaire · 63 perfectionnement ·
-11 expert. Nature : 191 exercices de compétence, 38 questions de connaissance.
+Répartition par niveau : 102 débutant · 69 intermédiaire · 71 perfectionnement ·
+11 expert. Nature : 215 exercices de compétence, 38 questions de connaissance.
 
 ---
 
@@ -135,13 +139,13 @@ Répartition par niveau : 92 débutant · 63 intermédiaire · 63 perfectionneme
 | `recette_3_etancheite.py` | lot A | un corrigé qui a fui dans le sujet | OK |
 | `recette_4_corrige_masque.py` | lot A | un corrigé visible à l'ouverture | OK |
 | `recette_5_avertissements.py` | lot A | un composant en avertissement | OK |
-| **`recette_6_tous_lots.py`** | **les quatorze lots** | fichiers illisibles, sujets non étanches, corrigés non masqués, `REPONSE_CORRIGE` muette, avertissements inattendus | **222/222 OK** |
-| **`recette_7_valeurs.py`** | **les quatorze lots** | **une valeur de corrigé qui a changé** — le défaut le plus discret, celui de RH-09 | **222/222 conformes** |
-| **`recette_8_noms_uniques.py`** | **toutes les recettes** | **un nom qui en désigne deux** — il écrase le premier objet et déplace des fils sans rien signaler, comme sur C-02 | **233 recettes, 0 doublon** |
-| **`audit_skill.py --tous`** | **les 14 lots** | les écarts mécanisables à la skill de conception : nom de composant dans la consigne, énoncé de démonstration, contexte, erreur, justification des données ou limite de correction absentes, contrainte du checker violée | **11 écarts sur 229**, tous §1 |
+| **`recette_6_tous_lots.py`** | **les quatorze lots** | fichiers illisibles, sujets non étanches, corrigés non masqués, `REPONSE_CORRIGE` muette, avertissements inattendus | **246/246 OK** |
+| **`recette_7_valeurs.py`** | **les quatorze lots** | **une valeur de corrigé qui a changé** — le défaut le plus discret, celui de RH-09 | **246/246 conformes** |
+| **`recette_8_noms_uniques.py`** | **toutes les recettes** | **un nom qui en désigne deux** — il écrase le premier objet et déplace des fils sans rien signaler, comme sur C-02 | **257 recettes, 0 doublon** |
+| **`audit_skill.py --tous`** | **les 14 lots** | les écarts mécanisables à la skill de conception : nom de composant dans la consigne, énoncé de démonstration, contexte, erreur, justification des données ou limite de correction absentes, contrainte du checker violée | **11 écarts sur 253**, tous §1 |
 | **`verifier_vague1/2/3.py`** | les 68 exercices ajoutés | une réponse annoncée qui ne correspond pas au calcul refait depuis les données | **55/55 conformes** |
-| **`verifier_lot_b.py`, `verifier_lot_c.py`, `verifier_lot_g.py`** | lots B, C et G | idem, sur les 62 réponses de ces trois lots | **62/62 conformes** |
-| `verifier_liens.py` | site publié | un téléchargement promis mais absent | **1 353/1 353** |
+| **`verifier_lot_b.py`, `verifier_lot_c.py`, `verifier_lot_g.py`, `verifier_vague4.py`** | lots B, C, G et vague 4 | idem, sur les 86 réponses de ces quatre ensembles | **86/86 conformes** |
+| `verifier_liens.py` | site publié | un téléchargement promis mais absent | **1 497/1 497** |
 | `equilibrer_qcm.py --controle` | questions charnières | un commentaire qui désigne une proposition inexistante | 0 |
 
 Les recettes 1 à 5 sont antérieures aux nouveaux lots et n'interrogent que le

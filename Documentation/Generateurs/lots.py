@@ -17,31 +17,56 @@ if ICI not in sys.path:
     sys.path.insert(0, ICI)
 
 
-def _vague1():
-    """Les exercices ajoutes par l'equilibrage, indexes par code de lot.
+def _vagues():
+    """Les exercices ajoutes par les vagues d'equilibrage, par code de lot.
 
     Ils vivent a part plutot que dans les modules de domaine : une vague se
     lit, se relit et se recette comme un tout, et melangee au reste elle
     deviendrait invisible. Le registre les rattache a leur lot au chargement,
     de sorte que tous les generateurs les voient sans rien savoir d'eux.
+
+    Les modules sont DECOUVERTS. La liste tenue a la main ici etait la
+    septieme du projet a pouvoir decrocher de ce qu'elle couvrait : une vague
+    ajoutee sans y penser serait restee invisible partout, y compris des
+    controles.
+
+    Deux formes sont acceptees : des attributs `LOT_XX`, comme les premieres
+    vagues les ecrivaient, ou une liste plate dont chaque exercice porte son
+    lot dans son identifiant.
     """
+    import os
+    ici = os.path.dirname(os.path.abspath(__file__))
     par_lot = {}
-    for nom in ("exercices_vague1", "exercices_vague1_avance",
-                "exercices_vague2", "exercices_vague2_avance",
-                "exercices_vague3", "exercices_vague3_avance"):
+    for fichier in sorted(os.listdir(ici)):
+        if not (fichier.startswith("exercices_vague") and fichier.endswith(".py")):
+            continue
+        nom = fichier[:-3]
         try:
             m = __import__(nom)
         except Exception as ex:
             print("  (%s non chargé : %s)" % (nom, ex))
             continue
+        vus = False
         for attribut in dir(m):
-            if not attribut.startswith("LOT_"):
+            if attribut.startswith("LOT_"):
+                par_lot.setdefault(attribut[4:], []).extend(getattr(m, attribut))
+                vus = True
+        if vus:
+            continue
+        for attribut in dir(m):
+            if attribut.startswith("_") or not attribut.isupper():
                 continue
-            par_lot.setdefault(attribut[4:], []).extend(getattr(m, attribut))
+            valeur = getattr(m, attribut)
+            if not isinstance(valeur, list) or not valeur:
+                continue
+            if not isinstance(valeur[0], dict) or "id" not in valeur[0]:
+                continue
+            for e in valeur:
+                par_lot.setdefault(e["id"].split("-")[0], []).append(e)
     return par_lot
 
 
-VAGUES = _vague1()
+VAGUES = _vagues()
 
 
 def _ajouts(code):

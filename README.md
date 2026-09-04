@@ -15,36 +15,37 @@ Version `v0.5-260902` · référentiel Ind. C
 | | |
 |---|---|
 | Référentiel | **160 notions**, 11 domaines, 41 catégories |
-| Exercices | **229**, en quatorze lots |
-| Définitions Grasshopper | **444** fichiers `.gh` — sujet et corrigé pour 222 exercices |
+| Exercices | **253**, en quatorze lots |
+| Définitions Grasshopper | **492** fichiers `.gh` — sujet et corrigé pour 246 exercices |
 | Fiches | Markdown, Word illustrées et PDF, sujet seul et sujet + corrigé |
-| Durée cible cumulée | 84,3 h |
+| Durée cible cumulée | 90,5 h |
 
 Chaque notion du référentiel est couverte, **aucune catégorie ne porte moins
 de trois notions**, et **aucune n'a moins d'exercices qu'elle n'a de
-notions**.
+notions**. La catégorie la moins servie en compte 1,25 par notion.
 
 ### Les quatorze lots
 
 | Lot | | Exercices |
 |---|---|---|
 | **A** | Découverte des composants natifs | 51 |
+| **IA** | IA et assistance générative | 33 |
+| **RH** | Socle Rhino | 32 |
 | **G** | Exercices gamifiés | 32 |
-| **IA** | IA et assistance générative | 25 |
-| **RH** | Socle Rhino | 23 |
 | **B** | Algorithmes combinés | 18 |
-| **GP** | Géométrie paramétrique appliquée | 12 |
-| **PL** | Écosystème de plugins | 12 |
+| **PL** | Écosystème de plugins | 16 |
+| **GP** | Géométrie paramétrique appliquée | 13 |
 | **C** | Projets appliqués | 12 |
+| **WB** | Interfaces, web et interopérabilité | 11 |
 | **AV** | Algorithmique avancée | 9 |
 | **DV** | Développement, scripting et API | 9 |
-| **WB** | Interfaces, web et interopérabilité | 9 |
 | **QT** | Quantitatifs, chiffrage et export | 6 |
 | **FA** | Aide à la fabrication | 6 |
 | **MP** | Méthode, performance et évènements | 5 |
 
 Les quatorze lots sont produits. Le référentiel spécifié au cahier des
-charges est entièrement construit.
+charges est entièrement construit, et quatre vagues d'équilibrage ont comblé
+les catégories les plus maigres.
 
 ---
 
@@ -133,7 +134,7 @@ Le même README accompagne les deux : ils ne portent pas la même chose.
 
 | | |
 |---|---|
-| **Dépôt du projet** | de quoi **fabriquer** — les 84 modules de la chaîne de génération, la documentation, les 458 fiches Markdown, les 222 descripteurs et les 444 définitions `.gh`. Les 250 Mo de fiches Word, de PDF et d'images n'y sont pas : tous portent un horodatage interne ou sont refabriqués à chaque passe. |
+| **Dépôt du projet** | de quoi **fabriquer** — les 86 modules de la chaîne de génération, la documentation, les 506 fiches Markdown, les 246 descripteurs et les 492 définitions `.gh`. Les 280 Mo de fiches Word, de PDF et d'images n'y sont pas : tous portent un horodatage interne ou sont refabriqués à chaque passe. |
 | **`ctdvda-blip/magpie-referentiel`** | de quoi **consulter** — les livrables complets, PDF et Word compris, dans une arborescence aplatie pour la limite de chemin de Windows, avec l'application `index.html`. |
 
 Depuis le dépôt du projet, tout ce qui manque se reconstitue :

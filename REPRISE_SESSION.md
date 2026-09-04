@@ -475,9 +475,12 @@ téléchargement promis au disque : **576 promis, 0 absent**.
 
 ## État actuel
 
-**Quatorze lots, 229 exercices, 160 notions couvertes à 100 %.**
-222 exercices ont leur définition Grasshopper ; les sept autres se notent
-sur grille. 1 353 téléchargements proposés par le site, aucun absent.
+**Quatorze lots, 253 exercices, 160 notions couvertes à 100 %.**
+246 exercices ont leur définition Grasshopper ; les sept autres se notent
+sur grille. 1 497 téléchargements proposés par le site, aucun absent.
+
+**Plus aucune catégorie n'est au plancher** : la moins servie compte 1,25
+exercice par notion, contre 1,00 avant la vague 4.
 Tout est publié et poussé sur `ctdvda-blip/magpie-referentiel`.
 
 **Les quatorze lots du cahier des charges sont produits.** Il n'en reste
@@ -810,10 +813,16 @@ porte qu'une empreinte PBKDF2.
 - Un nom d'objet ne doit désigner qu'une chose dans une recette : le second
   écrase le premier et déplace des fils sans rien signaler.
   `recette_8_noms_uniques.py` le contrôle.
-- **Toute liste écrite à la main finit par décrocher.** Cinq fois dans ce
+- **Toute liste écrite à la main finit par décrocher.** SEPT fois dans ce
   projet : `AVEC_DEFINITIONS`, les sources de `verifier_fraicheur`, ses
-  préfixes, les modules de `recette_7`, et le corpus d'`audit_skill`.
+  préfixes, les modules de `recette_7`, le corpus d'`audit_skill`, les
+  pilotes de construction par lot, et le chargeur des vagues de `lots.py`.
   Toute nouvelle liste de modules ou d'exercices doit être DÉCOUVERTE.
+- **Ne jamais nommer une fonction utilitaire `_f`, `_b`, `_e`.** En
+  IronPython 2, la variable de boucle d'une compréhension fuit dans la
+  portée englobante et l'écrase. Le piège s'est refermé trois fois :
+  « str is not callable », « int is not callable », « bool is not
+  callable ». Les noms courts sont réservés aux variables de boucle.
 - `audit_skill.py --tous` audite les 229 exercices ; sans `--tous`, il ne
   voit que le lot A.
 - **Reconstruire par `GH/build_tout.py`**, jamais par un pilote de lot : il
@@ -870,6 +879,21 @@ Deux défauts trouvés et corrigés à cette occasion :
 
 Le niveau « Expérimenté » des fiches d'origine, inconnu du reste du
 référentiel, est ramené à « Perfectionnement » par `skill_c.fusionner`.
+
+## La vague 4 — densifier plutôt qu'étendre
+Quinze catégories restaient à un exercice par notion après les lots B, C et G,
+qui avaient nourri les catégories déjà denses. Vingt-quatre exercices les
+relèvent, sur des notions DÉJÀ couvertes mais par un angle différent : là où
+le premier fait construire, celui-ci fait choisir, compter ou vérifier.
+
+Leurs tableaux sont des inventaires — types, calques, canaux de distribution,
+verbes d'opération. Le checker ne compare que des nombres : chaque colonne est
+fournie CODÉE, la légende dans le sujet. Le raisonnement logique reste entier,
+seule la comparaison de chaînes disparaît.
+
+Un seul étalon, PL-15 : la couverture d'ensemble ne se résout pas avec des
+composants natifs, et le nombre minimal est unique là où la solution ne l'est
+pas.
 
 ## Le lot G, et ses deux pièges de conception
 Le lot G portait le défaut du lot B en pire : **six exercices en

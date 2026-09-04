@@ -1,7 +1,7 @@
 # MAGPIE — Guide utilisateur
 
 **Référentiel des notions Rhino / Grasshopper et bibliothèque d'exercices autocorrigés**
-Version `v0.5-260902` · référentiel Ind. C · 2 septembre 2026
+Version `v0.5-260902` · référentiel Ind. C · mis à jour le 4 septembre 2026
 
 ---
 
@@ -13,7 +13,7 @@ RhinoForYou. Ce dépôt lui fournit deux choses :
 1. **un référentiel** de 160 notions Rhino / Grasshopper, réparties en
    11 domaines et 41 catégories, classées par niveau, mode de validation et
    type d'exercice — aucune catégorie ne porte moins de trois notions ;
-2. **une bibliothèque de 229 exercices** couvrant ces 160 notions, chacun livré
+2. **une bibliothèque de 253 exercices** couvrant ces 160 notions, chacun livré
    avec son sujet, son corrigé commenté, sa fiche et — quand il se corrige
    automatiquement — ses deux définitions Grasshopper.
 
@@ -107,7 +107,7 @@ Leur définition n'a donc rien à construire — elle **mesure**.
 
 ### Les questions charnières
 
-38 des 229 items ne sont pas des exercices mais des **questions charnières** :
+38 des 253 items ne sont pas des exercices mais des **questions charnières** :
 une question à quatre propositions, qui vérifie une compréhension plutôt
 qu'un savoir-faire. Elles se répondent par un menu déroulant dans la
 définition, ou directement sur la fiche.
@@ -142,23 +142,23 @@ l'apprenant, et se notent sur **grille**, pas sur une valeur.
 | Lot | Intitulé | Exercices | Avec `.gh` | Durée cumulée |
 |---|---|---|---|---|
 | **A** | Découverte des composants natifs | 51 | 51 | 376 min |
+| **IA** | IA et assistance générative | 33 | 32 | 722 min |
+| **RH** | Socle Rhino | 32 | 32 | 522 min |
 | **G** | Exercices gamifiés | 32 | 32 | 521 min |
-| **IA** | IA et assistance générative | 25 | 24 | 586 min |
-| **RH** | Socle Rhino | 23 | 23 | 401 min |
 | **B** | Algorithmes combinés | 18 | 18 | 479 min |
-| **GP** | Géométrie paramétrique appliquée | 12 | 12 | 285 min |
-| **PL** | Écosystème de plugins | 12 | 11 | 163 min |
+| **PL** | Écosystème de plugins | 16 | 15 | 223 min |
+| **GP** | Géométrie paramétrique appliquée | 13 | 13 | 307 min |
 | **C** | Projets appliqués | 12 | 12 | 995 min |
+| **WB** | Interfaces, web et interopérabilité | 11 | 9 | 324 min |
 | **AV** | Algorithmique avancée | 9 | 9 | 231 min |
 | **DV** | Développement, scripting et API | 9 | 7 | 287 min |
-| **WB** | Interfaces, web et interopérabilité | 9 | 7 | 293 min |
 | **QT** | Quantitatifs, chiffrage et export | 6 | 6 | 165 min |
 | **FA** | Aide à la fabrication | 6 | 6 | 163 min |
 | **MP** | Méthode, performance et évènements | 5 | 4 | 113 min |
-| | **Total** | **229** | **222** | **5 058 min — 84,3 h** |
+| | **Total** | **253** | **246** | **5 428 min — 90,5 h** |
 
-Niveaux : 92 débutant, 63 intermédiaire, 63 perfectionnement, 11 expert.
-191 exercices de **compétence**, 38 questions de **connaissance**.
+Niveaux : 102 débutant, 69 intermédiaire, 71 perfectionnement, 11 expert.
+215 exercices de **compétence**, 38 questions de **connaissance**.
 
 ---
 
@@ -171,7 +171,7 @@ autonome, sans dépendance ni serveur. Elle offre trois vues.
   et les quatorze lots ; un clic sur un lot mène directement à ses exercices.
 - **Référentiel** — les 160 notions, filtrables par domaine et par niveau,
   avec pour chacune les exercices qui la couvrent.
-- **Exercices** — les 229 exercices, filtrables par **lot**, par thématique et
+- **Exercices** — les 253 exercices, filtrables par **lot**, par thématique et
   par recherche libre. Chaque fiche donne l'énoncé, le corrigé commenté, les
   illustrations, et le téléchargement des livrables.
 
