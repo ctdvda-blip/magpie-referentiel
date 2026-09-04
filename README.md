@@ -127,21 +127,20 @@ python Documentation/Generateurs/GH/recette_8_noms_uniques.py
 
 ---
 
-## Ce dépôt, et l'autre
+## Deux dépôts, deux usages
 
-Ce dépôt porte de quoi **fabriquer** : les 84 modules de la chaîne de
-génération, la documentation, les 458 fiches Markdown, les 222 descripteurs et
-les 444 définitions `.gh`. Il ignore les 250 Mo de fiches Word, de PDF et
-d'images de canevas — tous portent un horodatage interne ou sont refabriqués à
-chaque passe, et se reconstituent par :
+Le même README accompagne les deux : ils ne portent pas la même chose.
+
+| | |
+|---|---|
+| **Dépôt du projet** | de quoi **fabriquer** — les 84 modules de la chaîne de génération, la documentation, les 458 fiches Markdown, les 222 descripteurs et les 444 définitions `.gh`. Les 250 Mo de fiches Word, de PDF et d'images n'y sont pas : tous portent un horodatage interne ou sont refabriqués à chaque passe. |
+| **`ctdvda-blip/magpie-referentiel`** | de quoi **consulter** — les livrables complets, PDF et Word compris, dans une arborescence aplatie pour la limite de chemin de Windows, avec l'application `index.html`. |
+
+Depuis le dépôt du projet, tout ce qui manque se reconstitue :
 
 ```bash
 python Documentation/Generateurs/finaliser.py
 ```
-
-Le dépôt `ctdvda-blip/magpie-referentiel` porte de quoi **consulter** : les
-livrables complets, dans une arborescence aplatie pour la limite de chemin de
-Windows.
 
 ### Deux points à connaître avant de cloner
 
