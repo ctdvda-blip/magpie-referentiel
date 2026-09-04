@@ -127,6 +127,39 @@ python Documentation/Generateurs/GH/recette_8_noms_uniques.py
 
 ---
 
+## Deux dépôts, deux usages
+
+Le même README accompagne les deux : ils ne portent pas la même chose.
+
+| | |
+|---|---|
+| **Dépôt du projet** | de quoi **fabriquer** — les 84 modules de la chaîne de génération, la documentation, les 458 fiches Markdown, les 222 descripteurs et les 444 définitions `.gh`. Les 250 Mo de fiches Word, de PDF et d'images n'y sont pas : tous portent un horodatage interne ou sont refabriqués à chaque passe. |
+| **`ctdvda-blip/magpie-referentiel`** | de quoi **consulter** — les livrables complets, PDF et Word compris, dans une arborescence aplatie pour la limite de chemin de Windows, avec l'application `index.html`. |
+
+Depuis le dépôt du projet, tout ce qui manque se reconstitue :
+
+```bash
+python Documentation/Generateurs/finaliser.py
+```
+
+### Deux points à connaître avant de cloner
+
+- **Les chemins sont longs.** Les lots A et IA nomment leurs dossiers par le
+  titre complet de l'exercice, et un clone posé quelques niveaux trop bas
+  échoue avec « Filename too long ». Clonez près de la racine, ou activez les
+  chemins longs :
+
+  ```bash
+  git config --global core.longpaths true
+  ```
+
+- **Les définitions `.gh` sont binaires**, et `.gitattributes` le déclare.
+  Sans cette déclaration, git peut leur appliquer une conversion de fin de
+  ligne qui les corrompt sans rien signaler : le fichier s'ouvre encore, et
+  son contenu a changé.
+
+---
+
 ## Limites connues
 
 - **Le checker Magpie ne compare que des nombres.** Un booléen ou un texte
