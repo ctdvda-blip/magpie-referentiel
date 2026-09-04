@@ -18197,7 +18197,7 @@ Le lot G met en œuvre **32 techniques**, chacune portée par un exercice dédi�
 | 3 | Lot G, familles G1 à G4 | 20 exercices | Retour d'expérience sur l'acceptabilité des mécaniques |
 | 4 | Lot B complet | 18 exercices | Calibration des durées cibles sur utilisateurs réels |
 | 5 | Lot G, familles G5 à G7 | 12 exercices | — |
-| 6 | Lot C complet | 12 projets | Évolution préalable du moteur de comparaison géométrique |
+| 6 | Lot C complet | 12 projets | **Fait le 02/09/2026**, sans attendre le moteur de comparaison : l'indicateur numérique le remplace |
 
 ### 10.2 Charge estimée
 
@@ -18268,13 +18268,13 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 
 | # | Point | Impact | Décision attendue de |
 |---|---|---|---|
-| 1 | Le moteur de comparaison géométrique ne distingue pas deux topologies de même volume | Bloque le lot C | Jérémy CAROLUS |
-| 2 | Magpie ne sait pas importer un fichier de résultats existant | Bloque l'exercice G-31 | Jérémy CAROLUS |
-| 3 | Aucun composant de lecture sonore n'est intégré au plugin | Bloque l'exercice G-24 sans Human | Jérémy CAROLUS |
+| 1 | Le moteur de comparaison géométrique ne distingue pas deux topologies de même volume | **Contourné.** Le lot C est produit : chaque projet porte un indicateur numérique vérifiable, le reste se juge sur grille | Jérémy CAROLUS |
+| 2 | Magpie ne sait pas importer un fichier de résultats existant | **Contourné.** G-31 est produit : la liste des exercices validés est fournie comme jeu de données, et l'indicateur est le nombre de notions complètes | Jérémy CAROLUS |
+| 3 | Aucun composant de lecture sonore n'est intégré au plugin | **Contourné.** G-24 est produit : le câblage sonore n'est pas corrigé — sa fiche l'énonce — et seule l'énigme logique qui le déclenche l'est | Jérémy CAROLUS |
 | 4 | Les durées cibles ne sont pas calibrées | Empêche l'activation du critère temps | Tous, après tests |
 | 5 | La propriété des exercices n'est pas qualifiée | Bloque la diffusion | Jacques HABABOU / VAC |
 | 6 | Les 10 fondamentaux V1 absents des programmes doivent-ils être ajoutés aux programmes ? | Cohérence offre / outil | Jacques HABABOU |
-| 7 | Le lot C mobilise des plugins tiers dont la disponibilité chez l'apprenant n'est pas garantie | Risque d'échec silencieux | Jérémy CAROLUS |
+| 7 | Le lot C mobilise des plugins tiers dont la disponibilité chez l'apprenant n'est pas garantie | **Toujours ouvert.** Les corrigés produits n'en dépendent pas, mais les énoncés les nomment | Jérémy CAROLUS |
 | 8 | Volume total de production très supérieur à l'enveloppe initiale | Planification | Tous |
 
 ---
