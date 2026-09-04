@@ -51,6 +51,9 @@ est mesurée et documentée : elle figure au § 4.
 | 02/09/2026 | Constructeur unique | `GH/build_tout.py`, recettes découvertes, 444 définitions | non mesurée |
 | 02/09/2026 | Dépôt git du projet | 1 253 fichiers suivis, 4,4 Mo, deux pièges de clonage vérifiés | non mesurée |
 | 04/09/2026 | Équilibrage, vague 4 | 24 exercices, les 15 catégories au plancher relevées | non mesurée |
+| 04/09/2026 | Passe de cohérence | thématiques normalisées au chargement, 8 lots corrigés | non mesurée |
+| 04/09/2026 | Dépôt poussé sur GitHub | branche `projet` de magpie-referentiel | non mesurée |
+| 04/09/2026 | Durées confrontées à la taille des corrigés | § 12.1 du cahier des charges | non mesurée |
 
 ---
 

@@ -19645,11 +19645,30 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 | 1 | Le moteur de comparaison géométrique ne distingue pas deux topologies de même volume | **Contourné.** Le lot C est produit : chaque projet porte un indicateur numérique vérifiable, le reste se juge sur grille | Jérémy CAROLUS |
 | 2 | Magpie ne sait pas importer un fichier de résultats existant | **Contourné.** G-31 est produit : la liste des exercices validés est fournie comme jeu de données, et l'indicateur est le nombre de notions complètes | Jérémy CAROLUS |
 | 3 | Aucun composant de lecture sonore n'est intégré au plugin | **Contourné.** G-24 est produit : le câblage sonore n'est pas corrigé — sa fiche l'énonce — et seule l'énigme logique qui le déclenche l'est | Jérémy CAROLUS |
-| 4 | Les durées cibles ne sont pas calibrées | Empêche l'activation du critère temps | Tous, après tests |
+| 4 | Les durées cibles ne sont pas calibrées | **Cohérence interne vérifiée le 04/09/2026** (§ 12.1), calibration réelle toujours attendue | Tous, après tests |
 | 5 | La propriété des exercices n'est pas qualifiée | Bloque la diffusion | Jacques HABABOU / VAC |
 | 6 | Les 10 fondamentaux V1 absents des programmes doivent-ils être ajoutés aux programmes ? | Cohérence offre / outil | Jacques HABABOU |
 | 7 | Le lot C mobilise des plugins tiers dont la disponibilité chez l'apprenant n'est pas garantie | **Toujours ouvert.** Les corrigés produits n'en dépendent pas, mais les énoncés les nomment | Jérémy CAROLUS |
 | 8 | Volume total de production très supérieur à l'enveloppe initiale | Planification | Tous |
+
+### 12.1 Ce que la cohérence interne dit des durées
+
+Faute d'apprenants pour les mesurer, les durées ont été confrontées à la TAILLE du corrigé — le nombre de composants de la solution de référence. Sur les 217 exercices qui portent les deux, le rapport médian est de **2,0 minute par composant**.
+
+La progression par niveau est monotone et régulière :
+
+| Niveau | Exercices | Durée moyenne | Étendue |
+|---|---:|---:|---|
+| Débutant | 102 | 11,1 min | 5 à 25 |
+| Intermédiaire | 69 | 21,2 min | 6 à 45 |
+| Perfectionnement | 71 | 35,3 min | 6 à 90 |
+| Expert | 11 | 29,5 min | 8 à 120 |
+
+L'Expert passe sous le Perfectionnement, et c'est attendu : les exercices experts sont de courtes tâches de scripting, quand le lot C aligne des projets de 45 à 120 minutes classés en perfectionnement.
+
+**Les écarts au rapport médian s'expliquent tous par la nature du lot, et aucun n'appelle de correction.** Les exercices les plus DENSES — jusqu'à 30 composants en 20 minutes — sont ceux du lot G : la mécanique de jeu pèse dans la définition sans peser sur l'apprenant. Les plus LÂCHES sont ceux dont le travail n'est pas dans Grasshopper : rédiger une spécification, déboguer un script, modéliser dans Rhino, chercher un composant masqué. G-09 tient en un composant et dure dix minutes — le travail est de TROUVER, pas de construire.
+
+**Ce que cette vérification n'établit pas** : le temps qu'un apprenant met réellement. Elle dit que les durées annoncées sont cohérentes entre elles et avec la taille des corrigés ; elle ne remplace pas la mesure sur des profils réels, qui reste la condition du point 4.
 
 ---
 
