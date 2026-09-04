@@ -864,6 +864,13 @@ Le premier passage réécrira tout ; les suivants redeviennent incrémentaux.
   callable ». Les noms courts sont réservés aux variables de boucle.
 - `audit_skill.py --tous` audite les 253 exercices ; sans `--tous`, il ne
   voit que le lot A.
+- **Les définitions sont bâties contre le document Rhino OUVERT.**
+  `gh_engine` ne fixe pas sa tolérance, et `Sweep`, `Loft` et
+  `Revolution` y ajustent leur surface. Un écart de quelques ppm sur un
+  exercice à surface ajustée n'est donc pas forcément une régression :
+  la recette 7 affiche le document et sa tolérance, à comparer avant de
+  conclure. Mesuré sur A-42 le 04/09 : 1,2 ppm, soit 0,31 mm pour une
+  tolérance déclarée de 0,5 mm.
 - **Les thématiques sont normalisées au CHARGEMENT**, par
   `lots._normaliser_themes`. Un libellé nouveau reçoit son numéro tout
   seul ; ne jamais réécrire un numéro à la main dans un module de

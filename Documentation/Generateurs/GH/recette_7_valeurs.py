@@ -20,6 +20,25 @@ devient une habitude, la recette ne sert plus a rien.
 
 Les valeurs sont comparees a 1e-6 pres en relatif : la reconstruction d'une
 definition passe par des GUID neufs, mais le calcul, lui, doit tomber juste.
+
+CE QUE CE SEUIL NE COUVRE PAS
+-----------------------------
+Les exercices qui AJUSTENT une surface — `Sweep`, `Loft`, `Revolution` —
+la fittent a la TOLERANCE DU DOCUMENT RHINO ACTIF au moment de la
+construction. `gh_engine` ne fixe pas cette tolerance : les definitions se
+batissent contre le fichier que l'utilisateur a ouvert.
+
+Consequence mesuree sur A-42 le 04/09/2026 : l'aire du tube balaye a bouge
+de 81 142,416 a 81 142,513 mm2 entre deux sessions, soit 1,2 ppm. C'est
+l'equivalent d'un carre de 0,31 mm, tres en deca des 0,5 mm que l'exercice
+declare lui-meme : la geometrie n'a pas change de sens, seul son ajustement
+a change de contexte.
+
+La recette AFFICHE donc la tolerance du document. Devant un ecart de
+quelques ppm sur un exercice a surface ajustee, comparer les deux
+tolerances avant de conclure a une regression — et refiger si elles
+different. Le seuil reste a 1e-6 a dessein : mieux vaut un signal a
+expliquer qu'un seuil si large qu'il ne dit plus rien.
 """
 import io
 import json
@@ -178,6 +197,15 @@ def main():
     print("RECETTE 7 - valeurs des corriges, tous lots")
     print("=" * lg)
     print("Definitions relevees : %d" % len(releve))
+    # La tolerance du document conditionne l'ajustement des surfaces
+    # balayees : sans elle, un ecart de quelques ppm est inexplicable.
+    try:
+        import Rhino
+        _doc = Rhino.RhinoDoc.ActiveDoc
+        print("Document actif      : %s, tolerance %s"
+              % (_doc.Name or "(sans nom)", _doc.ModelAbsoluteTolerance))
+    except Exception as _ex:
+        print("Document actif      : non lisible (%s)" % _ex)
     if muets:
         print("Sans valeur lisible  : %d %s" % (len(muets), ", ".join(muets)))
 
