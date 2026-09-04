@@ -11,7 +11,28 @@ Transformer la liste de notions Grasshopper en une bibliothèque d'exercices de 
 `C:\Users\charl\.claude\projects\MAGPIE`
 
 ## Branche Git
-`feat/android-app` (dépôt global du dossier `.claude`, non spécifique à MAGPIE — ne pas commiter sans arbitrage).
+`main`, dans le dépôt **propre au projet** créé le 02/09/2026 à la racine de
+`MAGPIE` — 4,4 Mo, arbre de travail propre.
+
+Il suit ce qui ne se régénère pas : les 84 modules de la chaîne, la
+documentation, les 458 fiches Markdown, les 222 descripteurs et les 444
+définitions `.gh`. Il ignore les 250 Mo de Word, PDF et images de canevas,
+tous refabriqués par `finaliser.py`.
+
+**Ne pas confondre avec le dépôt englobant** (`C:\Users\charl`, branche
+`feat/android-app`), qui voit toujours `MAGPIE/` comme un simple dossier non
+suivi — la création du dépôt imbriqué n'a rien changé pour lui, et rien ne
+doit y être commité sans arbitrage.
+
+Deux pièges vérifiés au clonage :
+
+- **la limite de chemin de Windows** : les lots A et IA nomment leurs dossiers
+  par le titre complet de l'exercice, et un clone posé trop bas échoue avec
+  « Filename too long ». `core.longpaths` est activé dans le dépôt ; il doit
+  l'être aussi côté client, ou le clone doit rester près de la racine ;
+- **la conversion de fin de ligne** : `.gitattributes` déclare `.gh`, `.3dm`,
+  `.xlsx`, `.docx` et les images comme binaires. Un clone de contrôle a
+  confirmé que les définitions en ressortent au bit près.
 
 ## Version actuelle
 **`v0.5-260902` – Ind. C**, le 02/09/2026. Le fichier `VERSION`, à la racine,
