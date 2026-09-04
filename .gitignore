@@ -1,0 +1,41 @@
+# Ce que ce dépôt NE suit PAS, et pourquoi
+# ========================================
+#
+# Le projet pèse 274 Mo, dont 262 dans EXERCICES. L'essentiel de ce poids est
+# REGÉNÉRABLE et VOLATIL : les fiches Word et les PDF portent un horodatage
+# interne, les images de canevas sont refabriquées à chaque passe. Les suivre
+# reviendrait à réécrire 250 Mo de binaires à chaque exécution de
+# `finaliser.py`, pour un contenu identique.
+#
+# Ce qui EST suivi : toute la chaîne de génération, la documentation, les
+# fiches Markdown, les descripteurs JSON et les 444 définitions Grasshopper —
+# 1,5 Mo seulement, et elles ne se régénèrent pas à l'identique puisque
+# Grasshopper leur réattribue des GUID à chaque écriture.
+#
+# Pour reconstituer ce qui est ignoré :
+#     python Documentation/Generateurs/finaliser.py
+
+# --- livrables régénérés à chaque passe, avec horodatage interne ------------
+EXERCICES/**/*.docx
+EXERCICES/**/*.pdf
+
+# --- captures de canevas, refabriquées par gen_images.py --------------------
+EXERCICES/**/Illustrations/
+
+# --- caches Python ---------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# --- fichiers de bureautique en cours d'édition -----------------------------
+~$*
+*.tmp
+
+# --- rapports d'audit, produits par audit_skill.py -------------------------
+Documentation/Generateurs/AUDIT_SKILL.md
+Documentation/Generateurs/AUDIT_SKILL_APRES.md
+Documentation/Generateurs/AUDIT_SKILL_TOUS.md
+Documentation/Generateurs/COUVERTURE.md
+
+# --- journaux d'exécution de l'application ---------------------------------
+logs/

@@ -1,0 +1,21 @@
+# Les définitions Grasshopper sont BINAIRES. Sans cette déclaration, git peut
+# les prendre pour du texte et leur appliquer une conversion de fin de ligne,
+# ce qui les corrompt sans rien signaler — le fichier s'ouvre encore, et son
+# contenu a changé.
+*.gh    binary
+*.ghx   binary
+*.3dm   binary
+*.xlsx  binary
+*.docx  binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+
+# Le code et la documentation restent en LF dans le dépôt, quel que soit le
+# poste qui les écrit.
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.csv   text eol=lf
+*.iss   text eol=lf
+*.html  text eol=lf
