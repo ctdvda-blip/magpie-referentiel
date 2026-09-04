@@ -128,16 +128,21 @@ python Documentation/Generateurs/GH/recette_8_noms_uniques.py
 
 ---
 
-## Deux dépôts, deux usages
+## Un dépôt, deux branches
 
-Le même README accompagne les deux : ils ne portent pas la même chose.
+Tout vit dans `ctdvda-blip/magpie-referentiel`, sur deux branches qui ne
+portent pas la même chose.
 
-| | |
+| Branche | |
 |---|---|
-| **Dépôt du projet** | de quoi **fabriquer** — les 86 modules de la chaîne de génération, la documentation, les 506 fiches Markdown, les 246 descripteurs et les 492 définitions `.gh`. Les 280 Mo de fiches Word, de PDF et d'images n'y sont pas : tous portent un horodatage interne ou sont refabriqués à chaque passe. |
-| **`ctdvda-blip/magpie-referentiel`** | de quoi **consulter** — les livrables complets, PDF et Word compris, dans une arborescence aplatie pour la limite de chemin de Windows, avec l'application `index.html`. |
+| **`main`** | de quoi **consulter** — les livrables complets, PDF et Word compris, dans une arborescence aplatie pour la limite de chemin de Windows, avec l'application `index.html`. C'est ce que sert GitHub Pages. |
+| **`projet`** | de quoi **fabriquer** — les 86 modules de la chaîne de génération, la documentation, les 506 fiches Markdown, les 246 descripteurs et les 492 définitions `.gh`. Les 280 Mo de fiches Word, de PDF et d'images n'y sont pas : tous portent un horodatage interne ou sont refabriqués à chaque passe. |
 
-Depuis le dépôt du projet, tout ce qui manque se reconstitue :
+Les deux branches n'ont **aucun ancêtre commun** : ce sont deux histoires
+indépendantes dans un même dépôt. Une fusion de l'une dans l'autre n'aurait
+aucun sens, et aucune n'est prévue.
+
+Depuis `projet`, tout ce qui manque se reconstitue :
 
 ```bash
 python Documentation/Generateurs/finaliser.py

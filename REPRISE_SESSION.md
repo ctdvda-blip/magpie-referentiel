@@ -11,8 +11,14 @@ Transformer la liste de notions Grasshopper en une bibliothèque d'exercices de 
 `C:\Users\charl\.claude\projects\MAGPIE`
 
 ## Branche Git
-`main`, dans le dépôt **propre au projet** créé le 02/09/2026 à la racine de
-`MAGPIE` — 4,4 Mo, arbre de travail propre.
+`main` en local, poussée sur la branche **`projet`** de
+`ctdvda-blip/magpie-referentiel` — 4,0 Mo, arbre de travail propre.
+
+Le dépôt distant porte donc DEUX histoires sans ancêtre commun :
+`main` sert le site publié, `projet` porte la chaîne de génération.
+Aucune fusion de l'une dans l'autre n'est prévue ni souhaitable.
+
+    git push origin main:projet
 
 Il suit ce qui ne se régénère pas : les 84 modules de la chaîne, la
 documentation, les 458 fiches Markdown, les 222 descripteurs et les 444
