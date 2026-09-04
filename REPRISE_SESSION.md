@@ -21,8 +21,8 @@ Aucune fusion de l'une dans l'autre n'est prévue ni souhaitable.
     git push origin main:projet
 
 Il suit ce qui ne se régénère pas : les 84 modules de la chaîne, la
-documentation, les 458 fiches Markdown, les 222 descripteurs et les 444
-définitions `.gh`. Il ignore les 250 Mo de Word, PDF et images de canevas,
+documentation, les 506 fiches Markdown, les 246 descripteurs et les 492
+définitions `.gh`. Il ignore les 280 Mo de Word, PDF et images de canevas,
 tous refabriqués par `finaliser.py`.
 
 **Ne pas confondre avec le dépôt englobant** (`C:\Users\charl`, branche
@@ -52,11 +52,11 @@ définitions du lot A une fois déjà.
 
 Les descripteurs `.json` déjà produits sont repris par `propager_version.py`,
 qui réécrit le seul champ `version` : les propager par une reconstruction
-réattribuerait les GUID des 444 définitions, et republierait une centaine de
+réattribuerait les GUID des 492 définitions, et republierait une centaine de
 mégaoctets pour un champ de texte. Le bandeau des `.gh` porte donc la version
 à laquelle chacun a été construit, ce qui est délibéré.
 
-Les livrables de la v0.4 sont archivés dans `Anciens fichiers0.4-260901\`.
+Les livrables de la v0.4 sont archivés dans `Anciens fichiers\v0.4-260901\`.
 
 - Référentiel de notions : **Ind. C – 01-09-2026** (unifié). Les 160 notions
   n'ont pas bougé : c'est la bibliothèque d'exercices qui a grandi, d'où un
@@ -791,6 +791,39 @@ porte qu'une empreinte PBKDF2.
 - Test des exercices par une personne réellement débutante.
 - Relecture technique du cahier des charges par Jérémy CAROLUS.
 
+## Sauvegardes de session
+
+`Sauvegardes sessions/` existe depuis le 04/09/2026 et suit la convention du
+`CLAUDE.md` : `AAAA-MM-JJ_session-N_sauvegarde-NN.md`.
+
+**La règle n'avait pas été tenue avant cette date.** Le verbatim des sessions
+antérieures n'est pas récupérable ; la première sauvegarde consigne les
+décisions et les défauts trouvés, pas le fil des échanges. Les prochaines
+doivent être écrites AVANT compression du contexte.
+
+Trois documents, trois rôles, sans recouvrement :
+
+| | |
+|---|---|
+| `Journal des modifications/` | ce qui a été fait, jour par jour, avec les valeurs |
+| `Sauvegardes sessions/` | les décisions et leurs motifs, session par session |
+| `REPRISE_SESSION.md` | l'état opérationnel : où reprendre, avec quelles commandes |
+
+## Le clone de publication — à recréer s'il a disparu
+
+`publier.py` écrit dans un clone du dépôt publié. Il vit actuellement dans le
+scratchpad de session, donc dans un dossier temporaire qui peut être nettoyé.
+**Rien n'est perdu si cela arrive** — tout est poussé sur GitHub — mais il
+faut le recréer :
+
+```
+git clone https://github.com/ctdvda-blip/magpie-referentiel.git <dossier>
+python Documentation/Generateurs/publier.py <dossier> --protege "LOGIN:MOTDEPASSE"
+```
+
+Le premier passage réécrira tout ; les suivants redeviennent incrémentaux.
+
+## Prochaines actions prioritaires
 ## Prochaines actions prioritaires
 ## Prochaines actions prioritaires
 1. Fermer Excel et relancer `build.py` pour régénérer le classeur avec l'alerte FND-05.
@@ -840,7 +873,7 @@ porte qu'une empreinte PBKDF2.
   découvre les recettes et rejoint le dossier EXISTANT de chaque exercice.
   Les lots A et IA ont des dossiers à TITRE LONG ; un constructeur qui
   écrit dans un dossier court les duplique silencieusement.
-- Les 229 exercices portent les huit champs de la skill. L'audit compte
+- Les 253 exercices portent les huit champs de la skill. L'audit compte
   11 écarts, tous §1 et tous documentés.
 
 ## Commande de production du lot A
