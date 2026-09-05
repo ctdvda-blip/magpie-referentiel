@@ -864,6 +864,14 @@ Le premier passage réécrira tout ; les suivants redeviennent incrémentaux.
   callable ». Les noms courts sont réservés aux variables de boucle.
 - `audit_skill.py --tous` audite les 253 exercices ; sans `--tous`, il ne
   voit que le lot A.
+- **Le pont partage `sys.argv` entre scripts d'une même session.** Un
+  drapeau oublié y survit : `--figer` laissé par le script de figeage
+  faisait REFIGER tout contrôle lancé ensuite, au lieu de comparer. La
+  recette 7 consomme désormais son drapeau. Se méfier de tout script
+  du scratchpad qui écrit dans `sys.argv`.
+- **Ne jamais DUPLIQUER un module de contrôle dans le scratchpad.**
+  `figer7.py` était une copie intégrale de la recette 7 : il figeait
+  avec du code périmé. Les scripts du scratchpad doivent IMPORTER.
 - **Les définitions sont bâties contre le document Rhino OUVERT.**
   `gh_engine` ne fixe pas sa tolérance, et `Sweep`, `Loft` et
   `Revolution` y ajustent leur surface. Un écart de quelques ppm sur un

@@ -86,6 +86,11 @@ REFERENCE = os.path.join(ICI, "valeurs_attendues.json")
 #: la definition qui a change de reponse.
 RELATIF = 1e-6
 
+#: Clef reservee du contexte dans le fichier de reference. Les deux
+#: underscores de part et d'autre la mettent hors d'atteinte d'un
+#: identifiant d'exercice, qui a toujours la forme XX-nn.
+CLEF_CONTEXTE = u"__contexte__"
+
 
 def dossier_exercice(eid):
     racine = os.path.join(PROJET, DOSSIER[eid].replace("/", os.sep))
@@ -188,6 +193,18 @@ def proches(a, b):
     return True
 
 
+def contexte():
+    """Le document Rhino actif et sa tolerance, ou None hors Rhino."""
+    try:
+        import Rhino
+        doc = Rhino.RhinoDoc.ActiveDoc
+        return {u"document": doc.Name or u"(sans nom)",
+                u"tolerance": doc.ModelAbsoluteTolerance,
+                u"unites": u"%s" % doc.ModelUnitSystem}
+    except Exception:
+        return None
+
+
 def relever():
     releve, muets = {}, []
     for e in TOUS:
@@ -207,7 +224,13 @@ def relever():
 
 
 def main():
+    # Le pont Rhino execute plusieurs scripts dans la MEME session, et
+    # `sys.argv` y survit. Un script de figeage qui laisserait son
+    # indicateur ferait refiger tous les controles suivants, en silence.
+    # Le drapeau est donc CONSOMME : lu, puis retire.
     figer = "--figer" in sys.argv
+    while "--figer" in sys.argv:
+        sys.argv.remove("--figer")
     releve, muets = relever()
     lg = 74
     print("=" * lg)
@@ -216,20 +239,23 @@ def main():
     print("Definitions relevees : %d" % len(releve))
     # La tolerance du document conditionne l'ajustement des surfaces
     # balayees : sans elle, un ecart de quelques ppm est inexplicable.
-    try:
-        import Rhino
-        _doc = Rhino.RhinoDoc.ActiveDoc
-        print("Document actif      : %s, tolerance %s"
-              % (_doc.Name or "(sans nom)", _doc.ModelAbsoluteTolerance))
-    except Exception as _ex:
-        print("Document actif      : non lisible (%s)" % _ex)
+    ctx = contexte()
+    if ctx:
+        print("Document actif      : %s, tolerance %s (%s)"
+              % (ctx[u"document"], ctx[u"tolerance"], ctx[u"unites"]))
+    else:
+        print("Document actif      : non lisible")
     if muets:
         print("Sans valeur lisible  : %d %s" % (len(muets), ", ".join(muets)))
 
     if figer or not os.path.isfile(REFERENCE):
+        # Le contexte va SOUS UNE CLEF RESERVEE : deux underscores de
+        # part et d'autre, ce qu'aucun identifiant d'exercice ne porte.
+        a_ecrire = dict(releve)
+        a_ecrire[CLEF_CONTEXTE] = ctx or {u"document": u"hors Rhino"}
         fh = io.open(REFERENCE, "w", encoding="utf-8")
         try:
-            fh.write(json.dumps(releve, indent=1, ensure_ascii=False,
+            fh.write(json.dumps(a_ecrire, indent=1, ensure_ascii=False,
                                 sort_keys=True))
         finally:
             fh.close()
@@ -239,6 +265,14 @@ def main():
         return 0
 
     attendu = json.loads(io.open(REFERENCE, encoding="utf-8").read())
+    fige = attendu.pop(CLEF_CONTEXTE, None)
+    if fige and ctx and fige.get(u"tolerance") != ctx.get(u"tolerance"):
+        print("Contexte de figeage : %s, tolerance %s  <<< DIFFERENT"
+              % (fige.get(u"document"), fige.get(u"tolerance")))
+        print("   Les dix exercices a geometrie ajustee peuvent bouger de")
+        print("   quelques ppm sans qu'il y ait regression. Voir l'en-tete.")
+    elif fige:
+        print("Contexte de figeage : identique")
     ecarts, neufs, disparus = [], [], []
     for eid, v in sorted(releve.items()):
         if eid not in attendu:
