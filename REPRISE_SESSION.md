@@ -791,6 +791,45 @@ porte qu'une empreinte PBKDF2.
 - Test des exercices par une personne réellement débutante.
 - Relecture technique du cahier des charges par Jérémy CAROLUS.
 
+## Les contrôles, et comment les lancer
+
+Aucun ne dépend d'un script du répertoire temporaire : tous vivent dans le
+projet et sont versionnés.
+
+Sans Rhino :
+
+```
+python Documentation/Generateurs/verifier_fraicheur.py
+python Documentation/Generateurs/couverture.py
+python Documentation/Generateurs/audit_skill.py --tous
+python Documentation/Generateurs/GH/recette_8_noms_uniques.py
+python Documentation/Generateurs/verifier_vague1.py     (2, 3, 4)
+python Documentation/Generateurs/verifier_lot_b.py      (c, g)
+python Documentation/Generateurs/verifier_liens.py <dossier de publication>
+```
+
+Avec Rhino ouvert et `MCPStart` lancé, par le pont :
+
+```
+python Documentation/Generateurs/GH/client_pont_rhino.py <script>
+```
+
+| Script | |
+|---|---|
+| `GH/recette_6_tous_lots.py` | structure des définitions |
+| `GH/recette_7_valeurs.py` | non-régression des valeurs |
+| `GH/build_tout.py` | reconstruit les 246 définitions |
+| `GH/gen_images.py` | refabrique les captures de canevas |
+| `GH/figer_valeurs.py` | **refige** la référence de la recette 7 |
+
+**Le pont ne transmet pas d'arguments** : il lit le fichier et en exécute la
+source. C'est pourquoi le figeage a son propre script plutôt qu'un
+`--figer` en ligne de commande.
+
+**Refiger est le seul geste de la chaîne qui puisse DÉSARMER un contrôle.**
+Devant un écart inexpliqué, ne pas refiger : la valeur fausse deviendrait la
+référence, et le contrôle ne dirait plus jamais rien.
+
 ## Sauvegardes de session
 
 `Sauvegardes sessions/` existe depuis le 04/09/2026 et suit la convention du
