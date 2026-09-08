@@ -822,6 +822,12 @@ python Documentation/Generateurs/GH/client_pont_rhino.py <script>
 | `GH/gen_images.py` | refabrique les captures de canevas |
 | `GH/figer_valeurs.py` | **refige** la référence de la recette 7 |
 
+`GH/recette_9_pieges_muets.py` se lance **sans Rhino** : il vérifie que
+chaque erreur attendue mène à une valeur différente de la bonne. Trois
+exercices y sont exemptés avec leur motif — un paramètre pris pour un
+résultat, un même compte pour des contenus différents, une erreur
+d'interprétation sur une valeur juste.
+
 **Le pont ne transmet pas d'arguments** : il lit le fichier et en exécute la
 source. C'est pourquoi le figeage a son propre script plutôt qu'un
 `--figer` en ligne de commande.
