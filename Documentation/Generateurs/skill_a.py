@@ -336,7 +336,9 @@ u"A-12": dict(
         u"sa dispersion. Deux lots de mêmes bornes peuvent être l'un "
         u"centré, l'autre bimodal ; c'est l'écart type qui le dirait, et "
         u"il n'est pas demandé.",
-    dep=u"Les 28 épaisseurs relevées sur le lot, en centièmes de millimètre.",
+    # L'effectif est la PREMIERE des trois reponses demandees : l'annoncer
+    # dans le materiel de depart rendait `List Length` gratuit.
+    dep=u"Les épaisseurs relevées sur le lot, en centièmes de millimètre.",
     comp=u"Caractériser un lot par son effectif et ses valeurs extrêmes.",
     bloom=u"Appliquer × procédurale",
     ctx=u"Un lot de placage est contrôlé en épaisseur avant mise en presse.",

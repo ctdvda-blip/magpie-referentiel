@@ -35,7 +35,7 @@ Un lot de placage est contrôlé en épaisseur avant mise en presse.
 
 ### Ce qui vous est fourni
 
-Les 28 épaisseurs relevées sur le lot, en centièmes de millimètre.
+Les épaisseurs relevées sur le lot, en centièmes de millimètre.
 
 ### Ce qui est attendu
 

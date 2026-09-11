@@ -1145,7 +1145,7 @@ Valeur diagnostique : (a) et (c) sont le réflexe de l'apprenant qui ne sait pas
 
 > Les épaisseurs relevées sur le lot vous sont fournies, en centièmes de millimètre. Produisez, dans cet ordre, l'effectif du lot, l'épaisseur la plus faible et l'épaisseur la plus forte.
 
-**4. Données de départ fournies** — Les 28 épaisseurs relevées sur le lot, en centièmes de millimètre.
+**4. Données de départ fournies** — Les épaisseurs relevées sur le lot, en centièmes de millimètre.
 
 **5. Résultat attendu** — Trois valeurs, dans cet ordre : 28, 51, 78.
 
@@ -19618,7 +19618,7 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 | # | Critère | Vérification |
 |---|---|---|
 | 1 | Les deux fichiers `_sujet.gh` et `_complet.gh` existent et s'ouvrent sans erreur | Ouverture sur un poste vierge |
-| 2 | Le descripteur JSON est présent et cohérent avec la fiche | Comparaison champ à champ |
+| 2 | Le descripteur JSON est présent et cohérent avec la fiche | **Automatisé** — recette 11, comparaison champ à champ avec le registre |
 | 3 | La zone sujet respecte la structure du chapitre 3 | Contrôle visuel |
 | 4 | La zone corrigé comporte un sous-groupe par étape de la fiche | Comparaison avec la rubrique 6 |
 | 5 | Le corrigé produit bien le résultat attendu | Exécution du corrigé et validation par Magpie |
@@ -19635,6 +19635,9 @@ Un exercice n'est réputé livré que lorsque **tous** les points suivants sont 
 | 16 | Aucun câble ne relie la zone sujet à la zone corrigé | Contrôle automatisé d'étanchéité des zones |
 | 17 | Interrupteur sur faux : le corrigé ne produit rien | Contrôle automatisé, les deux états testés |
 | 18 | La fiche Word existe en version complète et en version sujet seul, illustrées | Présence des deux `.docx` et des captures |
+| 19 | L'énoncé ne donne pas lui-même la réponse attendue | **Automatisé** — recette 10 ; les exercices de construction et les cibles à atteindre sont exemptés nommément |
+| 20 | L'erreur anticipée mène à une valeur DIFFÉRENTE de la bonne | **Automatisé** — recette 9 ; sinon l'apprenant se trompe et l'exercice le valide |
+| 21 | Un nom d'objet ne désigne qu'une seule chose dans la recette | **Automatisé** — recette 8 ; un nom réemployé déplace des câbles sans rien signaler |
 
 ---
 

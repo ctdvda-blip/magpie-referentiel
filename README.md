@@ -106,25 +106,35 @@ python Documentation/Generateurs/verifier_vague3.py      # réponses recalculée
 python Documentation/Generateurs/verifier_liens.py <dossier>   # liens de la page
 ```
 
-Et, dans Rhino, par le pont TCP (`Documentation/Generateurs/GH/`) :
+### Les onze recettes
+
+Un seul point d'entrée. Il **découvre** les recettes — `recette_*.py` — au lieu
+de les énumérer : une liste tenue à la main se découple en silence, et ce
+projet l'a payé sept fois.
 
 ```bash
-python client_pont_rhino.py recette_6_tous_lots.py   # structure des définitions
-python client_pont_rhino.py recette_7_valeurs.py     # non-régression des valeurs
+python Documentation/Generateurs/GH/recettes.py
 ```
 
-La recette 7 fige la valeur rendue par chaque corrigé et la recompare : c'est
-elle qui attrape le défaut le plus discret, celui d'une définition qui change
-de réponse sans que rien ne le signale.
+Quatre d'entre elles lisent le référentiel en CPython et rendent un verdict.
+Les sept autres ouvrent les définitions dans Grasshopper : elles passent par le
+pont TCP, et **si Rhino n'est pas ouvert le script le dit nommément** plutôt que
+de laisser croire que tout est vérifié.
 
-La recette 8 n'a pas besoin de Rhino : elle vérifie qu'à l'intérieur d'une
-recette, un nom ne désigne qu'un seul objet. Un nom réemployé écrase le
-premier et déplace des fils sans rien signaler — c'est ce qui a fait répondre
-0,0034 m à C-02 au lieu de 695,53.
+| | Ce qu'elle attrape | Rhino |
+|---|---|---|
+| 1 à 5 | résolution, valeurs, étanchéité du sujet, masque du corrigé, avertissements — sur le lot A | oui |
+| 6 | structure des définitions, sur les onze lots | oui |
+| 7 | **non-régression des valeurs** : la valeur de chaque corrigé est figée puis recomparée. C'est elle qui attrape le défaut le plus discret, une définition qui change de réponse sans que rien ne le signale | oui |
+| 8 | un nom ne désigne qu'un seul objet. Un nom réemployé écrase le premier et déplace des fils sans rien dire — c'est ce qui a fait répondre 0,0034 m à C-02 au lieu de 695,53 | non |
+| 9 | **pièges muets** : l'erreur attendue mène-t-elle à une *autre* valeur ? Sinon l'apprenant se trompe et l'exercice le valide | non |
+| 10 | **énoncés qui fuient** : la réponse figure-t-elle dans l'énoncé ? A-12 annonçait « les 28 épaisseurs » et demandait l'effectif | non |
+| 11 | **descripteur contre registre** : le `.json` livré dit-il ce que dit le référentiel ? Il est écrit par Rhino, les fiches par CPython — une correction peut passer partout sauf là | non |
 
-```bash
-python Documentation/Generateurs/GH/recette_8_noms_uniques.py
-```
+Les recettes 9, 10 et 11 portent des **exemptions nommées, motivées par écrit**,
+jamais un seuil relâché : une exemption doit se lire et se contester. Celles du
+§1 de l'audit sont en plus **conditionnées** à la présence du piège qui les
+justifie, et confrontées au corpus à chaque passage.
 
 ---
 

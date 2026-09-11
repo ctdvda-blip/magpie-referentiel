@@ -101,11 +101,16 @@ Le lot A a été repris au regard de la skill **magpie-conception-exercices v2.3
 | Écarts relevés | 124 | 7 |
 | Exercices à refondre | 18 | 7 |
 
-Les 7 écarts résiduels sont tous du même type — solution de référence trop
-courte (§1 : « un seul composant suffit ») — et sont **assumés et documentés** :
-chacun porte désormais une *note au formateur* expliquant pourquoi il devrait,
-à terme, être absorbé dans un exercice composite ou posé en question charnière.
-Ils concernent A-09, A-14, A-16, A-17, A-20, A-22 et A-23.
+Les 7 écarts résiduels étaient tous du même type — solution de référence trop
+courte (§1 : « un seul composant suffit »), sur A-09, A-14, A-16, A-17, A-20,
+A-22 et A-23. Chacun porte une *note au formateur*.
+
+**Relus le 10/09/2026 et exemptés nommément** : le faible nombre de composants
+ne distingue pas un geste unique *bien choisi* d'un geste sans pensée. Les sept
+ont une erreur attendue qui mène ailleurs — le motif décalé d'A-14 qui donne le
+même compte et pas les mêmes lames, les deux listes bout à bout d'A-17 qui
+donnent le bon effectif et le mauvais plateau. L'exemption est **conditionnée**
+à la présence de ce piège.
 
 ### Architecture retenue
 
@@ -625,7 +630,14 @@ mesure pas, il écrit « non mesurée » et donne les jalons réellement datés.
 Et `Journal des modifications/2026-09-01.md` pour la journée.
 
 ## Travail en cours
-Aucun. La chaîne est complète, documentée et publiée.
+**Une seule chose reste, et elle demande Rhino** : la correction d'A-12 du
+10/09/2026 est passée dans la fiche, le classeur, le cahier des charges et le
+site, mais pas dans le descripteur `A-12.json` — celui-ci est écrit par le
+constructeur, qui ne tourne que dans Rhino. La recette 11 le signale et
+s'éteindra une fois la reconstruction faite. Voir « Prochaines actions
+prioritaires » pour la séquence exacte.
+
+Le reste de la chaîne est complet, documenté et publié.
 
 ### Décisions qui appartiennent à Charles
 1. **Contribuer les neuf nouveaux lots en amont.** La PR #2 sur
@@ -665,6 +677,9 @@ Aucun. La chaîne est complète, documentée et publiée.
 | `Documentation\CAHIER_DES_CHARGES_EXERCICES_MAGPIE - IndA - 25-08-2026.md` | Cahier des charges des exercices (livrable) |
 | `Documentation\Generateurs\build.py` + `meta.py` | Génèrent le classeur Excel |
 | `Documentation\Generateurs\gen_cdc.py` + `exos_a/b/g.py` | Génèrent le cahier des charges |
+| `Documentation\Generateurs\GH\recettes.py` | Lance les onze recettes ; les **découvre**, et nomme celles qu'il n'a pas pu lancer |
+| `Documentation\Generateurs\GH\recette_10_enonce_fuite.py` | L'énoncé donne-t-il la réponse ? |
+| `Documentation\Generateurs\GH\recette_11_descripteurs.py` | Le `.json` livré dit-il ce que dit le registre ? |
 | `Trame de suivie projet Magpie.xlsx` | Suivi de projet partagé (Jérémy CAROLUS) |
 | `Compte_rendu_session_developpement_Magpie_2026-08-11 (1).docx` | Compte rendu de cadrage |
 
@@ -783,7 +798,23 @@ porte qu'une empreinte PBKDF2.
   `ZONE_SUJET` recouvrait la ligne de métadonnées du bandeau — et des câbles en diagonale
   dus aux copies de rappel laissées à leur position d'origine. Les deux sont corrigés.
 
+- **Sondages du 10/09/2026, sur les 253 exercices :**
+  - *énoncés qui donnent leur réponse* : 8 signalés, 7 faux positifs, **un vrai
+    défaut — A-12**, corrigé. Figé en recette 10, qui rend **0 fuite** ;
+  - *tolérances contre précision annoncée* : 1 signalé, IA-14, bénin ;
+  - *descripteurs contre registre* (recette 11) : **1 champ divergent sur 246
+    descripteurs**, celui d'A-12, en attente de la reconstruction dans Rhino ;
+  - `audit_skill.py --tous` : **0 écart sur 253 exercices**.
+- **La recette 10 a été éprouvée sur le cas qui l'a motivée** : A-12 remis dans
+  son état fautif est bien signalé. Un contrôle qui n'attrape pas le défaut
+  dont il est né ne vaut rien.
+- **L'exemption du §1 a été éprouvée de même** : retirer l'erreur attendue
+  d'A-09 fait retomber l'exemption et revenir l'écart.
+
 ## Tests restant à faire
+- **Recettes 1 à 7 — non exécutées depuis le 10/09/2026**, le pont Rhino étant
+  fermé. `recettes.py` les nomme à chaque passage tant qu'elles n'ont pas
+  tourné.
 - Régénérer le classeur une fois Excel fermé, puis contrôler mise en forme et formules `COUNTIF`.
 - Ouverture visuelle de quelques `.gh` dans Grasshopper : l'absence de chevauchement est
   désormais contrôlée automatiquement, mais l'esthétique d'ensemble reste à juger à l'œil.
@@ -796,13 +827,26 @@ porte qu'une empreinte PBKDF2.
 Aucun ne dépend d'un script du répertoire temporaire : tous vivent dans le
 projet et sont versionnés.
 
-Sans Rhino :
+**Les onze recettes ont un point d'entrée unique** (depuis le 10/09/2026) :
+
+```
+python Documentation/Generateurs/GH/recettes.py
+```
+
+Il les **découvre** (`recette_*.py`) au lieu de les énumérer, lance les quatre
+qui tournent en CPython, relaie les sept qui ont besoin de Grasshopper si le
+pont est ouvert, et **nomme celles qu'il n'a pas pu lancer** si le pont est
+fermé. Une vérification non faite doit se voir.
+
+Les quatre sans Rhino : 8 (noms uniques), 9 (pièges muets), 10 (énoncés qui
+fuient), 11 (descripteur contre registre).
+
+Les autres contrôles, sans Rhino :
 
 ```
 python Documentation/Generateurs/verifier_fraicheur.py
 python Documentation/Generateurs/couverture.py
 python Documentation/Generateurs/audit_skill.py --tous
-python Documentation/Generateurs/GH/recette_8_noms_uniques.py
 python Documentation/Generateurs/verifier_vague1.py     (2, 3, 4)
 python Documentation/Generateurs/verifier_lot_b.py      (c, g)
 python Documentation/Generateurs/verifier_liens.py <dossier de publication>
@@ -816,17 +860,15 @@ python Documentation/Generateurs/GH/client_pont_rhino.py <script>
 
 | Script | |
 |---|---|
-| `GH/recette_6_tous_lots.py` | structure des définitions |
-| `GH/recette_7_valeurs.py` | non-régression des valeurs |
 | `GH/build_tout.py` | reconstruit les 246 définitions |
 | `GH/gen_images.py` | refabrique les captures de canevas |
 | `GH/figer_valeurs.py` | **refige** la référence de la recette 7 |
 
-`GH/recette_9_pieges_muets.py` se lance **sans Rhino** : il vérifie que
-chaque erreur attendue mène à une valeur différente de la bonne. Trois
-exercices y sont exemptés avec leur motif — un paramètre pris pour un
-résultat, un même compte pour des contenus différents, une erreur
-d'interprétation sur une valeur juste.
+**Les exemptions sont nommées et motivées par écrit**, jamais un seuil
+relâché : recettes 9, 10, 11 et §1 de l'audit. Celles du §1 sont en outre
+**conditionnées** à la présence de l'erreur attendue qui les justifie — retirer
+le piège fait retomber l'exemption — et la table est confrontée au corpus à
+chaque passage, pour qu'une exemption devenue inutile soit nommée.
 
 **Le pont ne transmet pas d'arguments** : il lit le fichier et en exécute la
 source. C'est pourquoi le figeage a son propre script plutôt qu'un
@@ -869,8 +911,27 @@ python Documentation/Generateurs/publier.py <dossier> --protege "LOGIN:MOTDEPASS
 Le premier passage réécrira tout ; les suivants redeviennent incrémentaux.
 
 ## Prochaines actions prioritaires
-## Prochaines actions prioritaires
-## Prochaines actions prioritaires
+
+**À faire dès que Rhino est ouvert et `MCPStart` lancé** — la correction d'A-12
+du 10/09/2026 n'est passée que du côté CPython :
+
+```
+python Documentation/Generateurs/GH/client_pont_rhino.py Documentation/Generateurs/GH/build_tout.py
+python Documentation/Generateurs/GH/client_pont_rhino.py Documentation/Generateurs/GH/gen_images.py
+python Documentation/Generateurs/finaliser.py
+python Documentation/Generateurs/GH/client_pont_rhino.py Documentation/Generateurs/GH/figer_valeurs.py
+python Documentation/Generateurs/GH/recettes.py
+python Documentation/Generateurs/publier.py <dossier de publication> --protege "LOGIN:MOTDEPASSE"
+```
+
+La recette 11 signale l'écart restant et s'éteindra d'elle-même une fois la
+reconstruction faite : le descripteur `A-12.json` porte encore « les 28
+épaisseurs » alors que la fiche, le classeur et le site sont corrigés. Les
+48 autres descripteurs du lot A sont conformes — seule leur **date** les fait
+paraître périmés à `verifier_fraicheur.py`.
+
+Ensuite, ce qui ne dépend pas de moi :
+
 1. Fermer Excel et relancer `build.py` pour régénérer le classeur avec l'alerte FND-05.
 2. Faire trancher par Jérémy CAROLUS la correction de FND-05 dans le tableau d'origine.
 3. Soumettre le format du descripteur JSON à Jérémy CAROLUS : celui produit est une **proposition**,
@@ -933,8 +994,9 @@ Le premier passage réécrira tout ; les suivants redeviennent incrémentaux.
   découvre les recettes et rejoint le dossier EXISTANT de chaque exercice.
   Les lots A et IA ont des dossiers à TITRE LONG ; un constructeur qui
   écrit dans un dossier court les duplique silencieusement.
-- Les 253 exercices portent les huit champs de la skill. L'audit compte
-  11 écarts, tous §1 et tous documentés.
+- Les 253 exercices portent les huit champs de la skill. Depuis le
+  10/09/2026, l'audit compte **0 écart** : les onze qu'il relevait étaient
+  tous des faux positifs du §1, exemptés nommément avec leur motif.
 
 ## Commande de production du lot A
 À exécuter **dans Rhino 8** (Outils > Éditeur de scripts, Python 3), Grasshopper ayant été ouvert
@@ -946,6 +1008,24 @@ Sortie attendue : `EXERCICES\LOT A - Composants natifs\<ID> <titre>\` contenant
 `<ID>_sujet.gh`, `<ID>_complet.gh`, `<ID>.json`, plus `Ressources\A-04_ressources.3dm`.
 
 ## Dernière demande utilisateur
+« Continue » — travailler en autonomie sur ce qui reste. Le 10/09/2026 a servi
+à **sonder deux familles de défauts que personne n'avait cherchées** :
+
+- **les énoncés qui donnent leur réponse** — 8 signalés, 7 faux positifs
+  (la valeur est un paramètre donné, repris dans la réponse), **un vrai** :
+  A-12 annonçait « les 28 épaisseurs » et demandait justement l'effectif.
+  Corrigé, et figé en **recette 10** ;
+- **les tolérances incohérentes avec la précision annoncée** — 1 signalé,
+  IA-14, bénin : la réponse mêle mm³ et m³ mais la valeur est un entier exact.
+  Rien figé : un contrôle pour un cas bénin unique ferait du bruit.
+
+Trois outils en sont sortis : **recette 10**, **recette 11** (descripteur
+contre registre — la lacune découverte en vérifiant qu'A-12 était bien passé
+partout), et **`recettes.py`**, qui lance les onze. L'audit du §1 est passé de
+onze faux positifs à **zéro écart sur 253 exercices**, par exemptions nommées
+et motivées.
+
+### Avant le 10/09 — les lots B, C et G
 « Fais les lots B, C et G. » Puis « continue avec le lot C ».
 
 - **Lot B — fait** (02/09) : 18 exercices, `skill_b.py`, huit modes de

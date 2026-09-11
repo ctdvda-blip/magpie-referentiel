@@ -1,6 +1,6 @@
 # MAGPIE — Planning et suivi
 
-Version `v0.5-260902` · référentiel Ind. C · mis à jour le 4 septembre 2026
+Version `v0.5-260902` · référentiel Ind. C · mis à jour le 10 septembre 2026
 
 ---
 
@@ -54,6 +54,10 @@ est mesurée et documentée : elle figure au § 4.
 | 04/09/2026 | Passe de cohérence | thématiques normalisées au chargement, 8 lots corrigés | non mesurée |
 | 04/09/2026 | Dépôt poussé sur GitHub | branche `projet` de magpie-referentiel | non mesurée |
 | 04/09/2026 | Durées confrontées à la taille des corrigés | § 12.1 du cahier des charges | non mesurée |
+| 05/09/2026 | Recette 9 et contexte de figeage | pièges muets cherchés systématiquement, tolérance du document mémorisée avec la référence | non mesurée |
+| 10/09/2026 | Sondage des énoncés qui fuient | **A-12 corrigé**, recette 10 | non mesurée |
+| 10/09/2026 | Recette 11 et `recettes.py` | descripteur contre registre ; les onze recettes lancées ensemble | non mesurée |
+| 10/09/2026 | Audit du §1 ramené à zéro | onze faux positifs exemptés nommément, exemptions conditionnées au piège | non mesurée |
 
 ---
 
@@ -145,7 +149,10 @@ Répartition par niveau : 102 débutant · 69 intermédiaire · 71 perfectionnem
 | **`recette_6_tous_lots.py`** | **les quatorze lots** | fichiers illisibles, sujets non étanches, corrigés non masqués, `REPONSE_CORRIGE` muette, avertissements inattendus | **246/246 OK** |
 | **`recette_7_valeurs.py`** | **les quatorze lots** | **une valeur de corrigé qui a changé** — le défaut le plus discret, celui de RH-09 | **246/246 conformes** |
 | **`recette_8_noms_uniques.py`** | **toutes les recettes** | **un nom qui en désigne deux** — il écrase le premier objet et déplace des fils sans rien signaler, comme sur C-02 | **257 recettes, 0 doublon** |
-| **`audit_skill.py --tous`** | **les 14 lots** | les écarts mécanisables à la skill de conception : nom de composant dans la consigne, énoncé de démonstration, contexte, erreur, justification des données ou limite de correction absentes, contrainte du checker violée | **11 écarts sur 253**, tous §1 |
+| **`recette_9_pieges_muets.py`** | exercices de compétence | **un piège muet** — l'erreur anticipée mène à la MÊME valeur que la bonne réponse : l'apprenant se trompe, et l'exercice le valide | **0 muet** |
+| **`recette_10_enonce_fuite.py`** | 179 réponses calculées | **un énoncé qui donne sa réponse** — A-12 annonçait « les 28 épaisseurs » et demandait justement l'effectif | **0 fuite** |
+| **`recette_11_descripteurs.py`** | 246 descripteurs | **un `.json` qui ne dit plus ce que dit le registre** — il est écrit par Rhino, les fiches par CPython : une correction peut passer partout sauf là | **1 écart**, A-12, en attente de Rhino |
+| **`audit_skill.py --tous`** | **les 14 lots** | les écarts mécanisables à la skill de conception : nom de composant dans la consigne, énoncé de démonstration, contexte, erreur, justification des données ou limite de correction absentes, contrainte du checker violée | **0 écart sur 253** |
 | **`verifier_vague1/2/3.py`** | les 68 exercices ajoutés | une réponse annoncée qui ne correspond pas au calcul refait depuis les données | **55/55 conformes** |
 | **`verifier_lot_b.py`, `verifier_lot_c.py`, `verifier_lot_g.py`, `verifier_vague4.py`** | lots B, C, G et vague 4 | idem, sur les 86 réponses de ces quatre ensembles | **86/86 conformes** |
 | `verifier_liens.py` | site publié | un téléchargement promis mais absent | **1 497/1 497** |
@@ -154,6 +161,23 @@ Répartition par niveau : 102 débutant · 69 intermédiaire · 71 perfectionnem
 Les recettes 1 à 5 sont antérieures aux nouveaux lots et n'interrogent que le
 lot A ; les recettes 6 et 7 couvrent les onze. Les deux séries se complètent,
 elles ne se remplacent pas.
+
+**Un seul point d'entrée depuis le 10/09/2026** : `GH/recettes.py` les
+**découvre** (`recette_*.py`) au lieu de les énumérer, lance les quatre qui
+tournent en CPython, relaie les sept qui ont besoin de Grasshopper, et **nomme
+celles qu'il n'a pas pu lancer** quand le pont Rhino est fermé. Il y avait onze
+recettes et rien pour les lancer toutes : une recette qu'on oublie ne contrôle
+rien.
+
+Les onze écarts que l'audit relevait au §1 étaient **tous des faux positifs**.
+Ses deux signaux sont des heuristiques — un mot du champ lexical de la
+démonstration, un faible nombre de composants — et aucun ne distingue une
+consigne de vérification métier d'un « regardez ce qui se passe », ni un geste
+unique bien choisi d'un geste sans pensée. Les onze ont été relus et exemptés
+**nommément, avec leur motif**, jamais par un seuil relâché qui aurait tu les
+vrais cas. Chaque exemption est **conditionnée** à la présence de l'erreur
+attendue qui la justifie, et la table est confrontée au corpus à chaque
+passage.
 
 `verifier_fraicheur.py` ne datait lui aussi que les lots A et IA : les neuf
 autres n'étaient comparés à aucune source, et un exercice réécrit sans

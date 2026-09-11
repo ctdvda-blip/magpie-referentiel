@@ -108,6 +108,50 @@ RE_DEMO = re.compile(u"constat|observ|vérifi|verifi|que se passe|remarqu"
 RE_DECLAR = re.compile(u"^[ ]*(comprendre que|comprendre qu|savoir que|découvrir"
                        u"|decouvrir|identifier que|mémoriser|memoriser)", re.I)
 
+# --- §1 : les onze cas relus, et pourquoi la regle se trompe sur eux --------
+# Les deux signaux du §1 sont des HEURISTIQUES : un mot du champ lexical de la
+# demonstration, et un faible nombre de composants. Ni l'un ni l'autre ne
+# distingue une consigne de verification METIER d'un « regardez ce qui se
+# passe », ni un geste unique BIEN CHOISI d'un geste unique sans pensee.
+#
+# Le discriminant reel est le meme que celui de la recette 9 : l'exercice
+# a-t-il une erreur attendue qui mene AILLEURS ? Les onze exercices ci-dessous
+# en ont une, ecrite et verifiee. Chacun est donc exempte NOMMEMENT, avec son
+# motif — jamais en relachant le seuil, ce qui aurait tu les vrais cas.
+#
+# Ramener l'audit a zero n'est pas cosmetique : onze ecarts connus qui
+# reviennent a chaque passage finissent par masquer le douzieme, qui lui sera
+# vrai.
+EXEMPTS_1 = {
+    u"A-09": u"trois composants, mais l'erreur attendue est de compter 24 au "
+             u"lieu du nombre de valeurs présentes : la confusion « absence "
+             u"de valeur / absence d'élément » ne dépend pas de l'effectif",
+    u"A-14": u"le motif décalé produit le même compte et pas les mêmes lames ; "
+             u"le geste est unique, le choix ne l'est pas",
+    u"A-16": u"le décalage circulaire évite le cas particulier de la "
+             u"fermeture ; l'erreur attendue est un montage qui marche à huit "
+             u"montants et casse à dix",
+    u"A-17": u"mettre les deux listes bout à bout donne le bon effectif et le "
+             u"mauvais plateau : c'est l'ordre qui est enseigné",
+    u"A-20": u"la consigne interdit la force brute d'un composant dupliqué, "
+             u"et c'est précisément la voie que l'exercice ferme",
+    u"A-22": u"le composant de décomposition perd silencieusement les groupes "
+             u"au-delà du nombre de sorties demandé — un seul geste, un piège "
+             u"qui ne se voit pas",
+    u"A-23": u"réordonner les éléments au lieu des chemins laisse la structure "
+             u"intacte : l'erreur porte sur la nature de l'objet manipulé",
+    u"G-09": u"un composant, parce que l'exercice porte sur la NAVIGATION du "
+             u"canvas et non sur un montage : le livrable est un mot de passe "
+             u"trouvé, pas une définition",
+    u"B-01": u"« vérifier » désigne ici le contrôle réglementaire de Blondel, "
+             u"une consigne métier ; l'erreur attendue donne 625 mm, valeur "
+             u"également admissible et pourtant fausse",
+    u"B-18": u"« vérifier » porte sur la section résistante d'un filet ISO ; "
+             u"l'erreur attendue retranche le pas une fois au lieu de 1,2269",
+    u"C-11": u"« vérifier » porte sur le développé industriel ; l'erreur "
+             u"attendue retire rayon et épaisseur une fois par segment",
+}
+
 # --- §5 : jeu de donnees de demonstration -----------------------------------
 # Ne vise QUE les jeux de donnees. « trois valeurs réglables » decrit l'arite
 # d'une construction (un point a trois coordonnees, pas quarante) : ce n'est pas
@@ -144,17 +188,22 @@ def audit(e):
                   + u", ".join(sorted(gardes)[:5])))
 
     # ---- §1 : signaux de connaissance plutot que de competence
-    if RE_DEMO.search(e["enonce"]):
+    # L'exemption ne vaut QUE si l'erreur attendue est toujours ecrite : c'est
+    # elle qui justifie chaque motif de EXEMPTS_1. Si quelqu'un retire le
+    # piege, l'exemption tombe et l'ecart revient — une exemption ne doit pas
+    # pouvoir survivre a la raison qui l'a fait accorder.
+    exempt1 = e["id"] in EXEMPTS_1 and bool((e.get(u"erreur") or u"").strip())
+    if RE_DEMO.search(e["enonce"]) and not exempt1:
         d.append((u"§1", u"énoncé de type démonstration "
                   u"(fait constater un comportement au lieu de demander un résultat)"))
-    if RE_DECLAR.search(e["obj"]):
+    if RE_DECLAR.search(e["obj"]) and not exempt1:
         d.append((u"§1", u"objectif déclaratif : « %s… »"
                   % e["obj"][:40].strip()))
     # `nb` vaut 0 pour les sept exercices dont le livrable n'est pas une
     # definition — un plugin compile, un site, un configurateur en ligne.
     # Leur compter zero composant comme un defaut de conception n'a pas de
     # sens : ils n'en ont pas parce qu'ils n'en veulent pas.
-    if 0 < e.get("nb", 0) <= 3:
+    if 0 < e.get("nb", 0) <= 3 and not exempt1:
         d.append((u"§1", u"solution de référence à %d composants : "
                   u"un seul geste suffit" % e["nb"]))
 
@@ -259,6 +308,16 @@ def main():
 
     struct = [e["id"] for e in corpus
               if [x for x in par_exo[e["id"]] if x[0] in (u"§1", u"§3", u"CHK")]]
+    # Une table d'exemptions se decouple comme n'importe quelle liste tenue a
+    # la main : l'exercice est renumerote, ou reecrit, et l'exemption reste la
+    # sans plus rien exempter. Elle est donc CONFRONTEE au corpus a chaque
+    # passage, et les entrees devenues inutiles sont nommees.
+    # Seul `--tous` voit l'ensemble du registre : sur une portee reduite au
+    # lot A, les exemptions des autres lots paraitraient orphelines alors
+    # qu'elles sont simplement hors champ.
+    presents = set(e["id"] for e in corpus)
+    orphelines = (sorted(x for x in EXEMPTS_1 if x not in presents)
+                  if tous else None)
     print(json.dumps({
         u"portee": portee,
         u"exercices": len(corpus),
@@ -266,6 +325,9 @@ def main():
         u"par_regle": tot,
         u"exercices_a_refondre": len(struct),
         u"liste": struct,
+        u"exemptions_1": len(EXEMPTS_1),
+        u"exemptions_orphelines": (orphelines if orphelines is not None
+                                   else u"non contrôlé hors --tous"),
     }, ensure_ascii=False, indent=1))
 
 
